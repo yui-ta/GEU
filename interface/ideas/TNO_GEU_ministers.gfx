@@ -1,0 +1,19 @@
+spriteTypes = {
+	#GEN#
+	spriteType = {
+		name = "GFX_idea_GEN_Yakumo_Yukari"
+		texturefile = "gfx/interface/ideas/ministers/GEN_minister_Yakumo_Yukari.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_Ibarak_iKasen"
+		texturefile = "gfx/interface/ideas/ministers/GEN_minister_Ibarak_iKasen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_Iizunamaru_Megumu"
+		texturefile = "gfx/interface/ideas/ministers/GEN_minister_Iizunamaru_Megumu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_Matara_Okina"
+		texturefile = "gfx/interface/ideas/ministers/GEN_minister_Matara_Okina.dds"
+	}
+}

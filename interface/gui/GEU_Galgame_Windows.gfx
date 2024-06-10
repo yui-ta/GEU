@@ -1,0 +1,39 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gal_windows"
+		texturefile = "gfx/interface/GEU_gal_windows/GEU_gal_windows.dds"
+	}
+	spriteType = {
+		name = "GFX_gal_windows_button"
+		texturefile = "gfx/interface/GEU_gal_windows/GEU_gal_windows_button.dds"
+	}
+	spriteType = {
+		name = "GFX_Reimu_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/GEU_Reimu_Character.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Konata_1_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_1_Character.dds"
+	}
+	spriteType = {
+		name = "GFX_Konata_2_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_2_Character.dds"
+	}
+	spriteType = {
+		name = "GFX_Konata_3_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_3_Character.dds"
+	}
+	spriteType = {
+		name = "GFX_Konata_4_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_4_Character.dds"
+	}
+	spriteType = {
+		name = "GFX_Konata_5_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_5_Character.dds"
+	}
+	spriteType = {
+		name = "GFX_Konata_6_Character"
+		texturefile = "gfx/interface/GEU_gal_windows/tutorial/GEU_Konata_6_Character.dds"
+	}
+}

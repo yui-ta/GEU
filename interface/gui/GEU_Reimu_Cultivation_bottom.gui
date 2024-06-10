@@ -1,0 +1,57 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_bottom_gui"
+		size = { width = 95 height = 95 }
+		position = { x = -83 y = -379 }
+		orientation = lower_right
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		buttonType = {
+			name = "GEU_RC_bottom_entry"
+			spriteType = "GFX_GEU_RC_bottom_entry"
+			position = { x = 46 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "enter_GEU_main_gui_tt_generic"
+		}
+	}
+
+	containerWindowType = {
+		name = "arrows_alert_1"
+		position = { x = 1842 y = 700 }
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x = -29 y = -36 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "GEU_RC_bottom_open"
+			quadTextureSprite = "GFX_GEU_RC_bottom_open"
+			position = { x = 238 y = 41 }
+			pdx_tooltip = "scripted_gui_open_tt_gen_rc"
+			scale = 0.65
+		}
+	}
+
+	containerWindowType = {
+		name = "arrows_alert_2"
+		position = { x = 0 y = 289 }
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x = 188 y= -15 }
+		}
+	}
+}

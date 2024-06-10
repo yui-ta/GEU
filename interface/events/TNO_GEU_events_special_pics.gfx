@@ -1,0 +1,7 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_custom_header_GEN"
+		texturefile = "gfx/interface/GEN_custom_news_headers/custom_header_GEN.dds"
+		legacy_lazy_load = no
+	}
+}

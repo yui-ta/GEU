@@ -1,0 +1,91 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_normal"
+		texturefile = "gfx/event/GEN/report_normal.dds"
+	}
+	spriteType = {
+		name = "GFX_report_story_yasuda_crisis_1"
+		texturefile = "gfx/event/GEN/report_story_yasuda_crisis_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_discovery_1"#信州之行
+		texturefile = "gfx/event/GEN/report_discovery_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_forget"#遗忘
+		texturefile = "gfx/event/GEN/report_forget.dds"
+	}
+	spriteType = {
+		name = "GFX_report_into_a_vortex"#滑向漩涡
+		texturefile = "gfx/event/GEN/report_into_a_vortex.dds"
+	}
+	spriteType = {
+		name = "GFX_report_foreshadow"#崩坏前兆
+		texturefile = "gfx/event/GEN/report_foreshadow.dds"
+	}
+	spriteType = {
+		name = "GFX_report_firstwar"#初战
+		texturefile = "gfx/event/GEN/report_firstwar.dds"
+	}
+	spriteType = {
+		name = "GFX_report_imitator"#模仿者
+		texturefile = "gfx/event/GEN/report_imitator.dds"
+	}
+	spriteType = {
+		name = "GFX_report_existent"#存在者
+		texturefile = "gfx/event/GEN/report_existent.dds"
+	}
+	spriteType = {
+		name = "GFX_report_paper"#一页署名宇佐见文的纸
+		texturefile = "gfx/event/GEN/report_paper.dds"
+	}
+	spriteType = {
+		name = "GFX_report_firstthings"#要事优先
+		texturefile = "gfx/event/GEN/report_firstthings.dds"
+	}
+	spriteType = {
+		name = "GFX_report_ending"#迈向结束
+		texturefile = "gfx/event/GEN/report_ending.dds"
+	}
+	spriteType = {
+		name = "GFX_report_mountain"#三轮山失踪案
+		texturefile = "gfx/event/GEN/report_mountain.dds"
+	}
+	spriteType = {
+		name = "GFX_report_annulled"#废稿
+		texturefile = "gfx/event/GEN/report_annulled.dds"
+	}
+	spriteType = {
+		name = "GFX_report_catastrophic"#灾难
+		texturefile = "gfx/event/GEN/report_catastrophic.dds"
+	}
+	#新闻图片
+	spriteType = {
+		name = "GFX_news_event_normal"
+		texturefile = "gfx/event/GEN/news_normal.dds"
+	}
+	spriteType = {
+		name = "GFX_news_GENSOKY_WAR"
+		texturefile = "gfx/event/GEN/news_GENSOKY_WAR.dds"
+	}
+	spriteType = {
+		name = "GFX_news_GOD_WAR"
+		texturefile = "gfx/event/GEN/news_GOD_WAR.dds"
+	}
+	spriteType = {
+		name = "GFX_news_CHANGES_YAKUMO_SHRINE"
+		texturefile = "gfx/event/GEN/news_CHANGES_YAKUMO_SHRINE.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FALL_JAPAN"
+		texturefile = "gfx/event/GEN/news_FALL_JAPAN.dds"
+	}
+	spriteType = {
+		name = "GFX_news_JAPAN_NUCLEAR_EXCHANGE"
+		texturefile = "gfx/event/GEN/news_JAPAN_NUCLEAR_EXCHANGE.dds"
+	}
+	spriteType = {
+		name = "GFX_news_MOON_HAS_FALLEN"
+		texturefile = "gfx/event/GEN/news_MOON_HAS_FALLEN.dds"
+	}
+}

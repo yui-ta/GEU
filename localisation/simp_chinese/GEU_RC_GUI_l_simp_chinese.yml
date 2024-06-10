@@ -1,0 +1,69 @@
+﻿l_simp_chinese:
+ enter_GEU_main_gui_tt_generic: "打开灵梦养成计划GUI"
+ scripted_gui_open_tt_gen_rc: "打开灵梦养成计划GUI"
+ Text_tutorial: "打开教程GAL对话"
+ text_RC_train_buttom: "若要使用训练，请将地区切换至§x博丽神社§!"
+ Loc_RC_action_points: "§B行动点§!\n点数改变：+[?action_points_var_weekly_add|+]/周。"
+
+ text_buttom_DM: "处理异变"
+ text_cost_action_points_DM: "消耗 2 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_DD: "处理灾变"
+ text_cost_action_points_DD: "消耗 5 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_Cancel: "退出"
+
+ text_buttom_SF: "扫地"
+ text_cost_action_points_SF: "消耗 1 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_Daydream: "发呆"
+ text_cost_action_points_Daydream: "消耗 1 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_shopping: "购物"
+ text_cost_action_points_shopping: "消耗 1 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_go_l: "去铃奈庵"
+ text_cost_action_points_go_l: "消耗 1 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_go_n: "去鲵吞亭"
+ text_cost_action_points_go_n: "消耗 1 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_nothing: "暂不启用"
+ text_cost_action_points_nothing: "消耗 0 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_train_fight: "练习体术"
+ text_cost_action_points_train_fight: "消耗 5 §B£GFX_RC_action_points_small 行动点§!"
+ text_buttom_train_magic: "练习法术"
+ text_cost_action_points_train_magic: "消耗 5 §B£GFX_RC_action_points_small 行动点§!"
+
+ text_buttom_SI_Marisa: "雾雨魔理沙"
+ text_buttom_SI_Shion: "依神紫苑"
+ text_buttom_SI_myself: "我自己"
+
+ text_buttom_SI_Akyuu: "稗田阿求"
+ text_buttom_SI_Youmu: "魂魄妖梦"
+
+ text_buttom_SI_Yuka: "风见幽香"
+
+ text_buttom_SI_Reisen: "铃仙"
+ text_buttom_SI_Kaguya: "蓬莱山辉夜"
+ text_buttom_SI_Mokou: "藤原妹红"
+
+ text_buttom_SI_Alice: "爱丽丝"
+
+ text_buttom_SI_Sanae: "东风谷早苗"
+ text_buttom_SI_Satori: "古明地觉"
+ text_buttom_SI_Aya: "射命丸文"
+ text_buttom_SI_Megumu: "饭纲丸龙"
+ text_buttom_SI_Yukari: "八云紫"
+
+ text_buttom_SI_Kokoro: "秦心"
+ text_buttom_SI_Koishi: "古明地恋"
+
+ text_buttom_SI_Cirno: "琪露诺"
+ text_buttom_SI_Remilia: "蕾米莉亚"
+ text_buttom_SI_Sakuya: "十六夜咲夜"
+ text_buttom_SI_Rumia: "露米娅"
+
+
+
+
+
+
+
+
+
+
+

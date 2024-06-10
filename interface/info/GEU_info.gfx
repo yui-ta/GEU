@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Gensokyo"
+		texturefile = "gfx/interface/info/GEU_OpeningScreen_Poster_Gensokyo.dds"
+	}
+}

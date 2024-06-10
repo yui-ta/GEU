@@ -1,0 +1,5 @@
+
+graphical_culture = asian_gfx
+graphical_culture_2d = GEN
+
+color = rgb { 255  100  222 }

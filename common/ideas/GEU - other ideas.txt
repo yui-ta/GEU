@@ -1,0 +1,24 @@
+ideas = {
+
+	hidden_ideas = {
+		#### Super Events ####
+		SE_GENSOKY_WAR = {}
+		SE_GENSOKY_WAR_D = {}
+		SE_GENSOKY_WAR_A = {}
+		SE_GOD_WAR = {}
+		SE_GOD_WAR_D = {}
+		SE_GOD_WAR_A = {}
+		SE_CHANGES_YAKUMO_SHRINE = {}
+		SE_CHANGES_YAKUMO_SHRINE_D = {}
+		SE_CHANGES_YAKUMO_SHRINE_A = {}
+		SE_FALL_JAPAN = {}
+		SE_FALL_JAPAN_D = {}
+		SE_FALL_JAPAN_A = {}
+		SE_JAPAN_NUCLEAR_EXCHANGE = {}
+		SE_JAPAN_NUCLEAR_EXCHANGE_D = {}
+		SE_JAPAN_NUCLEAR_EXCHANGE_A = {}
+		SE_MOON_HAS_FALLEN = {}
+		SE_MOON_HAS_FALLEN_D = {}
+		SE_MOON_HAS_FALLEN_A = {}
+	}
+}

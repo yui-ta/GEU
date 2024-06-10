@@ -1,0 +1,43 @@
+on_actions = {
+	on_weekly_GEN = {
+		effect = {
+			GEN = {
+					if = {
+						limit = {
+							has_country_flag = animated_RC_p
+							NOT = {
+								has_country_flag = reimu_dead
+							}
+						}
+							add_to_variable = {
+							action_points_var = action_points_var_weekly_add
+						}
+					clamp_variable = {
+						var = action_points_var
+						min = 0
+						max = 200
+					}
+				}
+			}
+		}
+	}
+	on_daily_GEN = {
+		effect ={
+			GEN = {
+				if = {
+					limit = {
+						check_variable = {
+							Reimu_HP =0
+						}
+						NOT = {
+							has_country_flag = reimu_dead
+						}
+					}
+				set_country_flag = reimu_dead
+				clr_country_flag = reimu_gui_open_3
+				set_country_flag = reimu_gui_open_dead
+				}
+			}
+		}
+	}
+}

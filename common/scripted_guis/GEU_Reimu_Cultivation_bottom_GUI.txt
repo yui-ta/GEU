@@ -1,0 +1,81 @@
+scripted_gui = {
+	GEU_bottom_gui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "GEU_bottom_gui"
+
+		visible = {
+			tag = GEN
+		}
+
+		effects = {
+			GEU_RC_bottom_entry_click = {
+				if = {
+					limit = {
+					tag = GEN
+					NOT = { has_country_flag = reimu_gui_open }
+				}
+				set_country_flag = reimu_gui_open
+				else_if = {
+					limit = {
+					tag = GEN
+					has_country_flag = reimu_gui_open
+				}
+				clr_country_flag = reimu_gui_open
+				}
+			}
+			clr_country_flag = country_has_gui_1
+			}
+		}
+	}
+
+
+	GEU_RC_GUI_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "GEU_RC_GUI_open"
+
+		visible = {
+			tag = GEN
+		}
+
+		effects = {
+			GEU_RC_bottom_open_click = {
+				if = {
+					limit = {
+					tag = GEN
+					NOT = { has_country_flag = reimu_gui_open }
+				}
+				set_country_flag = reimu_gui_open
+				else_if = {
+					limit = {
+					tag = GEN
+					has_country_flag = reimu_gui_open
+				}
+				clr_country_flag = reimu_gui_open
+				}
+			}
+			clr_country_flag = country_has_gui_2
+			}
+		}
+	}
+
+	arrows_alert = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "arrows_alert_1"
+
+		visible = {
+			has_country_flag = country_has_gui_1
+		}
+	}
+	arrows_alert = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "arrows_alert_2"
+
+		visible = {
+			has_country_flag = country_has_gui_2
+		}
+	}
+}

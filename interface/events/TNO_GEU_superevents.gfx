@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SE_GENSOKY_WAR"
+		texturefile = "gfx/superevent_pictures/GEU_GENSOKY_WAR.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_GOD_WAR"
+		texturefile = "gfx/superevent_pictures/GEN_GOD_WAR.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_CHANGES_YAKUMO_SHRINE"
+		texturefile = "gfx/superevent_pictures/GEU_CHANGES_YAKUMO_SHRINE.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_FALL_JAPAN"
+		texturefile = "gfx/superevent_pictures/GEU_FALL_JAPAN.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_JAPAN_NUCLEAR_EXCHANGE"
+		texturefile = "gfx/superevent_pictures/GEU_JAPAN_NUCLEAR_EXCHANGE.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_MOON_HAS_FALLEN"
+		texturefile = "gfx/superevent_pictures/GEU_MOON_HAS_FALLEN.dds"
+	}
+}

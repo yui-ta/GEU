@@ -1,0 +1,319 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RC_decorate_window"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_window.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_decorate_title"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_title.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_decorate_background"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_background.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_GEN_RC_Play_Button"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_GEN_RC_Play_Button.dds"
+		noOfFrames = 3
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_GEN_RC_Load_Button"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_GEN_RC_Load_Button.dds"
+		noOfFrames = 3
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_GEN_RC_Extra_Button"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_GEN_RC_Extra_Button.dds"
+		noOfFrames = 3
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_GEN_RC_Quit_Button"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_GEN_RC_Quit_Button.dds"
+		noOfFrames = 3
+		transparencecheck = yes
+	}
+
+	frameanimatedspriteType = {
+		name = "GFX_RC_progressbar"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_progressbar.png"
+		noOfFrames = 12
+		animation_rate_fps = 2
+		play_on_show = yes
+		looping = no
+		transparencecheck = yes
+	}
+	frameanimatedspriteType = {
+		name = "GFX_RC_progressbar_finished"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_progressbar_finished.dds"
+		noOfFrames = 12
+		animation_rate_fps = 2
+		play_on_show = yes
+	}
+	spriteType = {
+		name = "GFX_RC_decorate_progressbar"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_progressbar.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_exit_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_exit_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_item_box"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_item_box.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_Reimu_portrait"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_Reimu_portrait.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_tutorial_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_tutorial_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_Reimu_tell"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_Reimu_tell.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_RC_dialog_box_gui"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_dialog_box_gui.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_decorate_game_gui"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_game_gui.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_decorate_background_big"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_decorate_background_big.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_button_give_up"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_button_give_up.dds"
+		noOfFrames = 3
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_healthy"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_healthy.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_fighting"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_fighting.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_thought"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_thought.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_illness"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_illness.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_broken"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_broken.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_enjoyable"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_enjoyable.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_excited"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_excited.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_treat"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_treat.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_obscure"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_obscure.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_effect_infect"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/effect/GEU_RC_effect_infect.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	#Action
+	spriteType = {
+		name = "GFX_RC_action_points"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_action_points.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_action_points_small"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_action_points_small.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_action_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_action_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_activity_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_activity_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_eat_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_eat_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_SI_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_SI_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_train_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_train_buttom.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_exit_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_exit_buttom.dds"
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_RC_Background_I_Give_up"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_Background_I_Give_up.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_Give_Up_Button_Yes"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_Give_Up_Button_Yes.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_Give_Up_Button_No"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_Give_Up_Button_No.dds"
+		transparencecheck = yes
+	}
+
+	#Map
+	spriteType = {
+		name = "GFX_RC_map_1"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_1.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_2"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_2.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_3"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_3.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_4"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_4.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_5"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_5.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_6"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_6.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_7"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_7.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_8"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_8.png"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_title"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_title.dds"
+		noOfFrames = 8
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_map_decorate"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/map/GEU_RC_map_decorate.dds"
+		transparencecheck = yes
+	}
+
+	#Action Windows
+	spriteType = {
+		name = "GFX_RC_action_background"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_action_background.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_RC_action_window_buttom"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/action/GEU_RC_action_window_buttom.dds"
+		transparencecheck = yes
+	}
+
+	#DEAD WINDOWS
+	spriteType = {
+		name = "GFX_RC_REIMU_DEAD"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_REIMU_DEAD.dds"
+		transparencecheck = yes
+	}
+
+	progressbarType = {
+		name = "GFX_RC_progressbar_HP"
+		textureFile1 = "gfx/interface/GEU_reimu_cultivation/GEU_RC_progressbar_HP_full.dds"
+		textureFile2 = "gfx/interface/GEU_reimu_cultivation/GEU_RC_progressbar_HP_empty.dds"
+		size = { x = 815 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

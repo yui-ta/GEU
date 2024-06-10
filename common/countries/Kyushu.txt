@@ -1,0 +1,5 @@
+
+graphical_culture = asian_gfx
+graphical_culture_2d = KJF
+
+color = rgb { 156  14  163 }

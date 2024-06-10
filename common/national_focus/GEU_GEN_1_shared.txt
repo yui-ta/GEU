@@ -1,0 +1,943 @@
+	#一阶段国策
+	shared_focus = {
+		id = GEN_Seventeen_Constitutional_Bombs#政治线
+		icon = GFX_goals_GEN_Seventeen_Constitutional_Bombs
+		prerequisite = {
+		}
+		cost = 5
+		x = 9
+		y = 0
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Stars_Drop_The_Mountain
+		icon = GFX_goals_GEN_Stars_Drop_The_Mountain
+		prerequisite = {
+			focus = GEN_Seventeen_Constitutional_Bombs
+		}
+		cost = 5
+		x = 9
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Earthly_Pessimism
+		icon = GFX_goals_GEN_Earthly_Pessimism
+		prerequisite = {
+			focus = GEN_Stars_Drop_The_Mountain
+		}
+		cost = 5
+		x = 9
+		y = 2
+		completion_reward = {
+		}
+	}
+
+#政治线左部国策
+shared_focus = {
+	id = GEN_Twelve_Level_Cap_and_Rank
+	icon = GFX_goals_GEN_Twelve_Level_Cap_and_Rank
+	prerequisite = {
+		focus = GEN_Seventeen_Constitutional_Bombs
+	}
+	cost = 5
+	x = 5
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = GEN_Monster_Creature_Clusters
+	icon  = GFX_goals_GEN_Monster_Creature_Clusters
+	prerequisite = {
+		focus = GEN_Twelve_Level_Cap_and_Rank
+	}
+	cost = 5
+	x = 5
+	y = 2
+	completion_reward = {
+	}
+}
+
+#政治线右部国策
+	shared_focus = {
+		id = GEN_Life_and_Death
+		icon = GFX_goals_GEN_Life_and_Death
+		prerequisite = {
+			focus = GEN_Seventeen_Constitutional_Bombs
+		}
+		cost = 5
+		x = 13
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Strange_Bird_Shooting
+		icon  = GFX_goals_GEN_Strange_Bird_Shooting
+		prerequisite = {
+			focus = GEN_Life_and_Death
+		}
+		cost = 5
+		x = 13
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	#又到中间了x）
+	shared_focus = {
+		id = GEN_Restoration
+		icon = GFX_goals_GEN_Restoration
+		prerequisite = {
+			focus = GEN_Earthly_Pessimism
+		}
+		prerequisite = {
+			focus = GEN_Strange_Bird_Shooting
+		}
+		prerequisite = {
+			focus = GEN_Monster_Creature_Clusters
+		}
+		cost = 5
+		x = 9
+		y = 3
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Yasaka_and_Yakumo
+		icon = GFX_goals_GEN_Yasaka_and_Yakumo
+		prerequisite = {
+			focus = GEN_Restoration
+		}
+		cost = 5
+		x = 9
+		y = 4
+		completion_reward = {
+		}
+	}
+#政治左线国策
+	shared_focus = {
+		id = GEN_Yokai_Paradise
+		icon = GFX_goals_GEN_Yokai_Paradise
+		mutually_exclusive = {
+			focus = GEN_Utopia
+		}
+		prerequisite = {
+			focus = GEN_Yasaka_and_Yakumo
+		}
+		cost = 5
+		x = 5
+		y = 5
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_The_Order_of_Nature
+		icon = GFX_goals_GEN_The_Order_of_Nature
+		prerequisite = {
+			focus = GEN_Yokai_Paradise
+		}
+		cost = 5
+		x = 4
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Nature_Destiny
+		icon = GFX_goals_GEN_Nature_Destiny
+		prerequisite = {
+			focus = GEN_Yokai_Paradise
+		}
+		cost = 5
+		x = 6
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_That_Life_and_Death
+		icon = GFX_goals_GEN_That_Life_and_Death
+		prerequisite = {
+			focus = GEN_Nature_Destiny
+		}
+		prerequisite = {
+			focus = GEN_The_Order_of_Nature
+		}
+		cost = 5
+		x = 5
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Spiritual_Domination
+		icon = GFX_goals_GEN_Spiritual_Domination
+		prerequisite = {
+			focus = GEN_That_Life_and_Death
+		}
+		cost = 5
+		x = 4
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Night_Falls
+		icon = GFX_goals_GEN_Night_Falls
+		prerequisite = {
+			focus = GEN_Spiritual_Domination
+		}
+		cost = 5
+		x = 4
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_The_Barrage_is_Coming
+		icon = GFX_goals_GEN_The_Barrage_is_Coming
+		prerequisite = {
+			focus = GEN_Night_Falls
+		}
+		cost = 5
+		x = 4
+		y = 10
+		completion_reward = {
+		}
+	}
+
+	#政治左线左部国策
+
+	shared_focus = {
+		id = GEN_Human_or_Yaokai
+		icon = GFX_goals_GEN_Human_or_Yaokai
+		prerequisite = {
+			focus = GEN_That_Life_and_Death
+		}
+		cost = 5
+		x = 6
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Desire_and_Blandness
+		icon = GFX_goals_GEN_Desire_and_Blandness
+		prerequisite = {
+			focus = GEN_Human_or_Yaokai
+		}
+		cost = 5
+		x = 6
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Light_and_Dark_Mesh
+		icon = GFX_goals_GEN_Light_and_Dark_Mesh
+		prerequisite = {
+			focus = GEN_Desire_and_Blandness
+		}
+		cost = 5
+		x = 6
+		y = 10
+		completion_reward = {
+		}
+	}
+
+	#政治右线国策
+	shared_focus = {
+		id = GEN_Utopia
+		icon = GFX_goals_GEN_Utopia
+		mutually_exclusive = {
+			focus = GEN_Yokai_Paradise
+		}
+		prerequisite = {
+			focus = GEN_Yasaka_and_Yakumo
+		}
+		cost = 5
+		x = 13
+		y = 5
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Chapter_of_Innovation
+		icon = GFX_goals_GEN_Chapter_of_Innovation
+		prerequisite = {
+			focus = GEN_Utopia
+		}
+		cost = 5
+		x = 12
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Need_for_Innovation
+		icon = GFX_goals_GEN_Need_for_Innovation
+		prerequisite = {
+			focus = GEN_Utopia
+		}
+		cost = 5
+		x = 14
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Listen_to_immortals_of_Wishes
+		icon = GFX_goals_GEN_Listen_to_immortals_of_Wishes
+		prerequisite = {
+			focus = GEN_Need_for_Innovation
+		}
+		prerequisite = {
+			focus = GEN_Chapter_of_Innovation
+		}
+		cost = 5
+		x = 13
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	#政治右线左部国策
+	shared_focus = {
+		id = GEN_Camellia_Sinensis
+		icon = GFX_goals_GEN_Camellia_Sinensis
+		prerequisite = {
+			focus = GEN_Listen_to_immortals_of_Wishes
+		}
+		cost = 5
+		x = 14
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Dies_Irae
+		icon = GFX_goals_GEN_Dies_Irae
+		prerequisite = {
+			focus = GEN_Camellia_Sinensis
+		}
+		cost = 5
+		x = 14
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Old_World_Ladder
+		icon = GFX_goals_GEN_Old_World_Ladder
+		prerequisite = {
+			focus = GEN_Dies_Irae
+		}
+		cost = 5
+		x = 14
+		y = 10
+		completion_reward = {
+		}
+	}
+
+	#政治线右线右部国策
+	shared_focus = {
+		id = GEN_Walk_by_Road
+		icon = GFX_goals_GEN_Walk_by_Road
+		prerequisite = {
+			focus = GEN_Listen_to_immortals_of_Wishes
+		}
+		cost = 5
+		x = 12
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Road_to_Which_Efforts
+		icon = GFX_goals_GEN_Road_to_Which_Efforts
+		prerequisite = {
+			focus = GEN_Walk_by_Road
+		}
+		cost = 5
+		x = 12
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_The_path_of_dreams
+		icon = GFX_goals_GEN_The_path_of_dreams
+		prerequisite = {
+			focus = GEN_Road_to_Which_Efforts
+		}
+		cost = 5
+		x = 12
+		y = 10
+		completion_reward = {
+		}
+	}
+
+#政治线结束啦~
+shared_focus = {
+	id = GEN_Abolish_Reimu
+	icon = GFX_goals_GEN_Abolish_Reimu
+	prerequisite = {
+		focus = GEN_The_Barrage_is_Coming
+		focus = GEN_Old_World_Ladder
+	}
+	prerequisite = {
+		focus = GEN_Light_and_Dark_Mesh
+		focus = GEN_The_path_of_dreams
+	}
+	cost = 5
+	x = 9
+	y = 11
+	completion_reward = {
+	}
+}
+
+#外交线
+	shared_focus = {
+		id = GEN_Chronicles_of_Present_World
+		icon = GFX_goals_GEN_Chronicles_of_Present_World
+		prerequisite = {
+		}
+		cost = 5
+		x = -1
+		y = 5
+		completion_reward = {
+		}
+	}
+
+
+	shared_focus = {
+		id = GEN_Sunrise
+		icon = GFX_goals_GEN_Sunrise
+		prerequisite = {
+			focus = GEN_Chronicles_of_Present_World
+		}
+		cost = 5
+		x = 0
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Sunsets
+		icon = GFX_goals_GEN_Sunsets
+		prerequisite = {
+			focus = GEN_Sunrise
+		}
+		cost = 5
+		x = 0
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Daytime
+		icon = GFX_goals_GEN_Daytime
+		prerequisite = {
+			focus = GEN_Sunsets
+		}
+		cost = 5
+		x = 0
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Comer
+		icon = GFX_goals_GEN_Comer
+		prerequisite = {
+			focus = GEN_Chronicles_of_Present_World
+		}
+		cost = 5
+		x = -2
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Extradite
+		icon = GFX_goals_GEN_Extradite
+		prerequisite = {
+			focus = GEN_Comer
+		}
+		cost = 5
+		x = -2
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Unaccompanied
+		icon = GFX_goals_GEN_Unaccompanied
+		prerequisite = {
+			focus = GEN_Extradite
+		}
+		cost = 5
+		x = -2
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Friends_of_the_North#外交线到此结束）
+		icon = GFX_goals_GEN_Friends_of_the_North
+		prerequisite = {
+			focus = GEN_Unaccompanied
+		}
+		prerequisite = {
+			focus = GEN_Daytime
+		}
+		cost = 5
+		x = -1
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	#内部线
+	shared_focus = {
+		id = GEN_Burning_Karma_on_this_shore
+		icon = GFX_goals_GEN_Burning_Karma_on_this_shore
+		prerequisite = {
+		}
+		cost = 5
+		x = 19
+		y = 5
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Celestial_Being
+		icon = GFX_goals_GEN_Celestial_Being
+		prerequisite = {
+			focus = GEN_Burning_Karma_on_this_shore
+		}
+		cost = 5
+		x = 20
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Five_Failings
+		icon = GFX_goals_GEN_Five_Failings
+		prerequisite = {
+			focus = GEN_Celestial_Being
+		}
+		cost = 5
+		x = 20
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Final_Resting_Place
+		icon = GFX_goals_GEN_Final_Resting_Place
+		prerequisite = {
+			focus = GEN_Five_Failings
+		}
+		cost = 5
+		x = 20
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Order
+		icon = GFX_goals_GEN_Order
+		prerequisite = {
+			focus = GEN_Burning_Karma_on_this_shore
+		}
+		cost = 5
+		x = 18
+		y = 6
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Broken_Moon
+		icon = GFX_goals_GEN_Broken_Moon
+		prerequisite = {
+			focus = GEN_Order
+		}
+		cost = 5
+		x = 18
+		y = 7
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Oblivion
+		icon = GFX_goals_GEN_Oblivion
+		prerequisite = {
+			focus = GEN_Broken_Moon
+		}
+		cost = 5
+		x = 18
+		y = 8
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Land_of_Peace#内部线结束）
+		icon = GFX_goals_GEN_Land_of_Peace
+		prerequisite = {
+			focus = GEN_Oblivion
+		}
+		prerequisite = {
+			focus = GEN_Final_Resting_Place
+		}
+		cost = 5
+		x = 19
+		y = 9
+		completion_reward = {
+		}
+	}
+
+	#经济线国策
+	shared_focus = {
+		id = GEN_Offerings_to_the_Ungrateful
+		icon = GFX_goals_GEN_Offerings_to_the_Ungrateful
+		prerequisite = {
+		}
+		cost = 5
+		x = -8
+		y = 0
+		completion_reward = {
+		}
+	}
+
+	#左侧
+	shared_focus = {
+		id = GEN_Fantasy_Tahoe
+		icon = GFX_goals_GEN_Fantasy_Tahoe
+		prerequisite = {
+			focus = GEN_Offerings_to_the_Ungrateful
+		}
+		cost = 5
+		x = -11
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Fantasy_Village_Square_Ledgers
+		icon = GFX_goals_GEN_Fantasy_Village_Square_Ledgers
+		prerequisite = {
+			focus = GEN_Fantasy_Tahoe
+		}
+		cost = 5
+		x = -11
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	#右侧
+	shared_focus = {
+		id = GEN_Fantasy_Underground_Network
+		icon = GFX_goals_GEN_Fantasy_Underground_Network
+		prerequisite = {
+			focus = GEN_Offerings_to_the_Ungrateful
+		}
+		cost = 5
+		x = -5
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Black_Market_of_Pop_Up_Mania
+		icon = GFX_goals_GEN_Black_Market_of_Pop_Up_Mania
+		prerequisite = {
+			focus = GEN_Fantasy_Underground_Network
+		}
+		cost = 5
+		x = -5
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	#中侧
+	shared_focus = {
+		id = GEN_Hell_is_melting_down
+		icon = GFX_goals_GEN_Hell_is_melting_down
+		prerequisite = {
+			focus = GEN_Offerings_to_the_Ungrateful
+		}
+		cost = 5
+		x = -8
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Spiritual_Knowledge_Sun_Faith
+		icon = GFX_goals_GEN_Spiritual_Knowledge_Sun_Faith
+		prerequisite = {
+			focus = GEN_Hell_is_melting_down
+		}
+		cost = 5
+		x = -8
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Tabata_Nagayo_Trade_Ban
+		icon = GFX_goals_GEN_Tabata_Nagayo_Trade_Ban
+		prerequisite = {
+			focus = GEN_Spiritual_Knowledge_Sun_Faith
+		}
+		prerequisite = {
+			focus = GEN_Black_Market_of_Pop_Up_Mania
+		}
+		prerequisite = {
+			focus = GEN_Fantasy_Village_Square_Ledgers
+		}
+		cost = 5
+		x = -8
+		y = 3
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Order_of_Convergence_of_Centres
+		icon = GFX_goals_GEN_Order_of_Convergence_of_Centres
+		prerequisite = {
+			focus = GEN_Tabata_Nagayo_Trade_Ban
+		}
+		cost = 5
+		x = -9
+		y = 4
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Thirteen_of_Hall_of_Fantasy
+		icon = GFX_goals_GEN_Thirteen_of_Hall_of_Fantasy
+		prerequisite = {
+			focus = GEN_Tabata_Nagayo_Trade_Ban
+		}
+		cost = 5
+		x = -7
+		y = 4
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_General_drawing_of_Fantasia#经济线结束~
+		icon = GFX_goals_GEN_General_drawing_of_Fantasia
+		prerequisite = {
+			focus = GEN_Thirteen_of_Hall_of_Fantasy
+		}
+		prerequisite = {
+			focus = GEN_Order_of_Convergence_of_Centres
+		}
+		cost = 5
+		x = -8
+		y = 5
+		completion_reward = {
+		}
+	}
+
+	#军事线
+	shared_focus = {
+		id = GEN_Sixty_Years_of_the_Orient_Trial
+		icon = GFX_goals_GEN_Sixty_Years_of_the_Orient_Trial
+		prerequisite = {
+		}
+		cost = 5
+		x = 27
+		y = 0
+		completion_reward = {
+		}
+	}
+
+	#左侧
+	shared_focus = {
+		id = GEN_Aptameron
+		icon = GFX_goals_GEN_Aptameron
+		prerequisite = {
+			focus = GEN_Sixty_Years_of_the_Orient_Trial
+		}
+		cost = 5
+		x = 23
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Dazzling_Fragrance
+		icon = GFX_goals_GEN_Dazzling_Fragrance
+		prerequisite = {
+			focus = GEN_Aptameron
+		}
+		cost = 5
+		x = 23
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	#右侧
+	shared_focus = {
+		id = GEN_King_of_Beasts
+		icon = GFX_goals_GEN_King_of_Beasts
+		prerequisite = {
+			focus = GEN_Sixty_Years_of_the_Orient_Trial
+		}
+		cost = 5
+		x = 31
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Looking_Back_at_Yellow_Springs
+		icon = GFX_goals_GEN_Looking_Back_at_Yellow_Springs
+		prerequisite = {
+			focus = GEN_King_of_Beasts
+		}
+		cost = 5
+		x = 31
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	#中侧
+	shared_focus = {
+		id = GEN_Duel_Agreement
+		icon = GFX_goals_GEN_Duel_Agreement
+		prerequisite = {
+			focus = GEN_Sixty_Years_of_the_Orient_Trial
+		}
+		cost = 5
+		x = 27
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Xinqi_Zhilou
+		icon = GFX_goals_GEN_Xinqi_Zhilou
+		prerequisite = {
+			focus = GEN_Duel_Agreement
+		}
+		cost = 5
+		x = 27
+		y = 2
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Let_the_heroes_out
+		icon = GFX_goals_GEN_Let_the_heroes_out
+		prerequisite = {
+			focus = GEN_Xinqi_Zhilou
+		}
+		prerequisite = {
+			focus = GEN_Dazzling_Fragrance
+		}
+		prerequisite = {
+			focus = GEN_Looking_Back_at_Yellow_Springs
+		}
+		cost = 5
+		x = 27
+		y = 3
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Let_top_it
+		icon = GFX_goals_GEN_Let_top_it
+		prerequisite = {
+			focus = GEN_Let_the_heroes_out
+		}
+		cost = 5
+		x = 27
+		y = 4
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Settling_Mutiny
+		icon = GFX_goals_GEN_Settling_Mutiny
+		prerequisite = {
+			focus = GEN_Let_top_it
+		}
+		cost = 5
+		x = 26
+		y = 5
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Dossier#军事线结束~
+		icon = GFX_goals_GEN_Dossier
+		prerequisite = {
+			focus = GEN_Let_top_it
+		}
+		cost = 5
+		x = 28
+		y = 5
+		completion_reward = {
+		}
+	}

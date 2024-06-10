@@ -1,0 +1,243 @@
+scripted_gui = {
+	GEU_Gal_Windows_gui = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = GEU_Gal_Windows_1
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = GEU_Gal_Windows_1
+			}
+		}
+	}
+
+	#教程
+	GEU_Gal_Windows_gui_tutorial_open = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows_two_choice"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = open_windows_galgame_tutorial
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_1_click = {
+				set_country_flag = galgame_tutorial_1
+				clr_country_flag = open_windows_galgame_tutorial
+			}
+			GEU_Gal_Windows_button_2_click = {
+				clr_country_flag = open_windows_galgame_tutorial
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_1 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_1
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_1
+				set_country_flag = galgame_tutorial_2
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_2 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_2
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_2
+				set_country_flag = galgame_tutorial_3
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_3 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_3
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_3
+				set_country_flag = galgame_tutorial_4
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_4 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_4
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_4
+				set_country_flag = galgame_tutorial_5
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_5 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_5
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_5
+				set_country_flag = galgame_tutorial_6
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_6 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_6
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_6
+				set_country_flag = galgame_tutorial_7
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_7 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_7
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_7
+				set_country_flag = galgame_tutorial_8
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_8 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_8
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_8
+				set_country_flag = galgame_tutorial_9
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_9 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_9
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_9
+				set_country_flag = galgame_tutorial_10
+			}
+		}
+	}
+
+	GEU_Gal_Windows_gui_tutorial_10 = {
+		context_type = player_context
+		window_name = "GEU_Gal_Windows"
+		dirty = GEU_gal_windows
+
+		visible = {
+			is_ai = no
+			has_country_flag = galgame_tutorial_10
+		}
+		properties = {
+			CR_image = { image = "[GEUGetGalCharacterImage]" }
+		}
+		effects = {
+			GEU_Gal_Windows_button_click = {
+				clr_country_flag = galgame_tutorial_10
+			}
+		}
+	}
+}

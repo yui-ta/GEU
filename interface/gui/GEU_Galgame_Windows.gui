@@ -1,0 +1,95 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_Gal_Windows"
+		position = { x= -20 y= 20 }
+		size = { width = 630 height = 492 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_gal_windows"
+		}
+
+		buttonType = {
+			name = "GEU_Gal_Windows_button"
+			text = "[GEUGetGalWindowsOption]"
+			position = { x= 115 y= 70 }
+			spriteType ="GFX_gal_windows_button"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name = "CR_image"
+			position = { x= -300 y = -166 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text_gal"
+			position = { x= -290 y = 75 }
+			font = "Bomb_24"
+			text = "[GEUGetGalWindowsDesc]"
+			maxWidth = 400
+			maxHeight = 173
+			Orientation = center
+		}
+	}
+	containerWindowType = {
+		name = "GEU_Gal_Windows_two_choice"
+		position = { x= -20 y= 20 }
+		size = { width = 630 height = 492 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_gal_windows"
+		}
+
+		buttonType = {
+			name = "GEU_Gal_Windows_button_1"
+			text = "[GEUGetGalWindowsOptionONE]"
+			position = { x= 115 y= 70 }
+			spriteType = "GFX_gal_windows_button"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+		buttonType = {
+			name = "GEU_Gal_Windows_button_2"
+			text = "[GEUGetGalWindowsOptionTWO]"
+			position = { x= 115 y= 114 }
+			spriteType = "GFX_gal_windows_button"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name = "CR_image"
+			position = { x= -300 y = -166 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text_gal"
+			position = { x= -290 y = 75 }
+			font = "Bomb_24"
+			text = "[GEUGetGalWindowsDesc]"
+			maxWidth = 400
+			maxHeight = 173
+			Orientation = center
+		}
+	}
+}
+

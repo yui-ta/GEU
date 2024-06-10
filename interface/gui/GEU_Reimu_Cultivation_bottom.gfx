@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GEU_RC_bottom_entry"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_bottom_entry.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_RC_bottom_open"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_bottom_open.dds"
+	}
+}

@@ -1,0 +1,33 @@
+focus_tree = {
+	id = GEN_focus_tree_1#准备阶段国策树
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = GEN
+		}
+	}
+	default = no
+	shared_focus = GEN_Seclusion
+}
+
+focus_tree = {
+	id = GEN_focus_tree_2#第一阶段国策树
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GEN
+		}
+	}
+	shared_focus = GEN_Seventeen_Constitutional_Bombs
+	shared_focus = GEN_Utopia
+	shared_focus = GEN_Yokai_Paradise
+	shared_focus = GEN_Yasaka_and_Yakumo
+	shared_focus = GEN_Abolish_Reimu
+	shared_focus = GEN_Offerings_to_the_Ungrateful
+	shared_focus = GEN_Chronicles_of_Present_World
+	shared_focus = GEN_Burning_Karma_on_this_shore
+	shared_focus = GEN_Sixty_Years_of_the_Orient_Trial
+	default = no
+}

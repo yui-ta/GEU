@@ -1,0 +1,1120 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_GEN_RC_GUI_main"
+		size = { width = 665 height = 445 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_decorate_background"
+			quadTextureSprite = "GFX_RC_decorate_background"
+			position = { x = 9 y = 185 }
+		}
+		background = {
+			name = "RC_decorate_window"
+			quadTextureSprite = "GFX_RC_decorate_window"
+			position = { x = 9 y = 13 }
+		}
+		background = {
+			name = "RC_decorate_title"
+			quadTextureSprite = "GFX_RC_decorate_title"
+			position = { x = 249 y = 47 }
+		}
+
+		buttonType = {
+			name = "GEN_RC_Play_Button"
+			quadTextureSprite = "GFX_GEN_RC_Play_Button"
+			position = { x = 249 y = 171 }
+		}
+		buttonType = {
+			name = "GEN_RC_Load_Button"
+			quadTextureSprite = "GFX_GEN_RC_Load_Button"
+			position = { x = 250 y = 208 }
+		}
+		buttonType = {
+			name = "GEN_RC_Extra_Button"
+			quadTextureSprite = "GFX_GEN_RC_Extra_Button"
+			position = { x = 250 y = 246 }
+		}
+		buttonType = {
+			name = "GEN_RC_Quit_Button"
+			quadTextureSprite = "GFX_GEN_RC_Quit_Button"
+			position = { x = 250 y = 284 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_GEN_RC_progressbaar_GUI"
+		size = { width = 1185 height = 770 }
+		position = { x = 550 y = 150 }
+		moveable = no
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		buttonType = {
+			name = "RC_progressbar_finished"
+			quadTextureSprite = "GFX_RC_progressbar_finished"
+			position = { x = 85 y = 417 }
+		}
+		iconType = {
+			name = "RC_progressbar"
+			quadTextureSprite = "GFX_RC_progressbar"
+			position = { x = 85 y = 417 }
+		}
+		background = {
+			name = "RC_decorate_progressbar"
+			quadTextureSprite = "GFX_RC_decorate_progressbar"
+			position = { x = -70 y = -70 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_GUI"
+		size = { width = 1185 height = 775 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_decorate_background_big"
+			quadTextureSprite = "GFX_RC_decorate_background_big"
+			position = { x = 0 y = 317 }
+		}
+		background = {
+			name = "RC_decorate_game_gui"
+			quadTextureSprite = "GFX_RC_decorate_game_gui"
+			position = { x = 1 y = 5 }
+		}
+		background = {
+			name = "RC_item_box"
+			quadTextureSprite = "GFX_RC_item_box"
+			position = { x = 691 y = 462 }
+		}
+		background = {
+			name = "RC_Reimu_portrait"
+			quadTextureSprite = "GFX_RC_Reimu_portrait"
+			position = { x = 370 y = 112 }
+		}
+		iconType = {
+			name = "RC_progressbar_HP"
+			quadTextureSprite = "GFX_RC_progressbar_HP"
+			position = { x = 32 y = 21 }
+		}
+		iconType = {
+			name = "RC_action_points"
+			quadTextureSprite = "GFX_RC_action_points"
+			pdx_tooltip = "Loc_RC_action_points"
+			position = { x = 32 y = 320 }
+		}
+		iconType = {
+			name = "RC_action_points_small"
+			quadTextureSprite = "GFX_RC_action_points_small"
+			position = { x = 50000 y = 50000 }
+		}
+		iconType = {
+			name = "RC_Reimu_tell"
+			quadTextureSprite = "GFX_RC_Reimu_tell"
+			position = { x = 32 y = 465 }
+		}
+		instantTextBoxType = {
+			name = "text"
+			position = { x= -168 y = -362 }
+			font = "Bomb_32"
+			text = "[?Reimu_HP]%"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		#Main Var
+		instantTextBoxType = {
+			name = "text_CE"
+			position = { x= 170 y = -288 }
+			font = "Bomb_32"
+			text = "[?CE_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text_Mood"
+			position = { x= 170 y = -225 }
+			font = "Bomb_32"
+			text = "[?mood_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text_san"
+			position = { x= 170 y = -162 }
+			font = "Bomb_32"
+			text = "[?san_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text_DM"
+			position = { x= 170 y = -100 }
+			font = "Bomb_32"
+			text = "[?DM_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text_mutation"
+			position = { x= 170 y = -30 }
+			font = "Bomb_32"
+			text = "[?mutation_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text_AP"
+			position = { x= -520 y = -65 }
+			font = "Bomb_32"
+			text = "[?action_points_var]"
+			maxHeight = 240
+			maxWidth = 200
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		#Map
+		buttonType = {
+			name = "RC_map_1"
+			quadTextureSprite = "GFX_RC_map_1"
+			position = { x = 117 y = 138 }
+		}
+		buttonType = {
+			name = "RC_map_2"
+			quadTextureSprite = "GFX_RC_map_2"
+			position = { x = 102 y = 179 }
+		}
+		buttonType = {
+			name = "RC_map_3"
+			quadTextureSprite = "GFX_RC_map_3"
+			position = { x = 71 y = 191 }
+		}
+		buttonType = {
+			name = "RC_map_4"
+			quadTextureSprite = "GFX_RC_map_4"
+			position = { x = 65 y = 211 }
+		}
+		buttonType = {
+			name = "RC_map_5"
+			quadTextureSprite = "GFX_RC_map_5"
+			position = { x = 39 y = 120 }
+		}
+		buttonType = {
+			name = "RC_map_6"
+			quadTextureSprite = "GFX_RC_map_6"
+			position = { x = 53 y = 171 }
+		}
+		buttonType = {
+			name = "RC_map_7"
+			quadTextureSprite = "GFX_RC_map_7"
+			position = { x = 11 y = 172 }
+		}
+		buttonType = {
+			name = "RC_map_8"
+			quadTextureSprite = "GFX_RC_map_8"
+			position = { x = 78 y = 154 }
+		}
+		buttonType = {
+			name = "RC_map_title"
+			quadTextureSprite = "GFX_RC_map_title"
+			clicksound = no
+			position = { x = 45 y = 284 }
+		}
+		background = {
+			name = "RC_map_decorate"
+			quadTextureSprite = "GFX_RC_map_decorate"
+			position = { x = 10 y = 70 }
+		}
+
+		#Effect
+		background = {
+			name = "RC_dialog_box_gui"
+			quadTextureSprite = "GFX_RC_dialog_box_gui"
+			position = { x = 19 y = 451 }
+		}
+		buttonType = {
+			name = "RC_button_give_up"
+			quadTextureSprite = "GFX_RC_button_give_up"
+			position = { x = 853 y = 345 }
+		}
+		buttonType = {
+			name = "RC_effect_healthy"
+			quadTextureSprite = "GFX_RC_effect_healthy"
+			clicksound = no
+			position = { x = 850 y =80 }
+		}
+		buttonType = {
+			name = "RC_effect_fighting"
+			quadTextureSprite = "GFX_RC_effect_fighting"
+			clicksound = no
+			position = { x = 850 y = 239 }
+		}
+		buttonType = {
+			name = "RC_effect_thought"
+			quadTextureSprite = "GFX_RC_effect_thought"
+			clicksound = no
+			position = { x = 850 y = 186 }
+		}
+		buttonType = {
+			name = "RC_effect_illness"
+			quadTextureSprite = "GFX_RC_effect_illness"
+			clicksound = no
+			position = { x = 1010 y = 80 }
+		}
+		buttonType = {
+			name = "RC_effect_broken"
+			quadTextureSprite = "GFX_RC_effect_broken"
+			clicksound = no
+			position = { x = 1010 y = 239 }
+		}
+		buttonType = {
+			name = "RC_effect_enjoyable"
+			quadTextureSprite = "GFX_RC_effect_enjoyable"
+			clicksound = no
+			position = { x = 850 y = 133 }
+		}
+		buttonType = {
+			name = "RC_effect_excited"
+			quadTextureSprite = "GFX_RC_effect_excited"
+			clicksound = no
+			position = { x = 1010 y = 133 }
+		}
+		buttonType = {
+			name = "RC_effect_treat"
+			quadTextureSprite = "GFX_RC_effect_treat"
+			clicksound = no
+			position = { x = 850 y = 292 }
+		}
+		buttonType = {
+			name = "RC_effect_obscure"
+			quadTextureSprite = "GFX_RC_effect_obscure"
+			clicksound = no
+			position = { x = 1010 y = 186 }
+		}
+		buttonType = {
+			name = "RC_effect_infect"
+			quadTextureSprite = "GFX_RC_effect_infect"
+			clicksound = no
+			position = { x = 1010 y = 292 }
+		}
+
+		#Action
+		buttonType = {
+			name = "RC_action_buttom"
+			quadTextureSprite = "GFX_RC_action_buttom"
+			position = { x = 30 y = 570 }
+		}
+		buttonType = {
+			name = "RC_activity_buttom"
+			quadTextureSprite = "GFX_RC_activity_buttom"
+			position = { x = 233 y = 570 }
+		}
+		buttonType = {
+			name = "RC_eat_buttom"
+			quadTextureSprite = "GFX_RC_eat_buttom"
+			position = { x = 436 y = 570 }
+		}
+		buttonType = {
+			name = "RC_SI_buttom"
+			quadTextureSprite = "GFX_RC_SI_buttom"
+			position = { x = 233 y = 645 }
+		}
+		buttonType = {
+			name = "RC_train_buttom"
+			quadTextureSprite = "GFX_RC_train_buttom"
+			pdx_tooltip = "text_RC_train_buttom"
+			position = { x = 30 y = 645 }
+		}
+		buttonType = {
+			name = "RC_exit_buttom"
+			quadTextureSprite = "GFX_RC_exit_buttom"
+			position = { x = 436 y = 645 }
+			shortcut = "ESCAPE"
+		}
+
+		#Tutorial
+		buttonType = {
+			name = "RC_tutorial_buttom"
+			quadTextureSprite = "GFX_RC_tutorial_buttom"
+			position = { x = 1123 y = 16 }
+			pdx_tooltip = "Text_tutorial"
+		}
+	}
+
+	#ACTION GUI
+	containerWindowType = {
+		name = "GEU_RC_Action_action_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_DM"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_DM"
+			pdx_tooltip = "text_cost_action_points_DM"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_DD"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_DD"
+			pdx_tooltip = "text_cost_action_points_DD"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_action_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_DM"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_DM"
+			pdx_tooltip = "text_cost_action_points_DM"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_DD"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_DD"
+			pdx_tooltip = "text_cost_action_points_DD"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_activity_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SF"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SF"
+			pdx_tooltip = "text_cost_action_points_SF"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Daydream"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Daydream"
+			pdx_tooltip = "text_cost_action_points_Daydream"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_activity_2_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_shopping"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_shopping"
+			pdx_tooltip = "text_cost_action_points_shopping"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_go_l"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_go_l"
+			pdx_tooltip = "text_cost_action_points_go_l"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_go_n"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_go_n"
+			pdx_tooltip = "text_cost_action_points_go_n"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_eat_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_nothing"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_nothing"
+			pdx_tooltip = "text_cost_action_points_nothing"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_train_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_train_fight"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_train_fight"
+			pdx_tooltip = "text_cost_action_points_train_fight"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_train_magic"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_train_magic"
+			pdx_tooltip = "text_cost_action_points_train_magic"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_1_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_myself"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_myself"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Marisa"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Marisa"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Shion"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Shion"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_2_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Youmu"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Youmu"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Akyuu"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Akyuu"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_3_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Yuka"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Yuka"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_4_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Reisen"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Reisen"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Kaguya"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Kaguya"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Mokou"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Mokou"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_5_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Marisa"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Marisa"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Alice"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Alice"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_6_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Sanae"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Sanae"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Satori"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Satori"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Aya"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Aya"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Megumu"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Megumu"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Yukari"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Yukari"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 240 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 290 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_7_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Kokoro"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Kokoro"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Koishi"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Koishi"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_8_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Cirno"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Cirno"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Remilia"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Remilia"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Sakuya"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Sakuya"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Rumia"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Rumia"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 240 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_RC_Action_SI_1_GUI"
+		size = { width = 380 height = 582 }
+		position = { x = 550 y = 150 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		background = {
+			name = "RC_action_background"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_RC_action_background"
+		}
+
+		buttonType = {
+			name = "RC_action_window_buttom_SI_myself"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_myself"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 40 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Marisa"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Marisa"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 90 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_SI_Shion"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_SI_Shion"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 140 }
+		}
+		buttonType = {
+			name = "RC_action_window_buttom_Cancel"
+			quadTextureSprite = "GFX_RC_action_window_buttom"
+			text = "text_buttom_Cancel"
+			buttonFont = "Bomb_32"
+			position = { x = 65 y = 190 }
+		}
+	}
+
+	#GIVE UP
+	containerWindowType = {
+		name = "RC_I_Give_Up"
+		size = { width = 160 height = 160 }
+		position = { x = 1000 y = 450 }
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "RC_Background_I_Give_up"
+			quadTextureSprite = "GFX_RC_Background_I_Give_up"
+		}
+		buttonType = {
+			name = "RC_Give_Up_Button_Yes"
+			quadTextureSprite = "GFX_RC_Give_Up_Button_Yes"
+			position = { x = 3 y = 90 }
+			shortcut = "RETURN"
+		}
+		buttonType = {
+			name = "RC_Give_Up_Button_No"
+			quadTextureSprite = "GFX_RC_Give_Up_Button_No"
+			position = { x = 75 y = 90 }
+			shortcut = "ESCAPE"
+		}
+	}
+
+	containerWindowType = {
+		name = "RC_DEAD"
+		size = { width = 1205 height = 795 }
+		position = { x = 550 y = 150 }
+
+		moveable = yes
+		clipping = no
+
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}
+		buttonType = {
+			name = "RC_REIMU_DEAD_GUI"
+			position = { x = 10 y = 10 }
+			size = { width = 1185 height = 770 }
+			quadTextureSprite = "GFX_RC_REIMU_DEAD"
+		}
+	}
+}
+

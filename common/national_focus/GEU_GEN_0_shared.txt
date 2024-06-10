@@ -1,0 +1,37 @@
+	#准备阶段
+	shared_focus = {
+		id = GEN_Seclusion
+		icon = GFX_goals_GEN_Seclusion
+		cost = 3
+		x = 9
+		y = 0
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Incredible_of_Jepan
+		icon = GFX_goals_GEN_Incredible_of_Jepan
+		prerequisite = {
+			focus = GEN_Seclusion
+		}
+		cost = 3
+		x = 9
+		y = 1
+		completion_reward = {
+		}
+	}
+
+	shared_focus = {
+		id = GEN_Dream
+		icon = GFX_goals_GEN_Dream
+		prerequisite = {
+			focus = GEN_Incredible_of_Jepan
+		}
+		cost = 3
+		x = 9
+		y = 2
+		completion_reward = {
+			load_focus_tree = GEN_focus_tree_2
+		}
+	}

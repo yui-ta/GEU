@@ -1,0 +1,22 @@
+spriteTypes = {	
+    spriteType = {
+        name = "GFX_idea_GEN_The_Land_of_Hermits"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_The_Land_of_Hermits.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GEN_The_War_of_Religion"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_The_War_of_Religion.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GEN_Moriya_Modernization"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_Moriya_Modernization.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GEN_Konata_Rules"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_Konata_Rules.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GEN_SC_Rules"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_SC_Rules.dds"
+    }
+}

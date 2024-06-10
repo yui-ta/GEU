@@ -1,0 +1,936 @@
+characters = {
+	# Country leaders #
+	GEN_Hakurei_Reimu = {
+		name = GEN_Hakurei_Reimu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Hakurei_Reimu.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Hakurei_Reimu_DESC"
+			ideology = paternalism_gensokyo_system_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Reisen_Udongein_Inaba = {
+		name = GEN_Reisen_Udongein_Inaba
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Reisen_Udongein_Inaba.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Reisen_Udongein_Inaba_DESC"
+			ideology = communist_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Kawasiro_Nitori = {
+		name = GEN_Kawasiro_Nitori
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Kawasiro_Nitori.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Kawasiro_Nitori_DESC"
+			ideology = socialist_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Hinanawi_Tenshi = {
+		name = GEN_Hinanawi_Tenshi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Hinanawi_Tenshi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Hinanawi_Tenshi_DESC"
+			ideology = progressivism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Morichika_Rinnosuke = {
+		name = GEN_Morichika_Rinnosuke
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Morichika_Rinnosuke.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Morichika_Rinnosuke_DESC"
+			ideology = liberalism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Yorigami_Jyoon = {
+		name = GEN_Yorigami_Jyoon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Yorigami_Jyoon.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Yorigami_Jyoon_DESC"
+			ideology = liberal_conservatism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Hiziri_Byakuren = {
+		name = GEN_Hiziri_Byakuren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Hiziri_Byakuren.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Hiziri_Byakuren_DESC"
+			ideology = conservatism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Huziwara_no_Mokou = {
+		name = GEN_Huziwara_no_Mokou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Huziwara_no_Mokou.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Huziwara_no_Mokou_DESC"
+			ideology = despotism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Junko = {
+		name = GEN_Junko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Junko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Junko_DESC"
+			ideology = ultranationalism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Yasaka_Kanako = {
+		name = GEN_Yasaka_Kanako
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Yasaka_Kanako.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Yasaka_Kanako_DESC"
+			ideology = fascism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	GEN_Plank = {
+		name = GEN_Plank
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Plank.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Plank_DESC"
+			ideology = national_socialism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+
+	# Advisor #
+	GEN_Yakumo_Yukari = {
+		name = GEN_Yakumo_Yukari
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GEN_Yakumo_Yukari"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YAKUMO_YUKARI_DESC"
+			ideology = paternalism_oligarchy_subtype
+			traits = { GEN_youkai_of_the_realm }
+			expire = "1989.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			traits = {
+				head_of_government
+				GEN_youkai_of_the_realm
+			}
+			idea_token = GEN_Yakumo_Yukari_hog
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			allowed = { OR = { original_tag = GEN } }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GEN_Ibarak_iKasen = {
+		name = GEN_Ibarak_iKasen
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GEN_Ibarak_iKasen"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LBARAK_IKASEN_DESC"
+			ideology = paternalism_oligarchy_subtype
+			expire = "1989.1.1.1"
+			traits = { GEN_immortals_in_the_mountains }
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			traits = {
+				foreign_minister
+				GEN_immortals_in_the_mountains
+			}
+			idea_token = GEN_Ibarak_iKasen_for
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			allowed = { original_tag = GEN }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GEN_Iizunamaru_Megumu = {
+		name = GEN_Iizunamaru_Megumu
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GEN_Iizunamaru_Megumu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LIZUNAMARU_MEGUMU_DESC"
+			ideology = paternalism_oligarchy_subtype
+			expire = "1989.1.1.1"
+			traits = { GEN_the_leader_of_the_raven_tengu }
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			traits = {
+				economy_minister
+				GEN_the_leader_of_the_raven_tengu
+			}
+			idea_token = GEN_Iizunamaru_Megumu_eco
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			allowed = { original_tag = GEN }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GEN_Matara_Okina = {
+		name = GEN_Matara_Okina
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GEN_Matara_Okina"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MATARA_OKINA_DESC"
+			ideology = paternalism_oligarchy_subtype
+			expire = "1989.1.1.1"
+			traits = { GEN_the_ultimate_absolute_mystery }
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			traits = {
+				security_minister
+				GEN_the_ultimate_absolute_mystery
+			}
+			idea_token = GEN_Matara_Okina_sec
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			allowed = { original_tag = GEN }
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	# Generals and Field Marshals #
+	GEN_Yakumo_Yukari_GEL = {
+		name = GEN_Yakumo_Yukari_GEL
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Yakumo_Yukari_GEL.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Yakumo_Yukari_GEL.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Yakumo_Yukari_GEL.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				politically_connected
+				media_personality
+				adaptable
+				winter_expert
+			}
+			skill = 8
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	GEN_Yasaka_Kanako_GEL = {
+		name = GEN_Yasaka_Kanako_GEL
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Yasaka_Kanako.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Yasaka_Kanako.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Yasaka_Kanako.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				politically_connected
+				media_personality
+				war_hero
+				career_officer
+				harsh_leader
+				trait_mountaineer
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	GEN_Ibarak_iKasen_GEL = {
+		name = GEN_Ibarak_iKasen_GEL
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Ibarak_iKasen_GEL.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Ibarak_iKasen_GEL.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Ibarak_iKasen_GEL.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				politically_connected
+				media_personality
+				panzer_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GEN_Ibuki_Suika = {
+		name = GEN_Ibuki_Suika
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Ibuki_Suika.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Ibuki_Suika.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Ibuki_Suika.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GEN_Saigyouji_Yuyuko = {
+		name = GEN_Saigyouji_Yuyuko
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Saigyouji_Yuyuko.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Saigyouji_Yuyuko.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Saigyouji_Yuyuko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	GEN_Kirisame_Marisa = {
+		name = GEN_Kirisame_Marisa
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kirisame_Marisa.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kirisame_Marisa.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kirisame_Marisa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	GEN_Konpaku_Youmu = {
+		name = GEN_Konpaku_Youmu
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Konpaku_Youmu.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Konpaku_Youmu.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Konpaku_Youmu.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				urban_assault_specialist
+				panzer_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GEN_Yakumo_Ran = {
+		name = GEN_Yakumo_Ran
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Yakumo_Ran.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Yakumo_Ran.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Yakumo_Ran.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				politically_connected
+				infantry_leader
+				infantry_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	GEN_Reisen_Udongein_Inaba_GEL = {
+		name = GEN_Reisen_Udongein_Inaba_GEL
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Reisen_Udongein_Inaba_GEL.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Reisen_Udongein_Inaba_GEL.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Reisen_Udongein_Inaba_GEL.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trait_engineer
+				inspirational_leader
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GEN_Iizunamaru_Megumu_GEL = {
+		name = GEN_Iizunamaru_Megumu_GEL
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Iizunamaru_Megumu_GEL.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Iizunamaru_Megumu_GEL.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Iizunamaru_Megumu_GEL.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				commando
+				scavenger
+				skirmisher
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	GEN_Shameimaru_Aya = {
+		name = GEN_Shameimaru_Aya
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Shameimaru_Aya.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Shameimaru_Aya.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Shameimaru_Aya.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	GEN_Hoshiguma_Yugi = {
+		name = GEN_Hoshiguma_Yugi
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Hoshiguma_Yugi.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Hoshiguma_Yugi.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Hoshiguma_Yugi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				trait_cautious
+				infantry_leader
+				ambusher
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GEN_Komeiji_Satori = {
+		name = GEN_Komeiji_Satori
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Komeiji_Satori.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Komeiji_Satori.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Komeiji_Satori.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				harsh_leader
+				trait_reckless
+				infantry_leader
+			}
+			skill = 6
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	GEN_Wriggle_Nightbug = {
+		name = GEN_Wriggle_Nightbug
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Wriggle_Nightbug.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Wriggle_Nightbug.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Wriggle_Nightbug.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	GEN_Rumia = {
+		name = GEN_Rumia
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Rumia.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Rumia.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Rumia.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+				media_personality
+				trickster
+			}
+			skill = 4
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	GEN_Cirno = {
+		name = GEN_Cirno
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Cirno.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Cirno.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Cirno.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				adaptable
+				winter_specialist
+				winter_expert
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GEN_Remilia_Scarlet = {
+		name = GEN_Remilia_Scarlet
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Remilia_Scarlet.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Remilia_Scarlet.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Remilia_Scarlet.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+				politically_connected
+				war_hero
+			}
+			skill = 8
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GEN_Kazami_Yuka = {
+		name = GEN_Kazami_Yuka
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kazami_Yuka.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kazami_Yuka.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kazami_Yuka.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				career_officer
+				harsh_leader
+				infantry_leader
+				infantry_expert
+				adaptable
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GEN_Toramaru_Shou = {
+		name = GEN_Toramaru_Shou
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Toramaru_Shou.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Toramaru_Shou.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Toramaru_Shou.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_leader
+				infantry_expert
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GEN_Inubashiri_Momizi = {
+		name = GEN_Inubashiri_Momizi
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Inubashiri_Momizi.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Inubashiri_Momizi.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Inubashiri_Momizi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	GEN_Moriya_Suwako = {
+		name = GEN_Moriya_Suwako
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Moriya_Suwako.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Moriya_Suwako.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Moriya_Suwako.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				panzer_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	GEN_Toyosatomimi_no_Miko = {
+		name = GEN_Toyosatomimi_no_Miko
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Toyosatomimi_no_Miko.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Toyosatomimi_no_Miko.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Toyosatomimi_no_Miko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				brilliant_strategist
+				adaptable
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	GEN_Joutougu_Mayumi = {
+		name = GEN_Joutougu_Mayumi
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Joutougu_Mayumi.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Joutougu_Mayumi.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Joutougu_Mayumi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				adaptable
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	GEN_Kurokoma_Saki = {
+		name = GEN_Kurokoma_Saki
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kurokoma_Saki.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kurokoma_Saki.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kurokoma_Saki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+				cavalry_expert
+				trait_mountaineer
+				hill_fighter
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	GEN_Toutetsu_Yuma = {
+		name = GEN_Toutetsu_Yuma
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Toutetsu_Yuma.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Toutetsu_Yuma.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Toutetsu_Yuma.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				adaptable
+				organisational_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GEN_Hutatsuiwa_Mamizou = {
+		name = GEN_Hutatsuiwa_Mamizou
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Hutatsuiwa_Mamizou.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Hutatsuiwa_Mamizou.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Hutatsuiwa_Mamizou.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				infantry_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	GEN_Yamashiro_Takane = {
+		name = GEN_Yamashiro_Takane
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Yamashiro_Takane.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Yamashiro_Takane.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Yamashiro_Takane.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				trickster
+				adaptable
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+}

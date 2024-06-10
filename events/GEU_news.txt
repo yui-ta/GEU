@@ -1,0 +1,16 @@
+add_namespace = gen_news
+
+news_event = {
+	id = gen_news.1
+
+	title = gen_news.1.t
+	desc = gen_news.1.d
+	picture = GFX_news_event_normal
+
+	is_triggered_only = yes
+	trigger = {
+	}
+	option = {
+	name = gen_news.1.a
+	}
+}

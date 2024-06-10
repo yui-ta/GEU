@@ -1,0 +1,136 @@
+add_namespace = gen.endwar
+
+country_event = {
+	id = gen.endwar.1
+
+	title = gen.endwar.1.t
+	desc = gen.endwar.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = gen.endwar.1.a
+		GEN = {
+			set_capital = { state = 631 }
+			add_state_core = 532
+			add_state_core = 535
+			add_state_core = 1832
+			add_state_core = 1829
+			add_state_core = 1837
+			add_state_core = 631
+			add_state_core = 1838
+			add_state_core = 531
+			add_state_core = 1834
+			add_state_core = 1835
+			add_state_core = 1833
+			add_state_core = 630
+
+			transfer_state = 532
+			transfer_state = 535
+			transfer_state = 1832
+			transfer_state = 1829
+			transfer_state = 1837
+			transfer_state = 631
+			transfer_state = 1838
+			transfer_state = 531
+			transfer_state = 1834
+			transfer_state = 1835
+			transfer_state = 1833
+			transfer_state = 630
+		}
+		CJF = {
+			set_capital = { state = 650 }
+			add_state_core = 1836
+			add_state_core = 1840
+			add_state_core = 529
+			add_state_core = 1839
+			add_state_core = 650
+			add_state_core = 1841
+
+			transfer_state = 1836
+			transfer_state = 1840
+			transfer_state = 529
+			transfer_state = 1839
+			transfer_state = 650
+			transfer_state = 1841
+		}
+		DJF = {
+			set_capital = { state = 1823 }
+			add_state_core = 1823
+			add_state_core = 1822
+
+			transfer_state = 1823
+			transfer_state = 1822
+		}
+		HJF = {
+			set_capital = { state = 1831 }
+			add_state_core = 1826
+			add_state_core = 1830
+			add_state_core = 1831
+			add_state_core = 534
+
+			transfer_state = 1826
+			transfer_state = 1830
+			transfer_state = 1831
+			transfer_state = 534
+		}
+		UJF = {
+			set_capital = { state = 1828 }
+			dd_state_core = 1825
+			add_state_core = 1824
+			add_state_core = 1234
+			add_state_core = 1827
+			add_state_core = 282
+			add_state_core = 1828
+
+			transfer_state = 1825
+			transfer_state = 1824
+			transfer_state = 1234
+			transfer_state = 1827
+			transfer_state = 282
+			transfer_state = 1828
+		}
+		KJF = {
+			set_capital = { state = 1845 }
+			add_state_core = 1845
+			add_state_core = 1846
+			add_state_core = 1847
+			add_state_core = 1848
+			add_state_core = 1849
+			add_state_core = 528
+			add_state_core = 639
+
+			transfer_state = 1845
+			transfer_state = 1846
+			transfer_state = 1847
+			transfer_state = 1848
+			transfer_state = 1849
+			transfer_state = 528
+			transfer_state = 639
+		}
+		MJF = {
+			set_capital = { state = 533 }
+			add_state_core = 555
+			add_state_core = 533
+			add_state_core = 1821
+			add_state_core = 642
+
+			transfer_state = 555
+			transfer_state = 533
+			transfer_state = 1821
+			transfer_state = 642
+		}
+		SJF = {
+			set_capital = { state = 530 }
+			add_state_core = 1842
+			add_state_core = 1843
+			add_state_core = 1844
+			add_state_core = 530
+
+			transfer_state = 1842
+			transfer_state = 1843
+			transfer_state = 1844
+			transfer_state = 530
+        }
+    }
+}

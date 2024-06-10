@@ -1,0 +1,9 @@
+
+GEN = "countries/Gensokyo.txt"
+CJF = "countries/Chugoku.txt"
+DJF = "countries/Dewa.txt"
+HJF = "countries/Hokuriku.txt"
+UJF = "countries/Kamakura.txt"
+KJF = "countries/Kyushu.txt"
+MJF = "countries/Mutsu.txt"
+SJF = "countries/Shikoku.txt"

@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ideology_paternalism_gensokyo_system_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_gensokyo_system_subtype.dds"
+	}
+}

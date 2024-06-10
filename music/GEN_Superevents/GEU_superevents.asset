@@ -1,0 +1,24 @@
+music = {
+	name = "TNO_SE_GENSOKY_WAR"
+	file = "TNO_SE_GENSOKY_WAR.ogg"
+}
+music = {
+	name = "TNO_SE_GOD_WAR"
+	file = "TNO_SE_GOD_WAR.ogg"
+}
+music = {
+	name = "TNO_SE_CHANGES_YAKUMO_SHRINE"
+	file = "TNO_SE_CHANGES_YAKUMO_SHRINE.ogg"
+}
+music = {
+	name = "TNO_SE_FALL_JAPAN"
+	file = "TNO_SE_FALL_JAPAN.ogg"
+}
+music = {
+	name = "TNO_SE_JAPAN_NUCLEAR_EXCHANGE"
+	file = "TNO_SE_JAPAN_NUCLEAR_EXCHANGE.ogg"
+}
+music = {
+	name = "TNO_SE_MOON_HAS_FALLEN"
+	file = "TNO_SE_MOON_HAS_FALLEN.ogg"
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_culture_604"
+		texturefile = "gfx/interface/culture/culture_gensokyo.dds"
+	}	
+}

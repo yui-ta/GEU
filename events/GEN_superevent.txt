@@ -1,0 +1,108 @@
+add_namespace = SUPER_EVENT
+news_event = {
+	id = SUPER_EVENT.1
+
+	title = SUPER_EVENT.1.t
+	desc = SUPER_EVENT.1.d
+    picture = GFX_news_GENSOKY_WAR
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.1.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GENSOKY_WAR }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = SUPER_EVENT.2
+
+	title = SUPER_EVENT.2.t
+	desc = SUPER_EVENT.2.d
+    picture = GFX_news_GOD_WAR
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.2.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GOD_WAR }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = SUPER_EVENT.3
+
+	title = SUPER_EVENT.3.t
+	desc = SUPER_EVENT.3.d
+    picture = GFX_news_CHANGES_YAKUMO_SHRINE
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.3.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_CHANGES_YAKUMO_SHRINE }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = SUPER_EVENT.4
+
+	title = SUPER_EVENT.4.t
+	desc = SUPER_EVENT.4.d
+    picture = GFX_news_FALL_JAPAN
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.4.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_FALL_JAPAN }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = SUPER_EVENT.5
+
+	title = SUPER_EVENT.5.t
+	desc = SUPER_EVENT.5.d
+    picture = GFX_news_JAPAN_NUCLEAR_EXCHANGE
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.5.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_JAPAN_NUCLEAR_EXCHANGE }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = SUPER_EVENT.6
+
+	title = SUPER_EVENT.6.t
+	desc = SUPER_EVENT.6.d
+    picture = GFX_news_MOON_HAS_FALLEN
+
+	is_triggered_only = yes
+
+	option = {
+		name = SUPER_EVENT.6.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_MOON_HAS_FALLEN }
+			TNO_fire_super_event = yes
+		}
+	}
+}

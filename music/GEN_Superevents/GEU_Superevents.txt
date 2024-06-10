@@ -1,0 +1,43 @@
+music_station = "gen_superevents"
+
+music = {
+	song = "TNO_SE_GENSOKY_WAR"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+
+music = {
+	song = "TNO_SE_GOD_WAR"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+
+music = {
+	song = "TNO_SE_CHANGES_YAKUMO_SHRINE"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+
+music = {
+	song = "TNO_SE_FALL_JAPAN"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+
+music = {
+	song = "TNO_SE_JAPAN_NUCLEAR_EXCHANGE"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+
+music = {
+	song = "TNO_SE_MOON_HAS_FALLEN"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

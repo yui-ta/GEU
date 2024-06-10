@@ -1,0 +1,965 @@
+scripted_gui = {
+	GEU_GEN_RC_GUI_main = {
+		context_type = player_context
+		window_name = "GEU_GEN_RC_GUI_main"
+
+		visible = {
+			tag = GEN
+			has_country_flag = reimu_gui_open
+		}
+
+		effects = {
+			GEN_RC_Play_Button_click = {
+				if = {
+					limit = {not = { has_country_flag = animated_RC_p } }
+					set_country_flag = reimu_gui_open_2
+				}
+				if = {
+					limit = { has_country_flag = animated_RC_p
+					NOT = { has_country_flag = reimu_dead }
+				}
+					set_country_flag = reimu_gui_open_3
+					else_if = {
+						limit = { has_country_flag = reimu_dead }
+						set_country_flag = reimu_gui_open_dead
+					}
+				}
+				clr_country_flag = reimu_gui_open
+				set_variable = { healthy_var = 2 }
+			}
+			GEN_RC_Quit_Button_click = {
+				clr_country_flag = reimu_gui_open
+			}
+		}
+	}
+
+	GEU_GEN_RC_progressbaar_GUI = {
+		context_type = player_context
+		window_name = "GEU_GEN_RC_progressbaar_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = reimu_gui_open_2
+			if = {
+				limit = {not = { has_country_flag = animated_RC_p } }
+			}
+		}
+
+		effects = {
+			RC_progressbar_finished_click = {
+				set_country_flag = animated_RC_p
+				set_country_flag = reimu_gui_open_3
+				clr_country_flag = reimu_gui_open_2
+				set_variable = { fight_var = 1 }
+				set_variable = { think_var = 1 }
+				set_variable = { ill_var = 1 }
+				set_variable = { broken_var = 1 }
+				set_variable = { healthy_var = 2 }
+				set_variable = { obscure_var = 1 }
+				set_variable = { excited_var = 1 }
+				set_variable = { enjoy_var = 1 }
+				set_variable = { infect_var = 1 }
+				set_variable = { treat_var = 1 }
+
+				set_variable = { CE_var = 50 } #战斗力
+				set_variable = { mood_var = 50 }
+				set_variable = { san_var = 100 }
+				set_variable = { DM_var = 0 } #用药量
+				set_variable = { mutation_var = 0 }
+				set_variable = { action_points_var = 20 }
+				set_variable = { action_points_var_weekly_add = 20 }
+
+				set_variable = { map_1_click_var = 2 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 1 }
+				set_variable = { Reimu_HP = 100 }
+			}
+		}
+	}
+
+	GEU_RC_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = reimu_gui_open_3
+		}
+
+		properties = {
+			RC_effect_healthy = {
+				frame = healthy_var
+			}
+			RC_effect_thought = {
+				frame = think_var
+			}
+			RC_effect_illness = {
+				frame = ill_var
+			}
+			RC_effect_broken = {
+				frame = broken_var
+			}
+			RC_effect_obscure = {
+				frame = obscure_var
+			}
+			RC_effect_excited = {
+				frame = excited_var
+			}
+			RC_effect_enjoyable = {
+				frame = enjoy_var
+			}
+			RC_effect_infect = {
+				frame = infect_var
+			}
+			RC_effect_treat = {
+				frame = treat_var
+			}
+			RC_effect_fighting = {
+				frame = fight_var
+			}
+			RC_progressbar_HP = {
+				frame = Reimu_HP
+			}
+
+			RC_map_1 = {
+				frame = map_1_click_var
+			}
+			RC_map_2 = {
+				frame = map_2_click_var
+			}
+			RC_map_3 = {
+				frame = map_3_click_var
+			}
+			RC_map_4 = {
+				frame = map_4_click_var
+			}
+			RC_map_5 = {
+				frame = map_5_click_var
+			}
+			RC_map_6 = {
+				frame = map_6_click_var
+			}
+			RC_map_7 = {
+				frame = map_7_click_var
+			}
+			RC_map_8 = {
+				frame = map_8_click_var
+			}
+			RC_map_title = {
+				frame = map_title_var
+			}
+		}
+
+		effects = {
+			RC_progressbar_finished_click = {
+				set_country_flag = animated_RC_p
+				clr_country_flag = reimu_gui_open_2
+			}
+			RC_button_give_up_click = {
+				set_country_flag = reimu_gui_open_I_give_up
+			}
+			RC_exit_buttom_click = {
+				clr_country_flag = reimu_gui_open_3
+			}
+
+			RC_map_1_click = {
+				set_variable = { map_1_click_var = 2 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 1 }
+			}
+			RC_map_2_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 2 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 7 }
+			}
+			RC_map_3_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 2 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 2 }
+			}
+			RC_map_4_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 2 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 3 }
+			}
+			RC_map_5_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 2 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 6 }
+			}
+			RC_map_6_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 2 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 5 }
+			}
+			RC_map_7_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 2 }
+				set_variable = { map_8_click_var = 1 }
+				set_variable = { map_title_var = 4 }
+			}
+			RC_map_8_click = {
+				set_variable = { map_1_click_var = 1 }
+				set_variable = { map_2_click_var = 1 }
+				set_variable = { map_3_click_var = 1 }
+				set_variable = { map_4_click_var = 1 }
+				set_variable = { map_5_click_var = 1 }
+				set_variable = { map_6_click_var = 1 }
+				set_variable = { map_7_click_var = 1 }
+				set_variable = { map_8_click_var = 2 }
+				set_variable = { map_title_var = 8 }
+			}
+			RC_action_buttom_click = {
+				set_country_flag = action_open_window_action
+
+				clr_country_flag = action_open_window_SI_1
+				clr_country_flag = action_open_window_SI_2
+				clr_country_flag = action_open_window_SI_3
+				clr_country_flag = action_open_window_SI_4
+				clr_country_flag = action_open_window_SI_5
+				clr_country_flag = action_open_window_SI_6
+				clr_country_flag = action_open_window_SI_7
+				clr_country_flag = action_open_window_SI_8
+				clr_country_flag = action_open_window_activity_2
+				clr_country_flag = action_open_window_activity_1
+				clr_country_flag = action_open_window_train
+				clr_country_flag = action_open_window_eat
+			}
+			RC_activity_buttom_click = {
+				if = {
+					limit = { check_variable = { map_title_var = 1 } }
+					set_country_flag = action_open_window_activity_1
+
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 2 } }
+					set_country_flag = action_open_window_activity_2
+
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+			}
+			RC_eat_buttom_click = {
+				set_country_flag = action_open_window_eat
+
+				clr_country_flag = action_open_window_SI_1
+				clr_country_flag = action_open_window_SI_2
+				clr_country_flag = action_open_window_SI_3
+				clr_country_flag = action_open_window_SI_4
+				clr_country_flag = action_open_window_SI_5
+				clr_country_flag = action_open_window_SI_6
+				clr_country_flag = action_open_window_SI_7
+				clr_country_flag = action_open_window_SI_8
+				clr_country_flag = action_open_window_activity_2
+				clr_country_flag = action_open_window_activity_1
+				clr_country_flag = action_open_window_train
+				clr_country_flag = action_open_window_action
+
+			}
+			RC_train_buttom_click = {
+				if = {
+					limit = { check_variable = { map_title_var = 1 } }
+					set_country_flag = action_open_window_train
+
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_eat
+					clr_country_flag = action_open_window_action
+				}
+			}
+
+			RC_SI_buttom_click = {
+				if = {
+					limit = { check_variable = { map_title_var = 1 } }
+					set_country_flag = action_open_window_SI_1
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 2 } }
+					set_country_flag = action_open_window_SI_2
+
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 3 } }
+					set_country_flag = action_open_window_SI_3
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 4 } }
+					set_country_flag = action_open_window_SI_4
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 5 } }
+					set_country_flag = action_open_window_SI_5
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 6 } }
+					set_country_flag = action_open_window_SI_6
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 7 } }
+					set_country_flag = action_open_window_SI_7
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_SI_8
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+				if = {
+					limit = { check_variable = { map_title_var = 8 } }
+					set_country_flag = action_open_window_SI_8
+
+					clr_country_flag = action_open_window_SI_2
+					clr_country_flag = action_open_window_SI_3
+					clr_country_flag = action_open_window_SI_4
+					clr_country_flag = action_open_window_SI_5
+					clr_country_flag = action_open_window_SI_6
+					clr_country_flag = action_open_window_SI_7
+					clr_country_flag = action_open_window_SI_1
+					clr_country_flag = action_open_window_activity_1
+					clr_country_flag = action_open_window_activity_2
+					clr_country_flag = action_open_window_train
+					clr_country_flag = action_open_window_action
+					clr_country_flag = action_open_window_eat
+				}
+			}
+
+			RC_tutorial_buttom_click = {
+				set_country_flag = open_windows_galgame_tutorial
+			}
+		}
+	}
+
+		#行动GUI
+	GEU_RC_Action_action_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_action_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_action
+		}
+
+		effects = {
+			RC_action_window_buttom_DM_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 2
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 2
+					}
+				}
+			}
+			RC_action_window_buttom_DD_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 5
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 5
+					}
+				}
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_action
+			}
+		}
+	}
+
+	GEU_RC_Action_activity_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_activity_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_activity_1
+		}
+
+		effects = {
+			RC_action_window_buttom_SF_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 1
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 1
+					}
+				}
+			}
+			RC_action_window_buttom_Daydream_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 1
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 1
+					}
+				}
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_activity_1
+			}
+		}
+	}
+
+	GEU_RC_Action_activity_2_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_activity_2_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_activity_2
+		}
+
+		effects = {
+			RC_action_window_buttom_shopping_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 1
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 1
+					}
+				}
+			}
+			RC_action_window_buttom_go_l_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 1
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 1
+					}
+				}
+			}
+			RC_action_window_buttom_go_n_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 1
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 1
+					}
+				}
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_activity_2
+			}
+		}
+	}
+
+	GEU_RC_Action_eat_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_eat_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_eat
+		}
+
+		effects = {
+			RC_action_window_buttom_nothing_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 0
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 0
+					}
+				}
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_eat
+			}
+		}
+	}
+
+	GEU_RC_Action_train_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_train_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_train
+		}
+
+		effects = {
+			RC_action_window_buttom_train_fight_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 5
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 5
+					}
+				}
+			}
+			RC_action_window_buttom_train_magic_click = {
+				if = {
+					limit = {
+						set_temp_variable = {
+							temp_action_points = action_points_var
+						}
+						subtract_from_temp_variable = {
+							temp_action_points = 5
+						}
+						check_variable = {
+							temp_action_points > -0.1
+						}
+					}
+					subtract_from_variable = {
+						action_points_var = 5
+					}
+				}
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_train
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_1_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_1_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_1
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_myself_click = {
+			}
+			RC_action_window_buttom_SI_Marisa_click = {
+			}
+			RC_action_window_buttom_SI_Shion_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_1
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_2_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_2_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_2
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Youmu_click = {
+			}
+			RC_action_window_buttom_SI_Akyuu_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_2
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_3_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_3_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_3
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Yuka_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_3
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_4_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_4_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_4
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Reisen_click = {
+			}
+			RC_action_window_buttom_SI_Kaguya_click = {
+			}
+			RC_action_window_buttom_SI_Mokou_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_4
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_5_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_5_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_5
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Sanae_click = {
+			}
+			RC_action_window_buttom_SI_Satori_click = {
+			}
+			RC_action_window_buttom_SI_Aya_click = {
+			}
+			RC_action_window_buttom_SI_Megumu_click = {
+			}
+			RC_action_window_buttom_SI_Yukari_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_5
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_6_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_6_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_6
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Kokoro_click = {
+			}
+			RC_action_window_buttom_SI_Koishi_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_6
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_7_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_7_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_7
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_myself_click = {
+			}
+			RC_action_window_buttom_SI_Marisa_click = {
+			}
+			RC_action_window_buttom_SI_Shion_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_7
+			}
+		}
+	}
+
+	GEU_RC_Action_SI_8_GUI = {
+		context_type = player_context
+		window_name = "GEU_RC_Action_SI_8_GUI"
+
+		visible = {
+			tag = GEN
+			has_country_flag = action_open_window_SI_8
+		}
+
+		effects = {
+			RC_action_window_buttom_SI_Cirno_click = {
+			}
+			RC_action_window_buttom_SI_Remilia_click = {
+			}
+			RC_action_window_buttom_SI_Sakuya_click = {
+			}
+			RC_action_window_buttom_SI_Rumia_click = {
+			}
+			RC_action_window_buttom_Cancel_click = {
+				clr_country_flag = action_open_window_SI_8
+			}
+		}
+	}
+
+	RC_I_Give_Up_GUI = {
+		context_type = player_context
+		window_name = "RC_I_Give_Up"
+
+			visible = {
+				tag = GEN
+				has_country_flag = reimu_gui_open_I_give_up
+			}
+
+		effects = {
+			RC_Give_Up_Button_Yes_click = {
+				set_variable = { Reimu_HP = 0 }
+				set_country_flag = reimu_dead
+				clr_country_flag = reimu_gui_open_3
+				set_country_flag = reimu_gui_open_dead
+				clr_country_flag = reimu_gui_open_I_give_up
+			}
+			RC_Give_Up_Button_No_click = {
+				clr_country_flag = reimu_gui_open_I_give_up
+			}
+		}
+	}
+
+	RC_DEAD = {
+		context_type = player_context
+		window_name = "RC_DEAD"
+
+			visible = {
+				tag = GEN
+				has_country_flag = reimu_gui_open_dead
+			}
+
+		effects = {
+			RC_REIMU_DEAD_GUI_click = {
+				clr_country_flag = reimu_gui_open_dead
+			}
+		}
+	}
+}
