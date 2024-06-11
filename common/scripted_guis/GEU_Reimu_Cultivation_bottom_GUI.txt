@@ -1,3 +1,4 @@
+#Buttom
 scripted_gui = {
 	GEU_bottom_gui = {
 		context_type = player_context
