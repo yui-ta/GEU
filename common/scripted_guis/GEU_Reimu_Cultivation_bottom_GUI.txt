@@ -13,7 +13,11 @@ scripted_gui = {
 				if = {
 					limit = {
 					tag = GEN
-					NOT = { has_country_flag = reimu_gui_open }
+					NOT = {
+					has_country_flag = reimu_gui_open
+					has_country_flag = animated_RC_p
+					has_country_flag = reimu_gui_open_3
+				}
 				}
 				set_country_flag = reimu_gui_open
 				else_if = {
@@ -21,10 +25,18 @@ scripted_gui = {
 					tag = GEN
 					has_country_flag = reimu_gui_open
 				}
+				else_if = {
+					limit = { has_country_flag = reimu_gui_open_3 }
+					clr_country_flag = reimu_gui_open_3
+				}
+				else_if = {
+					limit = { has_country_flag = animated_RC_p }
+					set_country_flag = reimu_gui_open_3
+				}
 				clr_country_flag = reimu_gui_open
 				}
 			}
-			clr_country_flag = country_has_gui_1
+			clr_country_flag = country_has_gui_2
 			}
 		}
 	}
@@ -44,13 +56,25 @@ scripted_gui = {
 				if = {
 					limit = {
 					tag = GEN
-					NOT = { has_country_flag = reimu_gui_open }
+					NOT = {
+					has_country_flag = reimu_gui_open
+					has_country_flag = animated_RC_p
+					has_country_flag = reimu_gui_open_3
+				}
 				}
 				set_country_flag = reimu_gui_open
 				else_if = {
 					limit = {
 					tag = GEN
 					has_country_flag = reimu_gui_open
+				}
+				else_if = {
+					limit = { has_country_flag = reimu_gui_open_3 }
+					clr_country_flag = reimu_gui_open_3
+				}
+				else_if = {
+					limit = { has_country_flag = animated_RC_p }
+					set_country_flag = reimu_gui_open_3
 				}
 				clr_country_flag = reimu_gui_open
 				}
