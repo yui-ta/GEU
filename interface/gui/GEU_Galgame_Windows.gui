@@ -19,6 +19,7 @@ guiTypes = {
 			name = "GEU_Gal_Windows_button"
 			text = "[GEUGetGalWindowsOption]"
 			position = { x= 115 y= 70 }
+			shortcut = "RETURN"
 			spriteType ="GFX_gal_windows_button"
 			buttonFont = "Bomb_24"
 			Orientation = center
