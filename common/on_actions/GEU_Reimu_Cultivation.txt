@@ -29,6 +29,7 @@ on_actions = {
 						check_variable = {
 							Reimu_HP =0
 						}
+						has_country_flag = animated_RC_p
 						NOT = {
 							has_country_flag = reimu_dead
 						}
