@@ -1,0 +1,162 @@
+
+GEU_setup_starting = {
+		set_variable = { 1831.nationality = 604 }
+		every_country = {
+			if = {
+				limit = {
+					original_tag = GEN
+					NOT = {
+						has_country_flag = country_has_loading
+					}
+				}
+				add_to_array = { CountryInfo_array_main = 101 }
+				add_to_array = { CountryInfo_array_main = 1 }
+				add_to_array = { CountryInfo_array_main = 2 }
+				add_to_array = { CountryInfo_array_main = 3 }
+				add_to_array = { CountryInfo_array_main = 4 }
+				add_to_array = { CountryInfo_folder_country_101 = 1 }
+				add_to_array = { CountryInfo_folder_country_101 = 2 }
+				add_to_array = { CountryInfo_folder_country_101 = 3 }
+				add_to_array = { CountryInfo_folder_country_101 = 4 }
+
+				add_to_array = { CountryInfo_array_main = 102 }
+				add_to_array = { CountryInfo_array_main = 5 }
+				add_to_array = { CountryInfo_array_main = 6 }
+				add_to_array = { CountryInfo_array_main = 7 }
+				add_to_array = { CountryInfo_array_main = 8 }
+				add_to_array = { CountryInfo_folder_country_102 = 5 }
+				add_to_array = { CountryInfo_folder_country_102 = 6 }
+				add_to_array = { CountryInfo_folder_country_102 = 7 }
+				add_to_array = { CountryInfo_folder_country_102 = 8 }
+
+				add_to_array = { CountryInfo_array_main = 103 }
+				add_to_array = { CountryInfo_array_main = 9 }
+				add_to_array = { CountryInfo_array_main = 10 }
+				add_to_array = { CountryInfo_array_main = 11 }
+				add_to_array = { CountryInfo_array_main = 12 }
+				add_to_array = { CountryInfo_folder_country_103 = 9 }
+				add_to_array = { CountryInfo_folder_country_103 = 10 }
+				add_to_array = { CountryInfo_folder_country_103 = 11 }
+				add_to_array = { CountryInfo_folder_country_103 = 12 }
+
+					add_to_array = { CountryInfo_top_tab_array = 1 }
+					#Econ edited out for time
+					#if = {
+						#limit = { is_russian_nation = no }
+						#add_to_array = { CountryInfo_top_tab_array = 2 }
+					#}
+					add_to_array = { CountryInfo_top_tab_array = 3 }
+					add_to_array = { CountryInfo_top_tab_array = 4 }
+					set_variable = { CountryInfo_tab = 1 }
+
+					# Econ Data Setup
+					#add_to_array = { CountryInfo_economic_store = 1 }
+					#add_to_array = { CountryInfo_economic_store = 2 }
+
+					# Tutorial setup
+					add_to_array = { CountryInfo_tutorial_store = 101 }
+					add_to_array = { CountryInfo_tutorial_store = 1 }
+					add_to_array = { CountryInfo_tutorial_store = 3 }
+					add_to_array = { CountryInfo_tutorial_store = 4 }
+					add_to_array = { CountryInfo_tutorial_store = 5 }
+
+					add_to_array = { CountryInfo_folder_tutorial_101 = 1 }
+					add_to_array = { CountryInfo_folder_tutorial_101 = 3 }
+					add_to_array = { CountryInfo_folder_tutorial_101 = 4 }
+					add_to_array = { CountryInfo_folder_tutorial_101 = 5 }
+
+					add_to_array = { CountryInfo_tutorial_store = 102 }
+					add_to_array = { CountryInfo_tutorial_store = 6 }
+					add_to_array = { CountryInfo_tutorial_store = 7 }
+					add_to_array = { CountryInfo_tutorial_store = 8 }
+
+					add_to_array = { CountryInfo_folder_tutorial_102 = 6 }
+					add_to_array = { CountryInfo_folder_tutorial_102 = 7 }
+					add_to_array = { CountryInfo_folder_tutorial_102 = 8 }
+
+					# Mod development setup
+					add_to_array = { CountryInfo_development_store = 101 }
+					add_to_array = { CountryInfo_development_store = 1 }
+
+					add_to_array = { CountryInfo_folder_development_101 = 1 }
+
+					add_to_array = { CountryInfo_development_store = 102 }
+					add_to_array = { CountryInfo_development_store = 2 }
+					add_to_array = { CountryInfo_development_store = 3 }
+					add_to_array = { CountryInfo_development_store = 4 }
+					add_to_array = { CountryInfo_development_store = 5 }
+
+					add_to_array = { CountryInfo_folder_development_102 = 2 }
+					add_to_array = { CountryInfo_folder_development_102 = 3 }
+					add_to_array = { CountryInfo_folder_development_102 = 4 }
+					add_to_array = { CountryInfo_folder_development_102 = 5 }
+
+					add_to_array = { CountryInfo_development_store = 103 }
+					add_to_array = { CountryInfo_development_store = 6 }
+
+					add_to_array = { CountryInfo_folder_development_103 = 6 }
+
+					set_country_flag = country_has_gui_1
+					set_country_flag = country_has_gui_2
+					set_country_flag = gui_alert_visible_2
+					set_country_flag = TNO_Country_Info_Screen_Visible
+					set_country_flag = country_has_loading
+					if = {
+						limit = {
+							check_variable = { CountryInfo_array_main^num > 0 }
+						}
+						for_each_loop = {
+							array = CountryInfo_array_main
+							add_to_array = { CountryInfo_storage_array = v }
+						}
+					}
+				GEN = {
+				set_variable = {
+					GDP = 0.5
+				}				#in billions
+				set_variable = {
+					GDP_growth = 2.4
+				}
+				set_variable = {
+					income_tax_rate = 0.3
+				}
+				set_variable = {
+					business_tax_rate = 0.25
+				}
+				set_variable = {
+					poverty_rate = 10
+				}
+				set_variable = {
+					poverty_monthly_change = -0.1
+				}
+				set_variable = {
+					money_reserves = 0
+				}				#in billions
+				set_variable = {
+					national_debt = 0.1
+				}				#in billions
+				set_variable = {
+					misc_income = 0.2
+				}
+				set_variable = {
+					misc_costs = 0
+				}
+				set_variable = {
+					base_inflation_rate = 1.3
+				}
+				set_temp_variable = {
+					temp_credit_rating = 8
+				}
+				set_temp_variable = {
+					temp_credit_rating_min = 8
+				}
+				set_temp_variable = {
+					temp_credit_rating_max = 8
+				}
+				econ_initialize_credit_rating_system = yes
+				initiate_display_vars = yes
+			}
+		}
+	}
+}
+
