@@ -1,0 +1,56 @@
+scripted_gui = {
+	GEU_Economy_gui_main = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "GEU_Economy_gui_main"
+
+		visible = {
+			tag = GEN
+			has_country_flag = GEU_open_gui_economy
+		}
+
+		properties = {
+			GEU_eco_button = {
+				frame = GEU_eco_button_icon
+			}
+		}
+
+		effects = {
+			GEU_eco_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = GEU_gui_economy_open } }
+					set_country_flag = GEU_gui_economy_open
+					set_variable = { GEU_eco_button_icon = 2 }
+					else_if = {
+						limit = { has_country_flag = GEU_gui_economy_open }
+						clr_country_flag = GEU_gui_economy_open
+						set_variable = { GEU_eco_button_icon = 1 }
+					}
+				}
+			}
+		}
+	}
+
+	GEU_Economy_gui_button_open = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "GEU_Economy_gui_button_open"
+
+		visible = {
+			tag = GEN
+		}
+
+		effects = {
+			GEU_open_second_topbar_button_click ={
+				if = {
+					limit = { NOT = { has_country_flag = GEU_open_gui_economy } }
+					set_country_flag = GEU_open_gui_economy
+					else_if = {
+						limit = { has_country_flag = GEU_open_gui_economy }
+						clr_country_flag = GEU_open_gui_economy
+					}
+				}
+			}
+		}
+	}
+}

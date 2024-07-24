@@ -1,0 +1,25 @@
+add_namespace = gen_focus
+
+country_event = {
+	id = gen_focus.1
+
+	title = gen_focus.1.t
+	desc = gen_focus.1.d
+	picture = GFX_report_news_Aya
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gen_focus.1.a
+		hidden_effect = {
+			country_event = {
+				id = gen_focus.2
+				days = 2
+			}
+		}
+	}
+}
+
+
+

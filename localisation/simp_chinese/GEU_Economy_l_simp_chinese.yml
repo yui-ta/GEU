@@ -1,0 +1,45 @@
+﻿l_simp_chinese:
+ GEU_econ_graph_month: "[GEU_econ_graph_month] [GEU_econ_graph_year]"
+ GEU_line_graph_data_label: "[GEU_econ_graph_month] [GEU_econ_graph_year]"
+ GEU_econ_month_0: "睦月"
+ GEU_econ_month_1: "如月"
+ GEU_econ_month_2: "弥月"
+ GEU_econ_month_3: "卯月"
+ GEU_econ_month_4: "皋月"
+ GEU_econ_month_5: "葵月"
+ GEU_econ_month_6: "文月"
+ GEU_econ_month_7: "叶月"
+ GEU_econ_month_8: "长月"
+ GEU_econ_month_9: "神无"
+ GEU_econ_month_10: "霜月"
+ GEU_econ_month_11: "师走"
+ GEU_econ_year: "'[?year]"
+
+ Econ_Subtype_Gensokyo_Style_Feudal: "幻想乡式封建经济"
+ Econ_Subtype_Gensokyo_Style_Feudal_desc: "幻想乡式封建经济是建立在人类私有与农业实物税上极其落后的经济体制，其通过征收粮食以干预私有人类生存并积聚社会财富以供养国有庄园中的锚定人。幻想乡的基本经济单位是层次分明的封建庄园，其中生活的人类待遇与管理方式类似西藏的农奴庄园的差乌拉制度，同时还具备着类似差巴、堆穷的身份等级制度，并额外存在诸如年寄与名主等中间阶层管理妖怪庄园内部的人类庄园。这一方式尽管生产低效，却满足妖怪对人类的精神需求与政府对粮食的控制。"
+
+ GEU_Eco_Order_Button: "[GEUEcoGetOrderButton]"
+ GEU_Eco_gui_order_button_sell: "§B卖出§!"
+ GEU_Eco_gui_order_button_buy: "§Y买入§!"
+
+ GEU_Eco_currency_in_circulation_nil: ""
+ GEU_Eco_currency_in_circulation_k: "K"
+ GEU_Eco_currency_in_circulation_m: "M"
+ GEU_Eco_currency_in_circulation_b: "B"
+
+ GEU_currency_title: "§G货币价值系数§!"
+ GEU_currency_in_circulation: "货币流通总量：[?GEU_currency_in_circulation_view|2][defined_GEU_Eco_currency_in_circulation]"
+ GEU_currency_value_coefficient: "货币价值系数：[?currency_value|+1]"
+ GEU_cur_inflation_rate: "通货膨胀率："
+
+ GEU_Eco_reserves_t: "吨"
+ GEU_Eco_reserves_wt: "万吨"
+
+ GEU_Eco_reserves: "储备金：[?GEU_reserves|Y0]§Y[defined_GEU_Eco_reserves]§!"
+ anchors_value_coefficient: "锚定物价值系数：[?anchors_y_label^i|+1]"
+
+ GEU_anchors_title: "§Y锚定物价值系数§!"
+ GEU_anchors_type: "[GetAnchorsType]"
+ Anchors_Type_Nil: "§R无货币本位§!"
+ Anchors_Type_Human: "§B人本位§!"
+

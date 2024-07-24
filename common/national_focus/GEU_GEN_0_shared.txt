@@ -2,10 +2,15 @@
 	shared_focus = {
 		id = GEN_Seclusion
 		icon = GFX_goals_GEN_Seclusion
-		cost = 3
+		cost = 1
 		x = 9
 		y = 0
 		completion_reward = {
+			add_political_power = 30
+			add_stability = -0.05
+			country_event = {
+				id = gen_focus.1
+			}
 		}
 	}
 
@@ -15,10 +20,19 @@
 		prerequisite = {
 			focus = GEN_Seclusion
 		}
-		cost = 3
+		cost = 2
 		x = 9
 		y = 1
 		completion_reward = {
+			add_stability = 0.15
+			add_ideas = { GEN_The_fog_shrouded }
+			remove_ideas = { GEN_The_Land_of_Hermits }
+			custom_effect_tooltip = Reimu_GUI_enable_tt
+			hidden_effect = {
+				set_country_flag = country_has_gui_1
+				set_country_flag = country_has_gui_2
+				set_country_flag = reimu_gui_enable
+			}
 		}
 	}
 
@@ -28,10 +42,15 @@
 		prerequisite = {
 			focus = GEN_Incredible_of_Jepan
 		}
-		cost = 3
+		cost = 1
 		x = 9
 		y = 2
 		completion_reward = {
-			load_focus_tree = GEN_focus_tree_2
+			add_stability = 0.05
+			add_political_power = 50
+			TNO_improve_admin_efficiency_really_low = yes
+			hidden_effect = {
+				load_focus_tree = GEN_focus_tree_2
+			}
 		}
 	}

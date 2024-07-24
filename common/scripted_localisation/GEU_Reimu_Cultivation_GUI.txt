@@ -1,1 +1,41 @@
+defined_text = {
+	name = GetGEN_ReimuGUI_Button_Tab
 
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = reimu_gui_enable
+			}
+		}
+		localization_key = GetGEN_ReimuGUI_open_Tooltip
+	}
+	text = {
+		trigger = {
+			has_country_flag = reimu_gui_enable
+		}
+		localization_key = GEU_Reimu_GUI_Enable_Tooltip
+	}
+}
+
+defined_text = {
+	name = GetRC_train_buttom_Tab
+
+	text = {
+		trigger = {
+			check_variable = {
+				map_title_var = 1
+			}
+		}
+		localization_key = RC_train_buttom_Enabled_Tooltip
+	}
+	text = {
+		trigger = {
+			NOT ={
+				check_variable = {
+					map_title_var = 1
+				}
+			}
+		}
+		localization_key = RC_train_buttom_Not_Enabled_Tooltip
+	}
+}

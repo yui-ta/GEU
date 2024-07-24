@@ -172,12 +172,13 @@ characters = {
 		name = GEN_Yakumo_Yukari
 		portraits = {
 			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Yakumo_Yukari.dds"
 				small = "GFX_idea_GEN_Yakumo_Yukari"
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_YAKUMO_YUKARI_DESC"
-			ideology = paternalism_oligarchy_subtype
+			ideology = paternalism_gensokyo_system_subtype
 			traits = { GEN_youkai_of_the_realm }
 			expire = "1989.1.1.1"
 			id = -1

@@ -1,0 +1,52 @@
+defined_text = {
+	name = GEUGetGalCharacterImage
+	text = {
+		trigger = { GEN = { has_country_flag = GEU_Gal_Windows_1 } }
+		localization_key = "GFX_Reimu_Character"
+	}
+	#教程对话
+	text = {
+		trigger = { GEN = { has_country_flag = open_windows_galgame_tutorial } }
+		localization_key = "GFX_Konata_1_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_1 } }
+		localization_key = "GFX_Konata_2_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_2 } }
+		localization_key = "GFX_Konata_3_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_3 } }
+		localization_key = "GFX_Konata_3_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_4 } }
+		localization_key = "GFX_Konata_3_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_5 } }
+		localization_key = "GFX_Konata_3_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_6 } }
+		localization_key = "GFX_Konata_4_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_7 } }
+		localization_key = "GFX_Konata_5_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_8 } }
+		localization_key = "GFX_Konata_4_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_9 } }
+		localization_key = "GFX_Konata_6_Character"
+	}
+	text = {
+		trigger = { GEN = { has_country_flag = galgame_tutorial_10 } }
+		localization_key = "GFX_Konata_6_Character"
+	}
+}

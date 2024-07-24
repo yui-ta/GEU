@@ -1,4 +1,4 @@
-version="1.14.*"
+version="1.01"
 tags={
 	"Alternative History"
 }
@@ -8,4 +8,4 @@ dependencies={
 	"The New Order: Last Days of Europe(CN.Ver)"
 }
 picture="thumbnail.png"
-supported_version="1.14.5"
+supported_version="1.14.*"

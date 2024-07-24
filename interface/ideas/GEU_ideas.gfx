@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
     spriteType = {
         name = "GFX_idea_GEN_The_Land_of_Hermits"
         texturefile = "gfx/interface/ideas/idea/GEN/GEN_The_Land_of_Hermits.dds"
@@ -18,5 +18,9 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_GEN_SC_Rules"
         texturefile = "gfx/interface/ideas/idea/GEN/GEN_SC_Rules.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GEN_The_fog_shrouded"
+        texturefile = "gfx/interface/ideas/idea/GEN/GEN_The_fog_shrouded.dds"
     }
 }

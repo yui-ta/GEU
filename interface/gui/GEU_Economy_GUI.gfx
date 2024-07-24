@@ -1,0 +1,156 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GEU_Eco_bg"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_Background.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_close_button_bg"
+		texturefile = "gfx/interface/GEU_Economy/GEU_close_button_bg.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_add"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_add.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_reduce"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_reduce.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_selling_add"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_selling_add.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_selling_reduce"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_selling_reduce.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_selling_button"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_selling_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_selling_box"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_selling_box.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Select_Country"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_Select_Country.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_PE_box"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_PE_box.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_order_bill"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_order_bill.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_order"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_order.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_line"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_line.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_gui_order_farme"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_order_farme.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_gui_box_2"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_box_2.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_gui_box"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_box.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_gui_order_button"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_order_button.dds"
+	}
+
+	#Anchors
+	spriteType = {
+		name = "GFX_Anchors_Type_Nil"
+		texturefile = "gfx/interface/GEU_Economy/anchors/GEU_anchors_nil.dds"
+	}
+	spriteType = {
+		name = "GFX_Anchors_Type_Human"
+		texturefile = "gfx/interface/GEU_Economy/anchors/GEU_anchors_human.dds"
+	}
+
+	#Alart
+	spriteType = {
+		name = "GFX_GEU_Eco_Gold_deflation_active"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Gold_deflation_active.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Gold_deflation_inactive"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Gold_deflation_inactive.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Gold_inflation_active"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Gold_inflation_active.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Gold_inflation_inactive"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Gold_inflation_inactive.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Trade_risk_active"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Trade_risk_active.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Trade_risk_inactive"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Trade_risk_inactive.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Trade_sanctions_active"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Trade_sanctions_active.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_Trade_sanctions_inactive"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_Trade_sanctions_inactive.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_stolen"
+		texturefile = "gfx/interface/GEU_Economy/alart/GEU_Eco_stolen.dds"
+	}
+
+
+	#FROM TNO
+	spriteType = {
+		name = "GFX_Econ_Subtype_Gensokyo_Style_Feudal"
+		textureFile = "gfx/interface/GEU_Economy/Econ_types/GFX_Econ_Subtype_Gensokyo_Style_Feudal.dds"
+	}
+	spriteType = {
+		name = "GFX_EconBase_TabsButton"
+		textureFile = "gfx/interface/economy_gui/econ_panel/aaa_BASE/econ_tabs_button.dds"
+	}
+
+	progressbartype = {
+		name = GFX_econ_line_graph_segment_yellow
+		steps = 1000000
+		color = { 0.010 0.100 0.25 0.0 }
+		colortwo = { 0.92 0.92 0.36 1 }
+		# Image has width 10, height 100, line width 2.5px
+		size = {
+			x = 10
+			y = 100
+		}
+		effectFile = "gfx/FX/line_graph_2.lua"
+	}
+
+	progressbartype = {
+		name = GFX_econ_line_graph_segment_green
+		steps = 1000000
+		color = { 0.010 0.100 0.25 0.0 }
+		colortwo = { 0.52 0.92 0.56 1 }
+		# Image has width 10, height 100, line width 2.5px
+		size = {
+			x = 10
+			y = 100
+		}
+		effectFile = "gfx/FX/line_graph_2.lua"
+	}
+}

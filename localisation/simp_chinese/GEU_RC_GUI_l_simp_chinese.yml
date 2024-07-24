@@ -1,9 +1,16 @@
 ﻿l_simp_chinese:
- enter_GEU_main_gui_tt_generic: "打开灵梦养成计划GUI"
- scripted_gui_open_tt_gen_rc: "打开灵梦养成计划GUI"
+ enter_GEU_main_gui_tt_generic: "[GetGEN_ReimuGUI_Button_Tab]"
+ scripted_gui_open_tt_gen_rc: "[GetGEN_ReimuGUI_Button_Tab]"
+ GetGEN_ReimuGUI_open_Tooltip: "若要使用§R灵梦养成计划GUI§!，请通过完成相关国策进行解锁"
+ GEU_Reimu_GUI_Enable_Tooltip: "打开§R灵梦养成计划GUI§!"
+
  Text_tutorial: "打开教程GAL对话"
- text_RC_train_buttom: "若要使用训练，请将地区切换至§x博丽神社§!"
- Loc_RC_action_points: "§B行动点§!\n点数改变：+[?action_points_var_weekly_add|+]/周。"
+
+ text_RC_train_buttom: "[GetRC_train_buttom_Tab]"
+ RC_train_buttom_Enabled_Tooltip: "§G训练当前可用§!"
+ RC_train_buttom_Not_Enabled_Tooltip: "若要使用训练，请将地区切换至§x博丽神社§!"
+
+ Loc_RC_action_points: "§B行动点§!\n点数改变：[?action_points_var_weekly_add||=+]/周。\n基础值：§Y20§!"
 
  text_buttom_DM: "处理异变"
  text_cost_action_points_DM: "消耗 2 §B£GFX_RC_action_points_small 行动点§!"

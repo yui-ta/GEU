@@ -1,0 +1,307 @@
+econ_strat_load = {
+	every_country = {
+		GEN = {
+			set_variable = { GEU_currency_in_circulation = 1 }
+			set_variable = { GEU_reserves = 5 }
+			set_variable = { anchor_value = 210 }
+			set_variable = { anchors_type = token:Anchors_Type_Human }
+			set_variable = { TNO_economy_subtype = token:Econ_Subtype_Gensokyo_Style_Feudal }
+			set_variable = { GEU_button_shop = 1 }
+			econ_test_cur_value = yes
+			econ_strat_load_currency = yes
+			econ_graphs_startup = yes
+		}
+	}
+}
+
+econ_test_cur_value = {
+	every_country = {
+		GEN = {
+			set_temp_variable = { GEU_currency_in_circulation_temp = GEU_currency_in_circulation }
+			set_temp_variable = { GEU_reserves_temp = GEU_reserves }
+			set_temp_variable = { gdp_temp_value = gdp }
+			divide_temp_variable = { GEU_reserves_temp = GEU_currency_in_circulation_temp }
+			divide_temp_variable = { gdp_temp_value = GEU_currency_in_circulation_temp }
+			multiply_temp_variable = { GEU_reserves_temp = gdp_temp_value }
+			multiply_temp_variable = { GEU_reserves_temp = anchor_value }
+			set_variable = { currency_value = GEU_reserves_temp }
+		}
+	}
+}
+
+econ_test_system_reserves = {
+	every_country = {
+		GEN = {
+			set_variable = { GEU_reserves_view = GEU_reserves }
+			if = {
+				limit = {
+						check_variable = { GEU_reserves > 0 }
+						check_variable = { GEU_reserves < 10000 }
+					}
+				set_variable = { test_system_reserves = 0 }
+				set_variable = { GEU_reserves_view = GEU_reserves }
+			}
+			if = {
+				limit = {
+						OR = {
+							check_variable = { GEU_reserves > 10000 }
+							check_variable = { GEU_reserves = 10000 }
+						}
+					}
+				set_variable = { test_system_reserves = 1 }
+				divide_variable = { GEU_reserves_view = 10000 }
+			}
+		}
+	}
+}
+
+econ_test_system_cur = {
+	every_country = {
+		GEN = {
+			set_variable = {
+				GEU_currency_in_circulation_view = GEU_currency_in_circulation
+			}
+			if = {
+				limit = {
+					check_variable = { GEU_currency_in_circulation > 0 }
+					check_variable = { GEU_currency_in_circulation < 0.0000001 }
+					}
+				set_variable = { test_system_currency_in_circulation = 0 }
+				multiply_variable = { GEU_currency_in_circulation_view = 100000000 }
+			}
+			if = {
+				limit = {
+					OR = {
+						check_variable = { GEU_currency_in_circulation = 0.0000001 }
+						AND = {
+							check_variable = { GEU_currency_in_circulation > 0.0000001 }
+							check_variable = { GEU_currency_in_circulation < 0.0001 }
+						}
+					}
+				}
+				set_variable = { test_system_currency_in_circulation = 1 }
+				multiply_variable = { GEU_currency_in_circulation_view = 1000000 }
+			}
+			if = {
+				limit = {
+					OR = {
+						check_variable = { GEU_currency_in_circulation = 0.0001 }
+						AND = {
+							check_variable = { GEU_currency_in_circulation > 0.0001 }
+							check_variable = { GEU_currency_in_circulation < 1 }
+						}
+					}
+				}
+				set_variable = { test_system_currency_in_circulation = 2 }
+				multiply_variable = { GEU_currency_in_circulation_view = 1000 }
+			}
+			if = {
+				limit = {
+					OR = {
+						check_variable = { GEU_currency_in_circulation > 1 }
+						check_variable = { GEU_currency_in_circulation = 1 }
+					}
+				}
+				set_variable = { test_system_currency_in_circulation = 3 }
+			}
+		}
+	}
+}
+
+GEU_econ_update_graph_monthly = {
+	add_to_array = { GEU_econ_graph_months = ZZZ.GEU_econ_graph_month }
+	add_to_array = { anchor_value_numbers = anchor_value }
+	add_to_array = { currency_value_numbers = currency_value }
+	if = {
+		limit = {
+			check_variable = { GEU_econ_graph_months^num > 17 }
+		}
+		remove_from_array = { array = GEU_econ_graph_months index = 0 }
+		remove_from_array = { array = anchor_value_numbers index = 0 }
+		remove_from_array = { array = currency_value_numbers index = 0 }
+	}
+	econ_strat_load_anchors = yes
+	econ_strat_load_currency = yes
+}
+
+econ_graphs_startup = {
+	clear_array = anchor_value_numbers
+	clear_array = currency_value_numbers
+	set_temp_variable = { curr_anchor_value = anchor_value }
+	set_temp_variable = { curr_currency_value = currency_value }
+
+	set_temp_variable = { GEU_econ_graph_month = 8 }
+	for_loop_effect = {
+		start = 0
+		end = 17
+		value = i
+
+		add_to_array = { GEU_econ_graph_months = GEU_econ_graph_month }
+		add_to_temp_variable = { GEU_econ_graph_month = 1 }
+
+		add_to_array = { array = anchor_value_numbers value = curr_anchor_value index = 0 }
+		add_to_array = { array = currency_value_numbers value = curr_currency_value index = 0 }
+
+		# Process Currency
+		set_temp_variable = { rand_multiplier = random }
+		subtract_from_temp_variable = { rand_multiplier = 0.5 }
+		add_to_temp_variable = { rand_multiplier = 1 }
+		set_temp_variable = { delta = rand_multiplier }
+
+		subtract_from_temp_variable = { curr_currency_value = delta }
+		clamp_temp_variable = { var = curr_currency_value min = 0 }
+
+		# Process Anchor
+		set_temp_variable = { rand_multiplier = random }
+		subtract_from_temp_variable = { rand_multiplier = 0.5 }
+		add_to_temp_variable = { rand_multiplier = 1 }
+		set_temp_variable = { delta = rand_multiplier }
+
+		subtract_from_temp_variable = { curr_anchor_value = delta }
+		clamp_temp_variable = { var = curr_anchor_value min = 0 }
+
+	}
+	econ_strat_load_anchors = yes
+	econ_strat_load_currency = yes
+}
+
+econ_strat_load_anchors = {
+	#I hate this
+	clear_array = anchors_y_label
+	set_temp_variable = { min = anchor_value_numbers^0 }
+	set_temp_variable = { max = anchor_value_numbers^0 }
+	for_loop_effect = {
+		start = 0
+		end = anchor_value_numbers^num
+		value = i
+
+		if = {
+			limit = { check_variable = { anchor_value_numbers^i > max } }
+			set_temp_variable = { max = anchor_value_numbers^i }
+		}
+		if = {
+			limit = { check_variable = { anchor_value_numbers^i < min } }
+			set_temp_variable = { min = anchor_value_numbers^i }
+		}
+	}
+
+
+	# Our range is (min value / 1.1) - (max value * 1.1) - FROM TNO
+	multiply_temp_variable = { max = 1.1 }
+	divide_temp_variable = { min = 1.1 }
+
+
+	set_temp_variable = { range = max }
+	subtract_from_temp_variable = { range = min }
+
+	# Divide the range into 5 equally sized chunks - FROM TNO
+	set_temp_variable = { display_increment = range }
+	divide_temp_variable = { display_increment = 4 }
+
+	set_temp_variable = { anchors_display = min }
+	for_loop_effect = {
+		end = 5
+		add_to_array = { anchors_y_label = anchors_display index = 0 }
+		add_to_temp_variable = { anchors_display = display_increment }
+	}
+
+	divide_temp_variable = { range = 100 }
+
+	clear_array = anchors_y_label_1
+	for_loop_effect = {
+		start = 0
+		end = 16
+		value = i
+
+		set_temp_variable = { j = i }
+		add_to_temp_variable = { j = 1 }
+
+		set_temp_variable = { hi = anchor_value_numbers^j }
+		set_temp_variable = { lo = anchor_value_numbers^i }
+
+
+		subtract_from_temp_variable = { hi = min }
+		subtract_from_temp_variable = { lo = min }
+		divide_temp_variable = { hi = range }
+		divide_temp_variable = { lo = range }
+
+		round_temp_variable = hi
+		round_temp_variable = lo
+
+		set_temp_variable = { endpoints = lo }
+		multiply_temp_variable = { endpoints = 1000 }
+		add_to_temp_variable = { endpoints = hi }
+		add_to_array = { anchors_y_label_1 = endpoints }
+	}
+}
+
+econ_strat_load_currency = {
+	#I hate this
+	clear_array = currency_y_label
+	set_temp_variable = { min = currency_value_numbers^0 }
+	set_temp_variable = { max = currency_value_numbers^0 }
+	for_loop_effect = {
+		start = 0
+		end = currency_value_numbers^num
+		value = i
+
+		if = {
+			limit = { check_variable = { currency_value_numbers^i > max } }
+			set_temp_variable = { max = currency_value_numbers^i }
+		}
+		if = {
+			limit = { check_variable = { currency_value_numbers^i < min } }
+			set_temp_variable = { min = currency_value_numbers^i }
+		}
+	}
+
+	# Our range is (min value / 1.1) - (max value * 1.1) - FROM TNO
+	multiply_temp_variable = { max = 1.1 }
+	divide_temp_variable = { min = 1.1 }
+
+
+	set_temp_variable = { range = max }
+	subtract_from_temp_variable = { range = min }
+
+	# Divide the range into 5 equally sized chunks - FROM TNO
+	set_temp_variable = { display_increment = range }
+	divide_temp_variable = { display_increment = 4 }
+
+	set_temp_variable = { currency_display = min }
+	for_loop_effect = {
+		end = 5
+		add_to_array = { currency_y_label = currency_display index = 0 }
+		add_to_temp_variable = { currency_display = display_increment }
+	}
+
+	divide_temp_variable = { range = 100 }
+
+	clear_array = currency_y_label_1
+	for_loop_effect = {
+		start = 0
+		end = 16
+		value = i
+
+		set_temp_variable = { j = i }
+		add_to_temp_variable = { j = 1 }
+
+		set_temp_variable = { hi = currency_value_numbers^j }
+		set_temp_variable = { lo = currency_value_numbers^i }
+
+
+		subtract_from_temp_variable = { hi = min }
+		subtract_from_temp_variable = { lo = min }
+		divide_temp_variable = { hi = range }
+		divide_temp_variable = { lo = range }
+
+		round_temp_variable = hi
+		round_temp_variable = lo
+
+		set_temp_variable = { endpoints = lo }
+		multiply_temp_variable = { endpoints = 1000 }
+		add_to_temp_variable = { endpoints = hi }
+		add_to_array = { currency_y_label_1 = endpoints }
+	}
+
+	add_to_variable = { TNO_economy_GUI_dirty = 1 }
+}

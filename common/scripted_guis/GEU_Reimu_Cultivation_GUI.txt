@@ -78,7 +78,6 @@ scripted_gui = {
 				set_variable = { map_7_click_var = 1 }
 				set_variable = { map_8_click_var = 1 }
 				set_variable = { map_title_var = 1 }
-				set_variable = { Reimu_HP = 100 }
 			}
 		}
 	}
@@ -485,6 +484,7 @@ scripted_gui = {
 
 			RC_tutorial_buttom_click = {
 				set_country_flag = open_windows_galgame_tutorial
+				set_variable = { galgame_tutorial = 0 }
 			}
 		}
 	}

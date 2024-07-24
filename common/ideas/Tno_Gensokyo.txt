@@ -10,8 +10,7 @@ ideas = {
 				conscription_factor = -0.25
 			}
 		}
-	}
-	country = {
+
 		GEN_The_War_of_Religion = {
 			picture = GEN_The_War_of_Religion
 			allowed = {
@@ -22,8 +21,7 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
-	}
-	country = {
+
 		GEN_Moriya_Modernization = {
 			picture = GEN_Moriya_Modernization
 			allowed = {
@@ -34,8 +32,7 @@ ideas = {
 				industrial_capacity_factory = 0.2
 			}
 		}
-	}
-	country = {
+
 		GEN_Konata_Rules = {
 			picture = GEN_Konata_Rules
 			allowed = {
@@ -46,8 +43,7 @@ ideas = {
 				army_org_factor = 0.15
 			}
 		}
-	}
-	country = {
+
 		GEN_SC_Rules = {
 			picture = GEN_SC_Rules
 			allowed = {
@@ -58,6 +54,18 @@ ideas = {
 				air_mission_xp_gain_factor = 0.25
 				air_training_xp_gain_factor = 0.2
 				air_cas_present_factor = 0.1
+			}
+		}
+
+		GEN_The_fog_shrouded = {
+			picture = GEN_The_fog_shrouded
+			allowed = {
+				original_tag = GEN
+			}
+			modifier = {
+				army_core_defence_factor = 0.5
+				supply_consumption_factor = 0.1
+				recon_factor = -0.3
 			}
 		}
 	}

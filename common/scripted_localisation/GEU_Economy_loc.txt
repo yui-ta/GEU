@@ -1,0 +1,302 @@
+defined_text = {
+	name = defined_GEU_Eco_reserves
+	text = {
+		trigger = {
+			check_variable = { test_system_reserves = 0 }
+		}
+		localization_key = GEU_Eco_reserves_t
+	}
+	text = {
+		trigger = {
+			check_variable = { test_system_reserves = 1 }
+		}
+		localization_key = GEU_Eco_reserves_wt
+	}
+}
+
+
+defined_text = {
+	name = defined_GEU_Eco_currency_in_circulation
+	text = {
+		trigger = {
+			check_variable = { test_system_currency_in_circulation = 0 }
+		}
+		localization_key = GEU_Eco_currency_in_circulation_nil
+	}
+	text = {
+		trigger = {
+			check_variable = { test_system_currency_in_circulation = 1 }
+		}
+		localization_key = GEU_Eco_currency_in_circulation_k
+	}
+	text = {
+		trigger = {
+			check_variable = { test_system_currency_in_circulation = 2 }
+		}
+		localization_key = GEU_Eco_currency_in_circulation_m
+	}
+	text = {
+		trigger = {
+			check_variable = { test_system_currency_in_circulation = 3 }
+		}
+		localization_key = GEU_Eco_currency_in_circulation_b
+	}
+}
+
+defined_text = {
+	name = GEU_line_graph_first_data_label
+	text = {
+		trigger = {
+			set_temp_variable = { segment_idx = -1 }
+		}
+		localization_key = GEU_line_graph_data_label
+	}
+}
+
+defined_text = {
+	name = GEU_econ_graph_month
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = GEU_econ_graph_months^i }
+			modulo_temp_variable = { months = 12 }
+			check_variable = { months = 0 }
+		}
+		localization_key = GEU_econ_month_0
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 1 }
+		}
+		localization_key = GEU_econ_month_1
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 2 }
+		}
+		localization_key = GEU_econ_month_2
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 3 }
+		}
+		localization_key = GEU_econ_month_3
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 4 }
+		}
+		localization_key = GEU_econ_month_4
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 5 }
+		}
+		localization_key = GEU_econ_month_5
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 6 }
+		}
+		localization_key = GEU_econ_month_6
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 7 }
+		}
+		localization_key = GEU_econ_month_7
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 8 }
+		}
+		localization_key = GEU_econ_month_8
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 9 }
+		}
+		localization_key = GEU_econ_month_9
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 10 }
+		}
+		localization_key = GEU_econ_month_10
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 11 }
+		}
+		localization_key = GEU_econ_month_11
+	}
+}
+
+defined_text = {
+	name = GEU_econ_graph_year
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = GEU_econ_graph_months^i }
+			divide_temp_variable = { months = 12 }
+			subtract_from_temp_variable = { months = 0.49 }
+			round_temp_variable = months
+			set_temp_variable = { year = 60 }
+			add_to_temp_variable = { year = months }
+		}
+		localization_key = GEU_econ_year
+	}
+}
+
+defined_text = {
+	name = GEU_anchors_title
+	text = {
+		trigger = {}
+		localization_key = GEU_anchors_title
+	}
+}
+
+defined_text = {
+	name = GetAnchorsTypeGFX
+	text = { localization_key = "GFX_[?anchors_type.GetTokenKey]" }
+}
+
+defined_text = {
+	name = GetAnchorsType
+	text = { localization_key = "[?anchors_type.GetTokenLocalizedKey]" }
+}
+
+defined_text = {
+	name = GetEconomyTypeTooltip
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_American_Capitalism } }
+		localization_key = Econ_Subtype_American_Capitalism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Worker_Directed } }
+		localization_key = Econ_Subtype_Worker_Directed_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Crown_Corporatism } }
+		localization_key = Econ_Subtype_Crown_Corporatism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Anarchic } }
+		localization_key = Econ_Subtype_Anarchic_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Gelenkte_Wirtschaft } }
+		localization_key = Econ_Subtype_Gelenkte_Wirtschaft_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Military_Directed } }
+		localization_key = Econ_Subtype_Military_Directed_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Burgsys } }
+		localization_key = Econ_Subtype_Burgsys_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Banditry } }
+		localization_key = Econ_Subtype_Banditry_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Corporate_Oligopoly } }
+		localization_key = Econ_Subtype_Corporate_Oligopoly_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme } }
+		localization_key = Econ_Subtype_Dirigisme_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Anarcho_Communism } }
+		localization_key = Econ_Subtype_Anarcho_Communism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Deytsch_Economics } }
+		localization_key = Econ_Subtype_Deytsch_Economics_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_War_Communism } }
+		localization_key = Econ_Subtype_War_Communism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Permit_Raj } }
+		localization_key = Econ_Subtype_Permit_Raj_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Christian_Anarchism } }
+		localization_key = Econ_Subtype_Christian_Anarchism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Social_Market } }
+		localization_key = Econ_Subtype_Social_Market_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Socialized_Economy } }
+		localization_key = Econ_Subtype_Socialized_Economy_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Yagoda } }
+		localization_key = Econ_Subtype_Yagoda_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Free_Market } }
+		localization_key = Econ_Subtype_Colonial_Economy_Free_Market_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Corporatism } }
+		localization_key = Econ_Subtype_Colonial_Economy_Corporatism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Planned } }
+		localization_key = Econ_Subtype_Colonial_Economy_Planned_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Crown_Credit_Corporatism } }
+		localization_key = Econ_Subtype_Crown_Credit_Corporatism_desc
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Gensokyo_Style_Feudal } }
+		localization_key = Econ_Subtype_Gensokyo_Style_Feudal_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
+			check_variable = { TNO_economy_subtype = 0 }
+		}
+		localization_key = Econ_Type_Capitalism_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Type_Corporatism }
+			check_variable = { TNO_economy_subtype = 0 }
+		}
+		localization_key = Econ_Type_Corporatism_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Type_Planned }
+			check_variable = { TNO_economy_subtype = 0 }
+		}
+		localization_key = Econ_Type_Planned_desc
+	}
+}
+
+defined_text = {
+	name = GEUEcoGetOrderButton
+	text = {
+		trigger = {
+			check_variable = { GEU_button_shop = 1 }
+		}
+		localization_key = GEU_Eco_gui_order_button_sell
+	}
+	text = {
+		trigger = {
+			check_variable = { GEU_button_shop = 2 }
+		}
+		localization_key = GEU_Eco_gui_order_button_buy
+	}
+}

@@ -1,0 +1,9 @@
+on_action = {
+	on_startup = {
+		effect = {
+			ZZZ = {
+				set_variable = { GEU_econ_graph_month = 25 }
+			}
+		}
+	}
+}

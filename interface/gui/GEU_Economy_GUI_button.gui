@@ -1,0 +1,40 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_Economy_gui_main"
+		size = { width = 620 height = 60 }
+		position = { x = 0 y = -20 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		iconType = {
+			name = "GEU_second_topbar"
+			position = { x = 93 y = 80 }
+			quadTextureSprite = "GFX_GEU_second_topbar"
+		}
+
+		buttonType = {
+			name = "GEU_eco_button"
+			quadTextureSprite = "GFX_GEU_eco_button"
+			position = { x = 135 y = 109 }
+			clicksound = click_close
+			oversound = ui_menu_over
+			centerposition = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_Economy_gui_button_open"
+		size = { width = 95 height = 95 }
+		position = { x = 0 y = 0 }
+
+
+		buttonType = {
+			name = "GEU_open_second_topbar_button"
+			spriteType = "GFX_GEU_open_second_topbar_button"
+			position = { x = 701 y = 57 }
+			centerposition = yes
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GEU_Button_Change_Leaders"
+		texturefile = "gfx/interface/GEU_button_change_leaders.png"
+	}
+}

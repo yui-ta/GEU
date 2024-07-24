@@ -1,0 +1,97 @@
+scripted_gui = {
+	GEU_Economy_gui = {
+		context_type = player_context
+		window_name = "GEU_Economy_gui"
+
+		visible = {
+			tag = GEN
+			has_country_flag = GEU_gui_economy_open
+		}
+
+		dynamic_lists = {
+			anchors_value_labels = {
+				array = anchors_y_label
+				entry_container = GEU_econ_line_labels_anchors
+			}
+			anchors_line_segments = {
+				array = anchors_y_label_1
+				entry_container = GEU_econ_line_segment_yellow
+				value = segment_frame
+				index = segment_idx
+			}
+
+			currency_value_labels = {
+				array = currency_y_label
+				entry_container = GEU_econ_line_labels_currency
+			}
+			currency_line_segments = {
+				array = currency_y_label_1
+				entry_container = GEU_econ_line_segment_green
+				value = segment_frame
+				index = segment_idx
+			}
+		}
+
+		properties = {
+			GEU_line_segment = { frame = segment_frame }
+			anchors_icon = { image = "[GetAnchorsTypeGFX]" }
+		}
+
+		triggers = {
+			GEU_label_y_visible = {
+				set_temp_variable = { si = segment_idx }
+				modulo_temp_variable = { si = 4 }
+				check_variable = { si = 3 }
+			}
+		}
+
+		effects = {
+			GEU_close_eco_menu_click = {
+				clr_country_flag = GEU_gui_economy_open
+				set_variable = { GEU_eco_button_icon = 1 }
+			}
+			GEU_close_eco_bg_click = {
+				clr_country_flag = GEU_gui_economy_open
+				set_variable = { GEU_eco_button_icon = 1 }
+			}
+			GEU_close_eco_topbar_click = {
+				clr_country_flag = GEU_gui_economy_open
+				set_variable = { GEU_eco_button_icon = 1 }
+			}
+		}
+	}
+
+	GEU_Econ_Shop_Button_test_1 = {
+		context_type = player_context
+		window_name = "GEU_Econ_Shop_Button_test_1"
+
+		visible = {
+			tag = GEN
+			check_variable = { GEU_button_shop = 1 }
+			has_country_flag = GEU_gui_economy_open
+		}
+
+		effects = {
+			GEU_Eco_gui_order_button_sell_click = {
+				set_variable = { GEU_button_shop = 2 }
+			}
+		}
+	}
+
+	GEU_Econ_Shop_Button_test_2 = {
+		context_type = player_context
+		window_name = "GEU_Econ_Shop_Button_test_2"
+
+		visible = {
+			tag = GEN
+			check_variable = { GEU_button_shop = 2 }
+			has_country_flag = GEU_gui_economy_open
+		}
+
+		effects = {
+			GEU_Eco_gui_order_button_buy_click = {
+				set_variable = { GEU_button_shop = 1 }
+			}
+		}
+	}
+}

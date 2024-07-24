@@ -1,0 +1,14 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_Change_Leader_gui"
+		size = { width = 160 height = 240 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "GEU_buttom_change_leaders"
+			quadTextureSprite = "GFX_GEU_Button_Change_Leaders"
+			position = { x = 10 y = 270 }
+			pdx_tooltip = "button_leader_change_tt"
+		}
+	}
+}

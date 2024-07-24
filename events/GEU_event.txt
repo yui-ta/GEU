@@ -1,4 +1,92 @@
 add_namespace = gen
+add_namespace = japendgame
+country_event = { #The Verdict
+	id = japendgame.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event japendgame.19" }
+	title = japendgame.19.t
+	desc = japendgame.19.d
+	picture = GFX_report_event_IBR_basques_arrested
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = japendgame.19.a
+
+		add_stability = -0.20
+		if = {
+		    limit = { is_ai = no }
+			add_political_power = -200
+		}
+		custom_effect_tooltip = yasuda_effects_tt
+
+		set_temp_variable = { gdp_growth_temp = -4 }
+		econ_gdp_growth_change = yes
+
+		set_temp_variable = { inflation_temp = 2 }
+		econ_inflation_change = yes
+
+		set_temp_variable = { temp_econ_GDP_boost_percentage = -0.035 }
+		econ_GDP_boost_once_percentage = yes
+
+		TNO_worsen_poverty_high = yes
+
+		TNO_worsen_admin_efficiency_low = yes
+
+		econ_lower_credit_rating = yes
+
+		remove_ideas = {
+			JAP_all_is_good
+			JAP_maximizing_growth_idea_2
+		}
+
+		hidden_effect = {
+			remove_ideas = {
+				JAP_maximizing_growth_idea_0
+				JAP_maximizing_growth_idea_1
+			}
+
+			set_country_flag = JAP_Economic_Wars
+			set_country_flag = JAP_yasuda_crash_happened
+
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = WORLD.2063 }
+			}
+
+			USA = {
+				country_event = {
+					id = sho.17 #The Malayan Civil War draws to an end
+					days = 14
+				}
+			}
+
+			country_event = {
+				id = jap_interregnum.1 #Start the Interregnum
+				days = 14
+			}
+			country_event = { #Start of the blitz
+				id = PHI_Blitz.3
+				days = 7
+			}
+			GNG = { #everything is a fuck
+				country_event = {
+					id = guangdong.48
+					days = 3
+				}
+			}
+			YUN = { country_event = { id = yun.32 days = 3 } }
+
+			MAN = { #everything is a fuck
+				#country_event = { id = MAN_yasuda.100 days = 3 }
+				country_event = { id = MAN_skeleton.7 days = 3 }
+			}
+			JAP = {
+				country_event = { id = gen.2 days = 5 }
+			}
+		}
+	}
+}
 
 country_event = {
 	id = gen.1
@@ -19,6 +107,7 @@ country_event = {
 		}
 		hidden_effect = {
 			GEU_setup_starting = yes
+			econ_strat_load = yes
 		}
 			news_event = {
 			id = gen_news.1
@@ -40,13 +129,15 @@ country_event = {
 
 	trigger = {
 		tag = JAP
-		date > 1963.6.27
-		mean_time_to_happen = {
-			days = 1
-		}
 	}
 	option = {
 		name = gen.2.a
+		hidden_effect = {
+			country_event = {
+				id = gen.3
+				days = 3
+			}
+		}
 	}
 }
 
@@ -63,9 +154,6 @@ country_event = {
 	trigger = {
 		tag = JAP
 		date > 1963.6.30
-		mean_time_to_happen = {
-			days = 1
-		}
 	}
 	option = {
 		name = gen.3.a

@@ -1,0 +1,387 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GEU_Economy_gui"
+		size = { width = 830 height = 990 }
+		position = { x = -830 y = 0 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		buttonType = {
+			name = "GEU_close_eco_bg"
+			quadTextureSprite = "GFX_GEU_close_button_bg"
+			position = { x = 0 y = 0 }
+		}
+		buttonType = {
+			name = "GEU_close_eco_topbar"
+			quadTextureSprite = "GFX_GEU_close_button_bg"
+			position = { x = 1000000 y = 1000000 }
+			shortcut = "W"
+			shortcut = "E"
+			shortcut = "R"
+			shortcut = "T"
+			shortcut = "Y"
+			shortcut = "U"
+			shortcut = "I"
+			shortcut = "Q"
+			shortcut = "O"
+			shortcut = "P"
+			shortcut = "L"
+			shortcut = "SHIFT+W"
+			shortcut = "SHIFT+E"
+			clicksound = no
+		}
+		iconType = {
+			name = "GEU_header_wider_bg"
+			quadTextureSprite = "GFX_header_wider_bg"
+			position = { x = 410 y = 99 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "GEU_Eco_bg"
+			quadTextureSprite = "GFX_GEU_Eco_bg"
+			position = { x = 0 y = 79 }
+		}
+		iconType = {
+			name = "GEU_Eco_line"
+			quadTextureSprite = "GFX_GEU_Eco_line"
+			position = { x = 273 y = 218 }
+		}
+		buttonType = {
+			name = "GEU_close_eco_menu"
+			quadTextureSprite = "GFX_tno_close_button"
+			position = { x = -45 y = 85 }
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		# Divider - Type
+		buttonType = {
+			name = "GEU_header_divider"
+			quadTextureSprite = "GFX_divider_dash_2h_tile"
+			position = { x = 200 y = 157 }
+			size = { x = 1 y = 56 }
+			alwaystransparent = no
+		}
+
+		buttonType = {
+			name = "Eco_selling_button"
+			spriteType = "GFX_GEU_Eco_selling_button"
+			position = { x = 560 y = 415 }
+		}
+		iconType = {
+			name = "Eco_selling_box"
+			spriteType = "GFX_GEU_Eco_selling_box"
+			position = { x = 560 y = 357 }
+		}
+		buttonType = {
+			name = "Eco_selling_add"
+			spriteType = "GFX_GEU_Eco_selling_add"
+			position = { x = 562 y = 389 }
+		}
+		buttonType = {
+			name = "Eco_selling_reduce"
+			spriteType = "GFX_GEU_Eco_selling_reduce"
+			position = { x = 778 y = 389 }
+		}
+
+		iconType = {
+			name = "GEU_Eco_gui_income"
+			spriteType = "GFX_GEU_Eco_gui_box_2"
+			position = { x = 8 y = 499 }
+		}
+		iconType = {
+			name = "GEU_Eco_gui_import"
+			spriteType = "GFX_GEU_Eco_gui_box_2"
+			position = { x = 8 y = 582 }
+		}
+		iconType = {
+			name = "GEU_Eco_gui_export"
+			spriteType = "GFX_GEU_Eco_gui_box_2"
+			position = { x = 8 y = 665 }
+		}
+
+		iconType = {
+			name = "GEU_Eco_gui_order_farme"
+			spriteType = "GFX_GEU_Eco_gui_order_farme"
+			position = { x = 5 y = 765 }
+		}
+		iconType = {
+			name = "GEU_Eco_order"
+			spriteType = "GFX_GEU_Eco_order"
+			position = { x = 10 y = 985 }
+		}
+		buttonType = {
+			name = "GEU_Eco_order_bill"
+			spriteType = "GFX_GEU_Eco_order_bill"
+			position = { x = 237 y = 985 }
+		}
+		buttonType = {
+			name = "GEU_Eco_Select_Country"
+			spriteType = "GFX_GEU_Eco_Select_Country"
+			position = { x = 2 y = 805 }
+		}
+
+		instantTextboxType = {
+			name = "currency_title"
+			position = { x = 70 y = 228 }
+			font = "aldrich_28_outline"
+			text = "GEU_currency_title"
+		}
+
+		instantTextboxType = {
+			name = "anchors_title"
+			position = { x = 350 y = 228 }
+			font = "aldrich_28_outline"
+			text = "[GEU_anchors_title]"
+		}
+		instantTextboxType = {
+			name = "anchors_type"
+			position = { x = 73 y = 170 }
+			font = "aldrich_28_outline"
+			text = "GEU_anchors_type"
+		}
+		iconType = {
+			name = "anchors_icon"
+			position = { x = 10 y = 153 }
+			spriteType = "GFX_Anchors_Type_Nil"
+		}
+
+		iconType = {
+			name = "GEU_inflation_line_bg"
+			position = { x = 354 y = 273 }
+			spriteType = "GFX_econ_line_graph_bg"
+		}
+		gridBoxType = {
+			name = "anchors_value_labels"
+			position = { x = 323 y = 258 }
+			size = { width = 0 height = 25 }
+			slotsize = { width = 10 height = 25 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "anchors_line_segments"
+			position = { x = 362 y = 273 }
+			size = { width = 0 height = 200 }
+			slotsize = { width = 10 height = 200 }
+			max_slots_horizontal = 16
+			add_horizontal = yes
+		}
+		instantTextboxType = {
+			name = "label_y_extra_anchors"
+			position = { x = 342 y = 378 }
+			font = "aldrich_16_outline"
+			text = "[GEU_line_graph_first_data_label]"
+			maxWidth = 30
+			format = center
+		}
+
+		iconType = {
+			name = "GEU_inflation_line_bg_cur"
+			position = { x = 54 y = 273 }
+			spriteType = "GFX_econ_line_graph_bg"
+		}
+		gridBoxType = {
+			name = "currency_value_labels"
+			position = { x = 23 y = 258 }
+			size = { width = 0 height = 25 }
+			slotsize = { width = 10 height = 25 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "currency_line_segments"
+			position = { x = 62 y = 273 }
+			size = { width = 0 height = 200 }
+			slotsize = { width = 10 height = 200 }
+			max_slots_horizontal = 16
+			add_horizontal = yes
+		}
+		instantTextboxType = {
+			name = "label_y_extra_currency"
+			position = { x = 42 y = 378 }
+			font = "aldrich_16_outline"
+			text = "[GEU_line_graph_first_data_label]"
+			maxWidth = 30
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "Eco_reserves"
+			position = { x = 280 y = 420 }
+			maxWidth = 400
+			maxHeight = 20
+			font = "aldrich_22_outline"
+			text = "GEU_Eco_reserves"
+		}
+		instantTextboxType = {
+			name = "anchors_value_coefficient"
+			position = { x = 280 y = 440 }
+			maxWidth = 400
+			maxHeight = 20
+			font = "aldrich_22_outline"
+			text = "anchors_value_coefficient"
+		}
+
+		instantTextboxType = {
+			name = "currency_in_circulation"
+			position = { x = 10 y = 420 }
+			maxWidth = 400
+			maxHeight = 20
+			font = "aldrich_22_outline"
+			text = "GEU_currency_in_circulation"
+		}
+		instantTextboxType = {
+			name = "currency_value_coefficient"
+			position = { x = 10 y = 440 }
+			maxWidth = 400
+			maxHeight = 20
+			font = "aldrich_22_outline"
+			text = "GEU_currency_value_coefficient"
+		}
+		instantTextboxType = {
+			name = "cur_inflation_rate"
+			position = { x = 10 y = 460 }
+			maxWidth = 400
+			maxHeight = 20
+			font = "aldrich_22_outline"
+			text = "GEU_cur_inflation_rate"
+		}
+
+		iconType = {
+			name = "GEU_Eco_Gold_deflation_inactive"
+			spriteType = "GFX_GEU_Eco_Gold_deflation_inactive"
+			position = { x = 520 y = 770 }
+		}
+		iconType = {
+			name = "GEU_Eco_Trade_sanctions_inactive"
+			spriteType = "GFX_GEU_Eco_Trade_sanctions_inactive"
+			position = { x = 520 y = 850 }
+		}
+		iconType = {
+			name = "GEU_Eco_Gold_inflation_inactive"
+			spriteType = "GFX_GEU_Eco_Gold_inflation_inactive"
+			position = { x = 670 y = 770 }
+		}
+		iconType = {
+			name = "GEU_Eco_Trade_risk_inactive"
+			spriteType = "GFX_GEU_Eco_Trade_risk_inactive"
+			position = { x = 670 y = 850 }
+		}
+		iconType = {
+			name = "GEU_Eco_stolen"
+			spriteType = "GFX_GEU_Eco_stolen"
+			position = { x = 520 y = 930 }
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_Econ_Shop_Button_test_1"
+		position = { x = 153 y = 0 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		buttonType = {
+			name = "GEU_Eco_gui_order_button_sell"
+			spriteType = "GFX_GEU_Eco_gui_order_button"
+			position = { x = 7 y = 767 }
+			font = "aldrich_28_outline"
+			text = "GEU_Eco_Order_Button"
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_Econ_Shop_Button_test_2"
+		position = { x = -152 y = 0 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		buttonType = {
+			name = "GEU_Eco_gui_order_button_buy"
+			spriteType = "GFX_GEU_Eco_gui_order_button"
+			position = { x = 159 y = 767 }
+			font = "aldrich_28_outline"
+			text = "GEU_Eco_Order_Button"
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_econ_line_labels_anchors"
+
+		iconType = {
+			name = "horizontal_bar"
+			spriteType = "GFX_econ_graph_horizontal_bar"
+			position = { x = 0 y = 15 }
+		}
+		instantTextboxType = {
+			name = "horizontal_bar_label"
+			position = { x = -29 y = 0}
+			font = "aldrich_16_outline"
+			text = "[?anchors_y_label^i|1]"
+			maxWidth = 60
+			format = right
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_econ_line_labels_currency"
+
+		iconType = {
+			name = "horizontal_bar"
+			spriteType = "GFX_econ_graph_horizontal_bar"
+			position = { x = 0 y = 15 }
+		}
+		instantTextboxType = {
+			name = "horizontal_bar_label"
+			position = { x = -29 y = 0}
+			font = "aldrich_16_outline"
+			text = "[?currency_y_label^i|1]"
+			maxWidth = 60
+			format = right
+		}
+	}
+
+	containerWindowType = {
+		name = "GEU_econ_line_segment_yellow"
+		iconType = {
+			name = "GEU_line_segment"
+			spriteType = "GFX_econ_line_graph_segment_yellow"
+			position = { x = 0 y = 0 }
+		}
+		instantTextboxType = {
+			name = "GEU_label_y"
+			position = { x = -5 y = 105 }
+			font = "aldrich_16_outline"
+			text = "GEU_econ_graph_month"
+			maxWidth = 30
+			format = center
+		}
+	}
+
+
+	containerWindowType = {
+		name = "GEU_econ_line_segment_green"
+		iconType = {
+			name = "GEU_line_segment"
+			spriteType = "GFX_econ_line_graph_segment_green"
+			position = { x = 0 y = 0 }
+		}
+		instantTextboxType = {
+			name = "GEU_label_y"
+			position = { x = -5 y = 105 }
+			font = "aldrich_16_outline"
+			text = "GEU_econ_graph_month"
+			maxWidth = 30
+			format = center
+		}
+	}
+}

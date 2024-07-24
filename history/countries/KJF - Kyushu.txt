@@ -1,4 +1,4 @@
-capital = 7110
+capital = 1845
 
 set_research_slots = 4
 set_stability = 1

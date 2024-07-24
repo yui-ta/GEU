@@ -1,3 +1,14 @@
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "GEU_songs/GEU_theme.ogg"
+	volume = 1.5
+}
+music = {
+	name = "main_vanilla"
+	file = "GEU_songs/GEU_theme.ogg"
+	volume = 1.5
+}
 
 # General Peace:
 music = {

@@ -76,7 +76,7 @@ country_event = {
 		}
 		UJF = {
 			set_capital = { state = 1828 }
-			dd_state_core = 1825
+			add_state_core = 1825
 			add_state_core = 1824
 			add_state_core = 1234
 			add_state_core = 1827

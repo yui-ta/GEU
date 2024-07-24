@@ -304,7 +304,7 @@ spriteTypes = {
 	#DEAD WINDOWS
 	spriteType = {
 		name = "GFX_RC_REIMU_DEAD"
-		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_REIMU_DEAD.dds"
+		texturefile = "gfx/interface/GEU_reimu_cultivation/GEU_RC_REIMU_DEAD.png"
 		transparencecheck = yes
 	}
 

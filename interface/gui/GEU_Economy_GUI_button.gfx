@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GEU_open_second_topbar_button"
+		texturefile = "gfx/interface/topbar/GEU_open_second_topbar_button.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_GEU_second_topbar"
+		texturefile = "gfx/interface/topbar/GEU_second_topbar.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_eco_button"
+		texturefile = "gfx/interface/topbar/toolbar/GEU_eco_button.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+}

@@ -9,6 +9,7 @@ GEU_setup_starting = {
 						has_country_flag = country_has_loading
 					}
 				}
+				set_variable = { economic_centralization = 57 }
 				add_to_array = { CountryInfo_array_main = 101 }
 				add_to_array = { CountryInfo_array_main = 1 }
 				add_to_array = { CountryInfo_array_main = 2 }
@@ -96,11 +97,11 @@ GEU_setup_starting = {
 
 					add_to_array = { CountryInfo_folder_development_103 = 6 }
 
-					set_country_flag = country_has_gui_1
-					set_country_flag = country_has_gui_2
+					set_variable = { Reimu_HP = 100 }
 					set_country_flag = gui_alert_visible_2
 					set_country_flag = TNO_Country_Info_Screen_Visible
 					set_country_flag = country_has_loading
+					set_country_flag = has_secound_leader
 					if = {
 						limit = {
 							check_variable = { CountryInfo_array_main^num > 0 }
@@ -155,6 +156,7 @@ GEU_setup_starting = {
 				}
 				econ_initialize_credit_rating_system = yes
 				initiate_display_vars = yes
+				TNO_startup_nation = yes
 			}
 		}
 	}

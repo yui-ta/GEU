@@ -112,7 +112,7 @@ defined_text = {
 	}
 	#教程对话
 		text = {
-		trigger = { GEN = { has_country_flag = open_windows_galgame_tutorial } }
+	trigger = { GEN = { has_country_flag = open_windows_galgame_tutorial } }
 		localization_key = "Konata_tell_1"
 	}
 	text = {
