@@ -30,11 +30,21 @@ scripted_gui = {
 				value = segment_frame
 				index = segment_idx
 			}
+
+			Econ_taxation_set_buttons = {
+				array = taxation_set_buttons
+				change_scope = no
+				entry_container = taxation_set_button
+				value = button_idx
+			}
 		}
 
 		properties = {
 			GEU_line_segment = { frame = segment_frame }
 			anchors_icon = { image = "[GetAnchorsTypeGFX]" }
+			Econ_taxation_slider_dot = { x = econ_taxation_dot_x }
+			Econ_taxation_slider_limit_left = { x = econ_taxation_maximal_x }
+			Econ_taxation_slider_limit_right = { x = econ_taxation_minimal_x }
 		}
 
 		triggers = {
@@ -57,6 +67,212 @@ scripted_gui = {
 			GEU_close_eco_topbar_click = {
 				clr_country_flag = GEU_gui_economy_open
 				set_variable = { GEU_eco_button_icon = 1 }
+			}
+
+			Eco_Printing_Money_right_button_click = {
+				if = {
+					limit = { check_variable = { test_system_printing_money > 1 } }
+					set_variable = { test_system_printing_money = 1 }
+					else = {
+						add_to_variable = { test_system_printing_money = 1 }
+					}
+				}
+			}
+			Eco_Printing_Money_left_button_click = {
+				if = {
+					limit = { check_variable = { test_system_printing_money < 2 } }
+					set_variable = { test_system_printing_money = 2 }
+					else = {
+						add_to_variable = { test_system_printing_money = -1 }
+					}
+				}
+			}
+			Eco_Printing_Money_add_control_click = {
+				add_to_variable = { print_money = 10 }
+				clamp_variable = {
+					var = print_money
+					min = 0
+					max = 100
+				}
+			}
+			Eco_Printing_Money_add_click = {
+				add_to_variable = { print_money = 1 }
+				clamp_variable = {
+					var = print_money
+					min = 0
+					max = 100
+				}
+			}
+			Eco_Printing_Money_reduce_control_click = {
+				add_to_variable = { print_money = -10 }
+				clamp_variable = {
+					var = print_money
+					min = 0
+					max = 100
+				}
+			}
+			Eco_Printing_Money_reduce_click = {
+				add_to_variable = { print_money = -1 }
+				clamp_variable = {
+					var = print_money
+					min = 0
+					max = 100
+				}
+			}
+			Eco_Printing_Money_button_click = {
+				if = {
+					limit = { check_variable = { test_system_printing_money = 1 } }
+					set_temp_variable = { print_money_temp = print_money }
+					divide_temp_variable = { print_money_temp = 1000 }
+					add_to_variable = { GEU_currency_in_circulation = print_money_temp }
+				}
+				if = {
+					limit = { check_variable = { test_system_printing_money = 2 } }
+					add_to_variable = { GEU_currency_in_circulation = print_money }
+				}
+				econ_test_system_cur = yes
+				econ_test_cur_value = yes
+			}
+
+			Eco_selling_add_click = {
+				add_to_variable = { selling_anchor = 1 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_add_shift_click = {
+				add_to_variable = { selling_anchor = 100 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_add_control_click = {
+				add_to_variable = { selling_anchor = 10 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_reduce_click = {
+				add_to_variable = { selling_anchor = -1 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_reduce_shift_click = {
+				add_to_variable = { selling_anchor = -100 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_reduce_control_click = {
+				add_to_variable = { selling_anchor = -10 }
+				clamp_variable = {
+					var = selling_anchor
+					min = 0
+					max = GEU_reserves
+				}
+				round_variable = selling_anchor
+			}
+			Eco_selling_button_click = {
+				if = {
+					limit = {
+						check_variable = { selling_anchor > 0 }
+						check_variable = { GEU_reserves > 0 }
+				}
+					set_temp_variable = { GEU_currency_in_circulation_temp = GEU_currency_in_circulation }
+					multiply_temp_variable = { GEU_currency_in_circulation_temp = currency_value }
+					set_temp_variable = { anchor_value_temp = anchor_value }
+					multiply_temp_variable = { GEU_currency_in_circulation_temp = 1000 }
+					subtract_from_temp_variable = { GEU_currency_in_circulation_temp = anchor_value_temp }
+					divide_temp_variable = { GEU_currency_in_circulation_temp = currency_value }
+					divide_temp_variable = { GEU_currency_in_circulation_temp = 1000 }
+					set_variable = { GEU_currency_in_circulation = GEU_currency_in_circulation_temp }
+					subtract_from_variable = { GEU_reserves = selling_anchor }
+					clamp_variable = {
+						var = GEU_reserves
+						min = 0
+						max = 1000000
+					}
+					econ_test_cur_value = yes
+					econ_test_system_cur = yes
+				}
+			}
+
+			Econ_taxation_set_button_real_click = {
+				set_variable = { econ_taxation_slider_pct = button_idx }
+				multiply_variable = { econ_taxation_slider_pct = 5 }
+				divide_variable = { econ_taxation_slider_pct = 3 }
+				set_variable = { econ_taxation_dot_x = econ_taxation_slider_pct }
+				multiply_variable = { econ_taxation_dot_x = 1.88 }
+				add_to_variable = { econ_taxation_dot_x = 45 }
+				econ_tax_slider_tab = yes
+			}
+			Econ_taxation_slider_left_click = {
+				econ_reduce_tax_button_1x = yes
+			}
+			Econ_taxation_slider_left_shift_click = {
+				econ_reduce_tax_button_10x = yes
+			}
+			Econ_taxation_slider_left_control_click = {
+				econ_reduce_tax_button_min = yes
+			}
+			Econ_taxation_slider_right_click = {
+				econ_add_tax_button_1x = yes
+			}
+			Econ_taxation_slider_right_shift_click = {
+				econ_add_tax_button_10x = yes
+			}
+			Econ_taxation_slider_right_control_click = {
+				econ_add_tax_button_max = yes
+			}
+		}
+	}
+
+	#NEED UPDETE
+	GEU_central_bank_policies = {
+		window_name = "central_bank_policies_clip"
+		context_type = player_context
+		parent_window_name = GEU_Economy_gui
+
+		visible = {
+			has_country_flag = GEU_gui_economy_open
+			has_country_flag = central_bank_policies_tab_open
+		}
+
+		dynamic_lists = {
+			central_bank_policy_options = {
+				array = central_bank_policies_array
+				entry_container = central_bank_policy
+				value = selected_central_bank_id
+			}
+		}
+
+		properties = {
+			central_bank_policy_icon = { image = "[Get_Central_Bank_Policy_icon]" }
+		}
+
+		effects = {
+			central_bank_policy_btn_click = {
+				set_temp_variable = { temp_selected_central_bank_id = selected_central_bank_id }
+				set_variable = { selected_central_bank_id = temp_selected_central_bank_id }
+				add_to_variable = { TNO_economy_GUI_dirty = 1 }
+				clr_country_flag = central_bank_policies_tab_open
+				set_variable = { econ_tab_central_bank_display_policy_btn_frame = 1 }
 			}
 		}
 	}

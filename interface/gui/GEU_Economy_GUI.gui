@@ -68,10 +68,79 @@ guiTypes = {
 			alwaystransparent = no
 		}
 
+		instantTextboxType = {
+			name = "tt_printing_money_system"
+			position = { x = 625 y = 277 }
+			font = "aldrich_28_outline"
+			text = "tt_printing_money_system"
+		}
+		instantTextboxType = {
+			name = "tt_printing_money_number"
+			position = { x = 510 y = 305 }
+			font = "aldrich_28_outline"
+			text = "tt_printing_money_number"
+			orientation = TOP_RIGHT
+			format = right
+		}
+		buttonType = {
+			name = "Eco_Printing_Money_button"
+			spriteType = "GFX_GEU_Eco_gui_button"
+			position = { x = 559 y = 332 }
+			font = "aldrich_20_outline"
+			text = "tt_printing_money_button"
+			pdx_tooltip = Printing_Money_tt
+		}
+		iconType = {
+			name = "Eco_Printing_Money_box"
+			spriteType = "GFX_GEU_Eco_gui_box"
+			position = { x = 560 y = 274 }
+		}
+		buttonType = {
+			name = "Eco_Printing_Money_add"
+			spriteType = "GFX_GEU_Eco_add"
+			position = { x = 778 y = 306 }
+			pdx_tooltip = Printing_Money_add_tt
+		}
+		buttonType = {
+			name = "Eco_Printing_Money_reduce"
+			spriteType = "GFX_GEU_Eco_reduce"
+			position = { x = 562 y = 306 }
+			pdx_tooltip = Printing_Money_reduce_tt
+		}
+		buttonType = {
+			name = "Eco_Printing_Money_right_button"
+			spriteType = "GFX_GEU_Eco_right_button"
+			position = { x = 786 y = 275 }
+			pdx_tooltip = Printing_Money_system_change_tt
+		}
+		buttonType = {
+			name = "Eco_Printing_Money_left_button"
+			spriteType = "GFX_GEU_Eco_left_button"
+			position = { x = 562 y = 275 }
+			pdx_tooltip = Printing_Money_system_change_tt
+		}
+
+		instantTextboxType = {
+			name = "tt_selling"
+			position = { x = 630 y = 359 }
+			font = "aldrich_28_outline"
+			text = "tt_selling"
+		}
+		instantTextboxType = {
+			name = "tt_selling_number"
+			position = { x = 510 y = 387 }
+			font = "aldrich_28_outline"
+			text = "tt_selling_number"
+			orientation = TOP_RIGHT
+			format = right
+		}
 		buttonType = {
 			name = "Eco_selling_button"
 			spriteType = "GFX_GEU_Eco_selling_button"
-			position = { x = 560 y = 415 }
+			position = { x = 559 y = 415 }
+			font = "aldrich_20_outline"
+			text = "tt_selling_button"
+			pdx_tooltip = selling_tt
 		}
 		iconType = {
 			name = "Eco_selling_box"
@@ -81,12 +150,14 @@ guiTypes = {
 		buttonType = {
 			name = "Eco_selling_add"
 			spriteType = "GFX_GEU_Eco_selling_add"
-			position = { x = 562 y = 389 }
+			position = { x = 778 y = 389 }
+			pdx_tooltip = Eco_selling_add_tt
 		}
 		buttonType = {
 			name = "Eco_selling_reduce"
 			spriteType = "GFX_GEU_Eco_selling_reduce"
-			position = { x = 778 y = 389 }
+			position = { x = 562 y = 389 }
+			pdx_tooltip = Eco_selling_reduce_tt
 		}
 
 		iconType = {
@@ -278,6 +349,69 @@ guiTypes = {
 			spriteType = "GFX_GEU_Eco_stolen"
 			position = { x = 520 y = 930 }
 		}
+
+		#Tax Slider
+		containerWindowType = {
+			name = "GEU_Econ_taxation_slider_container"
+			position = { x = 540 y = 230 }
+
+			instantTextboxType = {
+				name = "tt_taxation"
+				position = { x = 80 y = -5 }
+				maxWidth = 400
+				maxHeight = 20
+				font = "aldrich_22_outline"
+				text = "tt_taxation"
+			}
+			iconType = {
+				name = "Econ_taxation_slider_bg"
+				quadTextureSprite = "GFX_econ_crt_slider_bg"
+				position = { x = 17 y = 18 }
+				alwaystransparent = yes
+				pdx_tooltip = econ_taxation_slider_tt
+			}
+			buttonType = {
+				name = "Econ_taxation_slider_left"
+				quadTextureSprite = "GFX_econ_crt_slider_left"
+				position = { x = 30 y = 18 }
+				pdx_tooltip = econ_taxation_slider_button_left_tt
+			}
+			buttonType = {
+				name = "Econ_taxation_slider_right"
+				quadTextureSprite = "GFX_econ_crt_slider_right"
+				position = { x = 251 y = 18 }
+				pdx_tooltip = econ_taxation_slider_button_right_tt
+			}
+			iconType = {
+				name = "Econ_taxation_slider_dot"
+				quadTextureSprite = "GFX_econ_crt_slider_dot"
+				position = { x = 50 y = 15 }
+				alwaystransparent = yes
+				pdx_tooltip = econ_taxation_slider_tt
+			}
+			iconType = {
+				name = "Econ_taxation_slider_limit_left"
+				quadTextureSprite = "GFX_econ_crt_slider_limit_left"
+				position = { x = 50 y = 21 }
+				alwaystransparent = yes
+				pdx_tooltip = econ_taxation_slider_tt
+			}
+			iconType = {
+				name = "Econ_taxation_slider_limit_right"
+				quadTextureSprite = "GFX_econ_crt_slider_limit_right"
+				position = { x = 50 y = 21 }
+				alwaystransparent = yes
+				pdx_tooltip = econ_taxation_slider_tt
+			}
+
+			gridboxtype = {
+				name = "Econ_taxation_set_buttons"
+				position = { x = -37 y = 18 }
+				size = { width = 189 height = 14 }
+				slotsize = { width = 3 height = 14 }
+				add_horizontal = yes
+			}
+		}
 	}
 
 	containerWindowType = {
@@ -382,6 +516,114 @@ guiTypes = {
 			text = "GEU_econ_graph_month"
 			maxWidth = 30
 			format = center
+		}
+	}
+}
+
+guiTypes = {
+	# # Taxation - Set Button
+	containerWindowType = {
+		name = "taxation_set_button"
+		size = { width = 3 height = 10 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "Econ_taxation_set_button_real"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_econ_crt_slider_set_transparent"
+			pdx_tooltip = "econ_taxation_set_button_tt"
+			clicksound = "click_scroll"
+		}
+	}
+}
+
+	#NEED UPDETE
+guiTypes = {
+	containerWindowType = {
+		name = "central_bank_policy"
+
+		buttonType = {
+			name = "central_bank_policy_btn"
+			position = { x = 0 y = 0 }
+			size = { x = 231 y = 24 }
+			quadTextureSprite = "GFX_crt_1b_tile_btn"
+
+			clicksound = click_close
+			pdx_tooltip = "central_bank_policy_list_tooltip_loc"
+		}
+
+		instantTextBoxType = {
+			name = "central_bank_policy_name"
+			font = "aldrich_18_outline"
+			position = { x = 8 y = 4 }
+			maxheight = 18
+			text = "central_bank_policy_list_name_loc"
+			pdx_tooltip = "central_bank_policy_list_tooltip_loc"
+		}
+
+		iconType = {
+			name = "central_bank_policy_icon"
+			spriteType = "GFX_cb_policy_icon"
+			position = { x = 189 y = 1 }
+			alwaysTransparent = yes
+		}
+
+		buttonType = {
+			name = "central_bank_policy_divider"
+			position = { x = 185 y = 2 }
+			size = { x = 3 y = 20 }
+			quadTextureSprite = "GFX_divider_crt_twinned_1b_vertical"
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "centralBank_policyDisplay"
+		position = { x = 10 y = 73 }
+
+		iconType = {
+			name = "centralBank_policyDisplay_container"
+			spriteType = "GFX_cb_policy_container"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = central_bank_policy_list_tooltip_loc
+		}
+
+		instantTextboxType = {
+			name = "centralBank_policyDisplay_text"
+			position = { x = 2 y = 2 }
+			font = "aldrich_18_outline"
+			text = central_bank_policy_name
+			maxWidth = 161
+			maxHeight = 24
+			format = center
+			vertical_alignment = center
+			pdx_tooltip = central_bank_policy_list_tooltip_loc
+		}
+
+		buttonType = {
+			name = "centralBank_policyDisplay_selector"
+			spriteType = "GFX_cb_policy_selectorarrow"
+			position = { x = 215 y = 6 }
+		}
+
+		iconType = {
+			name = "centralBank_policyDisplay_icon"
+			spriteType = "GFX_cb_policy_icon"
+			position = { x = 168 y = 1 }
+			pdx_tooltip = central_bank_policy_list_tooltip_loc
+		}
+
+		iconType = {
+			name = "centralBank_policyDisplay_lineTimer"
+			spriteType = "GFX_cb_policy_linetimer_progressbar"
+			position = { x = 168 y = 23 }
+			#frame = 65
+		}
+
+		iconType = {
+			name = "centralBank_policyDisplay_lineTimer_complete"
+			spriteType = "GFX_cb_policy_linetimer_complete"
+			position = { x = 168 y = 23 }
 		}
 	}
 }

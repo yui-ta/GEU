@@ -2,9 +2,6 @@ on_actions = {
 	on_monthly_GEN = {
 		effect = {
 			GEN = {
-				econ_test_cur_value = yes
-				econ_test_system_cur = yes
-				econ_test_system_reserves = yes
 				GEU_econ_update_graph_monthly = yes
 			}
 		}

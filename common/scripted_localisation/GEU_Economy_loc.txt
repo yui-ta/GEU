@@ -14,6 +14,21 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = defined_GEU_Eco_printing_money_system
+	text = {
+		trigger = {
+			check_variable = { test_system_printing_money = 1 }
+		}
+		localization_key = defined_GEU_Eco_printing_money_system_m
+	}
+	text = {
+		trigger = {
+			check_variable = { test_system_printing_money = 2 }
+		}
+		localization_key = defined_GEU_Eco_printing_money_system_b
+	}
+}
 
 defined_text = {
 	name = defined_GEU_Eco_currency_in_circulation
@@ -298,5 +313,20 @@ defined_text = {
 			check_variable = { GEU_button_shop = 2 }
 		}
 		localization_key = GEU_Eco_gui_order_button_buy
+	}
+}
+
+defined_text = {
+	name = get_tax_button_percent
+	text = {
+		trigger = {
+			set_temp_variable = { taxation_temp = 0.08 }
+			set_temp_variable = { tax_slider_percent = button_idx }
+			multiply_temp_variable = { tax_slider_percent = 1.66 }
+			round_temp_variable = tax_slider_percent
+			divide_temp_variable = { tax_slider_percent = 100 }
+			multiply_temp_variable = { taxation_temp = tax_slider_percent }
+		}
+		localization_key = econ_tax_percent
 	}
 }

@@ -6,110 +6,112 @@ econ_strat_load = {
 			set_variable = { anchor_value = 210 }
 			set_variable = { anchors_type = token:Anchors_Type_Human }
 			set_variable = { TNO_economy_subtype = token:Econ_Subtype_Gensokyo_Style_Feudal }
+			set_variable = { test_system_printing_money = 1 }
 			set_variable = { GEU_button_shop = 1 }
+			econ_test_system_reserves = yes
+			econ_test_system_cur = yes
 			econ_test_cur_value = yes
 			econ_strat_load_currency = yes
 			econ_graphs_startup = yes
+			econ_test_cur_bomb = yes
+			econ_set_slider = yes
+			set_variable = { start_currency_value = currency_value }
 		}
 	}
 }
 
 econ_test_cur_value = {
-	every_country = {
-		GEN = {
-			set_temp_variable = { GEU_currency_in_circulation_temp = GEU_currency_in_circulation }
-			set_temp_variable = { GEU_reserves_temp = GEU_reserves }
-			set_temp_variable = { gdp_temp_value = gdp }
-			divide_temp_variable = { GEU_reserves_temp = GEU_currency_in_circulation_temp }
-			divide_temp_variable = { gdp_temp_value = GEU_currency_in_circulation_temp }
-			multiply_temp_variable = { GEU_reserves_temp = gdp_temp_value }
-			multiply_temp_variable = { GEU_reserves_temp = anchor_value }
-			set_variable = { currency_value = GEU_reserves_temp }
-		}
-	}
+	set_temp_variable = { GEU_currency_in_circulation_temp = GEU_currency_in_circulation }
+	set_temp_variable = { GEU_reserves_temp = GEU_reserves }
+	set_temp_variable = { gdp_temp_value = gdp }
+	divide_temp_variable = { GEU_reserves_temp = GEU_currency_in_circulation_temp }
+	divide_temp_variable = { gdp_temp_value = GEU_currency_in_circulation_temp }
+	multiply_temp_variable = { GEU_reserves_temp = gdp_temp_value }
+	multiply_temp_variable = { GEU_reserves_temp = anchor_value }
+	set_variable = { currency_value = GEU_reserves_temp }
+}
+
+econ_test_cur_bomb = {
+	set_temp_variable = { currency_value_temp = currency_value }
+	set_temp_variable = { start_currency_value_temp = start_currency_value }
+	subtract_from_temp_variable = { start_currency_value_temp = currency_value_temp }
+	divide_temp_variable = { start_currency_value_temp = start_currency_value }
+	set_variable = { cur_bomb = start_currency_value_temp }
 }
 
 econ_test_system_reserves = {
-	every_country = {
-		GEN = {
-			set_variable = { GEU_reserves_view = GEU_reserves }
-			if = {
-				limit = {
-						check_variable = { GEU_reserves > 0 }
-						check_variable = { GEU_reserves < 10000 }
-					}
-				set_variable = { test_system_reserves = 0 }
-				set_variable = { GEU_reserves_view = GEU_reserves }
+	set_variable = { GEU_reserves_view = GEU_reserves }
+	if = {
+		limit = {
+				check_variable = { GEU_reserves > 0 }
+				check_variable = { GEU_reserves < 10000 }
 			}
-			if = {
-				limit = {
-						OR = {
-							check_variable = { GEU_reserves > 10000 }
-							check_variable = { GEU_reserves = 10000 }
-						}
-					}
-				set_variable = { test_system_reserves = 1 }
-				divide_variable = { GEU_reserves_view = 10000 }
+		set_variable = { test_system_reserves = 0 }
+		set_variable = { GEU_reserves_view = GEU_reserves }
+	}
+	if = {
+		limit = {
+				OR = {
+					check_variable = { GEU_reserves > 10000 }
+					check_variable = { GEU_reserves = 10000 }
+				}
 			}
-		}
+		set_variable = { test_system_reserves = 1 }
+		divide_variable = { GEU_reserves_view = 10000 }
 	}
 }
 
 econ_test_system_cur = {
-	every_country = {
-		GEN = {
-			set_variable = {
-				GEU_currency_in_circulation_view = GEU_currency_in_circulation
+	set_variable = {
+		GEU_currency_in_circulation_view = GEU_currency_in_circulation
+	}
+	if = {
+		limit = {
+			check_variable = { GEU_currency_in_circulation > 0 }
+			check_variable = { GEU_currency_in_circulation < 0.0000001 }
 			}
-			if = {
-				limit = {
-					check_variable = { GEU_currency_in_circulation > 0 }
-					check_variable = { GEU_currency_in_circulation < 0.0000001 }
-					}
-				set_variable = { test_system_currency_in_circulation = 0 }
-				multiply_variable = { GEU_currency_in_circulation_view = 100000000 }
-			}
-			if = {
-				limit = {
-					OR = {
-						check_variable = { GEU_currency_in_circulation = 0.0000001 }
-						AND = {
-							check_variable = { GEU_currency_in_circulation > 0.0000001 }
-							check_variable = { GEU_currency_in_circulation < 0.0001 }
-						}
-					}
+		set_variable = { test_system_currency_in_circulation = 0 }
+		multiply_variable = { GEU_currency_in_circulation_view = 100000000 }
+	}
+	if = {
+		limit = {
+			OR = {
+				check_variable = { GEU_currency_in_circulation = 0.0000001 }
+				AND = {
+					check_variable = { GEU_currency_in_circulation > 0.0000001 }
+					check_variable = { GEU_currency_in_circulation < 0.0001 }
 				}
-				set_variable = { test_system_currency_in_circulation = 1 }
-				multiply_variable = { GEU_currency_in_circulation_view = 1000000 }
-			}
-			if = {
-				limit = {
-					OR = {
-						check_variable = { GEU_currency_in_circulation = 0.0001 }
-						AND = {
-							check_variable = { GEU_currency_in_circulation > 0.0001 }
-							check_variable = { GEU_currency_in_circulation < 1 }
-						}
-					}
-				}
-				set_variable = { test_system_currency_in_circulation = 2 }
-				multiply_variable = { GEU_currency_in_circulation_view = 1000 }
-			}
-			if = {
-				limit = {
-					OR = {
-						check_variable = { GEU_currency_in_circulation > 1 }
-						check_variable = { GEU_currency_in_circulation = 1 }
-					}
-				}
-				set_variable = { test_system_currency_in_circulation = 3 }
 			}
 		}
+		set_variable = { test_system_currency_in_circulation = 1 }
+		multiply_variable = { GEU_currency_in_circulation_view = 1000000 }
+	}
+	if = {
+		limit = {
+			OR = {
+				check_variable = { GEU_currency_in_circulation = 0.0001 }
+				AND = {
+					check_variable = { GEU_currency_in_circulation > 0.0001 }
+					check_variable = { GEU_currency_in_circulation < 1 }
+				}
+			}
+		}
+		set_variable = { test_system_currency_in_circulation = 2 }
+		multiply_variable = { GEU_currency_in_circulation_view = 1000 }
+	}
+	if = {
+		limit = {
+			OR = {
+				check_variable = { GEU_currency_in_circulation > 1 }
+				check_variable = { GEU_currency_in_circulation = 1 }
+			}
+		}
+		set_variable = { test_system_currency_in_circulation = 3 }
 	}
 }
 
 GEU_econ_update_graph_monthly = {
-	add_to_array = { GEU_econ_graph_months = ZZZ.GEU_econ_graph_month }
+	add_to_array = { GEU_econ_graph_months = ZZZ.econ_graph_month }
 	add_to_array = { anchor_value_numbers = anchor_value }
 	add_to_array = { currency_value_numbers = currency_value }
 	if = {
@@ -120,11 +122,16 @@ GEU_econ_update_graph_monthly = {
 		remove_from_array = { array = anchor_value_numbers index = 0 }
 		remove_from_array = { array = currency_value_numbers index = 0 }
 	}
+	econ_test_cur_value = yes
 	econ_strat_load_anchors = yes
 	econ_strat_load_currency = yes
+	econ_test_system_reserves = yes
+	econ_test_system_cur = yes
+	econ_test_cur_bomb = yes
 }
 
 econ_graphs_startup = {
+	clear_array = GEU_econ_graph_months
 	clear_array = anchor_value_numbers
 	clear_array = currency_value_numbers
 	set_temp_variable = { curr_anchor_value = anchor_value }
@@ -304,4 +311,156 @@ econ_strat_load_currency = {
 	}
 
 	add_to_variable = { TNO_economy_GUI_dirty = 1 }
+}
+
+econ_set_slider = {
+	clear_array = taxation_set_buttons
+	for_loop_effect = {
+		start = 0
+		end = 61
+		value = i
+		add_to_array = { taxation_set_buttons = i }
+	}
+
+	set_temp_variable = { taxation_max_temp = 0.08 }
+	set_variable = { econ_taxation_slider_pct = 50 }
+	set_variable = { econ_taxation_minimal_pct = 25 }
+	set_variable = { econ_taxation_maximal_pct = 75 }
+	econ_slider_tax_test = yes
+	set_variable = { taxation = taxation_max_temp }
+	multiply_variable = { taxation = 0.5 }
+}
+
+econ_slider_tax_test = {
+	set_variable = { econ_taxation_dot_x = econ_taxation_slider_pct }
+	multiply_variable = { econ_taxation_dot_x = 1.88 }
+	add_to_variable = { econ_taxation_dot_x = 45 }
+
+	set_variable = { econ_taxation_minimal_x = econ_taxation_minimal_pct }
+	multiply_variable = { econ_taxation_minimal_x = 1.88 }
+	add_to_variable = { econ_taxation_minimal_x = 45 }
+
+	set_variable = { econ_taxation_maximal_x = econ_taxation_maximal_pct }
+	multiply_variable = { econ_taxation_maximal_x = 1.88 }
+	add_to_variable = { econ_taxation_maximal_x = 42 }
+}
+
+econ_tax_test_limit_max = {
+	if = {
+		limit = { check_variable = { econ_taxation_dot_x > econ_taxation_maximal_x } }
+		set_variable = { econ_taxation_slider_pct = econ_taxation_maximal_pct }
+		set_variable = { econ_taxation_dot_x = econ_taxation_maximal_x }
+		set_temp_variable = { econ_taxation_slider_pct_temp = econ_taxation_maximal_pct }
+		divide_temp_variable = { econ_taxation_slider_pct_temp = 100 }
+		set_variable = { tax_percent = econ_taxation_slider_pct_temp }
+		set_variable = { taxation = 0.08 }
+		multiply_variable = { taxation = econ_taxation_slider_pct_temp }
+	}
+}
+
+econ_tax_test_limit_min = {
+	if = {
+		limit = { check_variable = { econ_taxation_dot_x < econ_taxation_minimal_x } }
+		set_variable = { econ_taxation_slider_pct = econ_taxation_minimal_pct }
+		set_variable = { econ_taxation_dot_x = econ_taxation_minimal_x }
+		set_temp_variable = { econ_taxation_slider_pct_temp = econ_taxation_minimal_pct }
+		divide_temp_variable = { econ_taxation_slider_pct_temp = 100 }
+		set_variable = { tax_percent = econ_taxation_slider_pct_temp }
+		set_variable = { taxation = 0.08 }
+		multiply_variable = { taxation = econ_taxation_slider_pct_temp }
+	}
+}
+
+econ_tax_slider_tab = {
+	econ_tax_test_limit_max = yes
+	econ_tax_test_limit_min = yes
+	if = {
+		limit = {
+			check_variable = { econ_taxation_dot_x > econ_taxation_minimal_x }
+			check_variable = { econ_taxation_dot_x < econ_taxation_maximal_x }
+		}
+		set_variable = { taxation = 0.08 }
+		set_temp_variable = { tax_slider_percent = button_idx }
+		multiply_temp_variable = { tax_slider_percent = 1.66 }
+		round_temp_variable = tax_slider_percent
+		divide_temp_variable = { tax_slider_percent = 100 }
+		set_variable = { tax_percent = tax_slider_percent }
+		multiply_variable = { taxation = tax_slider_percent }
+	}
+}
+
+econ_reduce_tax_button_1x = {
+	if = {
+		limit = {
+			check_variable = { econ_taxation_dot_x > econ_taxation_minimal_x }
+		}
+		add_to_variable = { econ_taxation_slider_pct = -1 }
+		econ_slider_tax_test = yes
+		set_variable = { taxation = 0.08 }
+		add_to_variable = { tax_percent = -0.01 }
+		multiply_variable = { taxation = tax_percent }
+	}
+	econ_tax_test_limit_min = yes
+}
+
+econ_add_tax_button_1x = {
+	if = {
+		limit = {
+			check_variable = { econ_taxation_dot_x < econ_taxation_maximal_x }
+		}
+		add_to_variable = { econ_taxation_slider_pct = 1 }
+		econ_slider_tax_test = yes
+		set_variable = { taxation = 0.08 }
+		add_to_variable = { tax_percent = 0.01 }
+		multiply_variable = { taxation = tax_percent }
+	}
+	econ_tax_test_limit_max = yes
+}
+
+econ_reduce_tax_button_10x = {
+	if = {
+		limit = {
+			check_variable = { econ_taxation_dot_x > econ_taxation_minimal_x }
+		}
+		add_to_variable = { econ_taxation_slider_pct = -10 }
+		econ_slider_tax_test = yes
+		set_variable = { taxation = 0.08 }
+		add_to_variable = { tax_percent = -0.1 }
+		multiply_variable = { taxation = tax_percent }
+	}
+	econ_tax_test_limit_min = yes
+}
+
+econ_add_tax_button_10x = {
+	if = {
+		limit = {
+			check_variable = { econ_taxation_dot_x < econ_taxation_maximal_x }
+		}
+		add_to_variable = { econ_taxation_slider_pct = 10 }
+		econ_slider_tax_test = yes
+		set_variable = { taxation = 0.08 }
+		add_to_variable = { tax_percent = 0.1 }
+		multiply_variable = { taxation = tax_percent }
+	}
+	econ_tax_test_limit_max = yes
+}
+
+econ_reduce_tax_button_min = {
+	set_variable = { econ_taxation_slider_pct = econ_taxation_minimal_pct }
+	set_variable = { econ_taxation_dot_x = econ_taxation_minimal_x }
+	set_temp_variable = { econ_taxation_slider_pct_temp = econ_taxation_minimal_pct }
+	divide_temp_variable = { econ_taxation_slider_pct_temp = 100 }
+	set_variable = { tax_percent = econ_taxation_slider_pct_temp }
+	set_variable = { taxation = 0.08 }
+	multiply_variable = { taxation = econ_taxation_slider_pct_temp }
+}
+
+econ_add_tax_button_max = {
+	set_variable = { econ_taxation_slider_pct = econ_taxation_maximal_pct }
+	set_variable = { econ_taxation_dot_x = econ_taxation_maximal_x }
+	set_temp_variable = { econ_taxation_slider_pct_temp = econ_taxation_maximal_pct }
+	divide_temp_variable = { econ_taxation_slider_pct_temp = 100 }
+	set_variable = { tax_percent = econ_taxation_slider_pct_temp }
+	set_variable = { taxation = 0.08 }
+	multiply_variable = { taxation = econ_taxation_slider_pct_temp }
 }

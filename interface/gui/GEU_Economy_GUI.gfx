@@ -65,6 +65,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_box.dds"
 	}
 	spriteType = {
+		name = "GFX_GEU_Eco_gui_button"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_left_button"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_left_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GEU_Eco_right_button"
+		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_right_button.dds"
+	}
+	spriteType = {
 		name = "GFX_GEU_Eco_gui_order_button"
 		texturefile = "gfx/interface/GEU_Economy/GEU_Eco_gui_order_button.dds"
 	}
