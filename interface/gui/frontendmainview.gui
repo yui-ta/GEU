@@ -152,11 +152,11 @@ guiTypes = {
 		origo = upper_right
 
 		iconType = {
-			name ="frontend_tno_logo"
-			spriteType = "GFX_frontend_tno_logo"
-			position = { x = -300 y = 20 }
-			pdx_tooltip = TNO_ugly_american_icon_tt
-			pdx_tooltip_delayed = TNO_ugly_american_icon_tt_delayed
+			name ="frontend_GEU_logo"
+			spriteType = "GFX_GEU_logo"
+			position = { x = -350 y = 25 }
+			pdx_tooltip = "GEU_logo_icon_tt"
+			pdx_tooltip_delayed = "GEU_logo_icon_tt_delayed"
 		}
 
 		ButtonType = {

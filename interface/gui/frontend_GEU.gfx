@@ -1,0 +1,14 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_country_select_blocker_GEU"
+        texturefile = "gfx/interface/texticon/country_select_blocker_GEU.dds"
+    }
+
+    spriteType =
+    {
+        name = "GFX_GEU_logo"
+        texturefile = "gfx/interface/GEU_logo.dds"
+    }
+}

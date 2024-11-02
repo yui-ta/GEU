@@ -1,0 +1,51 @@
+bookmarks = {
+
+	###################################################################
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	###################################################################
+
+	bookmark = {
+		name = "THENEWORDER_NAME"
+		desc = "THENEWORDER_DESC"
+		date = 1962.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "JAP"
+		default = yes
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+
+		"JAP" = {
+			history = "JAP_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				JAP_showa_emperor
+				JAP_legacy_guarded_pearl_exercises
+				JAP_zaibatsu_question
+			}
+			focuses = {
+				JAP_never_been_better
+				JAP_fake_economy_end
+				JAP_fake_economy_end_end
+			}
+		}
+
+		"GEN" = {
+			history = "JAP_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				JAP_showa_emperor
+				JAP_legacy_guarded_pearl_exercises
+				JAP_zaibatsu_question
+			}
+			focuses = {
+				JAP_never_been_better
+				JAP_fake_economy_end
+				JAP_fake_economy_end_end
+			}
+		}
+	}
+}
