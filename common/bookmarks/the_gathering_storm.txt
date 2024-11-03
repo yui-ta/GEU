@@ -35,7 +35,7 @@ bookmarks = {
 
 		"GEN" = {
 			history = "JAP_THENEWORDER_DESC"
-			ideology = fascism
+			ideology = paternalism
 			ideas = {
 				JAP_showa_emperor
 				JAP_legacy_guarded_pearl_exercises
