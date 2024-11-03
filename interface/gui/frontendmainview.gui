@@ -14,7 +14,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_frontend_bg"
+			quadTextureSprite ="GFX_GEU_mianmenu_background"
 		}
 
 	}
