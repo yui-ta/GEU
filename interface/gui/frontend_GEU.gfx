@@ -11,4 +11,11 @@ spriteTypes =
         name = "GFX_GEU_logo"
         texturefile = "gfx/interface/GEU_logo.dds"
     }
+
+    spriteType =
+    {
+        name = "GFX_GEN_intro"
+        texturefile = "gfx/interface/texticon/GEN_intro.dds"
+        legacy_lazy_load = no
+    }
 }

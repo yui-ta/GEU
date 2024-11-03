@@ -121,7 +121,7 @@ guiTypes = {
 		iconType = {
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x = 000 y = 20 }
+			position = { x = 65 y = 20 }
 		}
 	}
 
@@ -325,21 +325,21 @@ guiTypes = {
 			name = "GFX_fronticons_tooltip_1"
 			position = { x = 91 y = 4 }
 			spriteType = "GFX_fronticons_tooltip"
-			pdx_tooltip = TNO_menupic_tooltip_1
+			pdx_tooltip = GEU_menupic_tooltip_1
 		}
 
 		iconType = {
 			name = "GFX_fronticons_tooltip_2"
 			position = { x = 403 y = 4 }
 			spriteType = "GFX_fronticons_tooltip"
-			pdx_tooltip = TNO_menupic_tooltip_2
+			pdx_tooltip = GEU_menupic_tooltip_2
 		}
 
 		iconType = {
 			name = "GFX_fronticons_tooltip_3"
 			position = { x = 714 y = 4 }
 			spriteType = "GFX_fronticons_tooltip"
-			pdx_tooltip = TNO_menupic_tooltip_3
+			pdx_tooltip = GEU_menupic_tooltip_3
 		}
 
 		instantTextBoxType = {

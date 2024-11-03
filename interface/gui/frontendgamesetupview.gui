@@ -635,7 +635,7 @@ guiTypes = {
 				position = { x = 694 y = 152 }
 				spriteType = "GFX_country_select_blocker_GEU"
 				pdx_tooltip = "GEN"
-				pdx_tooltip_delayed = "BOOKMARK_CANADA_BLOCKER_DELAYED"
+				pdx_tooltip_delayed = "BOOKMARK_GEN_intro"
 			}
 		}
 
