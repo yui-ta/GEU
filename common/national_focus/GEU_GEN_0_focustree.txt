@@ -21,10 +21,6 @@ focus_tree = {
 		}
 	}
 	shared_focus = GEN_Seventeen_Constitutional_Bombs
-	shared_focus = GEN_Utopia
-	shared_focus = GEN_Yokai_Paradise
-	shared_focus = GEN_Yasaka_and_Yakumo
-	shared_focus = GEN_Abolish_Reimu
 	shared_focus = GEN_Offerings_to_the_Ungrateful
 	shared_focus = GEN_Chronicles_of_Present_World
 	shared_focus = GEN_Burning_Karma_on_this_shore
