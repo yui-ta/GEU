@@ -289,3 +289,424 @@ spriteTypes = {
 		texturefile = "gfx/interface/GEN_focus/GEN_General_drawing_of_Fantasia.dds"
 	}
 }
+
+#二阶段#
+spriteTypes =
+{
+	spriteType = {
+		name = "GFX_GEN_focus_return_leave"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_return_leave.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_god_return"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_god_return.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Mordor_Goryokaku"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Mordor_Goryokaku.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_save_me_time"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_save_me_time.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_five_oaths"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_five_oaths.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_majestic_national"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_majestic_national.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_first_contact"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_first_contact.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_all_in_one"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_all_in_one.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Jianwu_phantom"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Jianwu_phantom.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_public_politics"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_public_politics.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_reform"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_military_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_command_integration"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_command_integration.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_troop_information"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_troop_information.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_military_school"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Genso_military_school.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_service"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_military_service.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_breath_of_Youkai"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_breath_of_Youkai.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_grapefruit_logistics"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_grapefruit_logistics.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_firmiana_program"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_firmiana_program.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_dark_side_of_moon"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_dark_side_of_moon.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_police_enhancement"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_police_enhancement.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_prison_innovation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_prison_innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_happy_and_secure"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_happy_and_secure.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_fall_into_happiness"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_fall_into_happiness.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_earthly_reparation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_earthly_reparation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_three_seven"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_three_seven.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_feudatories_gun"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_feudatories_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_judicial_innovation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_judicial_innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_offical_business"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_offical_business.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_bureaucracy"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_national_bureaucracy.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_power_of_god"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_power_of_god.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_religious_society"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_religious_society.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_return_authority"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_return_authority.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_law_of_humanWorld"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_law_of_humanWorld.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_equality_for_all"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_equality_for_all.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_royalty"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Genso_royalty.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_house_of_learning"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_house_of_learning.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_abolish_sword"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_abolish_sword.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_government"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_information_government.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_with_irresistible_force"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_with_irresistible_force.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_bank"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_national_bank.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_currency"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Genso_currency.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_domestic_production"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_domestic_production.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_market_dynamism"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_market_dynamism.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_compulsory_education"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_compulsory_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_technical_education"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_technical_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_se_education"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_se_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_education"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Genso_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_tax_uniformity"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_tax_uniformity.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_land_business"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_land_business.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_autumn_land_fund"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_autumn_land_fund.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_farm"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_national_farm.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_diligence"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_diligence.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_light_of_the_land"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_light_of_the_land.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_long_way_through"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_long_way_through.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_sky_train"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_sky_train.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_titurokusyobun"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_titurokusyobun.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_six_trillion_years"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_six_trillion_years.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_great_nation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_great_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_police_upgrade"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_police_upgrade.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_nature_law"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_nature_law.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_social_safety"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_social_safety.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_saka_on_uenokumo"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_saka_on_uenokumo.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_purge_army"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_purge_army.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_back_to_Izumo"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_back_to_Izumo.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_meltdown"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_meltdown.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_space_magic"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_space_magic.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_thron_rose"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_thron_rose.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_vicissitudes_of_constitutional"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_vicissitudes_of_constitutional.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Yasaka_cabinet"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Yasaka_cabinet.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Dong_consulting"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Dong_consulting.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_media_censorship"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_media_censorship.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_interest_political_parties"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_interest_political_parties.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_assembly_regulation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_assembly_regulation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_preparations_for_election"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_preparations_for_election.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Hua_romance"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Hua_romance.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_meaning_of_approval"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_meaning_of_approval.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_superhighway"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_information_superhighway.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_application"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_information_application.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_digital_surveillance"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_digital_surveillance.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_network_engineering"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_network_engineering.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_agriculture_cooperation"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_agriculture_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_industrial_collaboration"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_industrial_collaboration.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_business_cohesion"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_business_cohesion.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_health_constrction"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_health_constrction.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_eco_city"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_eco_city.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_command"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_military_command.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_life_revolution"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_life_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_promoting_national_essence"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_promoting_national_essence.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_family_and_country"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_family_and_country.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Dong_constitution"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Dong_constitution.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_beasts_of_power"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_beasts_of_power.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_forever_excellency"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_forever_excellency.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_nakasendai_no_ran"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_nakasendai_no_ran.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Etchu_taku_plan"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Etchu_taku_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_steel_ball_run"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_steel_ball_run.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_people_die_wolves_live"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_people_die_wolves_live.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_River_plain_Dead"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_River_plain_Dead.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_human_aid"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_human_aid.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_home_of_this"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_home_of_this.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Etchu_development"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Etchu_development.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Futatsuiwa_mission"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Futatsuiwa_mission.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_voyage"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Genso_voyage.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_together_progress"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_together_progress.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_disappearance_of_mosquitoes"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_disappearance_of_mosquitoes.dds"
+	}
+}
