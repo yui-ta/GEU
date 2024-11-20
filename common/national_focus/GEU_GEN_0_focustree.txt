@@ -27,3 +27,20 @@ focus_tree = {
 	shared_focus = GEN_Sixty_Years_of_the_Orient_Trial
 	default = no
 }
+
+focus_tree =
+{
+	id = GEN_2_tree #二阶段国策树
+	country =
+	{
+		factor = 0
+		modifier =
+		{
+			add = 10
+			tag = GEN
+		}
+	}
+	default = no
+	shared_focus = GEN_focus_return_leave
+	shared_focus = GEN_focus_nakasendai_no_ran
+}

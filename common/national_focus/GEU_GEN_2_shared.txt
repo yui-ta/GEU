@@ -1,0 +1,2278 @@
+shared_focus =
+{
+    id = GEN_focus_return_leave #归来又当去
+    icon = GFX_GEN_focus_return_leave
+    
+    x = 8
+    y = 0
+    
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_god_return #神而再君临
+    icon = GFX_GEN_focus_god_return
+
+    relative_position_id = GEN_focus_return_leave
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_return_leave
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Mordor_Goryokaku #末世五棱郭
+    icon = GFX_GEN_focus_Mordor_Goryokaku
+
+    relative_position_id = GEN_focus_god_return
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_god_return
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_save_me_time #免我蹉跎苦
+    icon = GFX_GEN_focus_save_me_time
+
+    relative_position_id = GEN_focus_god_return
+    x = -2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_Mordor_Goryokaku
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_five_oaths #御前五誓文
+    icon = GFX_GEN_focus_five_oaths
+
+    relative_position_id = GEN_focus_god_return
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_god_return
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_majestic_national #巍严之国体
+    icon = GFX_GEN_focus_majestic_national
+
+    relative_position_id = GEN_focus_god_return
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_five_oaths
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_first_contact #第一次接触
+    icon = GFX_GEN_focus_first_contact
+
+    relative_position_id = GEN_focus_god_return
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_god_return
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_all_in_one #万众齐一心
+    icon = GFX_GEN_focus_all_in_one
+
+    relative_position_id = GEN_focus_god_return
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_first_contact
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Jianwu_phantom #建武幻梦
+    icon = GFX_GEN_focus_Jianwu_phantom
+
+    relative_position_id = GEN_focus_god_return
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_save_me_time
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_majestic_national
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_all_in_one
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_public_politics #公议政治
+    icon = GFX_GEN_focus_public_politics
+
+    relative_position_id = GEN_focus_god_return
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_Jianwu_phantom
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_military_reform #军事改革
+    icon = GFX_GEN_focus_military_reform
+
+    relative_position_id = GEN_focus_public_politics
+    x = -6
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_public_politics
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_command_integration #指挥整合
+    icon = GFX_GEN_focus_command_integration
+
+    relative_position_id = GEN_focus_military_reform
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_troop_information #部队信息
+    icon = GFX_GEN_focus_troop_information
+
+    relative_position_id = GEN_focus_military_reform
+    x = -2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_command_integration
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Genso_military_school #幻想军校
+    icon = GFX_GEN_focus_Genso_military_school
+
+    relative_position_id = GEN_focus_military_reform
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_troop_information
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_military_service #兵役制度
+    icon = GFX_GEN_focus_military_service
+
+    relative_position_id = GEN_focus_military_reform
+    x = -2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_Genso_military_school
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_breath_of_Youkai #妖怪之息
+    icon = GFX_GEN_focus_breath_of_Youkai
+
+    relative_position_id = GEN_focus_military_reform
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_grapefruit_logistics #西柚物流
+    icon = GFX_GEN_focus_grapefruit_logistics
+
+    relative_position_id = GEN_focus_military_reform
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_breath_of_Youkai
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_firmiana_program #梧桐计划
+    icon = GFX_GEN_focus_firmiana_program
+
+    relative_position_id = GEN_focus_military_reform
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_grapefruit_logistics
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_dark_side_of_moon #月之暗面
+    icon = GFX_GEN_focus_dark_side_of_moon
+
+    relative_position_id = GEN_focus_military_reform
+    x = 0
+    y = 4
+    
+    prerequisite =
+    {
+        focus = GEN_focus_firmiana_program
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_police_enhancement #警务强化
+    icon = GFX_GEN_focus_police_enhancement
+
+    relative_position_id = GEN_focus_military_reform
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_reform
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_prison_innovation #监狱革新
+    icon = GFX_GEN_focus_prison_innovation
+
+    relative_position_id = GEN_focus_military_reform
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_police_enhancement
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_happy_and_secure #幸福安心
+    icon = GFX_GEN_focus_happy_and_secure
+
+    relative_position_id = GEN_focus_military_reform
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_fall_into_happiness #堕入幸福
+    icon = GFX_GEN_focus_fall_into_happiness
+
+    relative_position_id = GEN_focus_military_reform
+    x = 2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_happy_and_secure
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_earthly_reparation #人间补完
+    icon = GFX_GEN_focus_earthly_reparation
+
+    relative_position_id = GEN_focus_military_reform
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_service
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_dark_side_of_moon
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_fall_into_happiness
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_three_seven #三职七科
+    icon = GFX_GEN_focus_three_seven
+
+    relative_position_id = GEN_focus_public_politics
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_public_politics
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_feudatories_gun #藩郡并立
+    icon = GFX_GEN_focus_feudatories_gun
+
+    relative_position_id = GEN_focus_three_seven
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_three_seven
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_judicial_innovation #司法革新
+    icon = GFX_GEN_focus_judicial_innovation
+
+    relative_position_id = GEN_focus_three_seven
+    x = -2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_feudatories_gun
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_offical_business #公务在身
+    icon = GFX_GEN_focus_offical_business
+
+    relative_position_id = GEN_focus_three_seven
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_judicial_innovation
+    }
+   cost = 1
+
+   completion_reward =
+   {
+    
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_national_bureaucracy #国家官僚
+    icon = GFX_GEN_focus_national_bureaucracy
+
+    relative_position_id = GEN_focus_three_seven
+    x = -2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_offical_business
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_power_of_god #神明威光
+    icon = GFX_GEN_focus_power_of_god
+
+    relative_position_id = GEN_focus_three_seven
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_three_seven
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_religious_society #宗教社会
+    icon = GFX_GEN_focus_religious_society
+
+    relative_position_id = GEN_focus_three_seven
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_power_of_god
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_return_authority #版籍奉还
+    icon = GFX_GEN_focus_return_authority
+
+    relative_position_id = GEN_focus_three_seven
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_religious_society
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_law_of_humanWorld #人间之律
+    icon = GFX_GEN_focus_law_of_humanWorld
+
+    relative_position_id = GEN_focus_three_seven
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_return_authority
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_equality_for_all #四民平等
+    icon = GFX_GEN_focus_equality_for_all
+
+    relative_position_id = GEN_focus_three_seven
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_three_seven
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Genso_royalty #幻想皇族
+    icon = GFX_GEN_focus_Genso_royalty
+
+    relative_position_id = GEN_focus_three_seven
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_equality_for_all
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_house_of_learning #学习之院
+    icon = GFX_GEN_focus_house_of_learning
+
+    relative_position_id = GEN_focus_three_seven
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_three_seven
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_abolish_sword #废刀之令
+    icon = GFX_GEN_focus_abolish_sword
+
+    relative_position_id = GEN_focus_three_seven
+    x = 2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_house_of_learning
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_information_government #信息政府
+    icon = GFX_GEN_focus_information_government
+
+    relative_position_id = GEN_focus_three_seven
+    x = 0
+    y = 5
+    
+    prerequisite =
+    {
+        focus = GEN_focus_national_bureaucracy
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_law_of_humanWorld
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_abolish_sword
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_with_irresistible_force #势冲青天
+    icon = GFX_GEN_focus_with_irresistible_force
+
+    relative_position_id = GEN_focus_public_politics
+    x = 7
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_public_politics
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_national_bank #国家银行
+    icon = GFX_GEN_focus_national_bank
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -3
+    y = 1
+    
+    prerequisite =
+    {
+        focus = GEN_focus_with_irresistible_force
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Genso_currency #幻想货币
+    icon = GFX_GEN_focus_Genso_currency
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_national_bank
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_domestic_production #创办国产
+    icon = GFX_GEN_focus_domestic_production
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_Genso_currency
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_market_dynamism #市场活力
+    icon = GFX_GEN_focus_market_dynamism
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -3
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_domestic_production
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_compulsory_education #义务教育
+    icon = GFX_GEN_focus_compulsory_education
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_with_irresistible_force
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_technical_education #技术教育
+    icon = GFX_GEN_focus_technical_education
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -1
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_compulsory_education
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_se_education #理工教育
+    icon = GFX_GEN_focus_se_education
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_technical_education
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Genso_education #教育敕语
+    icon = GFX_GEN_focus_Genso_education
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = -1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_se_education
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_tax_uniformity #税金一统
+    icon = GFX_GEN_focus_tax_uniformity
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_with_irresistible_force
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_land_business #土地买卖
+    icon = GFX_GEN_focus_land_business
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_tax_uniformity
+    }
+   cost = 1
+
+   completion_reward =
+   {
+
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_autumn_land_fund #秋壤积金
+    icon = GFX_GEN_focus_autumn_land_fund
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_land_business
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_national_farm #国营农场
+    icon = GFX_GEN_focus_national_farm
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 1
+    y = 4
+
+    prerequisite = 
+    {
+        focus = GEN_focus_autumn_land_fund
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_diligence #勤勉为己
+    icon = GFX_GEN_focus_diligence
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_with_irresistible_force
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_light_of_the_land #万家灯火
+    icon = GFX_GEN_focus_light_of_the_land
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_diligence
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_long_way_through #万里通途
+    icon = GFX_GEN_focus_long_way_through
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_light_of_the_land
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+
+    id = GEN_focus_sky_train #空中列车
+    icon = GFX_GEN_focus_sky_train
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 3
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_long_way_through
+    }
+   cost = 1
+
+   completion_reward =
+   {
+    
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_titurokusyobun #秩禄处分
+    icon = GFX_GEN_focus_titurokusyobun
+
+    relative_position_id = GEN_focus_with_irresistible_force
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_market_dynamism
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_Genso_education
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_national_farm
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_sky_train
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_six_trillion_years #六兆年雾雨
+    icon = GFX_GEN_focus_six_trillion_years
+
+    relative_position_id = GEN_focus_public_politics
+    x = 0
+    y = 7
+    
+    prerequisite =
+    {
+        focus = GEN_focus_earthly_reparation
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_information_government
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_titurokusyobun
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_great_nation #国威万里
+    icon = GFX_GEN_focus_great_nation
+    
+    relative_position_id = GEN_focus_six_trillion_years
+    x = -6
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_six_trillion_years
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_police_upgrade #警务升级
+    icon = GFX_GEN_focus_police_upgrade
+
+    relative_position_id = GEN_focus_great_nation
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_great_nation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_nature_law #天网恢恢
+    icon = GFX_GEN_focus_nature_law
+
+    relative_position_id = GEN_focus_great_nation
+    x = -2
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_police_upgrade
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_social_safety #社会安全
+    icon = GFX_GEN_focus_social_safety
+
+    relative_position_id = GEN_focus_great_nation
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_nature_law
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_saka_on_uenokumo #坂上之云
+    icon = GFX_GEN_focus_saka_on_uenokumo
+
+    relative_position_id = GEN_focus_great_nation
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_great_nation
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_purge_army #军队整肃
+    icon = GFX_GEN_focus_purge_army
+
+    relative_position_id = GEN_focus_great_nation
+    x = 0
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_saka_on_uenokumo
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_back_to_Izumo #回到出云
+    icon = GFX_GEN_focus_back_to_Izumo
+
+    relative_position_id = GEN_focus_great_nation
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_purge_army
+    }
+   cost = 1
+
+   completion_reward =
+   {
+
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_meltdown #炉心融解
+    icon = GFX_GEN_focus_meltdown
+
+    relative_position_id = GEN_focus_great_nation
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_great_nation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_space_magic #太空魔术
+    icon = GFX_GEN_focus_space_magic
+
+    relative_position_id = GEN_focus_great_nation
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_meltdown
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_thron_rose #带刺玫瑰
+    icon = GFX_GEN_focus_thron_rose
+
+    relative_position_id = GEN_focus_great_nation
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_space_magic
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_vicissitudes_of_constitutional #宪政沧途
+    icon = GFX_GEN_focus_vicissitudes_of_constitutional
+    
+    relative_position_id = GEN_focus_six_trillion_years
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_six_trillion_years
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yasaka_cabinet #八坂内阁
+    icon = GFX_GEN_focus_Yasaka_cabinet
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_vicissitudes_of_constitutional
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Dong_consulting #东国咨询
+    icon = GFX_GEN_focus_Dong_consulting
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = -2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_Yasaka_cabinet
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_media_censorship #媒体整顿
+    icon = GFX_GEN_focus_media_censorship
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_Dong_consulting
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_modernize_reality #革新现实
+    icon = GFX_GEN_focus_modernize_reality
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_vicissitudes_of_constitutional
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_interest_political_parties #关注民党
+    icon = GFX_GEN_focus_interest_political_parties
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 0
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_modernize_reality
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_assembly_regulation #集会条例
+    icon = GFX_GEN_focus_assembly_regulation
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_interest_political_parties
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_preparations_for_election #选举预备
+    icon = GFX_GEN_focus_preparations_for_election
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_vicissitudes_of_constitutional
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Hua_romance #华族浪漫
+    icon = GFX_GEN_focus_Hua_romance
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 2
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_preparations_for_election
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_meaning_of_approval #审批之义
+    icon = GFX_GEN_focus_meaning_of_approval
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_Hua_romance
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_information_superhighway #信息高速
+    icon = GFX_GEN_focus_information_superhighway
+
+    relative_position_id = GEN_focus_six_trillion_years
+    x = 7
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_six_trillion_years
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_information_application #信息应用
+    icon = GFX_GEN_focus_information_application
+    
+    relative_position_id = GEN_focus_information_superhighway
+    x = -3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_information_superhighway
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_digital_surveillance #数字监督
+    icon = GFX_GEN_focus_digital_surveillance
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = -3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_information_application
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_network_engineering #网络工程
+    icon = GFX_GEN_focus_network_engineering
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = -3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_digital_surveillance
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_agriculture_cooperation #农业协合
+    icon = GFX_GEN_focus_agriculture_cooperation
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_information_superhighway
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_industrial_collaboration #工业协合
+    icon = GFX_GEN_focus_industrial_collaboration
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_agriculture_cooperation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_business_cohesion #商业协合
+    icon = GFX_GEN_focus_business_cohesion
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_industrial_collaboration
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_health_constrction #卫生建设
+    icon = GFX_GEN_focus_health_constrction
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 1
+    y = 1
+    
+    prerequisite =
+    {
+        focus = GEN_focus_information_superhighway
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_eco_city #生态都市
+    icon = GFX_GEN_focus_eco_city
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_health_constrction
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_military_command #军需统制
+    icon = GFX_GEN_focus_military_command
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_eco_city
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_life_revolution #生活革命
+    icon = GFX_GEN_focus_life_revolution
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_information_superhighway
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_promoting_national_essence #弘扬国粹
+    icon = GFX_GEN_focus_promoting_national_essence
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_life_revolution
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_family_and_country #家国一体
+    icon = GFX_GEN_focus_family_and_country
+
+    relative_position_id = GEN_focus_information_superhighway
+    x = 3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_promoting_national_essence
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Dong_constitution #东之国宪法
+    icon = GFX_GEN_focus_Dong_constitution
+
+    relative_position_id = GEN_focus_vicissitudes_of_constitutional
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_social_safety
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_back_to_Izumo
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_thron_rose
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_media_censorship
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_assembly_regulation
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_meaning_of_approval
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_network_engineering
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_business_cohesion
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_military_command
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_family_and_country
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_beasts_of_power #权力野兽
+    icon = GFX_GEN_focus_beasts_of_power
+
+    relative_position_id = GEN_focus_Dong_constitution
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Dong_constitution
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_forever_excellency #永远的阁下
+    icon = GFX_GEN_focus_forever_excellency
+
+    relative_position_id = GEN_focus_Dong_constitution
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_beasts_of_power
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+#富士建设线（单独）#
+shared_focus =
+{
+    id = GEN_focus_nakasendai_no_ran #中先代之乱
+    icon = GFX_GEN_focus_nakasendai_no_ran
+
+    x = 17
+    y = 0
+    
+    cost = 1
+    
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Etchu_taku_plan #越中拓殖计划
+    icon = GFX_GEN_focus_Etchu_taku_plan
+    
+    relative_position_id = GEN_focus_nakasendai_no_ran
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_nakasendai_no_ran
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_steel_ball_run #飙马野郎
+    icon = GFX_GEN_focus_steel_ball_run
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Etchu_taku_plan
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_people_die_wolves_live #人死狼生
+    icon = GFX_GEN_focus_people_die_wolves_live
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = -2
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_steel_ball_run
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_River_plain_Dead #赛之河原
+    icon = GFX_GEN_focus_River_plain_Dead
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_people_die_wolves_live
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_human_aid #人间救助
+    icon = GFX_GEN_focus_human_aid
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Etchu_taku_plan
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_home_of_this #此方之家
+    icon = GFX_GEN_focus_home_of_this
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 0
+    y = 2
+    
+    prerequisite =
+    {
+        focus = GEN_focus_human_aid
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Etchu_development #越中开发
+    icon = GFX_GEN_focus_Etchu_development
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_home_of_this
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Futatsuiwa_mission #二岩使团
+    icon = GFX_GEN_focus_Futatsuiwa_mission
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Etchu_taku_plan
+    }
+    cost = 1
+    
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Genso_voyage #幻想航行
+    icon = GFX_GEN_focus_Genso_voyage
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_Futatsuiwa_mission
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_together_progress #共促进步
+    icon = GFX_GEN_focus_together_progress
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_Genso_voyage
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_disappearance_of_mosquitoes #吸血蚊虫的消失
+    icon = GFX_GEN_focus_disappearance_of_mosquitoes
+
+    relative_position_id = GEN_focus_Etchu_taku_plan
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_River_plain_Dead
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_Etchu_development
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_together_progress
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
