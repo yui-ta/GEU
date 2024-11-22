@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+#debug决议
+GEN_load_beginning_focus_tree: "加载准备阶段国策"
+GEN_laod_first_stage_focus_tree: "加载一阶段国策"
+GEN_laod_second_stage_focus_tree: "加载二阶段国策"

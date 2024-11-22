@@ -119,11 +119,11 @@ add_ideas = {
 	tno_admin_efficiency_deficient_administrative_systems
 
 	#GEN Idea#
-          GEN_The_Land_of_Hermits
-          GEN_The_War_of_Religion
-          GEN_Moriya_Modernization
-          GEN_Konata_Rules
-          GEN_SC_Rules
+    GEN_The_Land_of_Hermits
+    GEN_The_War_of_Religion
+    GEN_Moriya_Modernization
+    GEN_Konata_Rules
+    GEN_SC_Rules
 
 	#Ministers#
 	GEN_Yakumo_Yukari_hog

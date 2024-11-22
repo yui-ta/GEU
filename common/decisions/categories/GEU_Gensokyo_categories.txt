@@ -1,0 +1,19 @@
+GEN_debug_category =
+{
+    allowed =
+    {
+        original_tag = GEN
+        original_tag = JAP
+        is_ai = no        
+    }
+    visible =
+    {
+        is_debug = yes
+    }
+    visible_when_empty = yes
+    
+    priority =
+    {
+        base = 100
+    }
+}

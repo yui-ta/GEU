@@ -1,5 +1,5 @@
 focus_tree = {
-	id = GEN_focus_tree_1#准备阶段国策树
+	id = GEN_focus_tree_1 #准备阶段国策树
 	country = {
 		factor = 0
 		modifier = {
@@ -12,7 +12,7 @@ focus_tree = {
 }
 
 focus_tree = {
-	id = GEN_focus_tree_2#第一阶段国策树
+	id = GEN_focus_tree_2 #第一阶段国策树
 	country = {
 		factor = 0
 		modifier = {

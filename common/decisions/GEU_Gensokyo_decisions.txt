@@ -1,0 +1,55 @@
+GEN_debug_category =
+{
+    GEN_switch_country =
+    {
+        allowed =
+        {
+            original_tag = JAP
+        }
+        fire_only_once = yes
+
+        complete_effect =
+        {
+            country_event = gen.1
+        }
+    }
+    GEN_load_beginning_focus_tree =
+    {
+        allowed =
+        {
+            original_tag = GEN
+        }
+
+        complete_effect =
+        {
+            load_focus_tree = GEN_focus_tree_1
+            mark_focus_tree_layout_dirty = yes
+        }
+    }
+    GEN_laod_first_stage_focus_tree =
+    {
+        allowed =
+        {
+            original_tag = GEN
+        }
+
+        complete_effect =
+        {
+            load_focus_tree = GEN_focus_tree_2
+            mark_focus_tree_layout_dirty = yes
+        }
+    }
+    GEN_laod_second_stage_focus_tree =
+    {
+        allowed =
+        {
+            original_tag = GEN
+        }
+
+        complete_effect =
+        {
+            load_focus_tree = GEN_2_tree
+            mark_focus_tree_layout_dirty = yes
+        }
+    }
+}
