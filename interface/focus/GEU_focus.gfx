@@ -578,6 +578,10 @@ spriteTypes =
 		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_media_censorship.dds"
 	}
 	spriteType = {
+		name = "GFX_GEN_focus_modernize_reality"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_modernize_reality.dds"
+	}
+	spriteType = {
 		name = "GFX_GEN_focus_interest_political_parties"
 		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_interest_political_parties.dds"
 	}

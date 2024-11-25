@@ -33,7 +33,6 @@ recruit_character = GEN_Yorigami_Jyoon
 recruit_character = GEN_Hiziri_Byakuren
 recruit_character = GEN_Huziwara_no_Mokou
 recruit_character = GEN_Junko
-recruit_character = GEN_Hiziri_Byakuren
 recruit_character = GEN_Plank
 recruit_character = GEN_Yasaka_Kanako
 recruit_character = GEN_Hakurei_Reimu

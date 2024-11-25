@@ -2,9 +2,11 @@ GEN_debug_category =
 {
     allowed =
     {
-        original_tag = GEN
-        original_tag = JAP
-        is_ai = no        
+        OR =
+        {
+            original_tag = GEN
+            original_tag = JAP
+        }
     }
     visible =
     {

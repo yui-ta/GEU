@@ -9,4 +9,4 @@ dependencies={
 }
 picture="thumbnail.png"
 replace_path="gfx/loadingscreens"
-supported_version="1.14.*"
+supported_version="1.15.*"
