@@ -3,13 +3,13 @@
  TNO_newspaper_header_GEN: "\n£custom_header_GEN\n\n\n\n"
 
 #临时
- CJF: "中国镇守府"
- DJF: "出羽镇守府"
- HJF: "北陆公方"
- UJF: "镰仓镇守府"
- KJF: "九州镇守府"
- MJF: "陆奥镇守府"
- SJF: "四国镇守府"
+ CJF: "幻想护国军"
+ DJF: "幻想共和国"
+ HJF: "横滨朝廷"
+ UJF: "东关探题"
+ KJF: "镇西探题"
+ MJF: "奥羽探题"
+ SJF: "南海探题"
 
  GEN: "幻想乡"
  GEN_Hakurei_Reimu: "博丽灵梦"
