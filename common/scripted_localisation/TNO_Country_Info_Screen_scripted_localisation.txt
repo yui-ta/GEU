@@ -6075,6 +6075,12 @@ defined_text = {
 		}
 		localization_key = CountryInfo_Development_Folder.103
 	}
+	text = {
+		trigger = {
+			check_variable = { f = 104 } #幻想缘起
+		}
+		localization_key = CountryInfo_Development_Folder.104
+	}
 }
 
 defined_text = {
@@ -6116,6 +6122,12 @@ defined_text = {
 		}
 		localization_key = CountryInfo_Development_Content.6
 	}
+	text = {
+		trigger = {
+			check_variable = { f = 7 }
+		}
+		localization_key = CountryInfo_Development_Content.7
+	}
 }
 
 defined_text = {
@@ -6156,6 +6168,12 @@ defined_text = {
 			check_variable = { f = 6 }
 		}
 		localization_key = CountryInfo_Development_Content_desc.6
+	}
+	text = {
+		trigger = {
+			check_variable = { f = 7 }
+		}
+		localization_key = CountryInfo_Development_Content_desc.7
 	}
 }
 

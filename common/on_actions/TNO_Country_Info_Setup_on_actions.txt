@@ -61,6 +61,11 @@ on_actions = {
 
 				add_to_array = { CountryInfo_folder_development_103 = 6 }
 
+				add_to_array = { CountryInfo_development_store = 104 }
+				add_to_array = { CountryInfo_development_store = 7 }
+
+				add_to_array = { CountryInfo_folder_development_104 = 7 }
+
 				## Note: This uses if, else_if statements instead of outright scoping tags so that those without content can easily be assigned generic stuff
 				# - Scars
 

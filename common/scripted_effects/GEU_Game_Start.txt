@@ -97,6 +97,11 @@ GEU_setup_starting = {
 
 					add_to_array = { CountryInfo_folder_development_103 = 6 }
 
+					add_to_array = { CountryInfo_development_store = 104 }
+					add_to_array = { CountryInfo_development_store = 7 }
+
+					add_to_array = { CountryInfo_folder_development_104 = 7 }
+
 					set_variable = { Reimu_HP = 100 }
 					set_country_flag = gui_alert_visible_2
 					set_country_flag = TNO_Country_Info_Screen_Visible

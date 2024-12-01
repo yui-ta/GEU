@@ -1,0 +1,13 @@
+spriteTypes =
+{
+    frameAnimatedSpriteType =
+    {
+        name = "GFX_GEN_debug_decision_animation"
+        texturefile = "gfx/interface/decisions/GEU_debug_decision_animation.dds"
+        noOfFrames = 8
+        animation_rate_fps = 18
+        looping = yes
+        play_on_show = yes
+        allwaystransparent = yes
+    }
+}
