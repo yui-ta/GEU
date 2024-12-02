@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 #debug决议
 GEN_debug_category: "幻想乡debug决议"
-GEN_debug_category_desc: "                                        程序员蕾米正在被欺负！\n                                        救救蕾米！"
+GEN_debug_category_desc: "                                        程序员蕾米正在被欺负！\n                                        救救蕾米！" #这处文本不要动
 GEN_switch_country: "触发「神隐」"
 GEN_load_beginning_focus_tree: "加载准备阶段国策"
 GEN_laod_first_stage_focus_tree: "加载一阶段国策"

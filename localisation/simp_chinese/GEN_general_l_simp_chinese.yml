@@ -1,32 +1,6 @@
 ﻿l_simp_chinese:
-#新闻头图
- TNO_newspaper_header_GEN: "\n£custom_header_GEN\n\n\n\n"
 
-#临时
- CJF: "幻想护国军"
- DJF: "幻想共和国"
- HJF: "横滨朝廷"
- UJF: "东关探题"
- KJF: "镇西探题"
- MJF: "奥羽探题"
- SJF: "南海探题"
-
- GEN: "幻想乡"
- GEN_Hakurei_Reimu: "博丽灵梦"
- GEN_Hakurei_Reimu_DESC: "「由重臣选拔，龙神授意许可，即为博丽巫女。并应御灵府内部希望兼任博丽殿，此为幻想乡二元政治」\n\n作为不知从何而来的孤儿，灵梦在慧音的庇护下活着。人里居民从未谈及她的父母，以一种敬而远之的态度注视着其的成长，就这样，灵梦度过了一个普通但又充实的童年。\n\n直到有一天，射命丸文告诉了慧音些什么，而后灵梦便成为了“博丽”入住了博丽神社；迷迷糊糊地学习法术，迷迷糊糊地降妖除魔。大概是因为在人里没什么朋友的原因，灵梦对神社生活适应的相当快，且很容易地便接受了八云紫带来的平衡价值观——也便是慧音曾教育过的那一套。在八云紫日复一日的训练下，她的战斗能力在明面上俨然无人可敌，妖怪们也出于需要让其交往了诸如爱丽丝、魔理沙这样的朋友以获得足够的情感。灵梦的人生如同白纸一般被涂抹着，并享受着恒稳与小打小闹的平静生活。\n\n巫女按龙神规章的中规定的义务也包括了维持平衡、维护结界、维稳秩序。她杀过易者，也许还杀过别人，这一切都是依据这其被指示的那些义务而行。她也曾监视过魔理沙、本居小铃、宇佐见堇子……诸如此类人物。或许这就是长久养育的结果吧，无论禁里还是御灵府皆对灵梦十分满意。若无变故，她或许会以这种状态生活至死。\n\n尽管明面上灵梦厌恶乃至素不相识，但慧音与八云紫可以说是灵梦最为信任的二人，她在二人身上捕获了些许自我的影子；至于魔理沙，长期的相处或许确实让灵梦的立场产生了些许动摇，但责任与义务要求她无言地扼杀这种情感于摇篮之中，尽管那些妖怪们似乎对魔理沙持有着异样之心，灵梦也希望这是真的——这样才好在她欲下杀手之时合法地以大义之名阻止她。\n\n幻想乡现于尘世，龙神不见行踪，新的生活开始了。失去了龙神的管制意味着博丽巫女成为真正意义上的君主，也意味着她的权威失去了保障。也许她会沦为新一轮权力斗争的牺牲品，但前几代博丽巫女不也正是如此。\n\n就如此做好份内之事，静等风雨吧。"
-
- GEN_Reisen_Udongein_Inaba: "铃仙·优昙华院·因幡"
- GEN_Kawasiro_Nitori: "河城荷取"
- GEN_Hinanawi_Tenshi: "比那名居天子"
- GEN_Morichika_Rinnosuke: "森近霖之助"
- GEN_Yorigami_Jyoon: "依神女苑"
- GEN_Hiziri_Byakuren: "圣白莲"
- GEN_Huziwara_no_Mokou: "藤原妹红"
- GEN_Junko: "纯狐"
- GEN_Yasaka_Kanako: "八坂神奈子"
- GEN_Plank: "木牌"
-
- #GEN政治派系
+#GEN政治派系
  GEN_paternalism_party: "贤者会议"
  GEN_paternalism_party_long: "贤者会议"
 
@@ -83,33 +57,33 @@
  POLITICS_MATARA_OKINA_DESC: "地母神、能乐之神、星宿之神、养蚕之神、障碍之神、被差别民之神……我知道你很想吐槽这人哪来那么多神格，但这不恰好证明了你是个记忆大神——当然这并不好笑。作为被遗落于深渊之人所望见的天空，摩多罗隐歧奈只要存在便是希望。隐于尘世之中曾是多年来的状态，其在信州这片偏僻之地突然对一个建立乌托邦的计划感起了兴趣，从而参与创造了“幻想乡”。隐歧奈那不可言说的能力维护着幻想乡的存在与安定，不过谁又能确保她不会因一时兴起而又推倒重来呢？哈，也许仅仅只是无聊罢了。\n\n无论是月都、地狱还是魔界等的侵扰皆在隐歧奈的实力与智谋之下失败，乃至旧地狱刚欲同盟的饕餮尤魔都成为了其忠诚的部下。不过与八云紫不同的是，隐歧奈更倾向于保护其曾爱过的人类并给予边缘者最后的关怀，不过请您忽视由座敖童子构成的监视网。值得一提的是，秘神并不会直接现身于尘世之中，疯狂的背景舞者将在接收命令后展示各项政策。\n\n幻想乡的错位是个大问题，不同的物理规则与过大的面积令重置幻想乡不再成为可能。沉浸于陷入的困境之中并不能解决任何问题，我想世俗政治意义上的权力正是当下的最优解。现在秘神不再隐匿，而八云紫将不得不面对一个其无法避开的发令机。"
 
 #GEN将领
-GEN_Yakumo_Yukari_GEL: "八云紫"
-GEN_Yasaka_Kanako_GEL: "八坂神奈子"
-GEN_Ibarak_iKasen_GEL: "茨木华扇"
-GEN_Ibuki_Suika: "伊吹萃香"
-GEN_Saigyouji_Yuyuko: "西行寺幽幽子"
-GEN_Kirisame_Marisa: "雾雨魔理沙"
-GEN_Konpaku_Youmu: "魂魄妖梦"
-GEN_Yakumo_Ran: "八云蓝"
-GEN_Reisen_Udongein_Inaba_GEL: "铃仙·优昙华院·因幡"
-GEN_Iizunamaru_Megumu_GEL: "饭纲丸龙"
-GEN_Shameimaru_Aya: "射命丸文"
-GEN_Hoshiguma_Yugi: "星熊勇仪"
-GEN_Komeiji_Satori: "古明地觉"
-GEN_Wriggle_Nightbug: "莉格露·奈特巴格"
-GEN_Rumia: "露米娅"
-GEN_Cirno: "琪露诺"
-GEN_Remilia_Scarlet: "蕾米莉亚·斯卡蕾特"
-GEN_Kazami_Yuka: "风见幽香"
-GEN_Toramaru_Shou: "寅丸星"
-GEN_Inubashiri_Momizi: "犬走桦"
-GEN_Moriya_Suwako: "泄矢诹访子"
-GEN_Toyosatomimi_no_Miko: "丰聪耳神子"
-GEN_Joutougu_Mayumi: "杖刀偶磨弓"
-GEN_Kurokoma_Saki: "骊驹早鬼"
-GEN_Toutetsu_Yuma: "饕餮尤魔"
-GEN_Hutatsuiwa_Mamizou: "二岩湍藏"
-GEN_Yamashiro_Takane: "山城高岭"
+ GEN_Yakumo_Yukari_GEL: "八云紫"
+ GEN_Yasaka_Kanako_GEL: "八坂神奈子"
+ GEN_Ibarak_iKasen_GEL: "茨木华扇"
+ GEN_Ibuki_Suika: "伊吹萃香"
+ GEN_Saigyouji_Yuyuko: "西行寺幽幽子"
+ GEN_Kirisame_Marisa: "雾雨魔理沙"
+ GEN_Konpaku_Youmu: "魂魄妖梦"
+ GEN_Yakumo_Ran: "八云蓝"
+ GEN_Reisen_Udongein_Inaba_GEL: "铃仙·优昙华院·因幡"
+ GEN_Iizunamaru_Megumu_GEL: "饭纲丸龙"
+ GEN_Shameimaru_Aya: "射命丸文"
+ GEN_Hoshiguma_Yugi: "星熊勇仪"
+ GEN_Komeiji_Satori: "古明地觉"
+ GEN_Wriggle_Nightbug: "莉格露·奈特巴格"
+ GEN_Rumia: "露米娅"
+ GEN_Cirno: "琪露诺"
+ GEN_Remilia_Scarlet: "蕾米莉亚·斯卡蕾特"
+ GEN_Kazami_Yuka: "风见幽香"
+ GEN_Toramaru_Shou: "寅丸星"
+ GEN_Inubashiri_Momizi: "犬走桦"
+ GEN_Moriya_Suwako: "泄矢诹访子"
+ GEN_Toyosatomimi_no_Miko: "丰聪耳神子"
+ GEN_Joutougu_Mayumi: "杖刀偶磨弓"
+ GEN_Kurokoma_Saki: "骊驹早鬼"
+ GEN_Toutetsu_Yuma: "饕餮尤魔"
+ GEN_Hutatsuiwa_Mamizou: "二岩湍藏"
+ GEN_Yamashiro_Takane: "山城高岭"
 
 button_leader_change_tt: "点击按钮以切换§R博丽巫女§!/§P执权§!"
 
@@ -131,3 +105,10 @@ button_leader_change_tt: "点击按钮以切换§R博丽巫女§!/§P执权§!"
 
  GEN_The_fog_shrouded: "迷雾笼罩"
  GEN_The_fog_shrouded_desc: "博丽大结界在边境之地以一种离奇的方式消失于世间，这结束了昔日人类大规模神隐的时代。随后，一场超自然迷雾横贯了整个长野地区与日本其它地区的分界线。\n\n该层迷雾中存在着诸多特殊的生态系统，例如外表如同埃迪卡拉动物群却凶猛无比的肉株、宛如菌毯般只有皮肤与软组织的人类、如蚊香般旋转的昆虫等。理论上这层迷雾是可以穿越了，但巨大的伤亡率将让任何一个试图闯入这个地方的人望而却步，也许只有妖怪才能驾驭这片奇异之地吧。"
+
+#文化
+var_nationality.604: "幻想乡§F，受控制的§Y尚处前现代的江户时代人类§!与新控制的§Y长野县居民§!占相当比例，占统治地位的族群主要是少数的§Y妖怪§!与§Y神明§!"
+
+#意识形态
+paternalism_gensokyo_system_subtype: "幻想乡体制"
+paternalism_gensokyo_system_subtype_desc: "幻想乡体制（Gensokyo System）\n\n封闭且古老的幻想乡自然并没有什么符合人类现代观点的政治制度——由龙神赋权并由博丽巫女行统治权的博丽神社作为小小土地的国家象征，强力妖怪们组成的评定会议与其选举出的贤者参与制定并实施政策。\n\n吸呐并保护一切的幻想乡自然是一个多元社会，在服从于博丽神社及其背后事物的管制与监视下；每个妖怪都会自发或被迫认可并维护这一幻想般的社会，并接受由博丽巫女等“英雄”们绝对专制般的习惯法实践——任何危害幻想乡到一定程度的人将被仁德地斩杀。当然，这里没有政治启蒙，君权只是作为常识的传统，不过儒家式的君臣观念尚未刻入骨髓罢了。\n\n忘却这些，幻想乡可谓一个极度美好的乌托邦。丰富且馈乏的物质与较为平等的经济分配抹杀着社会改变的基础。任何的政治变局都将基本在小规摸范围内产生，除非以某种外力打开……"

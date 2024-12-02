@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
 #GEN新闻
+ TNO_newspaper_header_GEN: "\n£custom_header_GEN\n\n\n\n"
+
  gen_news.1.t: "[Get_newspaper_header]迷雾笼罩在大日本帝国上空"
  gen_news.1.d: "近日，日本长野县境内出现异常的浓雾，随之而来的则是大量人口的失踪。据学者观察迷雾高度达15千米左右，所有对被笼罩地区人员的联系都失败了——包括无线电和有线电话。日本政府并没有公开具体失踪人数并拒绝了进一步的采访。有人声称「地底涌出了八重云雾，像围墙一样，被卷入的人都消失了」气象学家认为是全球变暖引起的气候异常，也有人猜测是所谓妖怪之为，而真假也只能看日本方面的后续消息。\n\n该现象在日本官方封锁的努力失败后在各国引起轩然大波，无论哪个宗教的卫道士都将其视为某种圣迹或恶魔的活动，并开始组织针对关于此宗教色彩浓厚的现象的相关政治活动。科学界同样为之震撼，许多学者开始埋身于对该现象的研究之中，而大众则是在为错综复杂的未来而祈祷。"
  gen_news.1.a: "世界的异变开始了"
@@ -29,3 +31,34 @@
  SUPER_EVENT.6.t: "[Get_newspaper_header]月都征服幻想乡"
  SUPER_EVENT.6.d: "信州前线的战争突然陷入停滞之中，大量生命在长野宛如神明之手般消逝。据可靠消息称长野已被外星生物所掌握并改造，其试图同日本帝国达成一定的临时外交协议。幻想乡的妖怪们似乎己沓无踪迹，显然这是名为“月之都”的外星文明所为。\n\n全世界因此产生轩然大波，许多人认为这是人类末日到来之日乃至为此自杀。目前德美双方开始对其展开一定的交涉活动，有传言称太空防御项目目前已在筹建当中。"
  SUPER_EVENT.6.a: "从金字塔顶端跌落是什么感受"
+
+#另类超事件？
+ TNO_SE_GENSOKY_WAR: "幻想战争"
+ SE_GENSOKY_WAR: "幻想战争"
+ SE_GENSOKY_WAR_D: "穿行引马野，棒叶红欲燃。\n吾衣染其色，为证羁旅还。\n—《万叶集》"
+ SE_GENSOKY_WAR_A: "人神间的战争开始了"
+
+ TNO_SE_GOD_WAR: "神国战争"
+ SE_GOD_WAR: "神国战争"
+ SE_GOD_WAR_D: "予在世之时，不修一善。\n依此业报，业报者，地狱-饿鬼-畜生之三道也。\n回於恶趣。\n—《将门记》"
+ SE_GOD_WAR_A: "憎恶之物从地狱爬出"
+
+ TNO_SE_CHANGES_YAKUMO_SHRINE: "八云神社之变"
+ SE_CHANGES_YAKUMO_SHRINE: "八云神社之变"
+ SE_CHANGES_YAKUMO_SHRINE_D: "人生五十年，放眼天下，去事宛如梦幻。\n一度得生者，岂有常不灭！\n—《平家物语》"
+ SE_CHANGES_YAKUMO_SHRINE_A: "天下再度崩阻"
+
+ TNO_SE_FALL_JAPAN: "日本陨落"
+ SE_FALL_JAPAN: "日本陨落"
+ SE_FALL_JAPAN_D: "覆而无外天之徳也，明君体之保国家；\n载而无弃地之道也，良臣则之守社稷。\n若夫其徳欠则虽有位不持。\n—《太平记》"
+ SE_FALL_JAPAN_A: "迟来的风云虹"
+
+ TNO_SE_JAPAN_NUCLEAR_EXCHANGE: "秋津洲核交换"
+ SE_JAPAN_NUCLEAR_EXCHANGE: "秋津洲核交换"
+ SE_JAPAN_NUCLEAR_EXCHANGE_D: "高高耸立的相模国原野，烧着的火焰，\n在这样火焰中间，还问起我的夫君啊。\n—《古事记》"
+ SE_JAPAN_NUCLEAR_EXCHANGE_A: "烈火灼烧"
+
+ TNO_SE_MOON_HAS_FALLEN: "月都降临"
+ SE_MOON_HAS_FALLEN: "月都降临"
+ SE_MOON_HAS_FALLEN_D: "始因彼国使来，故朝廷亦遣使往；\n彼遂留我使不还，故使卿辈为此行。\n—《元史-日本传》"
+ SE_MOON_HAS_FALLEN_A: "黄昏后即是永夜"
