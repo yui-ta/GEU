@@ -5337,5 +5337,133 @@ spriteTypes =
 		}
 		legacy_lazy_load = no
 	}
-
+	SpriteType = {
+		name = "GFX_GEN_focus_the_lone_Hakurei_shine"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_the_lone_Hakurei.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_the_lone_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_the_lone_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_bruised_Hakurei_shine"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_bruised_Hakurei.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_bruised_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_bruised_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_respect_and_love_shine"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_respect_and_love.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_respect_and_love.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_respect_and_love.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Iizunamaru_way_shine"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Iizunamaru_way.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Iizunamaru_way.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_Iizunamaru_way.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	frameAnimatedSpriteType =
+	{
+		name = "GFX_GEN_focus_day_of_war_shine"
+		texturefile = "gfx/interface/GEN_focus/second_stage/GFX_GEN_focus_day_of_war.dds"
+		noOfFrames = 14
+		animation_rate_fps = 11
+		looping = yes
+		play_on_show = yes
+	}
 }

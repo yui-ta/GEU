@@ -2276,3 +2276,84 @@ shared_focus =
 
     }
 }
+
+#隐藏国策
+shared_focus =
+{
+    id = GEN_focus_the_lone_Hakurei #孤零零的博丽维新
+    icon = GFX_GEN_focus_the_lone_Hakurei
+
+    x = 2
+    y = 1
+
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_bruised_Hakurei #伤痕累累的博丽维新
+    icon = GFX_GEN_focus_bruised_Hakurei
+
+    x = 2
+    y = 2
+
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_respect_and_love #敬天爱人
+    icon = GFX_GEN_focus_respect_and_love
+
+    x = 2
+    y = 3
+
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Iizunamaru_way #饭纲行
+    icon = GFX_GEN_focus_Iizunamaru_way
+
+    x = 2
+    y = 4
+
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_day_of_war #开战日
+    icon = GFX_GEN_focus_day_of_war
+
+    x = 5
+    y = 5
+
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}

@@ -43,4 +43,9 @@ focus_tree =
 	default = no
 	shared_focus = GEN_focus_return_leave
 	shared_focus = GEN_focus_nakasendai_no_ran
+	shared_focus = GEN_focus_the_lone_Hakurei
+	shared_focus = GEN_focus_bruised_Hakurei
+	shared_focus = GEN_focus_respect_and_love
+	shared_focus = GEN_focus_Iizunamaru_way
+	shared_focus = GEN_focus_day_of_war
 }
