@@ -119,4 +119,12 @@
 
  gen_focus.14.t: "自然之序"
  gen_focus.14.d: ""
- gen_focus.14.t: "噢"
+ gen_focus.14.a: "噢"
+
+ gen_focus.15.t: "自然之命"
+ gen_focus.15.d: ""
+ gen_focus.15.a: "嗯"
+
+ gen_focus.16.t: ""
+ gen_focus.16.d: ""
+ gen_focus.16.a: "行"
