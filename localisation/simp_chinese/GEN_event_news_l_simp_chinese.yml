@@ -35,23 +35,23 @@
 #另类超事件？
  TNO_SE_GENSOKY_WAR: "幻想战争"
  SE_GENSOKY_WAR: "幻想战争"
- SE_GENSOKY_WAR_D: "穿行引马野，棒叶红欲燃。\n吾衣染其色，为证羁旅还。\n—《万叶集》"
+ SE_GENSOKY_WAR_D: "骄者难久，恰如春宵一梦，\n猛者遂灭，好似风前之尘\n—《平家物语》"
  SE_GENSOKY_WAR_A: "人神间的战争开始了"
 
- TNO_SE_GOD_WAR: "神国战争"
- SE_GOD_WAR: "神国战争"
+ TNO_SE_GOD_WAR: "幻想战争"
+ SE_GOD_WAR: "幻想战争"
  SE_GOD_WAR_D: "予在世之时，不修一善。\n依此业报，业报者，地狱-饿鬼-畜生之三道也。\n回於恶趣。\n—《将门记》"
  SE_GOD_WAR_A: "憎恶之物从地狱爬出"
 
- TNO_SE_CHANGES_YAKUMO_SHRINE: "八云神社之变"
- SE_CHANGES_YAKUMO_SHRINE: "八云神社之变"
- SE_CHANGES_YAKUMO_SHRINE_D: "人生五十年，放眼天下，去事宛如梦幻。\n一度得生者，岂有常不灭！\n—《平家物语》"
+ TNO_SE_CHANGES_YAKUMO_SHRINE: "东之国南北对峙"
+ SE_CHANGES_YAKUMO_SHRINE: "东之国南北对峙"
+ SE_CHANGES_YAKUMO_SHRINE_D: "是以前圣慎而得垂法於将来也。\n后昆顾而不取诫于既往乎？\n—《太平记》"
  SE_CHANGES_YAKUMO_SHRINE_A: "天下再度崩阻"
 
  TNO_SE_FALL_JAPAN: "日本陨落"
  SE_FALL_JAPAN: "日本陨落"
- SE_FALL_JAPAN_D: "覆而无外天之徳也，明君体之保国家；\n载而无弃地之道也，良臣则之守社稷。\n若夫其徳欠则虽有位不持。\n—《太平记》"
- SE_FALL_JAPAN_A: "迟来的风云虹"
+ SE_FALL_JAPAN_D: "大海之下，亦有皇都\n—《平家物语》"
+ SE_FALL_JAPAN_A: "日本终矣"
 
  TNO_SE_JAPAN_NUCLEAR_EXCHANGE: "秋津洲核交换"
  SE_JAPAN_NUCLEAR_EXCHANGE: "秋津洲核交换"
@@ -60,5 +60,35 @@
 
  TNO_SE_MOON_HAS_FALLEN: "月都降临"
  SE_MOON_HAS_FALLEN: "月都降临"
- SE_MOON_HAS_FALLEN_D: "始因彼国使来，故朝廷亦遣使往；\n彼遂留我使不还，故使卿辈为此行。\n—《元史-日本传》"
- SE_MOON_HAS_FALLEN_A: "黄昏后即是永夜"
+ SE_MOON_HAS_FALLEN_D: "苇原千五百秋之瑞穗国，是吾子孙可王之地，宜尔皇孙就而治焉。\n宝祚之隆，当舆天壤无穷者矣进宏。\n—《日本书记》"
+ SE_MOON_HAS_FALLEN_A: "高天原降于世间"
+
+ TNO_GENSOUKYOU_REUNIFICATION_REMILIA: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_REMILIA: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_REMILIA_D: "[蒙窃采古今之变化、察安危之来由，\n覆而无外天之徳也，明君体之保国家。\n—《太平记》"
+ SE_GENSOUKYOU_REUNIFICATION_REMILIA_A: "七生业火"
+
+ TNO_GENSOUKYOU_REUNIFICATION_SEKIBANKI: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_SEKIBSNKI: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_SEKIBSNKI_D: "莫恨清风轻拂手,春去秋来满山红\n—北条氏政"
+ SE_GENSOUKYOU_REUNIFICATION_SEKIBSNKI_A: "春去秋来"
+
+ TNO_GENSOUKYOU_REUNIFICATION_MONONOBE: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_MONONOBE: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_MONONOBE_D: "信家木曾问旅路，唯闻前方白云深。\n—松尾芭蕉"
+ SE_GENSOUKYOU_REUNIFICATION_MONONOBE_A: "迷途之道"
+
+ TNO_GENSOUKYOU_REUNIFICATION_RAIKO: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_RAIKO: "东之国再统一"
+ SE_GENSOUKYOU_REUNIFICATION_RAIKO_D: "道在迩而求诸远，事在易而求之难。\n—《孟子·离娄上》]"
+ SE_GENSOUKYOU_REUNIFICATION_RAIKO_A: "共和之梦"
+
+ TNO_NAGANO_WINTER: "长野之冬"
+ SE_NAGANO_WINTER: "长野之冬"
+ SE_NAGANO_WINTER_D: "治乱兴亡梦中事，世间只若棋一局\n—《昭和维新之歌》"
+ SE_NAGANO_WINTER_A: "民主之望就此中断"
+
+ TNO_END_OF_GRNSONKYOU: "幻想终末"
+ SE_END_OF_GRNSONKYOU: "幻想终末"
+ SE_END_OF_GRNSONKYOU_D: "吴子有云：“凡兵战之场，立尸之地，必死则生，幸生则死。”\n—武田信繁"
+ SE_END_OF_GRNSONKYOU_A: "故事将被尘封"
