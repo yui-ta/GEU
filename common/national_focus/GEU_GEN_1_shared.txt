@@ -231,7 +231,7 @@ shared_focus =
 	{
 		focus = GEN_Yokai_Paradise
 	}
-	cost = 5
+	cost = 10
 
 	completion_reward =
 	{
@@ -251,7 +251,7 @@ shared_focus =
 	{
 		focus = GEN_Yokai_Paradise
 	}
-	cost = 5
+	cost = 10
 
 	completion_reward =
 	{
@@ -276,7 +276,7 @@ shared_focus =
 	{
 		focus = GEN_The_Order_of_Nature
 	}
-	cost = 5
+	cost = 10
 
 	completion_reward =
 	{
@@ -297,7 +297,7 @@ shared_focus =
 	{
 		focus = GEN_That_Life_and_Death
 	}
-	cost = 5
+	cost = 10
 
 	completion_reward =
 	{
@@ -318,7 +318,7 @@ shared_focus =
 	{
 		focus = GEN_Spiritual_Domination
 	}
-	cost = 5
+	cost = 10
 	
 	completion_reward =
 	{
@@ -335,7 +335,7 @@ shared_focus =
 	{
 		focus = GEN_Night_Falls
 	}
-	cost = 5
+	cost = 10
 	x = 4
 	y = 10
 	completion_reward =
@@ -356,7 +356,7 @@ shared_focus =
 	{
 		focus = GEN_That_Life_and_Death
 	}
-	cost = 5
+	cost = 10
 
 	completion_reward =
 	{
@@ -373,7 +373,7 @@ shared_focus =
 	{
 		focus = GEN_Human_or_Yaokai
 	}
-	cost = 5
+	cost = 10
 	x = 6
 	y = 9
 	completion_reward =
@@ -389,7 +389,7 @@ shared_focus =
 	{
 		focus = GEN_Desire_and_Blandness
 	}
-	cost = 5
+	cost = 10
 	x = 6
 	y = 10
 	completion_reward =
