@@ -1,56 +1,57 @@
-	#准备阶段
-	shared_focus = {
-		id = GEN_Seclusion
-		icon = GFX_goals_GEN_Seclusion
-		cost = 1
-		x = 9
-		y = 0
-		completion_reward = {
-			add_political_power = 30
-			add_stability = -0.05
-			country_event = {
-				id = gen_focus.1
-			}
+#准备阶段
+shared_focus = {
+	id = GEN_Seclusion
+	icon = GFX_goals_GEN_Seclusion
+	cost = 1
+	x = 9
+	y = 0
+	completion_reward = {
+		add_political_power = 30
+		add_stability = -0.05
+		country_event = gen_focus.1
+	}
+}
+shared_focus = {
+	id = GEN_Incredible_of_Jepan
+	icon = GFX_goals_GEN_Incredible_of_Jepan
+	prerequisite = {
+		focus = GEN_Seclusion
+	}
+	cost = 2
+	x = 9
+	y = 1
+	completion_reward = {
+		add_stability = 0.15
+		swap_ideas =
+		{
+			remove_idea = GEN_The_Land_of_Hermits
+			add_idea = GEN_The_fog_shrouded
+		}
+		country_event = gen_focus.2
+		custom_effect_tooltip = Reimu_GUI_enable_tt
+		hidden_effect = {
+			set_country_flag = country_has_gui_1
+			set_country_flag = country_has_gui_2
+			set_country_flag = reimu_gui_enable
 		}
 	}
-
-	shared_focus = {
-		id = GEN_Incredible_of_Jepan
-		icon = GFX_goals_GEN_Incredible_of_Jepan
-		prerequisite = {
-			focus = GEN_Seclusion
-		}
-		cost = 2
-		x = 9
-		y = 1
-		completion_reward = {
-			add_stability = 0.15
-			add_ideas = { GEN_The_fog_shrouded }
-			remove_ideas = { GEN_The_Land_of_Hermits }
-			custom_effect_tooltip = Reimu_GUI_enable_tt
-			hidden_effect = {
-				set_country_flag = country_has_gui_1
-				set_country_flag = country_has_gui_2
-				set_country_flag = reimu_gui_enable
-			}
+}
+shared_focus = {
+	id = GEN_Dream
+	icon = GFX_goals_GEN_Dream
+	prerequisite = {
+		focus = GEN_Incredible_of_Jepan
+	}
+	cost = 1
+	x = 9
+	y = 2
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+		country_event = gen_focus.3
+		TNO_improve_admin_efficiency_really_low = yes
+		hidden_effect = {
+			load_focus_tree = GEN_focus_tree_2
 		}
 	}
-
-	shared_focus = {
-		id = GEN_Dream
-		icon = GFX_goals_GEN_Dream
-		prerequisite = {
-			focus = GEN_Incredible_of_Jepan
-		}
-		cost = 1
-		x = 9
-		y = 2
-		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 50
-			TNO_improve_admin_efficiency_really_low = yes
-			hidden_effect = {
-				load_focus_tree = GEN_focus_tree_2
-			}
-		}
-	}
+}

@@ -1,3 +1,4 @@
+#超事件本体
 spriteTypes = {
 	spriteType = {
 		name = "GFX_SE_GENSOKY_WAR"
@@ -9,7 +10,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_SE_CHANGES_YAKUMO_SHRINE"
-		texturefile = "gfx/superevent_pictures/GEU_CHANGES_YAKUMO_SHRINE.dds"
+		texturefile = "gfx/superevent_pictures/GEU_CHANGES_YAKUMO_SHRINE.png"
 	}
 	spriteType = {
 		name = "GFX_SE_FALL_JAPAN"
@@ -22,5 +23,70 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SE_MOON_HAS_FALLEN"
 		texturefile = "gfx/superevent_pictures/GEU_MOON_HAS_FALLEN.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_REMILIA"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_REMILIA.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_SEKIBSNKI"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_SEKIBSNKI.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_MONONOBE"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_MONONOBE.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_RAIKO"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_RAIKO.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_NAGANO_WINTER"
+		texturefile = "gfx/superevent_pictures/SE_NAGANO_WINTER.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_END_OF_GRNSONKYOU"
+		texturefile = "gfx/superevent_pictures/SE_END_OF_GRNSONKYOU.png"
+	}
+}
+
+#超事件新闻（引入事件）
+spriteTypes =
+{
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_REMILIA"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_REMILIA.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_SEKIBSNKI"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_SEKIBSNKI.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_MONONOBE"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_MONONOBE.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_RAIKO"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_RAIKO.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_NAGANO_WINTER"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_NAGANO_WINTER.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_END_OF_GRNSONKYOU"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_END_OF_GRNSONKYOU.dds"
 	}
 }
