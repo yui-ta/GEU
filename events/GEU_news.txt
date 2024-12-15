@@ -14,3 +14,32 @@ news_event = {
 	name = gen_news.1.a
 	}
 }
+
+news_event =
+{
+	id = gen_news.2
+	title = gen_news.2.t
+	desc = gen_news.2.d
+	picture = GFX_news_Komeiji_Satori_political_crisis
+
+	is_triggered_only = yes
+
+	option =
+	{
+		name = gen_news.2.a
+	}
+}
+
+news_event =
+{
+	id = gen_news.3
+	title = gen_news.3.t
+	desc = gen_news.3.d
+
+	is_triggered_only = yes
+
+	option =
+	{
+		name = gen_news.3.a
+	}
+}

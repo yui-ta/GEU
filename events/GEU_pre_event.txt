@@ -1,5 +1,42 @@
 add_namespace = gen
 
+country_event =
+{
+	id = gen_test.1
+	title = gen_test.1.t
+	desc = gen_test.1.d
+
+	is_triggered_only = yes
+
+	option =
+	{
+		name = gen_test.1.a
+		add_country_leader_role =
+		{
+			character = GEN_Komeiji_Satori
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = despotism_civilian_dictatorship_subtype
+				expire = "2000.1.1"
+				traits = { GEN_Komeiji_Satori_PM }
+			}
+		}
+		set_politics =
+		{
+			ruling_party = despotism
+		}
+		set_country_leader_description =
+		{
+			desc = GEN_Komeiji_Satori_cl_desc
+		}
+		set_country_leader_portrait =
+		{
+			portrait = GFX_GEN_Komeiji_Satori_2
+		}		
+	}
+}
+
 country_event = {
 	id = gen.1
 

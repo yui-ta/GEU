@@ -504,3 +504,108 @@ country_event =
         name = gen_focus.33.a
     }
 }
+
+country_event =
+{
+    id = gen_focus.34
+    title = gen_focus.34.t
+    desc = gen_focus.34.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.34.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.35
+    title = gen_focus.35.t
+    desc = gen_focus.35.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.35.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.36
+    title = gen_focus.36.t
+    desc = gen_focus.36.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.36.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.37
+    title = gen_focus.37.t
+    desc = gen_focus.37.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.37.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.38
+    title = gen_focus.38.t
+    desc = gen_focus.38.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.38.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.39
+    title = gen_focus.39.t
+    desc = gen_focus.39.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.39.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.40
+    title = gen_focus.40.t
+    desc = gen_focus.40.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.40.a
+    }
+}

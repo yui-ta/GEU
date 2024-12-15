@@ -676,6 +676,7 @@ shared_focus =
 
 	completion_reward =
 	{
+		country_event = gen_focus.34
 		custom_effect_tooltip = GEN_bonus_content_focustt
 	}
 }
@@ -698,6 +699,7 @@ shared_focus =
 	completion_reward =
 	{
 		#同中国外交关系修正+5.00%
+		country_event = gen_focus.35
 	}
 }
 
@@ -718,6 +720,7 @@ shared_focus =
 	completion_reward =
 	{
 		#同勃艮第外交关系修正+5.00%
+		country_event = gen_focus.36
 	}
 }
 
@@ -738,6 +741,7 @@ shared_focus =
 	completion_reward =
 	{
 		#同美国外交关系修正+5.00%
+		country_event = gen_focus.37
 	}
 }
 
@@ -758,6 +762,7 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
+		country_event = gen_focus.38
 	}
 }
 
@@ -778,6 +783,7 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
+		country_event = gen_focus.39
 	}
 }
 
@@ -798,6 +804,7 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
+		country_event = gen_focus.40
 	}
 }
 

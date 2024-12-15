@@ -23,4 +23,9 @@ leader_traits = {
 		drift_defence_factor = 0.1
 		ai_will_do = { factor = 1 }
 	}
+	GEN_Komeiji_Satori_PM =
+	{
+		random = no
+		stability_factor = -0.1
+	}
 }

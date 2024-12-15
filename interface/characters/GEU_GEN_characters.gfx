@@ -1,0 +1,8 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_GEN_Komeiji_Satori_2"
+        texturefile = "gfx/leaders/GEN/GEN_Komeiji_Satori_2.dds"
+    }
+}

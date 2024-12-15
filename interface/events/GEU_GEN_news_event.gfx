@@ -1,0 +1,8 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_news_Komeiji_Satori_political_crisis"
+        texturefile = "gfx/event/GEN/news_event/news_Komeiji_Satori_political_crisis.dds"
+    }
+}
