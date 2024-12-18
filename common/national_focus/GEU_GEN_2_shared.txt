@@ -1,3 +1,4 @@
+#二阶段国策
 shared_focus =
 {
     id = GEN_focus_return_leave #归来又当去

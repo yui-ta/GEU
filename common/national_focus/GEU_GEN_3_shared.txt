@@ -1,0 +1,872 @@
+#三阶段国策树
+shared_focus =
+{
+    id = GEN_focus_the_end_of_time #山崩海枯世
+    icon = GFX_GEN_focus_the_end_of_time
+
+    x = 8
+    y = 0
+
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_no_second_thoughts #亦对君无二心
+    icon = GFX_GEN_focus_no_second_thoughts
+
+    relative_position_id = GEN_focus_the_end_of_time
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_the_end_of_time
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_consolidation_work #寄合事务
+    icon = GFX_GEN_focus_consolidation_work
+
+    relative_position_id = GEN_focus_the_end_of_time
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_no_second_thoughts
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_entropy_increase_boundary #熵增结界
+    icon = GFX_GEN_focus_entropy_increase_boundary
+
+    relative_position_id = GEN_focus_consolidation_work
+    x = -3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_consolidation_work
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_competency_check #本领检查
+    icon = GFX_GEN_focus_competency_check
+
+    relative_position_id = GEN_focus_entropy_increase_boundary
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_entropy_increase_boundary
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_military_and_government #军政一体
+    icon = GFX_GEN_focus_military_and_government
+
+    relative_position_id = GEN_focus_competency_check
+    x = -3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_competency_check
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_punished_by_military_law #军法处置
+    icon = GFX_GEN_focus_punished_by_military_law
+
+    relative_position_id = GEN_focus_competency_check
+    x = -3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_military_and_government
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_in_collar_posecution #领内检举
+    icon = GFX_GEN_focus_in_collar_posecution
+
+    relative_position_id = GEN_focus_competency_check
+    x = -3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_punished_by_military_law
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_bureaucratic_reform #官僚改革
+    icon = GFX_GEN_focus_bureaucratic_reform
+
+    relative_position_id = GEN_focus_competency_check
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_competency_check
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_family_politics #家庭政治
+    icon = GFX_GEN_focus_family_politics
+
+    relative_position_id = GEN_focus_competency_check
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_bureaucratic_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_eternal_fidelity #世代忠贞
+    icon = GFX_GEN_focus_eternal_fidelity
+
+    relative_position_id = GEN_focus_competency_check
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_family_politics
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_integrated_land #统筹土地
+    icon = GFX_GEN_focus_integrated_land
+
+    relative_position_id = GEN_focus_competency_check
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_competency_check
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_crop_yielding #分配口分田
+    icon = GFX_GEN_focus_crop_yielding
+
+    relative_position_id = GEN_focus_competency_check
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_integrated_land
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_organize_collective_production #组织集体生产
+    icon = GFX_GEN_focus_organize_collective_production
+
+    relative_position_id = GEN_focus_competency_check
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_crop_yielding
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_providing_political_asylum #提供政治庇护
+    icon = GFX_GEN_focus_providing_political_asylum
+
+    relative_position_id = GEN_focus_competency_check
+    x = 3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_competency_check
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_reinforcement_Yakumo_system #强化八云嫡系
+    icon = GFX_GEN_focus_reinforcement_Yakumo_system
+
+    relative_position_id = GEN_focus_competency_check
+    x = 3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_providing_political_asylum
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yakumos_kindness #八云之恩
+    icon = GFX_GEN_focus_Yakumos_kindness
+
+    relative_position_id = GEN_focus_competency_check
+    x = 3
+    y = 3
+
+    prerequisite =
+    {
+       focus = GEN_focus_reinforcement_Yakumo_system
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yakumos_new_policy #八云新政
+    icon = GFX_GEN_focus_Yakumos_new_policy
+
+    relative_position_id = GEN_focus_competency_check
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_in_collar_posecution
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_eternal_fidelity
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_organize_collective_production
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_Yakumos_kindness
+    }
+   cost = 1
+
+   completion_reward =
+   {
+
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_establish_reserve_army #设立常备军
+    icon = GFX_GEN_focus_establish_reserve_army
+
+    relative_position_id = GEN_focus_entropy_increase_boundary
+    x = 4
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_entropy_increase_boundary
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_embezzle_funds #挪用资金
+    icon = GFX_GEN_focus_embezzle_funds
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_establish_reserve_army
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_seize_every_opportunity #投机取巧
+    icon = GFX_GEN_focus_seize_every_opportunity
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_embezzle_funds
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_name_with_Hakurei #以博丽之名
+    icon = GFX_GEN_focus_name_with_Hakurei
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_seize_every_opportunity
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_absorb_ronin #吸纳浪人
+    icon = GFX_GEN_focus_absorb_ronin
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_establish_reserve_army
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_all_brother_world #四海之内皆兄弟
+    icon = GFX_GEN_focus_all_brother_world
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_absorb_ronin
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_special_task #特殊任务
+    icon = GFX_GEN_focus_special_task
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_all_brother_world
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yakumos_new_army #八云新军
+    icon = GFX_GEN_focus_Yakumos_new_army
+
+    relative_position_id = GEN_focus_establish_reserve_army
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_name_with_Hakurei
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_special_task
+    }
+    cost = 1
+
+    completion_reward =
+   {
+
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_learning_modern_fighting #学习现代化作战方式
+    icon = GFX_GEN_focus_learning_modern_fighting
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Yakumos_new_army
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_enhanced_firepower #强化火力优势
+    icon = GFX_GEN_focus_enhanced_firepower
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_learning_modern_fighting
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_build_armored_force #建立装甲部队
+    icon = GFX_GEN_focus_build_armored_force
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_enhanced_firepower
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_improve_army_quality #提升军队素质
+    icon = GFX_GEN_focus_improve_army_quality
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = -1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_build_armored_force
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_training_officers #培养军官
+    icon = GFX_GEN_focus_training_officers
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Yakumos_new_army
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_bushido #武士道
+    icon = GFX_GEN_focus_bushido
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_training_officers
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_upgrade_treatment #提升待遇
+    icon = GFX_GEN_focus_upgrade_treatment
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_bushido
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_no_different #不分彼此
+    icon = GFX_GEN_focus_no_different
+
+    relative_position_id = GEN_focus_Yakumos_new_army
+    x = 1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_upgrade_treatment
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_paperlism #文书主义
+    icon = GEN_focus_paperlism
+
+    relative_position_id = GEN_focus_consolidation_work
+    x = 13
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_consolidation_work
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_manor_organization #庄园整理
+    icon = GFX_GEN_focus_manor_organization
+
+    relative_position_id = GEN_focus_paperlism
+    x = -6
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_paperlism
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_breadbasket_heaven #天下粮仓
+    icon = GFX_GEN_focus_breadbasket_heaven
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_organization
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_improve_soil_storage #改善土藏
+    icon = GFX_GEN_focus_improve_soil_storage
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_breadbasket_heaven
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_encourage_agriculture #劝课农桑
+    icon = GFX_GEN_focus_encourage_agriculture
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_improve_soil_storage
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_basic_education #基层教育
+    icon = GFX_GEN_focus_basic_education
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -3
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_encourage_agriculture
+    }
+    cost = 1
+
+    completion_reward =
+   {
+
+   }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yakumos_education #八云德政
+    icon = GFX_GEN_focus_Yakumos_education
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -3
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_basic_education
+    }
+    cost = 1
+
+    completion_reward =
+   {
+
+   }
+}

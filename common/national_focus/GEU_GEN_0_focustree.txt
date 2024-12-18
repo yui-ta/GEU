@@ -49,3 +49,19 @@ focus_tree =
 	shared_focus = GEN_focus_Iizunamaru_way
 	shared_focus = GEN_focus_day_of_war
 }
+
+focus_tree =
+{
+	id = GEN_3_tree #三阶段国策树
+	country =
+	{
+		factor = 0
+		modifier =
+		{
+			add = 10
+			tag = GEN
+		}
+	}
+	default = no
+	shared_focus = GEN_focus_the_end_of_time
+}

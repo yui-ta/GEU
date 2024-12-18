@@ -17,6 +17,12 @@ guiTypes = {
 			quadTextureSprite ="GFX_GEU_mianmenu_background"
 		}
 
+		iconType =
+		{
+			name = "background_cover"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_mainmenu_cover"
+		}
 	}
 
 	containerWindowType = {
@@ -313,6 +319,25 @@ guiTypes = {
 		size = { width = 1100 height = 800 }
 		Orientation = CENTER_DOWN
 		Origo = center
+
+		iconType =
+		{
+			name = "GEU_copyright_alarm"
+			position = { x = -305 y = 185 }
+			spriteType = "GFX_GEU_copyright_alarm"
+		}
+
+		instantTextBoxType =
+		{
+			name = "GEU_copyright_alarm_text"
+			position = { x = -290 y = 255 }
+			text = GEU_copyright_alarm_desc
+			font = "aldrich_20_outline"
+			maxWidth = 360
+			maxHeight = 245
+			format = center
+			borderSize = { x = 0 y = 0 }
+		}
 
 		#Pretty, pretty pictures
 		iconType = {

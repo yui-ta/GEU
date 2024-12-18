@@ -36,4 +36,16 @@ spriteTypes =
         effectFile = "gfx/FX/buttonstate.shader"
         tilingCenter = no
     }
+
+    spriteType =
+    {
+        name = "GFX_GEU_copyright_alarm"
+        texturefile = "gfx/interface/GEU_copyright_alarm.dds"
+    }
+
+    spriteType =
+    {
+        name = "GFX_mainmenu_cover"
+        texturefile = "gfx/mainmenu_cover.png"
+    }
 }
