@@ -339,6 +339,25 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 		}
 
+		iconType =
+		{
+			name = "GEU_content_notice"
+			position = { x = 1014 y = 185 }
+			spriteType = "GFX_GEU_copyright_alarm"
+		}
+
+		instantTextBoxType =
+		{
+			name = "GEU_content_notice_text"
+			position = { x = 1032 y = 270 }
+			text = GEU_content_notice_desc
+			font = "aldrich_20_outline"
+			maxWidth = 355
+			maxHeight = 245
+			format = center
+			borderSize = { x = 0 y = 0 }
+		}
+
 		#Pretty, pretty pictures
 		iconType = {
 			name ="GFX_fronticons"
