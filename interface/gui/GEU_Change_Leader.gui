@@ -10,5 +10,13 @@ guiTypes = {
 			position = { x = 10 y = 270 }
 			pdx_tooltip = "button_leader_change_tt"
 		}
+
+		iconType = {
+			name = GEU_Leaders_Second
+			spriteType = "GFX_GEU_Leaders_Reimu"
+			position = { x = 10 y = 55 }
+			pdx_tooltip = "GEN_Second_Leader_NAME"
+			pdx_tooltip_delayed = "GEN_Second_Leader_DESC"
+		}
 	}
 }

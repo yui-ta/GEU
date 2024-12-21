@@ -3,4 +3,14 @@ spriteTypes = {
 		name = "GFX_GEU_Button_Change_Leaders"
 		texturefile = "gfx/interface/GEU_button_change_leaders.png"
 	}
+
+	spriteType = {
+		name = "GFX_GEU_Leaders_Reimu"
+		texturefile = "gfx/leaders/GEN/Portrait_GEN_Hakurei_Reimu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GEU_Leaders_Yukari"
+		texturefile = "gfx/leaders/GEN/Portrait_GEN_Yakumo_Yukari.dds"
+	}
 }

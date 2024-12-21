@@ -1,0 +1,40 @@
+GEU_Reimu_GUI_Button_Effect = {
+	if = {
+		limit = {
+			tag = GEN
+			NOT = {
+				has_country_flag = reimu_gui_open
+				has_country_flag = animated_RC_p
+				has_country_flag = reimu_gui_open_3
+				has_country_flag = reimu_gui_open_dead
+				has_country_flag = reimu_dead
+			}
+		has_country_flag = reimu_gui_enable
+		}
+		set_country_flag = reimu_gui_open
+		else_if = {
+			limit = { tag = GEN has_country_flag = reimu_gui_open }
+			clr_country_flag = reimu_gui_open
+		}
+		else_if = {
+			limit = { has_country_flag = reimu_gui_open_3 }
+			clr_country_flag = reimu_gui_open_3
+		}
+		else_if = {
+			limit = { has_country_flag = reimu_gui_open_dead }
+			clr_country_flag = reimu_gui_open_dead
+		}
+		else_if = {
+			limit = {
+				has_country_flag = animated_RC_p
+				NOT = { has_country_flag = reimu_dead }
+			}
+			set_country_flag = reimu_gui_open_3
+		}
+		else_if = {
+			limit = { has_country_flag = reimu_dead }
+			set_country_flag = reimu_gui_open_dead
+			clr_country_flag = reimu_gui_open_3
+		}
+	}
+}

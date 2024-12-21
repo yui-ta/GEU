@@ -102,11 +102,13 @@ GEU_setup_starting = {
 
 					add_to_array = { CountryInfo_folder_development_104 = 7 }
 
+					add_manpower = 13000
+					set_variable = { GEU_Leaders = 1 }
 					set_variable = { Reimu_HP = 100 }
 					set_country_flag = gui_alert_visible_2
 					set_country_flag = TNO_Country_Info_Screen_Visible
 					set_country_flag = country_has_loading
-					set_country_flag = has_secound_leader
+					set_country_flag = has_second_leader
 					if = {
 						limit = {
 							check_variable = { CountryInfo_array_main^num > 0 }

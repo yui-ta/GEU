@@ -969,10 +969,10 @@ defined_text = {
 			set_temp_variable = { surplus = deficit }
 			multiply_temp_variable = { surplus = -1 }
 		}
-		localization_key = "[?surplus|2]"
+		localization_key = "surplus_var_tt"
 	}
 	text = {
-		localization_key = "[?deficit|2]"
+		localization_key = "deficit_var_tt"
 	}
 }
 
@@ -1529,7 +1529,7 @@ defined_text = {
 			multiply_temp_variable = { percent = 100 }
 			divide_temp_variable = { percent = 60 }
 		}
-		localization_key = "[?percent|2]%"
+		localization_key = "percent_var_tt"
 	}
 }
 
@@ -2215,7 +2215,7 @@ defined_text = {
 			divide_temp_variable = { missing_gdp = production_units_multiplier }
 			subtract_from_temp_variable = { missing_gdp = totalstateGDP }
 		}
-		localization_key = "[?missing_gdp|2]"
+		localization_key = "missing_gdp_var_tt"
 	}
 }
 
@@ -2312,7 +2312,7 @@ defined_text = {
 defined_text = {
 	name = get_can_afford_consumer_goods_shift_left
 	text = {
-		trigger = { has_political_power > 29 }
+		trigger = { has_political_power > 29.99 }
 		localization_key = econ_consumer_goods_slider_button_left_have_pp_tt
 	}
 	text = {
@@ -2323,7 +2323,7 @@ defined_text = {
 defined_text = {
 	name = get_can_afford_consumer_goods_shift_right
 	text = {
-		trigger = { has_political_power > 29 }
+		trigger = { has_political_power > 29.99 }
 		localization_key = econ_consumer_goods_slider_button_right_have_pp_tt
 	}
 	text = {
@@ -2433,7 +2433,7 @@ defined_text = {
 			set_temp_variable = { total = PU_imports_m }
 			divide_temp_variable = { total = pu_to_gdp_ratio }
 		}
-		localization_key = "[?total|2]"
+		localization_key = "total_var_tt"
 	}
 }
 defined_text = {
@@ -2443,7 +2443,7 @@ defined_text = {
 			set_temp_variable = { total = PU_exports_m }
 			divide_temp_variable = { total = pu_to_gdp_ratio }
 		}
-		localization_key = "[?total|2]"
+		localization_key = "total_var_tt"
 	}
 }
 defined_text = {
@@ -2453,7 +2453,7 @@ defined_text = {
 			set_temp_variable = { total = 1 }
 			divide_temp_variable = { total = pu_to_gdp_ratio }
 		}
-		localization_key = "[?total|2]"
+		localization_key = "total_var_tt"
 	}
 }
 
@@ -2464,7 +2464,7 @@ defined_text = {
 			set_temp_variable = { cost = amount }
 			multiply_temp_variable = { cost = 10 }
 		}
-		localization_key = "[?cost|0]"
+		localization_key = "cost_var_tt"
 	}
 }
 defined_text = {
@@ -2474,7 +2474,7 @@ defined_text = {
 			set_temp_variable = { cost = amount }
 			multiply_temp_variable = { cost = 10 }
 		}
-		localization_key = "[?cost|0]"
+		localization_key = "cost_var_tt"
 	}
 }
 defined_text = {
@@ -2483,7 +2483,7 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { cost = 0 }
 		}
-		localization_key = "[?cost|0]"
+		localization_key = "cost_var_tt"
 	}
 }
 defined_text = {
@@ -2492,7 +2492,7 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { cost = 0 }
 		}
-		localization_key = "[?cost|0]"
+		localization_key = "cost_var_tt"
 	}
 }
 
@@ -2730,7 +2730,7 @@ defined_text = {
 			set_temp_variable = { total = trade_consumer_goods@var:trade_partner }
 			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
 		}
-		localization_key = "[?total|0]"
+		localization_key = "[?total]"
 	}
 }
 
@@ -2810,27 +2810,27 @@ defined_text = {
 	name = GetTradeStockpileChange
 	text = {
 		trigger = { check_variable = { resource_type = 2 } }
-		localization_key = "[?TNO_stockpile_aluminium|0=+]"
+		localization_key = "TNO_stockpile_aluminium_var_tt"
 	}
 	text = {
 		trigger = { check_variable = { resource_type = 3 } }
-		localization_key = "[?TNO_stockpile_rubber|0=+]"
+		localization_key = "TNO_stockpile_rubber_var_tt"
 	}
 	text = {
 		trigger = { check_variable = { resource_type = 4 } }
-		localization_key = "[?TNO_stockpile_tungsten|0=+]"
+		localization_key = "TNO_stockpile_tungsten_var_tt"
 	}
 	text = {
 		trigger = { check_variable = { resource_type = 5 } }
-		localization_key = "[?TNO_stockpile_steel|0=+]"
+		localization_key = "TNO_stockpile_steel_var_tt"
 	}
 	text = {
 		trigger = { check_variable = { resource_type = 6 } }
-		localization_key = "[?TNO_stockpile_chromium|0=+]"
+		localization_key = "TNO_stockpile_chromium_var_tt"
 	}
 	text = {
 		trigger = { check_variable = { resource_type = 7 } }
-		localization_key = "[?TNO_stockpile_uranium|0=+]"
+		localization_key = "TNO_stockpile_uranium_var_tt"
 	}
 }
 
@@ -2842,7 +2842,7 @@ defined_text = {
 			add_to_temp_variable = { total = buildings_power_demand }
 			add_to_temp_variable = { total = buildings_uranium_missing_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 }
 
@@ -2856,7 +2856,7 @@ defined_text = {
 			add_to_temp_variable = { total = buildings_oil_demand }
 			add_to_temp_variable = { total = economy_fuel_cost }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2866,7 +2866,7 @@ defined_text = {
 			add_to_temp_variable = { total = resource_produced@aluminium }
 			add_to_temp_variable = { total = TNO_consumer_goods_aluminium_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2876,7 +2876,7 @@ defined_text = {
 			add_to_temp_variable = { total = resource_produced@rubber }
 			add_to_temp_variable = { total = TNO_consumer_goods_rubber_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2886,7 +2886,7 @@ defined_text = {
 			add_to_temp_variable = { total = resource_produced@tungsten }
 			add_to_temp_variable = { total = TNO_consumer_goods_tungsten_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2897,7 +2897,7 @@ defined_text = {
 			add_to_temp_variable = { total = resource_produced@steel }
 			add_to_temp_variable = { total = TNO_consumer_goods_steel_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2907,7 +2907,7 @@ defined_text = {
 			add_to_temp_variable = { total = resource_produced@chromium }
 			add_to_temp_variable = { total = TNO_consumer_goods_chromium_demand }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2917,7 +2917,7 @@ defined_text = {
 			add_to_temp_variable = { total = buildings_uranium_demand }
 			add_to_temp_variable = { total = resource_produced@uranium }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -2925,7 +2925,7 @@ defined_text = {
 			set_temp_variable = { total = PU_consumer_goods_production }
 			multiply_temp_variable = { total = -1 }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 }
 defined_text = {
@@ -2938,7 +2938,7 @@ defined_text = {
 			add_to_temp_variable = { total = buildings_oil_demand }
 			add_to_temp_variable = { total = economy_fuel_cost }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2947,7 +2947,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = resource@aluminium }
 			add_to_temp_variable = { total = TNO_consumer_goods_aluminium_demand }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2956,7 +2956,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = resource@rubber }
 			add_to_temp_variable = { total = TNO_consumer_goods_rubber_demand }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2965,7 +2965,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = resource@tungsten }
 			add_to_temp_variable = { total = TNO_consumer_goods_tungsten_demand }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2975,7 +2975,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = resource@steel }
 			add_to_temp_variable = { total = TNO_consumer_goods_steel_demand }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2984,7 +2984,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = resource@chromium }
 			add_to_temp_variable = { total = TNO_consumer_goods_chromium_demand }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
@@ -2993,13 +2993,13 @@ defined_text = {
 			add_to_temp_variable = { total = buildings_uranium_demand }
 			subtract_from_temp_variable = { total = resource@uranium }
 		}
-		localization_key = "[?total|-0]"
+		localization_key = "total_var_2_tt"
 	}
 	text = {
 		trigger = {
 			check_variable = { resource_type = 8 }
 		}
-		localization_key = "[?consumer_goods_monthly_use|-0]"
+		localization_key = "consumer_goods_monthly_use_var_tt"
 	}
 }
 defined_text = {
@@ -3009,7 +3009,7 @@ defined_text = {
 			check_variable = { resource_type = 1 }
 			set_temp_variable = { total = resource@oil }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3017,7 +3017,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_aluminium }
 			add_to_temp_variable = { total = resource@aluminium }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3025,7 +3025,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_rubber }
 			add_to_temp_variable = { total = resource@rubber }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3033,7 +3033,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_tungsten }
 			add_to_temp_variable = { total = resource@tungsten }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3041,7 +3041,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_steel }
 			add_to_temp_variable = { total = resource@steel }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3049,7 +3049,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_chromium }
 			add_to_temp_variable = { total = resource@chromium }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3057,7 +3057,7 @@ defined_text = {
 			set_temp_variable = { total = TNO_stockpile_uranium }
 			add_to_temp_variable = { total = resource@uranium }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 	text = {
 		trigger = {
@@ -3067,7 +3067,7 @@ defined_text = {
 			subtract_from_temp_variable = { total = consumer_goods_monthly_use }
 			subtract_from_temp_variable = { total = TNO_market_consumer_goods }
 		}
-		localization_key = "[?total|+0]"
+		localization_key = "total_var_3_tt"
 	}
 }
 defined_text = {
@@ -4641,9 +4641,17 @@ defined_text = {
 	name = GetSphereNavySatisfactionTooltip
 	text = {
 		trigger = {
+			has_dlc = "Man the Guns"
 			has_variable = ECON_SPHERE_LEADER
 		}
-		localization_key = econ_sphere_navy_satisfaction_sphere_leader_text
+		localization_key = econ_sphere_navy_satisfaction_sphere_leader_mtg_text
+	}
+	text = {
+		trigger = {
+			NOT = { has_dlc = "Man the Guns" }
+			has_variable = ECON_SPHERE_LEADER
+		}
+		localization_key = econ_sphere_navy_satisfaction_sphere_leader_non_mtg_text
 	}
 	text = {
 		localization_key = econ_sphere_navy_satisfaction_not_sphere_leader_text
@@ -4837,6 +4845,7 @@ defined_text = {
 				TAG = GGR
 				TAG = SGR
 				TAG = HGR
+				TAG = UKR
 				check_variable = { ECON_SPHERE_LEADER = GER }
 			}
 		}
@@ -4846,7 +4855,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				TAG = JAP
-				TAG = GEN
 				check_variable = { ECON_SPHERE_LEADER = JAP }
 			}
 		}
@@ -4914,10 +4922,10 @@ defined_text = {
 		trigger = {
 			check_variable = { state_value_B < 1 }
 		}
-		localization_key = "[?state_GDP_contribution|2]M"
+		localization_key = "state_GDP_contribution_var_tt"
 	}
 	text = {
-		localization_key = "[?state_GDP_contribution_B|2]B"
+		localization_key = "state_GDP_contribution_B_var_tt"
 	}
 }
 
@@ -4927,10 +4935,10 @@ defined_text = {
 		trigger = {
 			check_variable = { state_value_B < 1 }
 		}
-		localization_key = "[?state_value|2]M"
+		localization_key = "state_value_var_tt"
 	}
 	text = {
-		localization_key = "[?state_value_B|2]B"
+		localization_key = "state_value_B_var_tt"
 	}
 }
 
@@ -4968,7 +4976,7 @@ defined_text = {
 
 			# NO MORE UNIFICATION HERE
 		}
-		localization_key = "[?temp_real_GDP_growth|2]%"
+		localization_key = "temp_real_GDP_growth_var_tt"
 	}
 }
 
@@ -5471,6 +5479,10 @@ defined_text = {
 		localization_key = Econ_Subtype_Crown_Credit_Corporatism_desc
 	}
 	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Stabilizing_Development } }
+		localization_key = Econ_Subtype_Stabilizing_Development_desc
+	}
+	text = {
 		trigger = {
 			check_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
 			check_variable = { TNO_economy_subtype = 0 }
@@ -5498,7 +5510,7 @@ defined_text = {
 defined_text = {
 	name = econ_schools_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand }
+		trigger = { has_country_flag = TNO_eliminate_building_demand } 
 		localization_key = ""
 	}
 	text = {
@@ -5509,7 +5521,7 @@ defined_text = {
 defined_text = {
 	name = econ_offices_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand }
+		trigger = { has_country_flag = TNO_eliminate_building_demand } 
 		localization_key = ""
 	}
 	text = {
@@ -5520,7 +5532,7 @@ defined_text = {
 defined_text = {
 	name = econ_hospitals_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand }
+		trigger = { has_country_flag = TNO_eliminate_building_demand } 
 		localization_key = ""
 	}
 	text = {
@@ -5531,7 +5543,7 @@ defined_text = {
 defined_text = {
 	name = econ_prisons_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand }
+		trigger = { has_country_flag = TNO_eliminate_building_demand } 
 		localization_key = ""
 	}
 	text = {
@@ -5542,7 +5554,7 @@ defined_text = {
 defined_text = {
 	name = econ_barracks_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand }
+		trigger = { has_country_flag = TNO_eliminate_building_demand } 
 		localization_key = ""
 	}
 	text = {

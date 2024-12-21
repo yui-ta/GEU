@@ -6,27 +6,28 @@ scripted_gui = {
 
 		visible = {
 			tag = GEN
-			has_country_flag = has_secound_leader
+			has_country_flag = has_second_leader
 		}
 
 	effects = {
 		GEU_buttom_change_leaders_click = {
-			if = {
-				limit = { not = { has_country_flag = changed_second_leader } }
-				promote_character = {
-					character = GEN_Yakumo_Yukari
-					ideology = paternalism_gensokyo_system_subtype
-				}
-				set_country_flag = changed_second_leader
-				else_if = {
-					limit = { has_country_flag = changed_second_leader }
-					promote_character = {
-						character = GEN_Hakurei_Reimu
-						ideology = paternalism_gensokyo_system_subtype
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { GEU_Leaders = 2 }
+						}
 					}
-					clr_country_flag = changed_second_leader
+					set_variable = { GEU_Leaders = 2 }
+					else = {
+						set_variable = { GEU_Leaders = 1 }
 					}
 				}
+			}
+		}
+
+		properties = {
+			GEU_Leaders_Second = {
+				image = "[GetPortrait]"
 			}
 		}
 	}

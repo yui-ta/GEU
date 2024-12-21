@@ -1,0 +1,47 @@
+defined_text = {
+	name = GetPortrait
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 1 }
+		}
+		localization_key = GFX_GEU_Leaders_Reimu
+	}
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 2 }
+		}
+		localization_key = GFX_GEU_Leaders_Yukari
+	}
+}
+
+defined_text = {
+	name = GetSecondDesc
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 1 }
+		}
+		localization_key = GEN_Hakurei_Reimu_DESC
+	}
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 2 }
+		}
+		localization_key = POLITICS_YAKUMO_YUKARI_DESC
+	}
+}
+
+defined_text = {
+	name = GetSecondName
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 1 }
+		}
+		localization_key = GEN_Hakurei_Reimu_C
+	}
+	text = {
+		trigger = {
+			check_variable = { GEU_Leaders = 2 }
+		}
+		localization_key = GEN_Yakumo_Yukari_C
+	}
+}
