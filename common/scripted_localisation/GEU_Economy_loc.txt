@@ -184,14 +184,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetEconomyTypeTooltip
-	text = {
-		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Gensokyo_Style_Feudal } }
-		localization_key = Econ_Subtype_Gensokyo_Style_Feudal_desc
-	}
-}
-
-defined_text = {
 	name = GEUEcoGetOrderButton
 	text = {
 		trigger = {

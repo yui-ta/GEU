@@ -5483,6 +5483,10 @@ defined_text = {
 		localization_key = Econ_Subtype_Stabilizing_Development_desc
 	}
 	text = {
+		trigger = { check_variable = { TNO_economy_subtype = token:Econ_Subtype_Gensokyo_Style_Feudal } }
+		localization_key = Econ_Subtype_Gensokyo_Style_Feudal_desc
+	}
+	text = {
 		trigger = {
 			check_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
 			check_variable = { TNO_economy_subtype = 0 }
@@ -5510,7 +5514,7 @@ defined_text = {
 defined_text = {
 	name = econ_schools_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand } 
+		trigger = { has_country_flag = TNO_eliminate_building_demand }
 		localization_key = ""
 	}
 	text = {
@@ -5521,7 +5525,7 @@ defined_text = {
 defined_text = {
 	name = econ_offices_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand } 
+		trigger = { has_country_flag = TNO_eliminate_building_demand }
 		localization_key = ""
 	}
 	text = {
@@ -5532,7 +5536,7 @@ defined_text = {
 defined_text = {
 	name = econ_hospitals_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand } 
+		trigger = { has_country_flag = TNO_eliminate_building_demand }
 		localization_key = ""
 	}
 	text = {
@@ -5543,7 +5547,7 @@ defined_text = {
 defined_text = {
 	name = econ_prisons_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand } 
+		trigger = { has_country_flag = TNO_eliminate_building_demand }
 		localization_key = ""
 	}
 	text = {
@@ -5554,7 +5558,7 @@ defined_text = {
 defined_text = {
 	name = econ_barracks_coverage
 	text = {
-		trigger = { has_country_flag = TNO_eliminate_building_demand } 
+		trigger = { has_country_flag = TNO_eliminate_building_demand }
 		localization_key = ""
 	}
 	text = {
