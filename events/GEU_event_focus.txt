@@ -609,3 +609,228 @@ country_event =
         name = gen_focus.40.a
     }
 }
+
+country_event =
+{
+    id = gen_focus.41
+    title = gen_focus.41.t
+    desc = gen_focus.41.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.41.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.42
+    title = gen_focus.42.t
+    desc = gen_focus.42.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.42.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.43
+    title = gen_focus.43.t
+    desc = gen_focus.43.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.43.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.44
+    title = gen_focus.44.t
+    desc = gen_focus.44.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.44.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.45
+    title = gen_focus.45.t
+    desc = gen_focus.45.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.45.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.46
+    title = gen_focus.46.t
+    desc = gen_focus.46.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.46.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.47
+    title = gen_focus.47.t
+    desc = gen_focus.47.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.47.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.48
+    title = gen_focus.48.t
+    desc = gen_focus.48.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.48.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.49
+    title = gen_focus.49.t
+    desc = gen_focus.49.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.49.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.50
+    title = gen_focus.50.t
+    desc = gen_focus.50.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.50.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.51
+    title = gen_focus.51.t
+    desc = gen_focus.51.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.51.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.52
+    title = gen_focus.52.t
+    desc = gen_focus.52.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.52.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.53
+    title = gen_focus.53.t
+    desc = gen_focus.53.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.53.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.54
+    title = gen_focus.54.t
+    desc = gen_focus.54.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.54.a
+    }
+}
+
+country_event =
+{
+    id = gen_focus.55
+    title = gen_focus.55.t
+    desc = gen_focus.55.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option =
+    {
+        name = gen_focus.55.a
+    }
+}
