@@ -867,6 +867,7 @@ shared_focus =
 		country_event =
 		{
 			id = gen_focus.38
+		}
 	}
 }
 
