@@ -5,6 +5,13 @@
 
 defined_text = {
 	name = Get_newspaper_header
+	
+	text = {
+		trigger = {
+			is_Antarctic_nation = yes
+		}
+		localization_key = TNO_newspaper_header_Antarctica
+	}
 
 	### Russia ###
 	text = { # Buckharin April Fools 2022
@@ -70,6 +77,12 @@ defined_text = {
 			original_tag = CAN
 		}
 		localization_key = TNO_newspaper_header_CAN
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = TNO_newspaper_header_MEX
 	}
 	text = {
 		trigger = {
@@ -145,9 +158,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = GEN
+			original_tag = YUN
 		}
-		localization_key = TNO_newspaper_header_GEN
+		localization_key = TNO_newspaper_header_YUN
+	}
+	text =
+	{
+		trigger = { original_tag = GEN }
+		localization_key = TNO_newspaper_header_GEN		
 	}
 	text = {
 		trigger = {
