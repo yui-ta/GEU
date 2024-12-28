@@ -21,3 +21,23 @@ GEN_debug_category =
 
     picture = GFX_GEN_debug_decision_animation
 }
+
+GEN_moon_BATTLE_category =
+{
+    allowed =
+    {
+        original_tag = GEN
+    }
+    visible =
+    {
+        is_debug = yes
+    }
+    visible_when_empty = yes
+    
+    priority =
+    {
+        base = 90
+    }
+
+    icon = GFX_GEN_moon_BATTLE_category
+}

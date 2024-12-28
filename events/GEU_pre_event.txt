@@ -1,4 +1,5 @@
 add_namespace = gen
+add_namespace = gen_test
 
 country_event =
 {

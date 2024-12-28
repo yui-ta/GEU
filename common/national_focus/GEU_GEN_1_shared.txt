@@ -598,7 +598,7 @@ shared_focus =
 	{
 		country_event =
 		{
-			id = gen_focus.27
+			id = gen_focus.30
 		}
 		#长野适役人口+99M
 	}
@@ -622,7 +622,7 @@ shared_focus =
 	{
 		country_event =
 		{
-			id = gen_focus.28
+			id = gen_focus.31
 		}
 		add_stability = -1
 	}
@@ -644,11 +644,11 @@ shared_focus =
 
 	completion_reward =
 	{
+		#国家债务+99B
 		country_event =
 		{
-			id = gen_focus.29
+			id = gen_focus.32
 		}
-		#国家债务+99B
 		custom_effect_tooltip = GEN_abolish_Reimu_Hakurei_focustt
 	}
 }
@@ -672,7 +672,7 @@ shared_focus =
 	{
 		country_event =
 		{
-			id = gen_focus.30
+			id = gen_focus.27
 		}
 		add_research_slot = 6
 	}
@@ -696,7 +696,7 @@ shared_focus =
 	{
 		country_event =
 		{
-			id = gen_focus.31
+			id = gen_focus.28
 		}
 		#GDP+999B
 	}
@@ -720,7 +720,7 @@ shared_focus =
 	{
 		country_event =
 		{
-			id = gen_focus.32
+			id = gen_focus.29
 		}
 		add_manpower = 99000000
 	}
@@ -766,10 +766,6 @@ shared_focus =
 
 	completion_reward =
 	{
-		country_event =
-		{
-			id = gen_focus.34
-		}
 		custom_effect_tooltip = GEN_bonus_content_focustt
 	}
 }
@@ -792,10 +788,6 @@ shared_focus =
 	completion_reward =
 	{
 		#同中国外交关系修正+5.00%
-		country_event =
-		{
-			id = gen_focus.35
-		}
 	}
 }
 
@@ -816,10 +808,6 @@ shared_focus =
 	completion_reward =
 	{
 		#同勃艮第外交关系修正+5.00%
-		country_event =
-		{
-			id = gen_focus.36
-		}
 	}
 }
 
@@ -840,10 +828,6 @@ shared_focus =
 	completion_reward =
 	{
 		#同美国外交关系修正+5.00%
-		country_event =
-		{
-			id = gen_focus.37
-		}
 	}
 }
 
@@ -864,10 +848,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.38
-		}
 	}
 }
 
@@ -888,10 +868,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.39
-		}
 	}
 }
 
@@ -912,10 +888,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.40
-		}
 	}
 }
 
@@ -941,10 +913,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_political_power = 100
-		country_event =
-		{
-			id = gen_focus.41
-		}
 	}
 }
 
@@ -962,10 +930,6 @@ shared_focus =
 	completion_reward =
 	{
 		custom_effect_tooltip = GEN_bonus_content_focustt
-		country_event =
-		{
-			id = gen_focus.42
-		}
 	}
 }
 
@@ -986,10 +950,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.43
-		}
 	}
 }
 
@@ -1010,10 +970,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.43
-		}
 	}
 }
 
@@ -1034,10 +990,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.44
-		}
 	}
 }
 
@@ -1058,10 +1010,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.45
-		}
 	}
 }
 
@@ -1082,10 +1030,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.46
-		}
 	}
 }
 
@@ -1106,10 +1050,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
-		country_event =
-		{
-			id = gen_focus.47
-		}
 	}
 }
 
@@ -1135,10 +1075,6 @@ shared_focus =
 	completion_reward =
 	{
 		add_political_power = 50
-		country_event =
-		{
-			id = gen_focus.48
-		}
 	}
 }
 
@@ -1159,7 +1095,7 @@ shared_focus =
 		#名义GDP增长率+0.10%
 		country_event =
 		{
-			id = gen_focus.49
+			id = gen_focus.34
 		}
 	}
 }
@@ -1184,7 +1120,7 @@ shared_focus =
 		add_manpower = 50000
 		country_event =
 		{
-			id = gen_focus.50
+			id = gen_focus.37
 		}
 	}
 }
@@ -1209,7 +1145,7 @@ shared_focus =
 		#名义GDP增长率+0.15%
 		country_event =
 		{
-			id = gen_focus.51
+			id = gen_focus.38
 		}
 	}
 }
@@ -1234,7 +1170,7 @@ shared_focus =
 		#获得10点铁、钨、铬、铝储备
 		country_event =
 		{
-			id = gen_focus.52
+			id = gen_focus.39
 		}
 	}
 }
@@ -1259,7 +1195,7 @@ shared_focus =
 		#GDP+0.20B
 		country_event =
 		{
-			id = gen_focus.53
+			id = gen_focus.40
 		}
 	}
 }
@@ -1285,7 +1221,7 @@ shared_focus =
 		#工业专业知识+5.00%
 		country_event =
 		{
-			id = gen_focus.54
+			id = gen_focus.35
 		}
 	}
 }
@@ -1311,7 +1247,7 @@ shared_focus =
 		#获得5点石油储备
 		country_event =
 		{
-			id = gen_focus.55
+			id = gen_focus.36
 		}
 	}
 }
@@ -1341,6 +1277,10 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.05
+		country_event =
+		{
+			id = gen_focus.41
+		}
 	}
 }
 
@@ -1362,6 +1302,10 @@ shared_focus =
 	{
 		#工会政策改为「国家控制工会」
 		#失业救济改为「象征性失业救济」
+		country_event =
+		{
+			id = gen_focus.42
+		}
 	}
 }
 
@@ -1383,6 +1327,10 @@ shared_focus =
 	{
 		add_political_power = 100
 		#贫困率-0.10%
+		country_event =
+		{
+			id = gen_focus.43
+		}
 	}
 }
 
@@ -1407,6 +1355,10 @@ shared_focus =
 	completion_reward =
 	{
 		#获得民精
+		country_event =
+		{
+			id = gen_focus.44
+		}
 	}
 }
 
@@ -1424,6 +1376,10 @@ shared_focus =
 	completion_reward =
 	{
 		add_stability = 0.1
+		country_event =
+		{
+			id = gen_focus.45
+		}
 	}
 }
 
@@ -1445,6 +1401,10 @@ shared_focus =
 	completion_reward =
 	{
 		#换内阁
+		country_event =
+		{
+			id = gen_focus.46
+		}
 	}
 }
 
@@ -1466,6 +1426,10 @@ shared_focus =
 	{
 		#获得民精
 		#获得一个五级堡垒[长野]
+		country_event =
+		{
+			id = gen_focus.47
+		}
 	}
 }
 
@@ -1488,6 +1452,10 @@ shared_focus =
 	{
 		add_command_power = 20
 		#获得将领
+		country_event =
+		{
+			id = gen_focus.50
+		}
 	}
 }
 
@@ -1509,6 +1477,10 @@ shared_focus =
 	{
 		add_manpower = 5000
 		#人均GDP+0.01%
+		country_event =
+		{
+			id = gen_focus.51
+		}
 	}
 }
 
@@ -1530,6 +1502,10 @@ shared_focus =
 	completion_reward =
 	{
 		#移除民精并获得新民精
+		country_event =
+		{
+			id = gen_focus.48
+		}
 	}
 }
 
@@ -1551,6 +1527,10 @@ shared_focus =
 	{
 		add_stability = 0.05
 		#移除民精
+		country_event =
+		{
+			id = gen_focus.49
+		}
 	}
 }
 
@@ -1579,6 +1559,10 @@ shared_focus =
 	completion_reward =
 	{
 		#获得一个被称为近卫队的二步骷髅师
+		country_event =
+		{
+			id = gen_focus.52
+		}
 	}
 }
 
@@ -1600,6 +1584,10 @@ shared_focus =
 	{
 		#兵役豁免修正为「公务员豁免」
 		#军事监督修正为「交战准则」
+		country_event =
+		{
+			id = gen_focus.53
+		}
 	}
 }
 
@@ -1621,6 +1609,10 @@ shared_focus =
 	{
 		add_command_power = 50
 		#军队职业度+1.00%
+		country_event =
+		{
+			id = gen_focus.54
+		}
 	}
 }
 
@@ -1642,5 +1634,9 @@ shared_focus =
 	completion_reward =
 	{
 		add_research_slot = 1
+		country_event =
+		{
+			id = gen_focus.55
+		}
 	}
 }

@@ -1,0 +1,143 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_GEN_moon_BATTLE_category"
+        texturefile = "gfx/texticon/decisions/GEN_moon_BATTLE_category.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Taiwan_battle_1"
+        texturefile = "gfx/texticon/decisions/moon_Taiwan_battle_1.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Taiwan_battle_2"
+        texturefile = "gfx/texticon/decisions/moon_Taiwan_battle_2.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Korea_battle_1"
+        texturefile = "gfx/texticon/decisions/moon_Korea_battle_1.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Korea_battle_2"
+        texturefile = "gfx/texticon/decisions/moon_Korea_battle_2.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Korea_battle_3"
+        texturefile = "gfx/texticon/decisions/moon_Korea_battle_3.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Korea_battle_4"
+        texturefile = "gfx/texticon/decisions/moon_Korea_battle_4.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_China_battle"
+        texturefile = "gfx/texticon/decisions/moon_China_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Vietnam_battle"
+        texturefile = "gfx/texticon/decisions/moon_Vietnam_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Laos_battle"
+        texturefile = "gfx/texticon/decisions/moon_Laos_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Cambodia_battle"
+        texturefile = "gfx/texticon/decisions/moon_Cambodia_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Thailand_battle"
+        texturefile = "gfx/texticon/decisions/moon_Thailand_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Myanmar_battle"
+        texturefile = "gfx/texticon/decisions/moon_Myanmar_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Philippines_battle"
+        texturefile = "gfx/texticon/decisions/moon_Philippines_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Indonesia_battle"
+        texturefile = "gfx/texticon/decisions/moon_Indonesia_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_India_battle"
+        texturefile = "gfx/texticon/decisions/moon_India_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_CentralAsia_battle"
+        texturefile = "gfx/texticon/decisions/moon_CentralAsia_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Soviet_battle"
+        texturefile = "gfx/texticon/decisions/moon_Soviet_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Iran_battle"
+        texturefile = "gfx/texticon/decisions/moon_Iran_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_CentralEast_battle"
+        texturefile = "gfx/texticon/decisions/moon_CentralEast_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_EastAfrica_battle"
+        texturefile = "gfx/texticon/decisions/moon_EastAfrica_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_WestAfrica_battle"
+        texturefile = "gfx/texticon/decisions/moon_WestAfrica_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_CentralAfrica_battle"
+        texturefile = "gfx/texticon/decisions/moon_CentralAfrica_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_SouthAfrica_battle"
+        texturefile = "gfx/texticon/decisions/moon_SouthAfrica_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Australia_battle"
+        texturefile = "gfx/texticon/decisions/moon_Australia_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_SouthAmerican_battle"
+        texturefile = "gfx/texticon/decisions/moon_SouthAmerican_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_Europe_battle"
+        texturefile = "gfx/texticon/decisions/moon_Europe_battle.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_decision_moon_America_battle"
+        texturefile = "gfx/texticon/decisions/moon_America_battle.dds"
+    }
+}
