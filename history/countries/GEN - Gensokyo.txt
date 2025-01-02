@@ -40,7 +40,6 @@ recruit_character = GEN_Yakumo_Yukari
 recruit_character = GEN_Ibarak_iKasen
 recruit_character = GEN_Iizunamaru_Megumu
 recruit_character = GEN_Matara_Okina
-# Generals and Field Marshals #
 recruit_character = GEN_Yakumo_Yukari_GEL
 recruit_character = GEN_Yasaka_Kanako_GEL
 recruit_character = GEN_Ibarak_iKasen_GEL
@@ -68,6 +67,12 @@ recruit_character = GEN_Kurokoma_Saki
 recruit_character = GEN_Toutetsu_Yuma
 recruit_character = GEN_Hutatsuiwa_Mamizou
 recruit_character = GEN_Yamashiro_Takane
+recruit_character = GEN_Onozuka_Komachi
+recruit_character = GEN_Kamishirasawa_Keine
+recruit_character = GEN_Mystia_Lorelei
+recruit_character = GEN_Sukuna_Shinmyoumaru
+recruit_character = GEN_Reisen_II
+recruit_character = GEN_Unknown
 
 add_ideas = {
 	#political#

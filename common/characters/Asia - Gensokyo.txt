@@ -1,5 +1,6 @@
-characters = {
-	# Country leaders #
+characters =
+{
+# Country leaders #
 	GEN_Hakurei_Reimu = {
 		name = GEN_Hakurei_Reimu
 		portraits = {
@@ -10,7 +11,7 @@ characters = {
 		country_leader = {
 			expire = "1989.1.1"
 			desc = "GEN_Hakurei_Reimu_DESC"
-			ideology = paternalism_gensokyo_system_subtype
+			ideology = despotism_aristocratic_conservatism_subtype
 			traits = {}
 			id = -1
 		}
@@ -165,9 +166,74 @@ characters = {
 			id = -1
 		}
 	}
+	GEN_Onozuka_Komachi =
+	{
+		name = GEN_Onozuka_Komachi
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Onozuka_Komachi_desc"
+			ideology = fascism_subtype
+			traits = {}
+		}
+	}
+	GEN_Kamishirasawa_Keine =
+	{
+		name = GEN_Kamishirasawa_Keine
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Kamishirasawa_Keine_desc"
+			ideology = fascism_1_subtype
+			traits = {}
+		}
+	}
+	GEN_Mystia_Lorelei =
+	{
+		name = GEN_Mystia_Lorelei
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Mystia_Lorelei_desc"
+			ideology = ultranationalism_2_subtype
+			traits = {}
+		}
+	}
+	GEN_Sukuna_Shinmyoumaru =
+	{
+		name = GEN_Sukuna_Shinmyoumaru
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Sukuna_Shinmyoumaru_desc"
+			ideology = socialist_subtype
+			traits = {}
+		}
+	}
+	GEN_Reisen_II =
+	{
+		name = GEN_Reisen_II
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Reisen_II_desc"
+			ideology = communist_subtype
+			traits = {}
+		}
+	}
+	GEN_Unknown =
+	{
+		name = GEN_Unknown
+		#portraits =
+		country_leader =
+		{
+			desc = "GEN_Unknown_desc"
+			ideology = ultranationalism_1_subtype
+			traits = {}
+		}
+	}
 
-
-	# Advisor #
+# Advisor #
 	GEN_Yakumo_Yukari = {
 		name = GEN_Yakumo_Yukari
 		portraits = {
@@ -178,7 +244,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_YAKUMO_YUKARI_DESC"
-			ideology = paternalism_gensokyo_system_subtype
+			ideology = despotism_aristocratic_conservatism_subtype
 			traits = { GEN_youkai_of_the_realm }
 			expire = "1989.1.1.1"
 			id = -1
@@ -283,7 +349,7 @@ characters = {
 	}
 
 
-	# Generals and Field Marshals #
+# Generals and Field Marshals #
 	GEN_Yakumo_Yukari_GEL = {
 		name = GEN_Yakumo_Yukari_GEL
 		portraits = {

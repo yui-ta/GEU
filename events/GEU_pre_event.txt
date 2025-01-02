@@ -38,6 +38,197 @@ country_event =
 	}
 }
 
+country_event =
+{
+	id = gen_test.2
+	title = gen_test.2.t
+	desc = gen_test.2.d
+
+	is_triggered_only = yes
+
+	option =
+	{
+		name = gen_test.2.a
+		set_popularities =
+		{
+			national_socialism = 1
+			fascism = 1
+			fascism_1 = 2
+			ultranationalism = 2
+			ultranationalism_1 = 1
+			ultranationalism_2 = 1
+			despotism = 1
+			despotism_1 = 10
+			paternalism = 45
+			conservatism = 12
+			liberal_conservatism = 1
+			liberalism = 13
+			progressivism = 7
+			socialist = 2
+			communist = 1
+		}
+		set_politics =
+		{
+			ruling_party = paternalism
+			long_name = GEN_paternalism_party2_long
+			name = GEN_paternalism_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Yasaka_Kanako
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = paternalism_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = national_socialism
+			long_name = GEN_national_socialism_party2_long
+			name = GEN_national_socialism_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Inubashiri_Momizi
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = national_socialism_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = fascism
+			long_name = GEN_fascism_party2_long
+			name = GEN_fascism_party2
+		}
+		promote_character = GEN_Onozuka_Komachi
+		set_party_name =
+		{
+			ideology = fascism_1
+			long_name = GEN_fascism_1_party2_long
+			name = GEN_fascism_1_party2
+		}
+		promote_character = GEN_Kamishirasawa_Keine
+		set_party_name =
+		{
+			ideology = ultranationalism
+			long_name = GEN_ultranationalism_party2_long
+			name = GEN_ultranationalism_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Wriggle_Nightbug
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = ultranationalism_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = ultranationalism_1
+			long_name = GEN_ultranationalism_1_party2_long
+			name = GEN_ultranationalism_1_party2
+		}
+		promote_character = GEN_Unknown
+		set_party_name =
+		{
+			ideology = ultranationalism_2
+			long_name = GEN_ultranationalism_2_party2_long
+			name = GEN_ultranationalism_2_party2
+		}
+		promote_character = GEN_Mystia_Lorelei
+		set_party_name =
+		{
+			ideology = despotism
+			long_name = GEN_despotism_party2_long
+			name = GEN_despotism_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Hiziri_Byakuren
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = despotism_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = despotism_1
+			long_name = GEN_despotism_1_party2_long
+			name = GEN_despotism_1_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Moriya_Suwako
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = despotism_1_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = conservatism
+			long_name = GEN_conservatism_party2_long
+			name = GEN_conservatism_party2
+		}
+		add_country_leader_role =
+		{
+			character = GEN_Remilia_Scarlet
+			promote_leader = yes
+			country_leader =
+			{
+				ideology = conservatism_subtype
+				traits = {}
+			}
+		}
+		set_party_name =
+		{
+			ideology = liberal_conservatism
+			long_name = GEN_liberal_conservatism_party2_long
+			name = GEN_liberal_conservatism_party2
+		}
+		promote_character = GEN_Yorigami_Jyoon
+		set_party_name =
+		{
+			ideology = liberalism
+			long_name = GEN_liberalism_party2_long
+			name = GEN_liberalism_party2
+		}
+		promote_character = GEN_Morichika_Rinnosuke
+		set_party_name =
+		{
+			ideology = progressivism
+			long_name = GEN_progressivism_party2_long
+			name = GEN_progressivism_party2
+		}
+		promote_character = GEN_Hinanawi_Tenshi
+		set_party_name =
+		{
+			ideology = socialist
+			long_name = GEN_socialist_party2_long
+			name = GEN_socialist_party2
+		}
+		promote_character = GEN_Sukuna_Shinmyoumaru
+		set_party_name =
+		{
+			ideology = communist
+			long_name = GEN_communist_party2_long
+			name = GEN_communist_party2
+		}
+		promote_character = GEN_Reisen_II
+	}
+}
+
 country_event = {
 	id = gen.1
 
