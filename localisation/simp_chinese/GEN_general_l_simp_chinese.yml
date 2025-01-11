@@ -1,5 +1,14 @@
 ﻿l_simp_chinese:
 
+########### 目录 ###########
+# 1. GEN政治派系
+# 2. GEN角色
+# 3. GEN双领袖系统
+# 4. GEN国家精神
+# 5. 文化
+# 6. 意识形态
+###########################
+
 #GEN政治派系
  GEN_paternalism_party: "贤者会议"
  GEN_paternalism_party_long: "贤者会议"

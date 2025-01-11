@@ -870,3 +870,200 @@ shared_focus =
 
    }
 }
+
+shared_focus =
+{
+    id = GEN_focus_manor_stock_exchange #庄园证券所
+    icon = GFX_GEN_focus_manor_stock_exchange
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_organization
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_manor_record #庄园检注所
+    icon = GFX_GEN_focus_manor_record
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_stock_exchange
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_territorial_guardianship #地头守护制
+    icon = GFX_GEN_focus_territorial_guardianship
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_record
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_manor_research #税务统一
+    icon = GFX_GEN_focus_manor_research
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_territorial_guardianship
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Kokudaka #石高
+    icon = GFX_GEN_focus_Kokudaka
+
+    relative_position_id = GEN_focus_manor_organization
+    x = -1
+    y = 5
+
+    mutually_exclusive =
+    {
+        focus = GEN_focus_GuanGao
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_manor_research
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_GuanGao #贯高
+    icon = GFX_GEN_focus_GuanGao
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 1
+    y = 5
+
+    mutually_exclusive =
+    {
+        focus = GEN_focus_Kokudaka
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_manor_research
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_rainbow_market #虹色市场
+    icon = GFX_GEN_focus_rainbow_market
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 3
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_organization
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_gods_preprogrative #神人特权
+    icon = GFX_GEN_focus_gods_preprogrative
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 3
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_rainbow_market
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_currency_restructuring #货币改制
+    icon = GFX_GEN_focus_currency_restructuring
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 3
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_gods_preprogrative
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
