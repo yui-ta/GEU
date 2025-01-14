@@ -1067,3 +1067,634 @@ shared_focus =
 
     }
 }
+
+shared_focus =
+{
+    id = GEN_focus_manufacturing_priority #制造优先
+    icon = GFX_GEN_focus_manufacturing_priority
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 3
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_currency_restructuring
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_resource_allocation #资源配给
+    icon = GFX_GEN_focus_resource_allocation
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 3
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_manufacturing_priority
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_manor_Hanzei_Rei #庄园半济令
+    icon = GFX_GEN_focus_manor_Hanzei_Rei
+
+    relative_position_id = GEN_focus_manor_organization
+    x = 0
+    y = 6
+
+    prerequisite =
+    {
+        focus = GEN_focus_Yakumos_education
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_Kokudaka
+        focus = GEN_focus_GuanGao
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_resource_allocation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_litigation_simplification #诉讼简化
+    icon = GFX_GEN_focus_litigation_simplification
+
+    relative_position_id = GEN_focus_paperlism
+    x = 4
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_paperlism
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Hikitsuke_reform #引付众改革
+    icon = GFX_GEN_focus_Hikitsuke_reform
+
+    relative_position_id = GEN_focus_litigation_simplification
+    x = -4
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_litigation_simplification
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_cluster_miscellaneous #分组杂务沙汰
+    icon = GFX_GEN_focus_cluster_miscellaneous
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Hikitsuke_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_concentrated_land #集中土地沙汰
+    icon = GFX_GEN_focus_concentrated_land
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_cluster_miscellaneous
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_handling_temple_affairs #寺社事务处理
+    icon = GFX_GEN_focus_handling_temple_affairs
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_concentrated_land
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_addition_national_law #国法加法
+    icon = GFX_GEN_focus_addition_national_law
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = -1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_handling_temple_affairs
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_expansion_Moncho_jo #扩充问注所
+    icon = GFX_GEN_focus_expansion_Moncho_jo
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_Hikitsuke_reform
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_reform_vires_system #改革越诉制度
+    icon = GFX_GEN_focus_reform_vires_system
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_expansion_Moncho_jo
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_people_rise_paper #百姓请起文
+    icon = GFX_GEN_focus_people_rise_paper
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_reform_vires_system
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_post_apoc_paradise #末世乐园
+    icon = GFX_GEN_focus_post_apoc_paradise
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = 1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_people_rise_paper
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_human_household_statistics #人类户籍统计
+    icon = GFX_GEN_focus_human_household_statistics
+
+    relative_position_id = GEN_focus_Hikitsuke_reform
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_addition_national_law
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_post_apoc_paradise
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_restructing_meeting #改组评定会议
+    icon = GFX_GEN_focus_restructing_meeting
+
+    relative_position_id = GEN_focus_litigation_simplification
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_litigation_simplification
+    }
+    cost = 1
+
+    completion_reward =
+    {
+    
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_pay_attention #目有所检
+    icon = GFX_GEN_focus_pay_attention
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = -1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_restructing_meeting
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Zashiki_warashi_force #坐敖童子部队
+    icon = GFX_GEN_focus_Zashiki_warashi_force
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_pay_attention
+    }
+    cost = 1
+
+    completion_reward =
+    {
+        
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_civilian_innovation #文官创新
+    icon = GFX_GEN_focus_civilian_innovation
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_Zashiki_warashi_force
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_pevention_batter_cure #防患于未然
+    icon = GFX_GEN_focus_pevention_batter_cure
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = -1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_civilian_innovation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_fresh_blood #新鲜血液
+    icon = GFX_GEN_focus_fresh_blood
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_restructing_meeting
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_invite_Tenma #邀请天魔
+    icon = GFX_GEN_focus_invite_Tenma
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_fresh_blood
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_authority_power #御恩沙汰执权理
+    icon = GFX_GEN_focus_authority_power
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_invite_Tenma
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_official_power #官途沙汰执权理
+    icon = GFX_GEN_focus_official_power
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = 1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_authority_power
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Yakumos_way #八云之风
+    icon = GFX_GEN_focus_Yakumos_way
+
+    relative_position_id = GEN_focus_restructing_meeting
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_pevention_batter_cure
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_official_power
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_expand_police_duty #扩充政所别当
+    icon = GFX_GEN_focus_expand_police_duty
+
+    relative_position_id = GEN_focus_litigation_simplification
+    x = 4
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_litigation_simplification
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Shikigami_calculation #式神计算
+    icon = GFX_GEN_focus_Shikigami_calculation
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = -1
+    y = 1
+    
+    prerequisite =
+    {
+        focus = GEN_focus_expand_police_duty
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_world_information_library #天下信息库
+    icon = GFX_GEN_focus_world_information_library
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = -1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_Shikigami_calculation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_political_clarity #政清人和
+    icon = GFX_GEN_focus_political_clarity
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = -1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_world_information_library
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_promoting_basic_education #推广基础教育
+    icon = GFX_GEN_focus_promoting_basic_education
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = -1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_political_clarity
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_absorb_ronin #天下普请
+}
