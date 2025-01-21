@@ -1,10 +1,10 @@
-#三阶段国策树
+#八云紫国策树
 shared_focus =
 {
     id = GEN_focus_the_end_of_time #山崩海枯世
     icon = GFX_GEN_focus_the_end_of_time
 
-    x = 8
+    x = 15
     y = 0
 
     cost = 1
@@ -63,7 +63,7 @@ shared_focus =
     icon = GFX_GEN_focus_entropy_increase_boundary
 
     relative_position_id = GEN_focus_consolidation_work
-    x = -3
+    x = -9
     y = 1
 
     prerequisite =
@@ -84,7 +84,7 @@ shared_focus =
     icon = GFX_GEN_focus_competency_check
 
     relative_position_id = GEN_focus_entropy_increase_boundary
-    x = -2
+    x = -3
     y = 1
 
     prerequisite =
@@ -390,7 +390,7 @@ shared_focus =
     icon = GFX_GEN_focus_establish_reserve_army
 
     relative_position_id = GEN_focus_entropy_increase_boundary
-    x = 4
+    x = 3
     y = 1
 
     prerequisite =
@@ -730,7 +730,7 @@ shared_focus =
     icon = GEN_focus_paperlism
 
     relative_position_id = GEN_focus_consolidation_work
-    x = 13
+    x = 10
     y = 1
 
     prerequisite =
@@ -751,7 +751,7 @@ shared_focus =
     icon = GFX_GEN_focus_manor_organization
 
     relative_position_id = GEN_focus_paperlism
-    x = -6
+    x = -10
     y = 1
 
     prerequisite =
@@ -1146,7 +1146,7 @@ shared_focus =
     icon = GFX_GEN_focus_litigation_simplification
 
     relative_position_id = GEN_focus_paperlism
-    x = 4
+    x = 0
     y = 1
 
     prerequisite =
@@ -1696,5 +1696,511 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_absorb_ronin #天下普请
+    id = GEN_focus_universal_invitation #天下普请
+    icon = GFX_GEN_focus_universal_invitation
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = 1
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_expand_police_duty
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_street_maintenance #街道维护
+    icon = GFX_GEN_focus_street_maintenance
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = 1
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_universal_invitation
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_expansion_eco_transport #扩建生态运输
+    icon = GFX_GEN_focus_expansion_eco_transport
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = 1
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_street_maintenance
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_post_apoc_train #末世列车
+    icon = GFX_GEN_focus_post_apoc_train
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = 1
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_expansion_eco_transport
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_name_of_Yakumos #八云之名
+    icon = GFX_GEN_focus_name_of_Yakumos
+
+    relative_position_id = GEN_focus_expand_police_duty
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_promoting_basic_education
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_post_apoc_train
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_takeover_Etsu #接手越中
+    icon = GFX_GEN_focus_takeover_Etsu
+
+    relative_position_id = GEN_focus_paperlism
+    x = 9
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_paperlism
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Hokuriku_Keigosho #北陆警固所
+    icon = GFX_GEN_focus_Hokuriku_Keigosho
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_takeover_Etsu
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_stengthening_defense #强化防务
+    icon = GFX_GEN_focus_stengthening_defense
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = -2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_Hokuriku_Keigosho
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_building_defense #建设防线
+    icon = GFX_GEN_focus_building_defense
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = -2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_stengthening_defense
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_strengthening_supervision #强化普请监督
+    icon = GFX_GEN_focus_strengthening_supervision
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = -2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_building_defense
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_state_of_preparedness #备战状态
+    icon = GFX_GEN_focus_state_of_preparedness
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = -2
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_strengthening_supervision
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_seeking_international_allies #寻求国际盟友
+    icon = GFX_GEN_focus_seeking_international_allies
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_takeover_Etsu
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_infiltration_Japan #渗透日本
+    icon = GFX_GEN_focus_infiltration_Japan
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_seeking_international_allies
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_involve_international_conflict #参与国际冲突
+    icon = GFX_GEN_focus_involve_international_conflict
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_infiltration_Japan
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_Gensokyo_mercenary #幻想佣兵
+    icon = GFX_GEN_focus_Gensokyo_mercenary
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_involve_international_conflict
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_incorporating_operation_experience #吸纳作战经验
+    icon = GFX_GEN_focus_incorporating_operation_experience
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_Gensokyo_mercenary
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_formation_Kosamuraidokoro #组建小侍所
+    icon = GFX_GEN_focus_formation_Kosamuraidokoro
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = GEN_focus_takeover_Etsu
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_require_military_duty #要求军事义务
+    icon = GFX_GEN_focus_require_military_duty
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 2
+    y = 2
+
+    prerequisite =
+    {
+        focus = GEN_focus_formation_Kosamuraidokoro
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_provision_weapon_rent #提供武器租凭
+    icon = GFX_GEN_focus_provision_weapon_rent
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 2
+    y = 3
+
+    prerequisite =
+    {
+        focus = GEN_focus_require_military_duty
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_enhanced_arms_production #强化军备生产
+    icon = GFX_GEN_focus_enhanced_arms_production
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 2
+    y = 4
+
+    prerequisite =
+    {
+        focus = GEN_focus_provision_weapon_rent
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_promotion_military_loyalty #促进军人忠诚
+    icon = GFX_GEN_focus_promotion_military_loyalty
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 2
+    y = 5
+
+    prerequisite =
+    {
+        focus = GEN_focus_enhanced_arms_production
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_summer_of_Koan_fourthyear #弘安四年的夏天
+    icon = GFX_GEN_focus_summer_of_Koan_fourthyear
+
+    relative_position_id = GEN_focus_takeover_Etsu
+    x = 0
+    y = 6
+
+    prerequisite =
+    {
+        focus = GEN_focus_state_of_preparedness
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_incorporating_operation_experience
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_promotion_military_loyalty
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = GEN_focus_solving_external_threat #解决外部威胁
+    icon = GFX_GEN_focus_solving_external_threat
+
+    relative_position_id = GEN_focus_paperlism
+    x = 0
+    y = 8
+
+    prerequisite =
+    {
+        focus = GEN_focus_manor_Hanzei_Rei
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_human_household_statistics
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_Yakumos_way
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_name_of_Yakumos
+    }
+    prerequisite =
+    {
+        focus = GEN_focus_summer_of_Koan_fourthyear
+    }
+    cost = 1
+
+    completion_reward =
+    {
+
+    }
 }
