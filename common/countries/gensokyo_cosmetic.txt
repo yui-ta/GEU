@@ -1,0 +1,4 @@
+GEN_Northern = {
+	color = rgb { 140 93 53 }
+	color_ui = rgb { 140 93 53 }
+}

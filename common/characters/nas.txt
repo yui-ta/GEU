@@ -1,0 +1,566 @@
+characters = {
+	# Country leaders #
+	REM_Remilia_Scarlet = {
+		name = REM_Remilia_Scarlet
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Remilia_Scarlet.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Remilia_Scarlet.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Remilia_Scarlet.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "REM_Remilia_Scarlet_DESC"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+				politically_connected
+				war_hero
+			}
+			skill = 8
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	MOK_Huziwara_no_Mokou = {
+		name = MOK_Huziwara_no_Mokou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Huziwara_no_Mokou.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "MOK_Huziwara_no_Mokou_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	WRI_Wriggle_Nightbug = {
+		name = WRI_Wriggle_Nightbug
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Wriggle_Nightbug.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Wriggle_Nightbug.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Wriggle_Nightbug.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "WRI_Wriggle_Nightbug_DESC"
+			ideology = despotism_military_junta_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	WRI_Medicine_Melancholy = {
+		name = WRI_Medicine_Melancholy
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Medicine_Melancholy.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Medicine_Melancholy.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Medicine_Melancholy.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "WRI_Medicine_Melancholy_DESC"
+			ideology = fascism_revolutionary_nationalism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	WRI_Seoi_Ha = {
+		name = WRI_Seoi_Ha
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Seoi_Ha.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Seoi_Ha.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Seoi_Ha.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "WRI_Seoi_Ha_DESC"
+			ideology = progressivism_utopian_socialism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	WRI_Torisumi_Horou = {
+		name = WRI_Torisumi_Horou
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Torisumi_Horou.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Torisumi_Horou.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Torisumi_Horou.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Torisumi_Horou_DESC"
+			ideology = paternalism_social_nationalism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	SMT_Son_Biten = {
+		name = SMT_Son_Biten
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Son_Biten.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Son_Biten.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Son_Biten.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "SMT_Son_Biten_DESC"
+			ideology = despotism_aristocratic_conservatism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	HIN_Kagiyama_Hina = {
+		name = HIN_Kagiyama_Hina
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kagiyama_Hina.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kagiyama_Hina.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kagiyama_Hina.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Torisumi_Horou_DESC"
+			ideology = despotism_theocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	FUT_Mononobe_no_Futo = {
+		name = FUT_Mononobe_no_Futo
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Mononobe_no_Futo.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Mononobe_no_Futo.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Mononobe_no_Futo.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "FUT_Mononobe_no_Futo_DESC"
+			ideology = conservatism_prairie_populism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	MZC_Miyadeguchi_Mizuchi = {
+		name = MZC_Miyadeguchi_Mizuchi
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Miyadeguchi_Mizuchi.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Miyadeguchi_Mizuchi.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Miyadeguchi_Mizuchi.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "MZC_Miyadeguchi_Mizuchi_DESC"
+			ideology = despotism_vanguard_anarchism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 9
+			attack_skill = 9
+			defense_skill = 6
+			planning_skill = 9
+			logistics_skill = 6
+		}
+	}
+	BYA_Hiziri_Byakuren = {
+		name = BYA_Hiziri_Byakuren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Hiziri_Byakuren.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "BYA_Hiziri_Byakuren_DESC"
+			ideology = despotism_theocracy_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 7
+			logistics_skill = 7
+		}
+	}
+	RAK_Horikawa_Raiko = {
+		name = RAK_Horikawa_Raiko
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Horikawa_Raiko.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Horikawa_Raiko.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Horikawa_Raiko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "RAK_Horikawa_Raiko_DESC"
+			ideology = progressivism_social_radicalism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 6
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	SKI_Sekibanki = {
+		name = SKI_Sekibanki
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Sekibanki.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Sekibanki.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Sekibanki.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "SKI_Sekibanki_DESC"
+			ideology = fascism_sansepolcrismo_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RES_Reisen_II = {
+		name = RES_Reisen_II
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Reisen_II.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Reisen_II.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Reisen_II.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "RES_Reisen_II_DESC"
+			ideology = communist_guevarism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	KEK_Haniyasushin_Keiki = {
+		name = KEK_Haniyasushin_Keiki
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Haniyasushin_Keiki.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Haniyasushin_Keiki.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Haniyasushin_Keiki.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "KEK_Haniyasushin_Keiki_DESC"
+			ideology = despotism_theocracy_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 8
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	CMT_Tenkyu_Chimata = {
+		name = CMT_Tenkyu_Chimata
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Tenkyu_Chimata.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Tenkyu_Chimata.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Tenkyu_Chimata.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "CMT_Tenkyu_Chimata_DESC"
+			ideology = paternalism_corporate_paternalism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 6
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 7
+		}
+	}
+	SNE_Kotiya_Sanae = {
+		name = SNE_Kotiya_Sanae
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kotiya_Sanae.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kotiya_Sanae.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kotiya_Sanae.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "SNE_Kotiya_Sanae_DESC"
+			ideology = paternalism_semi_constitutional_monarchy_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 6
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 6
+		}
+	}
+	MYS_Mystia_Lorelei = {
+		name = MYS_Mystia_Lorelei
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Mystia_Lorelei.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Mystia_Lorelei.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Mystia_Lorelei.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "MYS_Mystia_Lorelei_DESC"
+			ideology = national_socialism_palingenetic_nazism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	HAT_Himekaidou_Hatate = {
+		name = HAT_Himekaidou_Hatate
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Himekaidou_Hatate.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Himekaidou_Hatate.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Himekaidou_Hatate.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "HAT_Himekaidou_Hatate_DESC"
+			ideology = despotism_aristocratic_republicanism_subtype
+			traits = {}
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 3
+		}
+	}
+	SRE_Sariel = {
+		name = SRE_Sariel
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Sariel.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Sariel.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Sariel.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "SRE_Sariel_DESC"
+			ideology = despotism_theocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+	MRS_Kirisame_Marisa = {
+		name = MRS_Kirisame_Marisa
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/GEN_Kirisame_Marisa.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/GEN_Kirisame_Marisa.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kirisame_Marisa.dds"
+			}
+		}
+		country_leader = {
+			desc = "MRS_Kirisame_Marisa_DESC"
+			ideology = paternalism_oligarchy_subtype
+			expire = "1989.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	MYZ_Natsume_Suzuko = {
+		name = MYZ_Natsume_Suzuko
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/Natsume_Suzuko.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/Natsume_Suzuko.dds"
+				small = "gfx/interface/ideas/ministers/Natsume_Suzuko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "MYZ_Natsume_Suzuko_DESC"
+			ideology = paternalism_anocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+}

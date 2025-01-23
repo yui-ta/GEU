@@ -1,0 +1,82 @@
+capital = 1845
+
+set_research_slots = 4
+set_stability = 1
+set_war_support = 0.5
+
+set_popularities = {
+	communist = 0
+	ultranationalism = 25
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	liberal_conservatism = 0
+	conservatism = 0
+	paternalism = 0
+	despotism = 35
+	fascism = 40
+	national_socialism = 0
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character = HAT_Himekaidou_Hatate
+
+add_ideas = {
+	#political#
+	tno_political_parties_nonpartisan_system
+	tno_religious_rights_pluralism
+	tno_trade_unions_all_allowed
+	tno_immigration_you_will_never_leave
+	tno_slavery_corvee
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_elite_voting
+	#military#
+	tno_conscription_service_by_requirement
+	tno_military_supervision_no_supervision
+	tno_training_advanced_training_methods
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_closed_economy
+	tno_income_taxation_flat_taxes
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#social#
+	tno_health_care_free_universal_care
+	tno_education_stratified_education
+	tno_penal_system_rehabilitation
+	tno_gender_rights_enforced_equality
+	tno_security_totalitarian_police
+	tno_regulations_utterly_unregulated
+	#misc#
+	tno_refugees_skilled
+	tno_women_total_equality
+	tno_racial_integration_integrated_military
+	tno_child_labor_illegal
+	tno_safety_acceptable_regulations
+	tno_pollution_some_regulations
+	tno_lgbt_rights_lgbt_allowed
+	tno_minorities_equal_rights
+	#social development
+	tno_academic_base_primary_schooling
+	tno_research_facilities_outdated
+	tno_agriculture_basic_mechanized
+	tno_healthcare_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_industrial_expertise_nascent
+	tno_army_professionalism_political_interference
+	tno_admin_efficiency_deficient_administrative_systems
+
+	#Idea#
+
+	#Ministers#
+
+}

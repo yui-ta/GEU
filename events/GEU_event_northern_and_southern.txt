@@ -1,0 +1,211 @@
+add_namespace = gen.collapse
+add_namespace = gen.nas
+
+country_event =
+{
+	id = gen.collapse.1
+	title = gen.collapse.1.t
+	desc = gen.collapse.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = gen.collapse.1.a
+        hidden_effect = {
+        GEN = {
+			kill_ideology_leader = despotism
+			set_popularities = {
+				communist = 0
+				ultranationalism = 0
+				socialist = 0
+				progressivism = 0
+				liberalism = 0
+				liberal_conservatism = 0
+				conservatism = 0
+				paternalism = 0
+				despotism = 25
+				despotism_1 = 50
+				despotism_2 = 25
+				fascism = 0
+				national_socialism = 0
+			}
+			set_party_name = { ideology = despotism long_name = GEN_yukari_party_long name = GEN_yukari_party }
+			set_party_name = { ideology = despotism_1 long_name = GEN_yukari_1_party_long name = GEN_yukari_1_party }
+			set_party_name = { ideology = despotism_2 long_name = GEN_yukari_2_party_long name = GEN_yukari_2_party_2 }
+			set_cosmetic_tag = "GEN_Northern"
+			set_capital = { state = 1831 }
+			add_state_core = 1835
+			add_state_core = 1829
+			add_state_core = 1832
+			add_state_core = 535
+			add_state_core = 532
+			add_state_core = 1834
+			add_state_core = 1833
+			add_state_core = 1830
+			add_state_core = 1826
+			add_state_core = 1825
+			add_state_core = 534
+
+			transfer_state = 1835
+			transfer_state = 1829
+			transfer_state = 1832
+			transfer_state = 535
+			transfer_state = 532
+			transfer_state = 1834
+			transfer_state = 1833
+			transfer_state = 1830
+			transfer_state = 1826
+			transfer_state = 1825
+			transfer_state = 534
+        }
+        REM = {
+			set_capital = { state = 1828 }
+			add_state_core = 1828
+			add_state_core = 282
+			add_state_core = 1827
+			add_state_core = 1824
+			add_state_core = 1234
+
+			transfer_state = 1828
+			transfer_state = 282
+			transfer_state = 1827
+			transfer_state = 1824
+			transfer_state = 1234
+        }
+        MOK = {
+			set_capital = { state = 1821 }
+			add_state_core = 1821
+			add_state_core = 533
+			add_state_core = 642
+
+			transfer_state = 1821
+			transfer_state = 533
+			transfer_state = 642
+        }
+        WRI = {
+			set_capital = { state = 1823 }
+			add_state_core = 1823
+
+			transfer_state = 1823
+        }
+        SMT = {
+			set_capital = { state = 1822 }
+			add_state_core = 1822
+
+			transfer_state = 1822
+        }
+        HIN = {
+			set_capital = { state = 555 }
+			add_state_core = 555
+
+			transfer_state = 555
+        }
+        FUT = {
+			set_capital = { state = 531 }
+			add_state_core = 531
+
+			transfer_state = 531
+        }
+        MZC = {
+			set_capital = { state = 631 }
+			add_state_core = 631
+
+			transfer_state = 631
+        }
+        BYA = {
+			set_capital = { state = 1837 }
+			add_state_core = 1837
+
+			transfer_state = 1837
+        }
+        RAK = {
+			set_capital = { state = 630 }
+			add_state_core = 630
+            add_state_core = 1836
+
+			transfer_state = 630
+            transfer_state = 1836
+        }
+        SKI = {
+			set_capital = { state = 1838 }
+			add_state_core = 1838
+            add_state_core = 530
+
+			transfer_state = 1838
+            transfer_state = 530
+        }
+        RES = {
+			set_capital = { state = 1837 }
+			add_state_core = 529
+
+			transfer_state = 529
+        }
+        KEK = {
+			set_capital = { state = 1840 }
+			add_state_core = 1840
+
+			transfer_state = 1840
+        }
+        CMT = {
+			set_capital = { state = 1842 }
+			add_state_core = 1842
+
+			transfer_state = 1842
+        }
+        SNE = {
+			set_capital = { state = 1840 }
+			add_state_core = 650
+            add_state_core = 1839
+            add_state_core = 1843
+
+			transfer_state = 650
+            transfer_state = 1839
+            transfer_state = 1843
+        }
+        MYS = {
+			set_capital = { state = 1844 }
+			add_state_core = 1844
+
+			transfer_state = 1844
+        }
+        HAT = {
+			set_capital = { state = 1845 }
+			add_state_core = 1845
+            add_state_core = 1848
+            add_state_core = 1841
+
+			transfer_state = 1845
+            transfer_state = 1848
+            transfer_state = 1841
+        }
+        MRS = {
+			set_capital = { state = 528 }
+			add_state_core = 528
+            add_state_core = 1847
+            add_state_core = 1846
+
+			transfer_state = 528
+            transfer_state = 1847
+            transfer_state = 1846
+        }
+        SRE = {
+			set_capital = { state = 639 }
+			add_state_core = 639
+
+			transfer_state = 639
+        }
+        MYZ = {
+			set_capital = { state = 1849 }
+			add_state_core = 1849
+
+			transfer_state = 1849
+        }
+        JAP = {
+			set_capital = { state = 536 }
+			add_state_core = 536
+
+			transfer_state = 536
+         }
+	  }
+    }
+}

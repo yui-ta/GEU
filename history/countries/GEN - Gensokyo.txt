@@ -12,14 +12,14 @@ set_popularities = {
 	liberalism = 0
 	liberal_conservatism = 2
 	conservatism = 5
-	paternalism = 60
-	despotism = 20
+	paternalism = 20
+	despotism = 60
 	fascism = 5
 	national_socialism = 3
 }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = despotism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

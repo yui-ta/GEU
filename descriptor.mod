@@ -9,4 +9,5 @@ dependencies={
 }
 picture="thumbnail.png"
 replace_path="gfx/loadingscreens"
+path="C:/Users/Dropl/Documents/Paradox Interactive/Hearts of Iron IV/mod/GEU-main"
 supported_version="1.15.*"
