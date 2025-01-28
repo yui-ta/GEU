@@ -46,6 +46,66 @@ spriteTypes = {
 	}
 	spriteType =
 	{
+		name = "GFX_SE_GEN_RE_HOROU"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_HOROU.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_KOGASA"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_KOGASA.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_WRIGGLE"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_WRIGGLE.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_MEDICINE"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_MEDICINE.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_SEOIHA"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_SEOIHA.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_MIZUCHI"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_MIZUCHI.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_KEIKI"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_KEIKI.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_REISENII"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_REISENII.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_MYSTIA"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_MYSTIA.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_HINA"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_HINA.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_AKI"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_AKI.png"
+	}
+	spriteType =
+	{
+		name = "GFX_SE_GEN_RE_FORTUNE"
+		texturefile = "gfx/superevent_pictures/SE_GEN_RE_FORTUNE.png"
+	}
+	spriteType =
+	{
 		name = "GFX_SE_NAGANO_WINTER"
 		texturefile = "gfx/superevent_pictures/SE_NAGANO_WINTER.png"
 	}
@@ -81,8 +141,68 @@ spriteTypes =
 	}
 	spriteType =
 	{
-		name = "GFX_news_SE_NAGANO_WINTER"
-		texturefile = "gfx/event/GEN/supperevent_news/news_SE_NAGANO_WINTER.dds"
+		name = "GFX_news_SE_GEN_RE_SEKIBSNKI"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_SEKIBSNKI.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_HOROU"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_HOROU.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_WRIGGLE"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_WRIGGLE.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_KOGASA"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_KOGASA.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_MEDICINE"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_MEDICINE.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_SEOIHA"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_SEOIHA.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_MIZUCHI"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_MIZUCHI.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_KEIKI"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_KEIKI.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_REISENII"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_REISENII.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_MYSTIA"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_MYSTIA.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_HINA"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_HINA.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_AKI"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_AKI.dds"
+	}
+	spriteType =
+	{
+		name = "GFX_news_SE_GEN_RE_FORTUNE"
+		texturefile = "gfx/event/GEN/supperevent_news/news_SE_GEN_RE_FORTUNE.dds"
 	}
 	spriteType =
 	{

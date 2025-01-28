@@ -1,0 +1,504 @@
+capital = 1627
+
+set_research_slots = 4
+set_stability = 1
+set_war_support = 0.5
+
+set_technology = {
+	basic_train = 1
+	trains_1955 = 1 
+
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	#
+	infantry_weapons_3 = 1
+	night_vision_3 = 1
+	infantry_kit_4 = 1
+	infantry_weapons_improvements_mine_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons_hmg_1 = 1
+	combat_support_equipment_1 = 1
+	
+	support_weapons_arty_1 = 1
+	support_weapons_hmg_2 = 1
+	combat_support_equipment_2 = 1
+	infantry_at = 1
+	infantry_at_upgrade_1 = 1
+	#
+	infantry_at2 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	#
+	tech_special_forces = 1
+	marines2 = 1
+	tech_mountaineers = 1
+	#
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+	paratroopers = 1
+	paratroopers2 = 1
+	paratroopers3 = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	assault_weapons_1 = 1
+	tech_engineers2 = 1
+	assault_weapons_2 = 1
+	tech_engineers3 = 1
+	assault_weapons_3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	command_and_control1 = 1
+	military_infrastructure1 = 1
+	command_and_control2 = 1
+	military_infrastructure2 = 1
+
+	##ARMOR##
+	
+
+	##ARTY##
+	
+
+	##LAND DOCTRINE##
+	strategic_theorem = 1
+
+	##NAVAL DOCTRINE##
+	blue_water_navy = 1
+
+	##AIR DOCTRINE##
+	air_superiority = 1s
+
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+	attack_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	interceptor_1960 = 1
+
+	
+	fighter_1945 = 1
+	fighter_1950 = 1
+	fighter_1960 = 1
+	cv_1945_fighter = 1
+	cv_1950_fighter = 1
+	cv_1960_fighter = 1
+
+	CAS_1945 = 1
+	CAS_1950 = 1
+	CAS_1960 = 1
+	cv_1945_CAS = 1
+	cv_1950_CAS = 1
+	
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	tac_air_1960 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	heavy_air_1960 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	radar_1960 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+	computing_machine_1950 = 1
+	encryption_1950 = 1
+	encryption_1960 = 1
+	decryption_1950 = 1
+	decryption_1960 = 1
+	computing_machine_1960 = 1
+	
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_bombers_1 = 1
+	
+	##INDUSTRY##
+	ww2_line_production = 1
+	building_construction_1 = 1
+	consumer_goods_reduction_1 = 1
+	consumer_goods_reduction_2 = 1
+	oil_processing = 1
+	rubber_processing = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+	resource_extraction_methods = 1
+	nuclear_technology_1 = 1
+	excavation0 = 1
+	administration_construction_1 = 1
+	army_base_construction_1 = 1
+	excavation1 = 1
+	military_construction_1 = 1
+	prison_construction_1 = 1
+	batch_production_1 = 1
+	batch_production_2 = 1
+	
+	##WMDs##
+	ICBM = 1
+	MRBM = 1
+	SRBM = 1
+	nuclear_reactors = 1
+	missile_silos = 1
+	nuclear_weapons = 1
+}
+
+# NSB tech #
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		APC_1945 = 1
+		APC_1950 = 1
+		APC_1950_basic_turret = 1
+		APC_1950_basic_armor = 1
+		APC_1960 = 1
+		IFV_1945 = 1
+		IFV_1950 = 1
+		IFV_1950_basic_turret = 1
+		IFV_1950_basic_armor = 1
+		IFV_1960 = 1
+		MBT_1945 = 1
+		MBT_1950 = 1
+		MBT_1950_basic_turret = 1
+		MBT_1950_basic_armor = 1
+		MBT_1960 = 1
+		AC_1945 = 1
+		AC_1950 = 1
+		AC_1960 = 1
+
+		Heavy_1945 = 1
+		Heavy_1950 = 1
+		Superheavy_1945 = 1
+
+		antiair_1945 = 1
+		antiair_1950 = 1
+		SPAA_1950 = 1
+		artillery_1945 = 1
+		artillery_1950 = 1
+		artillery_1950_soft_attack = 1
+		SPART_1950 = 1
+		SPART_1950_soft_attack = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		NSB_APC_1945 = 1
+		NSB_APC_1950 = 1
+		#
+		#
+		NSB_APC_1960 = 1
+		NSB_IFV_1945 = 1
+		NSB_IFV_1945_modules_1 = 1
+		NSB_IFV_1945_modules_2 = 1
+		NSB_IFV_1950 = 1
+		NSB_IFV_1950_modules_1 = 1
+		NSB_IFV_1950_modules_2 = 1
+		NSB_IFV_1960 = 1
+		NSB_MBT_1945 = 1
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		NSB_MBT_1950 = 1
+		NSB_MBT_1950_modules_1 = 1
+		NSB_MBT_1950_modules_2 = 1
+		NSB_MBT_1960 = 1
+		NSB_AC_1945 = 1
+		NSB_AC_1950 = 1
+		NSB_AC_1960 = 1
+		NSB_Armour_1 = 1
+		NSB_Armour_2 = 1
+		NSB_Engine_1 = 1
+		NSB_Engine_2 = 1
+
+		NSB_heavy_1945 = 1
+		NSB_heavy_1950 = 1
+		NSB_superheavy_1945 = 1
+
+		NSB_artillery_1945 = 1
+		NSB_artillery_1950 = 1
+		NSB_artillery_MODULE = 1
+		NSB_artillery_1950_SA = 1
+
+		NSB_antiair_1945 = 1
+		NSB_antiair_1950 = 1
+		NSB_antiair_MODULE = 1
+	}
+}
+
+
+#set_country_flag = gui_alert_visible
+#set_country_flag = gui_alert_visible_2
+#set_country_flag = country_has_gui
+set_country_flag = HAS_ECON_SPHERE
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = yes
+	set_technology = {
+		scout_plane_1945 = 1
+		scout_plane_1950 = 1
+		scout_plane_1960 = 1
+	}
+}
+
+#MtG Naval Tech
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+		early_ship_hull_very_light = 1
+		basic_ship_hull_very_light = 1
+		improved_ship_hull_very_light = 1
+		early_ship_hull_more_light = 1
+		basic_ship_hull_more_light = 1
+		improved_ship_hull_more_light = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		improved_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		improved_ship_hull_carrier = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		missile_corvette_1960 = 1
+		nuclear_cruiser_1960 = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		nuclear_carrier_1960 = 1
+		nuclear_battleship_1960 = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		fire_control_methods_1 = 1
+		fire_control_methods_2 = 1
+		damage_control_1 = 1
+		basic_ship_hull_submarine_japan = 1
+		continue_battleship_development = 1
+
+		sonar = 1
+		improved_sonar = 1
+		good_sonar = 1
+
+		smoke_generator = 1
+		
+		basic_depth_charges = 1
+		improved_depth_charges = 1
+		advanced_depth_charges = 1
+		
+		basic_fire_control_system = 1
+		improved_fire_control_system = 1
+	}
+}
+
+#Non-MtG Naval Tech
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		ww2_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		ww2_cruiser = 1
+		basic_cruiser = 1
+		improved_cruiser = 1
+		ww2_battleship = 1
+		ww2_carrier = 1
+		early_carrier = 1
+		improved_carrier = 1
+		ww2_submarine = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		transport = 1
+		landing_craft = 1
+		improved_carrier_nuclear_engine = 1
+		ww2_frigate = 1
+		basic_frigate = 1
+		improved_frigate = 1
+	}
+}
+
+set_popularities = {
+	communist = 5
+	ultranationalism = 5
+	socialist = 5
+	progressivism = 5
+	liberalism = 5
+	liberal_conservatism = 5
+	conservatism = 5
+	paternalism = 25
+	despotism = 30
+	fascism = 5
+	national_socialism = 5
+}
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character = PIT_Hojo
+recruit_character = PIT_Konata
+recruit_character = PIT_Ordinary
+recruit_character = PIT_Remilia
+recruit_character = PIT_Urchin
+recruit_character = PIT_Peace
+recruit_character = PIT_Horse
+recruit_character = PIT_Elephant
+recruit_character = PIT_Reimu
+recruit_character = PIT_Parasol
+recruit_character = PIT_Autumn_Moon
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Subsistence_Economy }
+
+# Policy effectivness
+
+add_ideas = {
+	# Ideas
+
+	# Cabinet
+
+	# Faction Status
+	OFN_Observer
+	
+	## Policies ##
+	# Political #
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_open_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_registered_voting
+
+	# Military #
+	tno_conscription_extensive_conscription
+	tno_military_supervision_no_supervision
+	tno_training_minimal_training
+	tno_draft_exemptions_none
+
+	# Economic #
+	tno_trade_laws_export_focus
+	tno_income_taxation_no_income_taxation
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	# Social #
+	tno_health_care_no_government_support
+	tno_education_stratified_education
+	tno_penal_system_harsh_penal_code
+	tno_gender_rights_traditional_roles
+	tno_security_political_control
+	tno_regulations_utterly_unregulated
+
+	# SocDevs
+	tno_academic_base_mass_illiteracy
+	tno_research_facilities_basic
+	tno_agriculture_centralized
+	tno_healthcare_rudimentary
+	tno_industrial_equipment_hand_tools
+	tno_industrial_expertise_pre_industrial
+	tno_army_professionalism_reluctant_conscripts
+	tno_admin_efficiency_illegitimate_administration
+}
+
+set_country_flag = tno_defined_startup_effectiveness
+
+set_variable = { tno_political_parties_effectiveness = 60 }
+set_variable = { tno_religious_rights_effectiveness = 60 }
+set_variable = { tno_trade_unions_effectiveness = 30 }
+set_variable = { tno_immigration_effectiveness = 10 }
+set_variable = { tno_slavery_effectiveness = 50 }
+set_variable = { tno_public_meetings_effectiveness = 30 }
+set_variable = { tno_press_rights_effectiveness = 55 }
+set_variable = { tno_vote_franchise_effectiveness = 40 }
+
+set_variable = { tno_conscription_effectiveness = 50 }
+set_variable = { tno_military_supervision_effectiveness = 100 }
+set_variable = { tno_training_effectiveness = 40 }
+set_variable = { tno_draft_exemptions_effectiveness = 100 }
+
+set_variable = { tno_trade_laws_effectiveness = 50 }
+set_variable = { tno_income_taxation_effectiveness = 60 }
+set_variable = { tno_minimum_wage_effectiveness = 100 }
+set_variable = { tno_max_workhours_effectiveness = 100 }
+set_variable = { tno_pensions_effectiveness = 100 }
+set_variable = { tno_unemployment_effectiveness = 100 }
+
+set_variable = { tno_health_care_effectiveness = 100 }
+set_variable = { tno_education_effectiveness = 80 }
+set_variable = { tno_penal_system_effectiveness = 60 }
+set_variable = { tno_gender_rights_effectiveness = 60 }
+set_variable = { tno_security_effectiveness = 70 }
+set_variable = { tno_regulations_effectiveness = 100 }

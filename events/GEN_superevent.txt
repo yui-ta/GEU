@@ -210,3 +210,209 @@ news_event = {
 		}
 	}
 }
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.13
+
+	title = GEN_SUPPER_EVENT_NEWS.13.t
+	desc = GEN_SUPPER_EVENT_NEWS.13.d
+    picture = GFX_news_SE_GEN_RE_WRIGGLE
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.13.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_WRIGGLE }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.14
+
+	title = GEN_SUPPER_EVENT_NEWS.14.t
+	desc = GEN_SUPPER_EVENT_NEWS.14.d
+    picture = GFX_news_SE_GEN_RE_KOGASA
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.14.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_KOGASA }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.15
+
+	title = GEN_SUPPER_EVENT_NEWS.15.t
+	desc = GEN_SUPPER_EVENT_NEWS.15.d
+    picture = GFX_news_SE_GEN_RE_HOROU
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.15.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_HOROU }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.16
+
+	title = GEN_SUPPER_EVENT_NEWS.16.t
+	desc = GEN_SUPPER_EVENT_NEWS.16.d
+    picture = GFX_news_SE_GEN_RE_SEOIHA
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.16.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_SEOIHA }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.17
+
+	title = GEN_SUPPER_EVENT_NEWS.17.t
+	desc = GEN_SUPPER_EVENT_NEWS.17.d
+    picture = GFX_news_SE_GEN_RE_MEDICINE
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.17.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_MEDICINE }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.18
+
+	title = GEN_SUPPER_EVENT_NEWS.18.t
+	desc = GEN_SUPPER_EVENT_NEWS.18.d
+    picture = GFX_news_SE_GEN_RE_MIZUCHI
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.18.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_MIZUCHI }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.19
+
+	title = GEN_SUPPER_EVENT_NEWS.19.t
+	desc = GEN_SUPPER_EVENT_NEWS.19.d
+    picture = GFX_news_SE_GEN_RE_KEIKI
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.19.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_KEIKI }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.20
+
+	title = GEN_SUPPER_EVENT_NEWS.20.t
+	desc = GEN_SUPPER_EVENT_NEWS.20.d
+    picture = GFX_news_SE_GEN_RE_REISENII
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.20.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_REISENII }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.21
+
+	title = GEN_SUPPER_EVENT_NEWS.21.t
+	desc = GEN_SUPPER_EVENT_NEWS.21.d
+    picture = GFX_news_SE_GEN_RE_MYSTIA
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.21.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_MYSTIA }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.22
+
+	title = GEN_SUPPER_EVENT_NEWS.22.t
+	desc = GEN_SUPPER_EVENT_NEWS.22.d
+    picture = GFX_news_SE_GEN_RE_HINA
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.22.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_HINA }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.23
+
+	title = GEN_SUPPER_EVENT_NEWS.23.t
+	desc = GEN_SUPPER_EVENT_NEWS.23.d
+    picture = GFX_news_SE_GEN_RE_AKI
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.23.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_AKI }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+news_event = {
+	id = GEN_SUPPER_EVENT_NEWS.24
+
+	title = GEN_SUPPER_EVENT_NEWS.24.t
+	desc = GEN_SUPPER_EVENT_NEWS.24.d
+    picture = GFX_news_SE_GEN_RE_FORTUNE
+
+	is_triggered_only = yes
+
+	option = {
+		name = GEN_SUPPER_EVENT_NEWS.24.a
+		hidden_effect = {
+			set_temp_variable = { TNO_temp_super_event = token:SE_GEN_RE_FORTUNE }
+			TNO_fire_super_event = yes
+		}
+	}
+}

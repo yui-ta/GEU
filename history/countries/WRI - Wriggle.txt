@@ -84,3 +84,37 @@ add_ideas = {
 	#Ministers#
 
 }
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Subsistence_Economy }
+
+set_country_flag = tno_defined_startup_effectiveness
+
+set_variable = { tno_political_parties_effectiveness = 60 }
+set_variable = { tno_religious_rights_effectiveness = 60 }
+set_variable = { tno_trade_unions_effectiveness = 30 }
+set_variable = { tno_immigration_effectiveness = 10 }
+set_variable = { tno_slavery_effectiveness = 50 }
+set_variable = { tno_public_meetings_effectiveness = 30 }
+set_variable = { tno_press_rights_effectiveness = 55 }
+set_variable = { tno_vote_franchise_effectiveness = 40 }
+
+set_variable = { tno_conscription_effectiveness = 50 }
+set_variable = { tno_military_supervision_effectiveness = 100 }
+set_variable = { tno_training_effectiveness = 40 }
+set_variable = { tno_draft_exemptions_effectiveness = 100 }
+
+set_variable = { tno_trade_laws_effectiveness = 50 }
+set_variable = { tno_income_taxation_effectiveness = 60 }
+set_variable = { tno_minimum_wage_effectiveness = 100 }
+set_variable = { tno_max_workhours_effectiveness = 100 }
+set_variable = { tno_pensions_effectiveness = 100 }
+set_variable = { tno_unemployment_effectiveness = 100 }
+
+set_variable = { tno_health_care_effectiveness = 100 }
+set_variable = { tno_education_effectiveness = 80 }
+set_variable = { tno_penal_system_effectiveness = 60 }
+set_variable = { tno_gender_rights_effectiveness = 60 }
+set_variable = { tno_security_effectiveness = 70 }
+set_variable = { tno_regulations_effectiveness = 100 }

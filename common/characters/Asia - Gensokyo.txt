@@ -16,21 +16,6 @@ characters =
 			id = -1
 		}
 	}
-	GEN_Usami_Renko = {
-		name = GEN_Usami_Renko
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/GEN/GEN_Usami_Renko.dds"
-			}
-		}
-		country_leader = {
-			expire = "1989.1.1"
-			desc = "GEN_Usami_Renko_DESC"
-			ideology = despotism_absolute_monarchy_subtype
-			traits = {}
-			id = -1
-		}
-	}
 	GEN_Reisen_Udongein_Inaba = {
 		name = GEN_Reisen_Udongein_Inaba
 		portraits = {

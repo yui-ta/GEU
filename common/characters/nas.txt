@@ -1,5 +1,49 @@
 characters = {
 	# Country leaders #
+	GEN_Yakumo_Yukari_Mad = {
+		name = GEN_Yakumo_Yukari_Mad
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Yakumo_Yukari.dds"
+				small = "GFX_idea_GEN_Yakumo_Yukari"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YAKUMO_YUKARI_Mad_DESC"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { GEN_youkai_of_the_realm }
+			expire = "1989.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			traits = {
+				head_of_government
+				GEN_youkai_of_the_realm
+			}
+			idea_token = GEN_Yakumo_Yukari_hog
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			allowed = { OR = { original_tag = GEN } }
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GEN_Usami_Renko = {
+		name = GEN_Usami_Renko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEN/GEN_Usami_Renko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Usami_Renko_DESC"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = {}
+			id = -1
+		}
+	}
 	REM_Remilia_Scarlet = {
 		name = REM_Remilia_Scarlet
 		portraits = {
@@ -173,6 +217,25 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	HIN_Kawasiro_Nitori = {
+		name = HIN_Kawasiro_Nitori
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GEN/Portrait_GEN_Kawasiro_Nitori.dds"
+			}
+			army = {
+				large = "gfx/leaders/GEN/Portrait_GEN_Kawasiro_Nitori.dds"
+				small = "gfx/interface/ideas/ministers/GEN_Kawasiro_Nitori.dds"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "GEN_Kawasiro_Nitori_DESC"
+			ideology = despotism_managerial_state_subtype
+			traits = {}
+			id = -1
+		}
+	}
 	HIN_Kagiyama_Hina = {
 		name = HIN_Kagiyama_Hina
 		portraits = {
@@ -186,8 +249,8 @@ characters = {
 		}
 		country_leader = {
 			expire = "1989.1.1"
-			desc = "GEN_Torisumi_Horou_DESC"
-			ideology = despotism_theocracy_subtype
+			desc = "GEN_Kagiyama_Hina_DESC"
+			ideology = despotism_2_subtype
 			traits = {}
 			id = -1
 		}
@@ -282,6 +345,13 @@ characters = {
 				large = "gfx/leaders/GEN/GEN_Horikawa_Raiko.dds"
 				small = "gfx/interface/ideas/ministers/GEN_Horikawa_Raiko.dds"
 			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "RAK_Horikawa_Raiko_DESC"
+			ideology = paternalism_transitioning_democracy_subtype
+			traits = {}
+			id = -1
 		}
 		country_leader = {
 			expire = "1989.1.1"

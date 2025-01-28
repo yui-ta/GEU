@@ -52,6 +52,19 @@ GEN_debug_category =
             mark_focus_tree_layout_dirty = yes
         }
     }
+    GEN_laod_collapse =
+    {
+        allowed =
+        {
+            original_tag = GEN
+        }
+        fire_only_once = yes
+
+        complete_effect =
+        {
+            country_event = gen.collapse.1
+        }
+    }
 }
 
 GEN_moon_BATTLE_category =

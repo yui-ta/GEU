@@ -4,6 +4,22 @@ on_actions = {
 			GEN = {
 				GEU_econ_update_graph_monthly = yes
 			}
+			PIT = {
+				##Variable Initiation
+				set_variable = { GDP = 0.051 } #in billions
+				set_variable = { GDP_growth = 0.78 }
+				set_variable = { income_tax_rate = 0.2 }
+				set_variable = { business_tax_rate = 0.2 }
+				set_variable = { base_inflation_rate = 0.56 }
+				set_variable = { poverty_rate = 99 }
+
+				set_variable = { economic_centralization = 15 }
+
+				set_temp_variable = { temp_credit_rating = 2 }
+				set_temp_variable = { temp_credit_rating_min = 1 }
+				set_temp_variable = { temp_credit_rating_max = 5 }
+				econ_initialize_credit_rating_system = yes
+			}
 		}
 	}
 }

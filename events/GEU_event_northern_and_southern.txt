@@ -12,8 +12,15 @@ country_event =
 	option = {
 		name = gen.collapse.1.a
         hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = GEN_SUPPER_EVENT_NEWS.3
+				}
+			}
         GEN = {
-			kill_ideology_leader = despotism
+			retire_ideology_leader = despotism
+			promote_character = GEN_Yakumo_Yukari_Mad
 			set_popularities = {
 				communist = 0
 				ultranationalism = 0
@@ -31,7 +38,7 @@ country_event =
 			}
 			set_party_name = { ideology = despotism long_name = GEN_yukari_party_long name = GEN_yukari_party }
 			set_party_name = { ideology = despotism_1 long_name = GEN_yukari_1_party_long name = GEN_yukari_1_party }
-			set_party_name = { ideology = despotism_2 long_name = GEN_yukari_2_party_long name = GEN_yukari_2_party_2 }
+			set_party_name = { ideology = despotism_2 long_name = GEN_yukari_2_party_long name = GEN_yukari_2_party }
 			set_cosmetic_tag = "GEN_Northern"
 			set_capital = { state = 1831 }
 			add_state_core = 1835
@@ -201,9 +208,9 @@ country_event =
 			transfer_state = 1849
         }
         JAP = {
+            set_cosmetic_tag = "JAP_Hokkaido"
 			set_capital = { state = 536 }
 			add_state_core = 536
-
 			transfer_state = 536
          }
 	  }

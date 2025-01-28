@@ -1,0 +1,179 @@
+characters = {
+
+ PIT_Konata = {
+    name = PIT_Konata
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Konata.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Konata_DESC"
+        ideology = paternalism_anocracy_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Hojo = {
+    name = PIT_Hojo
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Hojo.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Hojo_DESC"
+        ideology = despotism_civilian_dictatorship_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Ordinary = {
+    name = PIT_Ordinary
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Ordinary.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Ordinary_DESC"
+        ideology = liberal_conservatism_centrist_progressivism_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Remilia = {
+    name = PIT_Remilia
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Remilia.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Remilia_DESC"
+        ideology = liberalism_liberal_technocracy_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Urchin = {
+    name = PIT_Urchin
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Urchin.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Urchin_DESC"
+        ideology = progressivism_gaitanismo_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Peace = {
+    name = PIT_Peace
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Peace.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Peace_DESC"
+        ideology = fascism_reform_bureaucracy_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Horse = {
+    name = PIT_Horse
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Horse.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Horse_DESC"
+        ideology = ultranationalism_stratocracy_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Elephant = {
+    name = PIT_Elephant
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Elephant.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Elephant_DESC"
+        ideology = national_socialism_palingenetic_nazism_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Reimu = {
+    name = PIT_Reimu
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Reimu.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Reimu_DESC"
+        ideology = communist_mao_zedong_thought_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Parasol = {
+    name = PIT_Parasol
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Parasol.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Parasol_DESC"
+        ideology = socialist_anarcho_communist_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+ PIT_Autumn_Moon = {
+    name = PIT_Autumn_Moon
+    portraits = {
+        civilian = {
+            large = "gfx/leaders/PIT/PIT_Autumn_Moon.dds"
+        }
+    }
+    country_leader = {
+        expire = "1989.1.1"
+        desc = "PIT_Autumn_Moon_DESC"
+        ideology = conservatism_oligarchic_conservatism_subtype
+        traits = {}
+        id = -1
+    }
+}
+
+}

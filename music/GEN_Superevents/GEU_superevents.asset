@@ -38,7 +38,7 @@ music =
 {
 	name = "TNO_SE_GEN_RE_MONONOBE"
 	file = "TNO_SE_GEN_RE_MONONOBE.ogg"
-	volume = 1.7
+	volume = 2.0
 }
 music =
 {
@@ -50,6 +50,78 @@ music =
 {
 	name = "TNO_SE_NAGANO_WINTER"
 	file = "TNO_SE_NAGANO_WINTER.ogg"
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_KOGASA"
+	file = "TNO_SE_GEN_RE_KOGASA.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_WRIGGLE"
+	file = "TNO_SE_GEN_RE_WRIGGLE.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_HOROU"
+	file = "TNO_SE_GEN_RE_HOROU.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_SEOIHA"
+	file = "TNO_SE_GEN_RE_SEOIHA.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_MEDICINE"
+	file = "TNO_SE_GEN_RE_MEDICINE.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_MIZUCHI"
+	file = "TNO_SE_GEN_RE_MIZUCHI.ogg"
+	volume = 1.2
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_KEIKI"
+	file = "TNO_SE_GEN_RE_KEIKI.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_REISENII"
+	file = "TNO_SE_GEN_RE_REISENII.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_MYSTIA"
+	file = "TNO_SE_GEN_RE_MYSTIA.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_HINA"
+	file = "TNO_SE_GEN_RE_HINA.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_AKI"
+	file = "TNO_SE_GEN_RE_AKI.ogg"
+	volume = 1.4
+}
+music =
+{
+	name = "TNO_SE_GEN_RE_FORTUNE"
+	file = "TNO_SE_GEN_RE_FORTUNE.ogg"
+	volume = 1.4
 }
 music =
 {
