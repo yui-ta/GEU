@@ -1,0 +1,291 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_goals_GEN_Seclusion"
+		texturefile = "gfx/interface/GEN_focus/GEN_Seclusion.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Incredible_of_Jepan"
+		texturefile = "gfx/interface/GEN_focus/GEN_Incredible_of_Jepan.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Dream"
+		texturefile = "gfx/interface/GEN_focus/GEN_Dream.dds"
+	}
+#初始阶段国策结束
+	spriteType = {
+		name = "GFX_goals_GEN_Seventeen_Constitutional_Bombs"
+		texturefile = "gfx/interface/GEN_focus/GEN_Seventeen_Constitutional_Bombs.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Stars_Drop_The_Mountain"
+		texturefile = "gfx/interface/GEN_focus/GEN_Stars_Drop_The_Mountain.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Twelve_Level_Cap_and_Rank"
+		texturefile = "gfx/interface/GEN_focus/GEN_Twelve_Level_Cap_and_Rank.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Monster_Creature_Clusters"
+		texturefile = "gfx/interface/GEN_focus/GEN_Monster_Creature_Clusters.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Earthly_Pessimism"
+		texturefile = "gfx/interface/GEN_focus/GEN_Earthly_Pessimism.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Life_and_Death"
+		texturefile = "gfx/interface/GEN_focus/GEN_Life_and_Death.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Strange_Bird_Shooting"
+		texturefile = "gfx/interface/GEN_focus/GEN_Strange_Bird_Shooting.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Restoration"
+		texturefile = "gfx/interface/GEN_focus/GEN_Restoration.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Yasaka_and_Yakumo"
+		texturefile = "gfx/interface/GEN_focus/GEN_Yasaka_and_Yakumo.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Yokai_Paradise"
+		texturefile = "gfx/interface/GEN_focus/GEN_Yokai_Paradise.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_The_Order_of_Nature"
+		texturefile = "gfx/interface/GEN_focus/GEN_The_Order_of_Nature.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Nature_Destiny"
+		texturefile = "gfx/interface/GEN_focus/GEN_Nature_Destiny.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_That_Life_and_Death"
+		texturefile = "gfx/interface/GEN_focus/GEN_That_Life_and_Death.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Spiritual_Domination"
+		texturefile = "gfx/interface/GEN_focus/GEN_Spiritual_Domination.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Night_Falls"
+		texturefile = "gfx/interface/GEN_focus/GEN_Night_Falls.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_The_Barrage_is_Coming"
+		texturefile = "gfx/interface/GEN_focus/GEN_The_Barrage_is_Coming.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Human_or_Yaokai"
+		texturefile = "gfx/interface/GEN_focus/GEN_Human_or_Yaokai.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Desire_and_Blandness"
+		texturefile = "gfx/interface/GEN_focus/GEN_Desire_and_Blandness.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Light_and_Dark_Mesh"
+		texturefile = "gfx/interface/GEN_focus/GEN_Light_and_Dark_Mesh.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Utopia"
+		texturefile = "gfx/interface/GEN_focus/GEN_Utopia.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Chapter_of_Innovation"
+		texturefile = "gfx/interface/GEN_focus/GEN_Chapter_of_Innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Need_for_Innovation"
+		texturefile = "gfx/interface/GEN_focus/GEN_Need_for_Innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Listen_to_immortals_of_Wishes"
+		texturefile = "gfx/interface/GEN_focus/GEN_Listen_to_immortals_of_Wishes.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Walk_by_Road"
+		texturefile = "gfx/interface/GEN_focus/GEN_Walk_by_Road.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Road_to_Which_Efforts"
+		texturefile = "gfx/interface/GEN_focus/GEN_Road_to_Which_Efforts.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_The_path_of_dreams"
+		texturefile = "gfx/interface/GEN_focus/GEN_The_path_of_dreams.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Camellia_Sinensis"
+		texturefile = "gfx/interface/GEN_focus/GEN_Camellia_Sinensis.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Dies_Irae"
+		texturefile = "gfx/interface/GEN_focus/GEN_Dies_Irae.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Old_World_Ladder"
+		texturefile = "gfx/interface/GEN_focus/GEN_Old_World_Ladder.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Abolish_Reimu"
+		texturefile = "gfx/interface/GEN_focus/GEN_Abolish_Reimu.dds"
+	}
+#军事线
+	spriteType = {
+		name = "GFX_goals_GEN_Sixty_Years_of_the_Orient_Trial"
+		texturefile = "gfx/interface/GEN_focus/GEN_Sixty_Years_of_the_Orient_Trial.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Aptameron"
+		texturefile = "gfx/interface/GEN_focus/GEN_Aptameron.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Duel_Agreement"
+		texturefile = "gfx/interface/GEN_focus/GEN_Duel_Agreement.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_King_of_Beasts"
+		texturefile = "gfx/interface/GEN_focus/GEN_King_of_Beasts.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Xinqi_Zhilou"
+		texturefile = "gfx/interface/GEN_focus/GEN_Xinqi_Zhilou.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Looking_Back_at_Yellow_Springs"
+		texturefile = "gfx/interface/GEN_focus/GEN_Looking_Back_at_Yellow_Springs.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Dazzling_Fragrance"
+		texturefile = "gfx/interface/GEN_focus/GEN_Dazzling_Fragrance.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Let_the_heroes_out"
+		texturefile = "gfx/interface/GEN_focus/GEN_Let_the_heroes_out.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Let_top_it"
+		texturefile = "gfx/interface/GEN_focus/GEN_Let_top_it.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Settling_Mutiny"
+		texturefile = "gfx/interface/GEN_focus/GEN_Settling_Mutiny.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Dossier"
+		texturefile = "gfx/interface/GEN_focus/GEN_Dossier.dds"
+	}
+	#内部线
+	spriteType = {
+		name = "GFX_goals_GEN_Burning_Karma_on_this_shore"
+		texturefile = "gfx/interface/GEN_focus/GEN_Burning_Karma_on_this_shore.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Order"
+		texturefile = "gfx/interface/GEN_focus/GEN_Order.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Broken_Moon"
+		texturefile = "gfx/interface/GEN_focus/GEN_Broken_Moon.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Oblivion"
+		texturefile = "gfx/interface/GEN_focus/GEN_Oblivion.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Celestial_Being"
+		texturefile = "gfx/interface/GEN_focus/GEN_Celestial_Being.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Five_Failings"
+		texturefile = "gfx/interface/GEN_focus/GEN_Five_Failings.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Final_Resting_Place"
+		texturefile = "gfx/interface/GEN_focus/GEN_Final_Resting_Place.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Land_of_Peace"
+		texturefile = "gfx/interface/GEN_focus/GEN_Land_of_Peace.dds"
+	}
+	#外交线
+	spriteType = {
+		name = "GFX_goals_GEN_Chronicles_of_Present_World"
+		texturefile = "gfx/interface/GEN_focus/GEN_Chronicles_of_Present_World.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Comer"
+		texturefile = "gfx/interface/GEN_focus/GEN_Comer.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Extradite"
+		texturefile = "gfx/interface/GEN_focus/GEN_Extradite.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Unaccompanied"
+		texturefile = "gfx/interface/GEN_focus/GEN_Unaccompanied.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Sunrise"
+		texturefile = "gfx/interface/GEN_focus/GEN_Sunrise.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Sunsets"
+		texturefile = "gfx/interface/GEN_focus/GEN_Sunsets.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Daytime"
+		texturefile = "gfx/interface/GEN_focus/GEN_Daytime.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Friends_of_the_North"
+		texturefile = "gfx/interface/GEN_focus/GEN_Friends_of_the_North.dds"
+	}
+	#经济线
+	spriteType = {
+		name = "GFX_goals_GEN_Offerings_to_the_Ungrateful"
+		texturefile = "gfx/interface/GEN_focus/GEN_Offerings_to_the_Ungrateful.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Hell_is_melting_down"
+		texturefile = "gfx/interface/GEN_focus/GEN_Hell_is_melting_down.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Spiritual_Knowledge_Sun_Faith"
+		texturefile = "gfx/interface/GEN_focus/GEN_Spiritual_Knowledge_Sun_Faith.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Fantasy_Tahoe"
+		texturefile = "gfx/interface/GEN_focus/GEN_Fantasy_Tahoe.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Fantasy_Village_Square_Ledgers"
+		texturefile = "gfx/interface/GEN_focus/GEN_Fantasy_Village_Square_Ledgers.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Fantasy_Underground_Network"
+		texturefile = "gfx/interface/GEN_focus/GEN_Fantasy_Underground_Network.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Black_Market_of_Pop_Up_Mania"
+		texturefile = "gfx/interface/GEN_focus/GEN_Black_Market_of_Pop_Up_Mania.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Tabata_Nagayo_Trade_Ban"
+		texturefile = "gfx/interface/GEN_focus/GEN_Tabata_Nagayo_Trade_Ban.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Order_of_Convergence_of_Centres"
+		texturefile = "gfx/interface/GEN_focus/GEN_Order_of_Convergence_of_Centres.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_Thirteen_of_Hall_of_Fantasy"
+		texturefile = "gfx/interface/GEN_focus/GEN_Thirteen_of_Hall_of_Fantasy.dds"
+	}
+	spriteType = {
+		name = "GFX_goals_GEN_General_drawing_of_Fantasia"
+		texturefile = "gfx/interface/GEN_focus/GEN_General_drawing_of_Fantasia.dds"
+	}
+}

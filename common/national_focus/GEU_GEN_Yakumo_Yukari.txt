@@ -59,7 +59,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_entropy_increase_boundary #熵增结界
+    id = GEN_focus_entropy_increase_boundary #终日
     icon = GFX_GEN_focus_entropy_increase_boundary
 
     relative_position_id = GEN_focus_consolidation_work
@@ -80,7 +80,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_competency_check #本领检查
+    id = GEN_focus_competency_check #天下检地
     icon = GFX_GEN_focus_competency_check
 
     relative_position_id = GEN_focus_entropy_increase_boundary
@@ -101,7 +101,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_military_and_government #军政一体
+    id = GEN_focus_military_and_government #建立拓殖机构
     icon = GFX_GEN_focus_military_and_government
 
     relative_position_id = GEN_focus_competency_check
@@ -122,7 +122,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_punished_by_military_law #军法处置
+    id = GEN_focus_punished_by_military_law #规范拓殖行动
     icon = GFX_GEN_focus_punished_by_military_law
 
     relative_position_id = GEN_focus_competency_check
@@ -143,7 +143,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_in_collar_posecution #领内检举
+    id = GEN_focus_in_collar_posecution #强化拓殖公平
     icon = GFX_GEN_focus_in_collar_posecution
 
     relative_position_id = GEN_focus_competency_check
@@ -164,7 +164,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_bureaucratic_reform #官僚改革
+    id = GEN_focus_bureaucratic_reform #土地所有权
     icon = GFX_GEN_focus_bureaucratic_reform
 
     relative_position_id = GEN_focus_competency_check
@@ -185,7 +185,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_family_politics #家庭政治
+    id = GEN_focus_family_politics #农村合作组织
     icon = GFX_GEN_focus_family_politics
 
     relative_position_id = GEN_focus_competency_check
@@ -206,7 +206,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_eternal_fidelity #世代忠贞
+    id = GEN_focus_eternal_fidelity #分享幸福
     icon = GFX_GEN_focus_eternal_fidelity
 
     relative_position_id = GEN_focus_competency_check
@@ -227,7 +227,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_integrated_land #统筹土地
+    id = GEN_focus_integrated_land #城市行政重组
     icon = GFX_GEN_focus_integrated_land
 
     relative_position_id = GEN_focus_competency_check
@@ -248,7 +248,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_crop_yielding #分配口分田
+    id = GEN_focus_crop_yielding #夺取工厂
     icon = GFX_GEN_focus_crop_yielding
 
     relative_position_id = GEN_focus_competency_check
@@ -269,7 +269,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_organize_collective_production #组织集体生产
+    id = GEN_focus_organize_collective_production #城市劳役体系
     icon = GFX_GEN_focus_organize_collective_production
 
     relative_position_id = GEN_focus_competency_check
@@ -290,7 +290,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_providing_political_asylum #提供政治庇护
+    id = GEN_focus_providing_political_asylum #AI分配
     icon = GFX_GEN_focus_providing_political_asylum
 
     relative_position_id = GEN_focus_competency_check
@@ -305,13 +305,13 @@ shared_focus =
 
     completion_reward =
     {
-
+        
     }
 }
 
 shared_focus =
 {
-    id = GEN_focus_reinforcement_Yakumo_system #强化八云嫡系
+    id = GEN_focus_reinforcement_Yakumo_system #幻想乡优先
     icon = GFX_GEN_focus_reinforcement_Yakumo_system
 
     relative_position_id = GEN_focus_competency_check
@@ -332,7 +332,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_Yakumos_kindness #八云之恩
+    id = GEN_focus_Yakumos_kindness #打击黑市交易
     icon = GFX_GEN_focus_Yakumos_kindness
 
     relative_position_id = GEN_focus_competency_check
@@ -353,7 +353,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_Yakumos_new_policy #八云新政
+    id = GEN_focus_Yakumos_new_policy #迈向天下
     icon = GFX_GEN_focus_Yakumos_new_policy
 
     relative_position_id = GEN_focus_competency_check
@@ -386,7 +386,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_establish_reserve_army #设立常备军
+    id = GEN_focus_establish_reserve_army #幽灵东京
     icon = GFX_GEN_focus_establish_reserve_army
 
     relative_position_id = GEN_focus_entropy_increase_boundary
@@ -407,7 +407,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_embezzle_funds #挪用资金
+    id = GEN_focus_embezzle_funds #组织经济破坏
     icon = GFX_GEN_focus_embezzle_funds
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -428,7 +428,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_seize_every_opportunity #投机取巧
+    id = GEN_focus_seize_every_opportunity #制造舆论恐慌
     icon = GFX_GEN_focus_seize_every_opportunity
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -449,7 +449,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_name_with_Hakurei #以博丽之名
+    id = GEN_focus_name_with_Hakurei #促进认知崩坏
     icon = GFX_GEN_focus_name_with_Hakurei
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -470,7 +470,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_absorb_ronin #吸纳浪人
+    id = GEN_focus_absorb_ronin #会面境外妖怪
     icon = GFX_GEN_focus_absorb_ronin
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -491,7 +491,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_all_brother_world #四海之内皆兄弟
+    id = GEN_focus_all_brother_world #施舍政治承认
     icon = GFX_GEN_focus_all_brother_world
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -512,7 +512,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_special_task #特殊任务
+    id = GEN_focus_special_task #给予地方权利
     icon = GFX_GEN_focus_special_task
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -533,7 +533,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_Yakumos_new_army #八云新军
+    id = GEN_focus_Yakumos_new_army #无名少女
     icon = GFX_GEN_focus_Yakumos_new_army
 
     relative_position_id = GEN_focus_establish_reserve_army
@@ -558,7 +558,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_learning_modern_fighting #学习现代化作战方式
+    id = GEN_focus_learning_modern_fighting #幽灵军队
     icon = GFX_GEN_focus_learning_modern_fighting
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -579,7 +579,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_enhanced_firepower #强化火力优势
+    id = GEN_focus_enhanced_firepower #信息扰乱
     icon = GFX_GEN_focus_enhanced_firepower
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -600,7 +600,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_build_armored_force #建立装甲部队
+    id = GEN_focus_build_armored_force #斩首计划
     icon = GFX_GEN_focus_build_armored_force
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -621,7 +621,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_improve_army_quality #提升军队素质
+    id = GEN_focus_improve_army_quality #空境打击
     icon = GFX_GEN_focus_improve_army_quality
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -642,7 +642,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_training_officers #培养军官
+    id = GEN_focus_training_officers #末日计划
     icon = GFX_GEN_focus_training_officers
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -663,7 +663,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_bushido #武士道
+    id = GEN_focus_bushido #一级方案
     icon = GFX_GEN_focus_bushido
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -684,7 +684,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_upgrade_treatment #提升待遇
+    id = GEN_focus_upgrade_treatment #二级方案
     icon = GFX_GEN_focus_upgrade_treatment
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -705,7 +705,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_no_different #不分彼此
+    id = GEN_focus_no_different #追寻烟花
     icon = GFX_GEN_focus_no_different
 
     relative_position_id = GEN_focus_Yakumos_new_army
@@ -789,7 +789,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_improve_soil_storage #改善土藏
+    id = GEN_focus_improve_soil_storage #改善土仓
     icon = GFX_GEN_focus_improve_soil_storage
 
     relative_position_id = GEN_focus_manor_organization
@@ -831,7 +831,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_basic_education #基层教育
+    id = GEN_focus_basic_education #人间基础教育
     icon = GFX_GEN_focus_basic_education
 
     relative_position_id = GEN_focus_manor_organization
@@ -1028,7 +1028,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_gods_preprogrative #神人特权
+    id = GEN_focus_gods_preprogrative #神之子民
     icon = GFX_GEN_focus_gods_preprogrative
 
     relative_position_id = GEN_focus_manor_organization
@@ -1738,7 +1738,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_expansion_eco_transport #扩建生态运输
+    id = GEN_focus_expansion_eco_transport #生态工程
     icon = GFX_GEN_focus_expansion_eco_transport
 
     relative_position_id = GEN_focus_expand_police_duty
@@ -1889,7 +1889,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_strengthening_supervision #强化普请监督
+    id = GEN_focus_strengthening_supervision #普请改革
     icon = GFX_GEN_focus_strengthening_supervision
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -1910,7 +1910,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_state_of_preparedness #备战状态
+    id = GEN_focus_state_of_preparedness #战时状态
     icon = GFX_GEN_focus_state_of_preparedness
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -1973,7 +1973,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_involve_international_conflict #参与国际冲突
+    id = GEN_focus_involve_international_conflict #国际顾客
     icon = GFX_GEN_focus_involve_international_conflict
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2015,7 +2015,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_incorporating_operation_experience #吸纳作战经验
+    id = GEN_focus_incorporating_operation_experience #总结经验
     icon = GFX_GEN_focus_incorporating_operation_experience
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2036,7 +2036,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_formation_Kosamuraidokoro #组建小侍所
+    id = GEN_focus_formation_Kosamuraidokoro #侍所改革
     icon = GFX_GEN_focus_formation_Kosamuraidokoro
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2057,7 +2057,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_require_military_duty #要求军事义务
+    id = GEN_focus_require_military_duty #重整军事义务
     icon = GFX_GEN_focus_require_military_duty
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2078,7 +2078,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_provision_weapon_rent #提供武器租凭
+    id = GEN_focus_provision_weapon_rent #改善军备
     icon = GFX_GEN_focus_provision_weapon_rent
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2099,7 +2099,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_enhanced_arms_production #强化军备生产
+    id = GEN_focus_enhanced_arms_production #扶持军工
     icon = GFX_GEN_focus_enhanced_arms_production
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2120,7 +2120,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_promotion_military_loyalty #促进军人忠诚
+    id = GEN_focus_promotion_military_loyalty #强调忠诚
     icon = GFX_GEN_focus_promotion_military_loyalty
 
     relative_position_id = GEN_focus_takeover_Etsu
@@ -2141,7 +2141,7 @@ shared_focus =
 
 shared_focus =
 {
-    id = GEN_focus_summer_of_Koan_fourthyear #弘安四年的夏天
+    id = GEN_focus_summer_of_Koan_fourthyear #弘安四年的夏
     icon = GFX_GEN_focus_summer_of_Koan_fourthyear
 
     relative_position_id = GEN_focus_takeover_Etsu

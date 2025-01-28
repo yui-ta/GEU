@@ -22,7 +22,7 @@ GEN_debug_category =
 
         complete_effect =
         {
-            load_focus_tree = GEN_focus_tree_1
+            load_focus_tree = GEN_intro_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }
@@ -35,7 +35,7 @@ GEN_debug_category =
 
         complete_effect =
         {
-            load_focus_tree = GEN_focus_tree_2
+            load_focus_tree = GEN_stage_one_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }
@@ -48,7 +48,7 @@ GEN_debug_category =
 
         complete_effect =
         {
-            load_focus_tree = GEN_2_tree
+            load_focus_tree = GEN_Youkai_no_Yama_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }

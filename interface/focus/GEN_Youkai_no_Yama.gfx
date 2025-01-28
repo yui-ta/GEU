@@ -1,0 +1,3733 @@
+#妖怪山国策#
+spriteTypes =
+{
+	spriteType = {
+		name = "GFX_GEN_focus_return_leave"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_leave.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_god_return"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_god_return.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Mordor_Goryokaku"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Mordor_Goryokaku.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_save_me_time"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_save_me_time.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_five_oaths"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_five_oaths.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_majestic_national"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_majestic_national.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_first_contact"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_first_contact.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_all_in_one"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_all_in_one.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Jianwu_phantom"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Jianwu_phantom.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_public_politics"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_public_politics.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_reform"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_command_integration"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_command_integration.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_troop_information"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_troop_information.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_military_school"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_military_school.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_service"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_service.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_breath_of_Youkai"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_breath_of_Youkai.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_grapefruit_logistics"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_grapefruit_logistics.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_firmiana_program"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_firmiana_program.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_dark_side_of_moon"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_dark_side_of_moon.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_police_enhancement"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_enhancement.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_prison_innovation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_prison_innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_happy_and_secure"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_happy_and_secure.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_fall_into_happiness"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_fall_into_happiness.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_earthly_reparation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_earthly_reparation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_three_seven"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_three_seven.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_feudatories_gun"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_feudatories_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_judicial_innovation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_judicial_innovation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_offical_business"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_offical_business.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_bureaucracy"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bureaucracy.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_power_of_god"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_power_of_god.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_religious_society"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_religious_society.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_return_authority"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_authority.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_law_of_humanWorld"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_law_of_humanWorld.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_equality_for_all"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_equality_for_all.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_royalty"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_royalty.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_house_of_learning"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_house_of_learning.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_abolish_sword"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_abolish_sword.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_government"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_government.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_with_irresistible_force"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_with_irresistible_force.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_bank"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bank.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_currency"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_currency.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_domestic_production"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_domestic_production.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_market_dynamism"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_market_dynamism.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_compulsory_education"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_compulsory_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_technical_education"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_technical_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_se_education"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_se_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_education"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_education.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_tax_uniformity"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_tax_uniformity.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_land_business"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_land_business.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_autumn_land_fund"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_autumn_land_fund.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_national_farm"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_farm.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_diligence"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_diligence.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_light_of_the_land"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_light_of_the_land.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_long_way_through"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_long_way_through.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_sky_train"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_sky_train.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_titurokusyobun"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_titurokusyobun.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_six_trillion_years"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_six_trillion_years.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_great_nation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_great_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_police_upgrade"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_upgrade.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_nature_law"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nature_law.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_social_safety"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_social_safety.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_saka_on_uenokumo"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_saka_on_uenokumo.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_purge_army"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_purge_army.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_back_to_Izumo"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_back_to_Izumo.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_meltdown"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meltdown.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_space_magic"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_space_magic.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_thron_rose"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_thron_rose.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_vicissitudes_of_constitutional"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_vicissitudes_of_constitutional.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Yasaka_cabinet"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Yasaka_cabinet.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Dong_consulting"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_consulting.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_media_censorship"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_media_censorship.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_modernize_reality"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_modernize_reality.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_interest_political_parties"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_interest_political_parties.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_assembly_regulation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_assembly_regulation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_preparations_for_election"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_preparations_for_election.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Hua_romance"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Hua_romance.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_meaning_of_approval"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meaning_of_approval.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_superhighway"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_superhighway.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_information_application"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_application.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_digital_surveillance"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_digital_surveillance.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_network_engineering"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_network_engineering.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_agriculture_cooperation"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_agriculture_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_industrial_collaboration"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_industrial_collaboration.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_business_cohesion"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_business_cohesion.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_health_constrction"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_health_constrction.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_eco_city"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_eco_city.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_military_command"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_command.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_life_revolution"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_life_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_promoting_national_essence"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_promoting_national_essence.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_family_and_country"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_family_and_country.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Dong_constitution"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_constitution.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_beasts_of_power"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_beasts_of_power.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_forever_excellency"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_forever_excellency.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_nakasendai_no_ran"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nakasendai_no_ran.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Etchu_taku_plan"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_taku_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_steel_ball_run"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_steel_ball_run.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_people_die_wolves_live"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_people_die_wolves_live.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_River_plain_Dead"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_River_plain_Dead.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_human_aid"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_human_aid.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_home_of_this"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_home_of_this.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Etchu_development"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_development.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Futatsuiwa_mission"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Futatsuiwa_mission.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Genso_voyage"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_voyage.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_together_progress"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_together_progress.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_disappearance_of_mosquitoes"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_disappearance_of_mosquitoes.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_the_lone_Hakurei"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_the_lone_Hakurei.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_bruised_Hakurei"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_bruised_Hakurei.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_respect_and_love"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_respect_and_love.dds"
+	}
+	spriteType = {
+		name = "GFX_GEN_focus_Iizunamaru_way"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Iizunamaru_way.dds"
+	}
+	frameAnimatedSpriteType =
+	{
+		name = "GFX_GEN_focus_day_of_war"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_day_of_war.dds"
+		noOfFrames = 14
+		animation_rate_fps = 11
+		looping = yes
+		play_on_show = yes
+	}
+}
+
+#妖怪山国策shine#
+spriteTypes =
+{
+	SpriteType = {
+		name = "GFX_GEN_focus_return_leave_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_leave.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_leave.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_leave.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_god_return_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_god_return.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_god_return.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_god_return.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Mordor_Goryokaku_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Mordor_Goryokaku.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Mordor_Goryokaku.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Mordor_Goryokaku.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_save_me_time_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_save_me_time.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_save_me_time.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_save_me_time.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_five_oaths_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_five_oaths.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_five_oaths.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_five_oaths.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_majestic_national_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_majestic_national.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_majestic_national.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_majestic_national.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_first_contact_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_first_contact.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_first_contact.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_first_contact.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_all_in_one_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_all_in_one.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_all_in_one.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_all_in_one.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Jianwu_phantom_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Jianwu_phantom.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Jianwu_phantom.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Jianwu_phantom.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_public_politics_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_public_politics.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_public_politics.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_public_politics.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_military_reform_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_reform.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_reform.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_reform.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_command_integration_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_command_integration.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_command_integration.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_command_integration.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_troop_information_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_troop_information.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_troop_information.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_troop_information.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Genso_military_school_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_military_school.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_military_school.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_military_school.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_military_service_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_service.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_service.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_service.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_breath_of_Youkai_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_breath_of_Youkai.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_breath_of_Youkai.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_breath_of_Youkai.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_grapefruit_logistics_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_grapefruit_logistics.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_grapefruit_logistics.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_grapefruit_logistics.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_firmiana_program_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_firmiana_program.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_firmiana_program.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_firmiana_program.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_dark_side_of_moon_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_dark_side_of_moon.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_dark_side_of_moon.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_dark_side_of_moon.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_police_enhancement_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_enhancement.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_enhancement.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_enhancement.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_prison_innovation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_prison_innovation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_prison_innovation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_prison_innovation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_happy_and_secure_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_happy_and_secure.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_happy_and_secure.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_happy_and_secure.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_fall_into_happiness_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_fall_into_happiness.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_fall_into_happiness.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_fall_into_happiness.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_earthly_reparation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_earthly_reparation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_earthly_reparation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_earthly_reparation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_three_seven_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_three_seven.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_three_seven.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_three_seven.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_feudatories_gun_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_feudatories_gun.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_feudatories_gun.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_feudatories_gun.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_judicial_innovation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_judicial_innovation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_judicial_innovation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_judicial_innovation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_offical_business_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_offical_business.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_offical_business.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_offical_business.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_national_bureaucracy_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bureaucracy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bureaucracy.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bureaucracy.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_power_of_god_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_power_of_god.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_power_of_god.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_power_of_god.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_religious_society_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_religious_society.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_religious_society.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_religious_society.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_return_authority_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_authority.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_authority.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_return_authority.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_law_of_humanWorld_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_law_of_humanWorld.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_law_of_humanWorld.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_law_of_humanWorld.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_equality_for_all_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_equality_for_all.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_equality_for_all.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_equality_for_all.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Genso_royalty_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_royalty.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_royalty.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_royalty.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_house_of_learning_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_house_of_learning.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_house_of_learning.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_house_of_learning.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_abolish_sword_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_abolish_sword.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_abolish_sword.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_abolish_sword.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_information_government_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_government.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_government.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_government.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_with_irresistible_force_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_with_irresistible_force.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_with_irresistible_force.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_with_irresistible_force.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_national_bank_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bank.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bank.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_bank.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Genso_currency_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_currency.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_currency.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_currency.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_domestic_production_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_domestic_production.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_domestic_production.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_domestic_production.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_market_dynamism_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_market_dynamism.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_market_dynamism.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_market_dynamism.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_compulsory_education_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_compulsory_education.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_compulsory_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_compulsory_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_technical_education_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_technical_education.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_technical_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_technical_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_se_education_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_se_education.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_se_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_se_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Genso_education_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_education.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_education.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_tax_uniformity_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_tax_uniformity.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_tax_uniformity.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_tax_uniformity.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_land_business_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_land_business.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_land_business.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_land_business.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_autumn_land_fund_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_autumn_land_fund.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_autumn_land_fund.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_autumn_land_fund.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_national_farm_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_farm.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_farm.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_national_farm.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_diligence_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_diligence.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_diligence.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_diligence.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_light_of_the_land_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_light_of_the_land.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_light_of_the_land.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_light_of_the_land.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_long_way_through_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_long_way_through.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_long_way_through.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_long_way_through.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_sky_train_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_sky_train.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_sky_train.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_sky_train.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_titurokusyobun_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_titurokusyobun.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_titurokusyobun.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_titurokusyobun.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_six_trillion_years_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_six_trillion_years.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_six_trillion_years.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_six_trillion_years.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_great_nation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_great_nation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_great_nation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_great_nation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_police_upgrade_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_upgrade.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_upgrade.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_police_upgrade.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_nature_law_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nature_law.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nature_law.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nature_law.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_social_safety_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_social_safety.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_social_safety.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_social_safety.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_saka_on_uenokumo_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_saka_on_uenokumo.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_saka_on_uenokumo.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_saka_on_uenokumo.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_purge_army_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_purge_army.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_purge_army.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_purge_army.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_back_to_Izumo_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_back_to_Izumo.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_back_to_Izumo.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_back_to_Izumo.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_meltdown_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meltdown.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meltdown.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meltdown.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_space_magic_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_space_magic.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_space_magic.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_space_magic.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_thron_rose_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_thron_rose.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_thron_rose.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_thron_rose.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_vicissitudes_of_constitutional_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_vicissitudes_of_constitutional.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_vicissitudes_of_constitutional.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_vicissitudes_of_constitutional.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Yasaka_cabinet_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Yasaka_cabinet.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Yasaka_cabinet.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Yasaka_cabinet.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Dong_consulting_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_consulting.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_consulting.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_consulting.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_media_censorship_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_media_censorship.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_media_censorship.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_media_censorship.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_modernize_reality_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_modernize_reality.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_modernize_reality.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_modernize_reality.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_interest_political_parties_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_interest_political_parties.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_interest_political_parties.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_interest_political_parties.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_assembly_regulation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_assembly_regulation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_assembly_regulation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_assembly_regulation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_preparations_for_election_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_preparations_for_election.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_preparations_for_election.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_preparations_for_election.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Hua_romance_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Hua_romance.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Hua_romance.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Hua_romance.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_meaning_of_approval_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meaning_of_approval.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meaning_of_approval.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_meaning_of_approval.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_information_superhighway_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_superhighway.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_superhighway.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_superhighway.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_information_application_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_application.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_application.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_information_application.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_digital_surveillance_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_digital_surveillance.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_digital_surveillance.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_digital_surveillance.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_network_engineering_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_network_engineering.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_network_engineering.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_network_engineering.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_agriculture_cooperation_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_agriculture_cooperation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_agriculture_cooperation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_agriculture_cooperation.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_industrial_collaboration_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_industrial_collaboration.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_industrial_collaboration.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_industrial_collaboration.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_business_cohesion_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_business_cohesion.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_business_cohesion.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_business_cohesion.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_health_constrction_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_health_constrction.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_health_constrction.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_health_constrction.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_eco_city_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_eco_city.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_eco_city.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_eco_city.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_military_command_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_command.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_command.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_military_command.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_life_revolution_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_life_revolution.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_life_revolution.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_life_revolution.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_promoting_national_essence_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_promoting_national_essence.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_promoting_national_essence.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_promoting_national_essence.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_family_and_country_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_family_and_country.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_family_and_country.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_family_and_country.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Dong_constitution_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_constitution.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_constitution.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Dong_constitution.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_beasts_of_power_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_beasts_of_power.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_beasts_of_power.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_beasts_of_power.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_forever_excellency_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_forever_excellency.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_forever_excellency.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_forever_excellency.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_nakasendai_no_ran_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nakasendai_no_ran.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nakasendai_no_ran.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_nakasendai_no_ran.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Etchu_taku_plan_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_taku_plan.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_taku_plan.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_taku_plan.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_steel_ball_run_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_steel_ball_run.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_steel_ball_run.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_steel_ball_run.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_people_die_wolves_live_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_people_die_wolves_live.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_people_die_wolves_live.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_people_die_wolves_live.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_River_plain_Dead_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_River_plain_Dead.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_River_plain_Dead.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_River_plain_Dead.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_human_aid_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_human_aid.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_human_aid.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_human_aid.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_home_of_this_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_home_of_this.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_home_of_this.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_home_of_this.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Etchu_development_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_development.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_development.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Etchu_development.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Futatsuiwa_mission_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Futatsuiwa_mission.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Futatsuiwa_mission.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Futatsuiwa_mission.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Genso_voyage_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_voyage.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_voyage.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Genso_voyage.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_together_progress_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_together_progress.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_together_progress.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_together_progress.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_disappearance_of_mosquitoes_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_disappearance_of_mosquitoes.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_disappearance_of_mosquitoes.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_disappearance_of_mosquitoes.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_the_lone_Hakurei_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_the_lone_Hakurei.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_the_lone_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_the_lone_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_bruised_Hakurei_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_bruised_Hakurei.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_bruised_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_bruised_Hakurei.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_respect_and_love_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_respect_and_love.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_respect_and_love.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_respect_and_love.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_GEN_focus_Iizunamaru_way_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Iizunamaru_way.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Iizunamaru_way.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_Iizunamaru_way.dds"
+			animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	frameAnimatedSpriteType =
+	{
+		name = "GFX_GEN_focus_day_of_war_shine"
+		texturefile = "gfx/interface/GEN_focus/Youkai_no_Yama/GFX_GEN_focus_day_of_war.dds"
+		noOfFrames = 14
+		animation_rate_fps = 11
+		looping = yes
+		play_on_show = yes
+	}
+}
