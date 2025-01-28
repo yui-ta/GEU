@@ -727,7 +727,7 @@ shared_focus =
 shared_focus =
 {
     id = GEN_focus_paperlism #文书主义
-    icon = GEN_focus_paperlism
+    icon = GFX_GEN_focus_paperlism
 
     relative_position_id = GEN_focus_consolidation_work
     x = 10

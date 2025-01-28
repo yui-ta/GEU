@@ -1537,11 +1537,11 @@ spriteTypes =
 	    legacy_lazy_load = no
 	}
 	SpriteType = {
-	    name = "GEN_focus_paperlism_shine"
-	    texturefile = "gfx/interface/GEN_focus/Yakumo_Yukari/GEN_focus_paperlism.dds"
+	    name = "GFX_GEN_focus_paperlism_shine"
+	    texturefile = "gfx/interface/GEN_focus/Yakumo_Yukari/GFX_GEN_focus_paperlism.dds"
 	    effectFile = "gfx/FX/buttonstate.lua"
 	    animation = {
-	        animationmaskfile = "gfx/interface/GEN_focus/Yakumo_Yukari/GEN_focus_paperlism.dds"
+	        animationmaskfile = "gfx/interface/GEN_focus/Yakumo_Yukari/GFX_GEN_focus_paperlism.dds"
 	        animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
 	        animationrotation = -90.0
 	        animationlooping = no
@@ -1553,7 +1553,7 @@ spriteTypes =
 	        animationtexturescale = { x = 1.0 y = 1.0 } 
 	    }
 	    animation = {
-	        animationmaskfile = "gfx/interface/GEN_focus/Yakumo_Yukari/GEN_focus_paperlism.dds"
+	        animationmaskfile = "gfx/interface/GEN_focus/Yakumo_Yukari/GFX_GEN_focus_paperlism.dds"
 	        animationtexturefile = "gfx/interface/GEN_focus/shine_overlay.dds"
 	        animationrotation = 90.0
 	        animationlooping = no
