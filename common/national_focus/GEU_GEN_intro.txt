@@ -51,7 +51,7 @@ shared_focus = {
 		country_event = gen_focus.3
 		TNO_improve_admin_efficiency_really_low = yes
 		hidden_effect = {
-			load_focus_tree = GEN_focus_tree_2
+			load_focus_tree = GEN_stage_one_focus_tree
 		}
 	}
 }

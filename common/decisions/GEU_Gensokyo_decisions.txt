@@ -4,7 +4,7 @@ GEN_debug_category =
     {
         allowed =
         {
-            original_tag = JAP
+            tag = JAP
         }
         fire_only_once = yes
 
@@ -17,12 +17,12 @@ GEN_debug_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
 
         complete_effect =
         {
-            load_focus_tree = GEN_focus_tree_1
+            load_focus_tree = GEN_intro_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }
@@ -30,25 +30,38 @@ GEN_debug_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
 
         complete_effect =
         {
-            load_focus_tree = GEN_focus_tree_2
+            load_focus_tree = GEN_stage_one_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }
-    GEN_laod_second_stage_focus_tree =
+    GEN_laod_Youkai_no_Yama_focus_tree =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
 
         complete_effect =
         {
-            load_focus_tree = GEN_2_tree
+            load_focus_tree = GEN_Youkai_no_Yama_focus_tree
+            mark_focus_tree_layout_dirty = yes
+        }
+    }
+    GEN_load_Yakumo_Yukari_focus_tree =
+    {
+        allowed =
+        {
+            tag = GEN
+        }
+
+        complete_effect =
+        {
+            load_focus_tree = GEN_Yakumo_Yukari_focus_tree
             mark_focus_tree_layout_dirty = yes
         }
     }
@@ -73,7 +86,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Taiwan_battle_1
         fire_only_once = yes
@@ -82,7 +95,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Taiwan_battle_2
         fire_only_once = yes
@@ -91,7 +104,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Korea_battle_1
         fire_only_once = yes
@@ -100,7 +113,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Korea_battle_2
         fire_only_once = yes
@@ -109,7 +122,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Korea_battle_3
         fire_only_once = yes
@@ -118,7 +131,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Korea_battle_4
         fire_only_once = yes
@@ -127,7 +140,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_China_battle
         fire_only_once = yes
@@ -136,7 +149,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Vietnam_battle
         fire_only_once = yes
@@ -145,7 +158,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Laos_battle
         fire_only_once = yes
@@ -154,7 +167,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Cambodia_battle
         fire_only_once = yes
@@ -163,7 +176,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Thailand_battle
         fire_only_once = yes
@@ -172,7 +185,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Myanmar_battle
         fire_only_once = yes
@@ -181,7 +194,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Philippines_battle
         fire_only_once = yes
@@ -190,7 +203,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Indonesia_battle
         fire_only_once = yes
@@ -199,7 +212,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_India_battle
         fire_only_once = yes
@@ -208,7 +221,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_CentralAsia_battle
         fire_only_once = yes
@@ -217,7 +230,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Soviet_battle
         fire_only_once = yes
@@ -226,7 +239,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Iran_battle
         fire_only_once = yes
@@ -235,7 +248,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_CentralEast_battle
         fire_only_once = yes
@@ -244,7 +257,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_EastAfrica_battle
         fire_only_once = yes
@@ -253,7 +266,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_WestAfrica_battle
         fire_only_once = yes
@@ -262,7 +275,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_CentralAfrica_battle
         fire_only_once = yes
@@ -271,7 +284,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_SouthAfrica_battle
         fire_only_once = yes
@@ -280,7 +293,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Australia_battle
         fire_only_once = yes
@@ -289,7 +302,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_SouthAmerican_battle
         fire_only_once = yes
@@ -298,7 +311,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_Europe_battle
         fire_only_once = yes
@@ -307,7 +320,7 @@ GEN_moon_BATTLE_category =
     {
         allowed =
         {
-            original_tag = GEN
+            tag = GEN
         }
         icon = GFX_decision_moon_America_battle
         fire_only_once = yes

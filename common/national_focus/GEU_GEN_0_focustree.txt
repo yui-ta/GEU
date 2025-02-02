@@ -1,5 +1,5 @@
 focus_tree = {
-	id = GEN_focus_tree_1 #准备阶段国策树
+	id = GEN_intro_focus_tree #GEN国策 (序章)
 	country = {
 		factor = 0
 		modifier = {
@@ -12,7 +12,7 @@ focus_tree = {
 }
 
 focus_tree = {
-	id = GEN_focus_tree_2 #第一阶段国策树
+	id = GEN_stage_one_focus_tree #阶段一国策树
 	country = {
 		factor = 0
 		modifier = {
@@ -30,7 +30,7 @@ focus_tree = {
 
 focus_tree =
 {
-	id = GEN_2_tree #二阶段国策树
+	id = GEN_Youkai_no_Yama_focus_tree #妖怪山国策树
 	country =
 	{
 		factor = 0
@@ -52,7 +52,7 @@ focus_tree =
 
 focus_tree =
 {
-	id = GEN_3_tree #三阶段国策树
+	id = GEN_Yakumo_Yukari_focus_tree #八云紫国策树
 	country =
 	{
 		factor = 0
