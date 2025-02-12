@@ -1,0 +1,6 @@
+ideas =
+{
+	hidden_ideas = {
+		Econ_Subtype_Gensokyo_Style_Feudal = {}
+	}
+}

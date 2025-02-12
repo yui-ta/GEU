@@ -1,59 +1,67 @@
 ideas = {
 	country = {
-		GEN_The_Land_of_Hermits = {
+		GEN_The_Land_of_Hermits = { #隐世之国
 			picture = GEN_The_Land_of_Hermits
 			allowed = {
 				original_tag = GEN
 			}
-			modifier = {
-				drift_defence_factor = 0.5
-				conscription_factor = -0.25
+			modifier =
+			{
+				research_speed_factor = -0.8
+				consumer_goods_factor = 0.2
+				#GDP转换为生产单位-10.00%
+				#杂项支出+0.15B
 			}
 		}
-
-		GEN_The_War_of_Religion = {
+		GEN_The_War_of_Religion = { #宗教战争
 			picture = GEN_The_War_of_Religion
 			allowed = {
 				original_tag = GEN
 			}
-			modifier = {
-				political_power_gain = 0.2
-				stability_factor = -0.2
+			modifier =
+			{
+				army_org_regain = -0.05
+				land_reinforce_rate = -0.05
+				stability_factor = -0.05
 			}
 		}
-
-		GEN_Moriya_Modernization = {
+		GEN_Moriya_Modernization = { #守矢维新
 			picture = GEN_Moriya_Modernization
 			allowed = {
 				original_tag = GEN
 			}
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.15
-				industrial_capacity_factory = 0.2
+			modifier =
+			{
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			research_bonus =
+			{
+
 			}
 		}
-
-		GEN_Konata_Rules = {
+		GEN_Konata_Rules = { #此方之则
 			picture = GEN_Konata_Rules
 			allowed = {
 				original_tag = GEN
 			}
-			modifier = {
-				stability_weekly = 0.005
-				army_org_factor = 0.15
+			modifier =
+			{
+				stability_weekly = 0.02
+				political_power_factor = 0.05
+				#justify_war_goal_time = -0.05
 			}
 		}
-
-		GEN_SC_Rules = {
+		GEN_SC_Rules = { #弹幕决斗
 			picture = GEN_SC_Rules
 			allowed = {
 				original_tag = GEN
 			}
-			modifier = {
-				air_accidents_factor = -0.5
-				air_mission_xp_gain_factor = 0.25
-				air_training_xp_gain_factor = 0.2
-				air_cas_present_factor = 0.1
+			modifier =
+			{
+				air_attack_factor = 0.05
 			}
 		}
 

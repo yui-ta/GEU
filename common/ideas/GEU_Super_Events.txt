@@ -41,8 +41,4 @@ ideas = {
 		Anchors_Type_Nil = {}
 		Anchors_Type_Human = {}
 	}
-
-	hidden_ideas = {
-		Econ_Subtype_Gensokyo_Style_Feudal = {}
-	}
 }
